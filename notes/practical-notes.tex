@@ -1,0 +1,970 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem,xcolor,fancyhdr,array,tabularx,booktabs,listings,amssymb}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\definecolor{codebg}{HTML}{F3F5F7}
+\usepackage[colorlinks=true,linkcolor=slate,urlcolor=ember]{hyperref}
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small\color{slate}IIT Kanpur Junior Technician (CSE) -- Practical notes}
+\rhead{\small\color{slate}Page \thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\sloppy
+\setlist{itemsep=2pt,topsep=3pt,leftmargin=*}
+\newcommand{\pyq}{\textcolor{ember}{\scriptsize\textbf{[PYQ]}}}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true,
+  backgroundcolor=\color{codebg},frame=l,framerule=2pt,rulecolor=\color{ember},
+  xleftmargin=8pt,framexleftmargin=6pt,aboveskip=6pt,belowskip=6pt}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{ember}}{\thesection}{0.6em}{}[{\color{slate}\titlerule}]
+\titleformat{\subsection}{\large\bfseries\color{slate}}{\thesubsection}{0.6em}{}
+\titleformat{name=\subsection,numberless}{\large\bfseries\color{slate}}{}{0em}{}
+\titleformat{name=\section,numberless}{\Large\bfseries\color{ember}}{}{0em}{}[{\color{slate}\titlerule}]
+\begin{document}
+\begin{center}
+{\LARGE\bfseries\color{slate}Practical notes: IIT Kanpur Junior Technician (CSE)}
+\end{center}
+\tableofcontents
+One file for the whole practical syllabus. Short rules, comparison tables, and a drill at the end of each part. Pure CS theory is not here.
+
+\textbf{Tags.} \pyq{} means a close version of this was asked in an IIT Hyderabad CSE or Computer Centre paper (2023 to 2025). See \texttt{pyq/pyq-analysis.md}.
+
+\textbf{Already known, so skipped:} basic user and file creation, CIDR to mask, bash variables, arguments, \texttt{if}, \texttt{for}.
+
+\textbf{Practice machine:} \texttt{ubuntu-lab} over SSH. Commands that need root show \texttt{sudo}.
+
+\textbf{Verified here:} the Git workflow, awk, Python (traps, OOP, matplotlib, json, socket echo), umask and C-free shell examples were run on this PC. Everything about Cisco IOS, LDAP, DHCP, DNS, mail, Samba/NFS, firewall rules, KVM/LXC, OpenStack, Django and MySQL is written from standard usage and was \textbf{not} run. Check those on \texttt{ubuntu-lab} as you study them, and tell me if one behaves differently.
+
+\clearpage
+\section{Linux and OS administration}
+\subsection{Permissions and umask}
+Intuition: three audiences (owner, group, others), three powers (read 4, write 2, execute 1). Add the powers per audience.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{\color{slate}Mode} & \textbf{\color{slate}Owner} & \textbf{\color{slate}Group} & \textbf{\color{slate}Others} \\ \midrule
+754 & 7 = rwx & 5 = r-x & 4 = r-- \\
+644 & rw- & r-- & r-- \\
+755 & rwx & r-x & r-x \\
+\bottomrule
+\end{tabular}\end{center}
+\begin{itemize}
+\item \texttt{chmod 754 f}, \texttt{chmod u+x f}, \texttt{chmod g-w f}, \texttt{chown user:group f}, \texttt{chgrp grp f}.
+\item \textbf{umask} removes bits from the default (666 for files, 777 for directories). Umask 022 gives files \textbf{644} and directories \textbf{755}. \pyq{}
+\item Special bits: setuid (4) runs as the file owner, setgid (2) inherits the group, sticky (1) lets only the owner delete in a shared directory (\texttt{/tmp} is 1777).
+\item Directory \texttt{x} means ``may enter''. Without it you cannot \texttt{cd} or reach files inside.
+\end{itemize}
+\subsection{Users and groups}
+\texttt{/etc/passwd}, seven fields: \texttt{name:x:UID:GID:comment:home:shell}. The \texttt{x} means the hash is in \texttt{/etc/shadow} (root-only), which also holds ageing fields. \texttt{/etc/group} lists groups.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Task} & \textbf{\color{slate}Command} \\ \midrule
+Add user with home and shell & \texttt{sudo useradd -m -s /bin/bash bob} \\
+Add to a group (keep others) & \texttt{sudo usermod -aG sudo bob} (without \texttt{-a} it replaces) \\
+Set password & \texttt{sudo passwd bob} \\
+Force expiry & \texttt{sudo chage -d 0 bob} \\
+Delete user and home & \texttt{sudo userdel -r bob} \\
+Lock account & \texttt{sudo usermod -L bob} \\
+Who am I, my groups & \texttt{id}, \texttt{groups} \\
+\bottomrule
+\end{tabularx}\end{center}
+Normal users start at UID 1000 on most distributions; root is 0.
+
+\subsection{sudo}
+\begin{itemize}
+\item \texttt{/etc/sudoers} says who may run what as root. Edit only with \texttt{sudo visudo}; it locks the file and checks syntax. \pyq{}
+\item Drop-in files go in \texttt{/etc/sudoers.d/}.
+\end{itemize}
+\subsection{Processes, priority and signals}
+Nice value is politeness: higher nice means less CPU. Range -20 (most favoured) to +19. \pyq{}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Command} & \textbf{\color{slate}Does} \\ \midrule
+\texttt{nice -n 10 cmd} & start \texttt{cmd} with nice 10 (\texttt{nice} has no \texttt{-p}) \\
+\texttt{renice -n 10 -p PID} & change a running process \\
+\texttt{renice -n -10 -p PID} & raise priority, root only \\
+\texttt{ps -o pid,ni,cmd -p PID} & see it \\
+\texttt{ps aux}, \texttt{top}, \texttt{pgrep name} & list processes \\
+\bottomrule
+\end{tabularx}\end{center}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}ll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Signal} & \textbf{\color{slate}No.} & \textbf{\color{slate}Sent by} & \textbf{\color{slate}Catchable} \\ \midrule
+SIGTERM & 15 & \texttt{kill PID}, \textbf{the default} & yes \\
+SIGKILL & 9 & \texttt{kill -9 PID} & no \\
+SIGHUP & 1 & \texttt{kill -1 PID} & yes (daemons reload) \\
+SIGINT & 2 & Ctrl+C & yes \\
+SIGTSTP & 20 & Ctrl+Z & yes \\
+\bottomrule
+\end{tabularx}\end{center}
+\texttt{fork()} makes a child by \textbf{copy-on-write}: pages are shared until one side writes. Four forks in a row give 16 processes, so 15 children. \pyq{} Linux's default policy for normal processes is \texttt{SCHED\_OTHER}. \pyq{}
+
+\subsection{Load average}
+\texttt{uptime} shows the \textbf{1, 5 and 15 minute} averages of tasks running or waiting. \pyq{}
+
+\begin{itemize}
+\item Compare with the core count (\texttt{nproc}). On 4 cores, 4.0 is full and 10.5 is a queue.
+\item Read left to right. \texttt{2.0, 3.5, 6.0} is falling; \texttt{6.0, 3.5, 2.0} is rising.
+\item It is not a CPU percentage.
+\end{itemize}
+\subsection{Hard link vs symbolic link}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}} & \textbf{\color{slate}Hard link} & \textbf{\color{slate}Symbolic link} \\ \midrule
+What it is & another name for the same inode & a small file holding a path \\
+After \texttt{rm original} & still works & dangling \\
+Across filesystems & no & yes \\
+Directories & no & yes \\
+See it & \texttt{ls -li}, \texttt{stat -c \%h f} & \texttt{ls -l} shows \texttt{->} \\
+\bottomrule
+\end{tabularx}\end{center}
+Data is freed only when the link count is 0 and nothing has it open. \pyq{}
+
+\subsection{Disks, partitions, filesystems, mounts}
+Mental model: \textbf{disk, then partition table, then partition, then filesystem, then mount point.}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Table} & \textbf{\color{slate}Partitions} & \textbf{\color{slate}Size limit} & \textbf{\color{slate}Boot} \\ \midrule
+MBR & 4 primary (or 3 + extended) & 2 TiB & BIOS \\
+GPT & 128 by default & far larger & UEFI (also BIOS with a spare partition) \\
+\bottomrule
+\end{tabularx}\end{center}
+Steps to add a new disk (here \texttt{/dev/sdb}):
+
+\begin{lstlisting}
+lsblk                         # find the disk
+sudo fdisk /dev/sdb           # n (new), accept defaults, w (write)
+sudo mkfs.ext4 /dev/sdb1      # filesystem
+sudo mkdir /data
+sudo mount /dev/sdb1 /data
+sudo blkid /dev/sdb1          # get the UUID for fstab
+df -h /data                   # check
+\end{lstlisting}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Filesystem} & \textbf{\color{slate}Where} \\ \midrule
+ext4 & Linux default \\
+xfs & Linux, large files, RHEL default \\
+NTFS & Windows \\
+FAT32 & USB sticks, 4 GB file limit \\
+\bottomrule
+\end{tabularx}\end{center}
+Swap: \texttt{mkswap /dev/sdb2}, \texttt{swapon /dev/sdb2}, \texttt{swapon --show}.
+
+\textbf{\texttt{/etc/fstab}}, six fields: \texttt{device mountpoint type options dump fsck-order}. \pyq{}
+
+\begin{lstlisting}
+UUID=3f2a-91cc  /backup  ext4  defaults,ro,noexec  0  2
+\end{lstlisting}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Option} & \textbf{\color{slate}Effect} \\ \midrule
+\texttt{ro} & read-only \\
+\texttt{noexec} & binaries on this mount cannot run \\
+\texttt{nosuid} & setuid bits ignored \\
+\texttt{noauto} & not mounted at boot \\
+\bottomrule
+\end{tabularx}\end{center}
+fsck order: 1 for \texttt{/}, 2 for others, 0 for never. Test a new line with \texttt{sudo mount -a} before rebooting.
+
+\texttt{umount} says \textbf{target is busy}: something has a file open or its working directory there. \texttt{lsof +D /mnt/x} lists open files and owners; \texttt{fuser -vm /mnt/x} lists processes. \pyq{}
+
+\textbf{RAID} \pyq{}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Level} & \textbf{\color{slate}Idea} & \textbf{\color{slate}Min disks} & \textbf{\color{slate}Survives} \\ \midrule
+0 & stripe, no redundancy & 2 & none \\
+1 & mirror & 2 & 1 disk \\
+5 & stripe + one parity & 3 & 1 disk \\
+6 & stripe + two parity & 4 & 2 disks \\
+10 & mirrored stripes & 4 & one per mirror pair \\
+\bottomrule
+\end{tabularx}\end{center}
+RAID is not a backup: it does not protect against deletion or ransomware.
+
+\subsection{Packages}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}} & \textbf{\color{slate}Debian / Ubuntu} & \textbf{\color{slate}RHEL / Fedora} \\ \midrule
+Refresh index & \texttt{apt update} & automatic with \texttt{dnf} \\
+Install & \texttt{apt install nginx} & \texttt{dnf install nginx} \\
+Remove, keep config & \texttt{apt remove nginx} & \texttt{dnf remove nginx} \\
+Remove with config & \texttt{apt purge nginx} & (not separate) \\
+Upgrade all & \texttt{apt upgrade} & \texttt{dnf upgrade} \\
+Local file & \texttt{dpkg -i x.deb} & \texttt{rpm -ivh x.rpm} \\
+List installed & \texttt{dpkg -l} & \texttt{rpm -qa} \\
+Which package owns a file & \texttt{dpkg -S /path} & \texttt{rpm -qf /path} \\
+\bottomrule
+\end{tabularx}\end{center}
+\texttt{apt update} only refreshes the list of what is available; it installs nothing.
+
+\subsection{Boot, services, scheduling}
+Boot order: \textbf{power on, BIOS/UEFI runs POST, bootloader (GRUB), kernel plus initramfs, systemd (PID 1)}, then services. \texttt{init}/systemd is the ancestor of all processes. \pyq{}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Task} & \textbf{\color{slate}Command} \\ \midrule
+Start, stop, restart & \texttt{systemctl start ssh} \\
+On at boot & \texttt{systemctl enable ssh} \\
+State & \texttt{systemctl status ssh} \\
+Logs of a service & \texttt{journalctl -u ssh} \\
+Reboot at 02:00 & \texttt{shutdown -r 02:00} \\
+\bottomrule
+\end{tabularx}\end{center}
+Cron: five fields \texttt{minute hour day-of-month month day-of-week command}. \texttt{0 2 * * 1 /opt/backup.sh} is Monday 02:00. Edit with \texttt{crontab -e}; \texttt{at 14:30} is for one-off jobs.
+
+OS install checklist: download ISO, verify checksum, make a bootable USB, set boot order in BIOS, partition (at least \texttt{/} and swap, optionally \texttt{/home}), create the user, install SSH, update.
+
+\subsection{Name resolution: ``ping IP works, ping name fails''}
+\begin{lstlisting}
+program -> /etc/nsswitch.conf (hosts: files dns) -> /etc/hosts -> DNS server from /etc/resolv.conf
+\end{lstlisting}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Question} & \textbf{\color{slate}File} \\ \midrule
+In what \textbf{order} are sources tried & \texttt{/etc/nsswitch.conf} \\
+Fixed name to IP entries & \texttt{/etc/hosts} \\
+Which DNS servers & \texttt{/etc/resolv.conf} \\
+\bottomrule
+\end{tabularx}\end{center}
+Ping by IP fails: network problem. Ping by IP works but name fails: DNS. On Ubuntu, \texttt{resolv.conf} points at the stub 127.0.0.53; \texttt{resolvectl status} shows the real servers. \pyq{}
+
+\subsection*{Drills (ubuntu-lab)}
+\begin{lstlisting}
+sleep 600 & ps -o pid,ni,cmd -p $!; renice -n 10 -p $!; ps -o pid,ni,cmd -p $!
+echo hi > a.txt; ln a.txt b.txt; ln -s a.txt c.txt; ls -li a.txt b.txt c.txt
+rm a.txt; cat b.txt; cat c.txt        # predict first: which works?
+umask; touch f; mkdir d; ls -ld f d   # confirm 644 and 755
+getent hosts localhost                # goes through nsswitch.conf
+\end{lstlisting}
+\clearpage
+\section{Networking and network devices}
+\subsection{Block size, hosts, network address}
+Intuition: a prefix cuts the address space into blocks. \textbf{Block size = 256 minus the mask value in the interesting octet.} The network address is the nearest multiple of the block size at or below the host.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{\color{slate}Prefix} & \textbf{\color{slate}Mask (interesting octet)} & \textbf{\color{slate}Block} & \textbf{\color{slate}Usable hosts} \\ \midrule
+/24 & 255.255.255.0 & 256 & 254 \\
+/25 & ...128 & 128 & 126 \\
+/26 & ...192 & 64 & 62 \\
+/27 & ...224 & 32 & 30 \\
+/28 & ...240 & 16 & 14 \\
+/29 & ...248 & 8 & 6 \\
+/30 & ...252 & 4 & 2 \\
+/22 & 255.255.252.0 & 4 in 3rd octet & 1022 \\
+/21 & 255.255.248.0 & 8 in 3rd octet & 2046 \\
+/20 & 255.255.240.0 & 16 in 3rd octet & 4094 \\
+\bottomrule
+\end{tabular}\end{center}
+Usable hosts $=2^{\mathrm{host\ bits}}-2$. \pyq{}
+
+Example: \texttt{192.168.10.77/26}: block 64, multiples 0, 64, 128. 77 is in 64 to 127, so network \texttt{192.168.10.64}, broadcast \texttt{.127}.
+
+Supernetting: four contiguous /24s (192.168.0 to .3) summarise to \texttt{192.168.0.0/22} if the first is a multiple of 4 in the third octet.
+
+\textbf{Private ranges} \pyq{}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl@{}}
+\toprule
+\textbf{\color{slate}Range} & \textbf{\color{slate}Prefix} \\ \midrule
+10.0.0.0 to 10.255.255.255 & /8 \\
+172.16.0.0 to \textbf{172.31}.255.255 & /12 \\
+192.168.0.0 to 192.168.255.255 & /16 \\
+\bottomrule
+\end{tabularx}\end{center}
+Trap: 172.32.x.x is public.
+
+\subsection{Layers, units, devices}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Layer} & \textbf{\color{slate}Data unit} & \textbf{\color{slate}Device} \\ \midrule
+Physical & bits & hub, repeater \\
+Data link & frame & switch \\
+Network & packet & router, layer-3 switch \\
+Transport & segment (TCP) or datagram (UDP) & stateful firewall sees up to here \\
+Application & data & proxy firewall \\
+\bottomrule
+\end{tabularx}\end{center}
+Encapsulation order from the top: data, segment, packet, frame, bits. \pyq{}
+
+\subsection{Switch behaviour (three rules)}
+\begin{enumerate}
+\item \textbf{Learn} from the \textbf{source} MAC: record source MAC against the incoming port.
+\item \textbf{Forward} if the destination MAC is known: out of that one port.
+\item \textbf{Flood} if unknown or broadcast: every port except the one it came in on. \pyq{}
+\end{enumerate}
+ARP finds the MAC for a known IP (broadcast request, unicast reply). DHCP is Discover, Offer, Request, Acknowledge.
+
+\subsection{VLANs, trunks, loops}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Term} & \textbf{\color{slate}Meaning} \\ \midrule
+Access port & one VLAN, untagged \\
+Trunk port & many VLANs, tagged with \textbf{802.1Q} \pyq{} \\
+STP & stops loops on redundant links, \textbf{802.1D} \pyq{} \\
+Layer-3 switch & routes between VLANs at wire speed \\
+Inter-VLAN routing & needs a router or a layer-3 switch; VLANs do not talk otherwise \\
+\bottomrule
+\end{tabularx}\end{center}
+\subsection{Cisco IOS basics}
+Intuition: IOS has \textbf{modes}, and the prompt tells you which.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Prompt} & \textbf{\color{slate}Mode} & \textbf{\color{slate}Enter with} \\ \midrule
+\texttt{Switch>} & user EXEC (look only) & login \\
+\texttt{Switch\#} & privileged EXEC & \texttt{enable} \\
+\texttt{Switch(config)\#} & global config & \texttt{configure terminal} \\
+\texttt{Switch(config-if)\#} & interface config & \texttt{interface gigabitethernet0/1} \\
+\bottomrule
+\end{tabularx}\end{center}
+Core commands:
+
+\begin{lstlisting}
+hostname SW1
+enable secret S3cret                 ! hashed enable password
+interface gigabitethernet0/1
+ switchport mode access
+ switchport access vlan 10
+interface gigabitethernet0/24
+ switchport mode trunk
+exit
+vlan 10
+ name LAB
+interface vlan 1
+ ip address 192.168.10.2 255.255.255.0   ! management address
+ no shutdown
+end
+show running-config
+show vlan brief
+show interfaces trunk
+show ip interface brief
+copy running-config startup-config       ! or: write memory
+\end{lstlisting}
+\begin{itemize}
+\item Running config is in RAM and lost on reload; startup config is in NVRAM.
+\item On a router port: \texttt{ip address ...} then \texttt{no shutdown} (router ports start shut down).
+\item Default route: \texttt{ip route 0.0.0.0 0.0.0.0 192.168.10.1}.
+\item Back up a config to a TFTP server: \texttt{copy running-config tftp:} then enter the server IP and file name.
+\item A \texttt{no} in front of a command undoes it. \texttt{?} lists options, Tab completes.
+\end{itemize}
+\subsection{DHCP, DNS, TFTP, SNMP}
+\textbf{DHCP} (UDP 67 server, 68 client). ISC server, config \texttt{/etc/dhcp/dhcpd.conf}:
+
+\begin{lstlisting}
+subnet 192.168.10.0 netmask 255.255.255.0 {
+  range 192.168.10.100 192.168.10.200;
+  option routers 192.168.10.1;
+  option domain-name-servers 192.168.10.2;
+  default-lease-time 600;
+  max-lease-time 7200;
+}
+\end{lstlisting}
+The scope must match the server's own interface subnet. Test with \texttt{sudo dhclient -v} on a client.
+
+\textbf{DNS} (port 53, UDP and TCP). BIND9: declare the zone in \texttt{named.conf.local}, write a zone file. Trailing dots matter: a name with a dot is absolute.
+
+\begin{lstlisting}
+$TTL 86400
+@    IN SOA ns1.lab.local. admin.lab.local. ( 1 3600 900 604800 86400 )
+@    IN NS  ns1.lab.local.
+ns1  IN A   192.168.10.2
+web  IN A   192.168.10.20
+\end{lstlisting}
+Check with \texttt{named-checkconf}, \texttt{named-checkzone lab.local zonefile}, then \texttt{dig @192.168.10.2 web.lab.local}. \pyq{}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Record} & \textbf{\color{slate}Maps} \\ \midrule
+A / AAAA & name to IPv4 / IPv6 \\
+CNAME & alias to another name \\
+MX & domain to mail server \\
+NS & domain to its name servers \\
+PTR & IP back to name (reverse lookup) \\
+TXT & free text (SPF and similar) \\
+\bottomrule
+\end{tabularx}\end{center}
+\textbf{TFTP} is UDP 69, no login, no encryption, used for router configs and network boot. \textbf{SNMP}: a manager polls an agent (UDP 161), an agent sends traps to the manager (UDP 162). Data is organised as a tree of OIDs described by a \textbf{MIB}. \pyq{} v1 and v2c use a plaintext community string; v3 adds authentication and encryption. Try \texttt{snmpwalk -v2c -c public localhost}.
+
+\subsection{Firewall}
+Chains in the filter table: INPUT (to this host), OUTPUT (from it), FORWARD (through it). Rules are checked top to bottom, first match wins, otherwise the chain policy applies.
+
+\begin{lstlisting}
+sudo ufw default deny incoming
+sudo ufw allow 22/tcp
+sudo ufw enable
+sudo ufw status verbose
+
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -P INPUT DROP           # only AFTER the SSH rule, or you lock yourself out
+sudo iptables -L -n -v
+\end{lstlisting}
+A stateless filter checks each packet alone; a stateful one tracks connections; a proxy firewall works at the application layer. \pyq{}
+
+\subsection{Wi-Fi}
+\begin{itemize}
+\item 2.4 GHz non-overlapping channels: \textbf{1, 6, 11}. \pyq{}
+\item Security: WPA3 > WPA2 > WPA > WEP. Hiding the SSID is not security.
+\item Enterprise Wi-Fi with a directory uses RADIUS (802.1X).
+\end{itemize}
+\subsection{Ports to know}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{\color{slate}Port} & \textbf{\color{slate}Service} & \textbf{\color{slate}Port} & \textbf{\color{slate}Service} \\ \midrule
+20/21 & FTP & 110 / 995 & POP3 / POP3S \\
+22 & SSH & 123 & NTP \\
+23 & Telnet & 143 / 993 & IMAP / IMAPS \\
+25 & SMTP & 161 / 162 & SNMP / traps \\
+53 & DNS & 389 / 636 & LDAP / LDAPS \\
+67 / 68 & DHCP & 443 & HTTPS \\
+69 & TFTP & 445 & SMB \\
+80 & HTTP & 587 & mail submission \\
+631 & CUPS (printing) & 3306 & MySQL / MariaDB \\
+\bottomrule
+\end{tabular}\end{center}
+\subsection{Tools and what they prove}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Tool} & \textbf{\color{slate}Use} \\ \midrule
+\texttt{ping} & ICMP echo, reachability \pyq{} \\
+\texttt{traceroute} & increasing TTL; each router that drops it reveals itself \pyq{} \\
+\texttt{ip a}, \texttt{ip r} & addresses, routes \\
+\texttt{ss -tulpn} & listening sockets and owners \\
+\texttt{dig example.com}, \texttt{nslookup} & DNS lookup \\
+\texttt{tcpdump -i IFACE -nn port 53} & capture DNS on that interface \pyq{} \\
+\texttt{tcpdump -i any -nn icmp} & watch pings \\
+\texttt{sudo tcpdump -w f.pcap} & save for Wireshark \\
+\bottomrule
+\end{tabularx}\end{center}
+TCP states: after FIN the sender can still receive. Handshake: SYN, SYN-ACK, ACK.
+
+\subsection*{Drills (ubuntu-lab)}
+\begin{lstlisting}
+ip a; ip r; ss -tulpn
+sudo tcpdump -i any -nn icmp &       # then in another shell: ping -c2 1.1.1.1
+traceroute -n 1.1.1.1
+dig +short -x 8.8.8.8                # PTR lookup
+\end{lstlisting}
+Work out by hand: \texttt{172.20.45.130/27}: network, broadcast, usable range. (Block 32; 130 is in 128 to 159, so network \texttt{.128}, broadcast \texttt{.159}, usable \texttt{.129} to \texttt{.158}.)
+
+\clearpage
+\section{Servers and services}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Service} & \textbf{\color{slate}Package (Ubuntu)} & \textbf{\color{slate}Port} & \textbf{\color{slate}Config} & \textbf{\color{slate}Test} \\ \midrule
+Web & \texttt{apache2} / \texttt{nginx} & 80, 443 & \texttt{/etc/apache2/}, \texttt{/etc/nginx/} & \texttt{apache2ctl configtest}, \texttt{nginx -t} \\
+Mail (send) & \texttt{postfix} & 25, 587 & \texttt{/etc/postfix/main.cf} & \texttt{postfix check} \\
+Mail (read) & \texttt{dovecot-imapd} & 143, 993 & \texttt{/etc/dovecot/} & \texttt{doveconf -n} \\
+File (Windows) & \texttt{samba} & 445 & \texttt{/etc/samba/smb.conf} & \texttt{testparm} \\
+File (Unix) & \texttt{nfs-kernel-server} & 2049 & \texttt{/etc/exports} & \texttt{exportfs -ra} \\
+FTP & \texttt{vsftpd} & 21 & \texttt{/etc/vsftpd.conf} & \texttt{ftp localhost} \\
+Print & \texttt{cups} & 631 & web UI \texttt{localhost:631} & \texttt{lpstat -p} \\
+Directory & \texttt{slapd} (OpenLDAP) & 389, 636 & LDIF files & \texttt{ldapsearch} \\
+\bottomrule
+\end{tabularx}\end{center}
+\subsection{Mail}
+Three roles: \textbf{MUA} (your mail client), \textbf{MTA} (moves mail between servers, Postfix), \textbf{MDA} (puts it in your mailbox, Dovecot). SMTP sends; IMAP keeps mail on the server, POP3 downloads it. Port 587 is for clients submitting mail, 25 is server to server.
+
+\subsection{Web}
+Apache serves from \texttt{/var/www/html}. Debian way to enable a site: \texttt{sudo a2ensite site.conf}, \texttt{sudo apache2ctl configtest}, \texttt{sudo systemctl reload apache2}. PHP runs \textbf{on the server}; the browser receives only the HTML it prints. \pyq{}
+
+\subsection{File and print}
+\begin{itemize}
+\item Samba shares a folder to Windows: define \texttt{[share]} in \texttt{smb.conf}, add a Samba password with \texttt{sudo smbpasswd -a user}.
+\item NFS is the Unix way: add \texttt{/srv/share 192.168.10.0/24(rw,sync)} to \texttt{/etc/exports}, run \texttt{sudo exportfs -ra}, and on the client \texttt{sudo mount -t nfs server:/srv/share /mnt}.
+\item CUPS manages print queues. \texttt{lp file.pdf} prints, \texttt{lpstat -p} shows printers.
+\end{itemize}
+\subsection{LDAP}
+Intuition: a \textbf{phone book for the whole organisation}, organised as a tree and optimised for reads, not a general database.
+
+\begin{itemize}
+\item Every entry has a \textbf{DN}, read from the leaf up: \texttt{uid=ganesh,ou=people,dc=lab,dc=local}.
+\item \texttt{dc} domain component, \texttt{ou} organisational unit, \texttt{cn} common name, \texttt{uid} user id.
+\item Entries have \texttt{objectClass} values that decide their attributes (\texttt{inetOrgPerson}, \texttt{posixAccount}).
+\item Data is written as \textbf{LDIF}:
+\end{itemize}
+\begin{lstlisting}
+dn: uid=ganesh,ou=people,dc=lab,dc=local
+objectClass: inetOrgPerson
+cn: Ganesh
+sn: K
+uid: ganesh
+\end{lstlisting}
+\begin{lstlisting}
+ldapadd -x -D "cn=admin,dc=lab,dc=local" -W -f user.ldif
+ldapsearch -x -H ldap://localhost -b "dc=lab,dc=local" "(uid=ganesh)"
+\end{lstlisting}
+Default port 389, with TLS 636. \pyq{} Used for central login across machines.
+
+\subsection{Backup}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Type} & \textbf{\color{slate}Copies} & \textbf{\color{slate}Restore needs} \\ \midrule
+Full & everything & one set \\
+Incremental & changes since the last backup of any kind & full + every incremental \\
+Differential & changes since the last full & full + latest differential \\
+\bottomrule
+\end{tabularx}\end{center}
+\begin{lstlisting}
+rsync -avz /home/ /backup/home/              # sync, only changes
+tar czf /backup/etc-$(date +%F).tgz /etc     # archive
+mysqldump -u root -p shop > shop.sql         # database
+\end{lstlisting}
+Rule: three copies, two media types, one off-site; test the restore. Schedule with cron.
+
+\subsection*{Drill}
+Install and test one service end to end: \texttt{sudo apt install apache2}, \texttt{curl -I localhost}, \texttt{sudo systemctl status apache2}, \texttt{sudo ss -tlnp | grep :80}, then \texttt{sudo systemctl stop apache2} and watch the \texttt{curl} fail.
+
+\clearpage
+\section{Virtualization, cloud and Git}
+\subsection{Virtualization}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}} & \textbf{\color{slate}Type-1 (bare metal)} & \textbf{\color{slate}Type-2 (hosted)} \\ \midrule
+Runs on & hardware & an OS \\
+Examples & Xen, ESXi, Hyper-V, KVM & VirtualBox, VMware Workstation \\
+\bottomrule
+\end{tabularx}\end{center}
+\textbf{VirtualBox} network modes (your lab VM uses one of these):
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}ll>{\raggedright\arraybackslash}Xl@{}}
+\toprule
+\textbf{\color{slate}Mode} & \textbf{\color{slate}VM to Internet} & \textbf{\color{slate}Host to VM} & \textbf{\color{slate}VMs to each other} \\ \midrule
+NAT & yes & only via port forwarding & no \\
+Bridged & yes & yes, own LAN IP & yes \\
+Host-only & no & yes & yes \\
+Internal & no & no & yes \\
+\bottomrule
+\end{tabularx}\end{center}
+\begin{lstlisting}
+VBoxManage list vms
+VBoxManage startvm ubuntu-lab --type headless
+VBoxManage snapshot ubuntu-lab take before-experiment
+\end{lstlisting}
+Take a snapshot before risky experiments.
+
+\textbf{KVM} turns Linux itself into a hypervisor. It needs CPU virtualization (VT-x or AMD-V): \texttt{egrep -c '(vmx|svm)' /proc/cpuinfo} should be above 0. Managed through libvirt:
+
+\begin{lstlisting}
+virsh list --all
+virsh start vm1
+virsh shutdown vm1
+virsh net-list --all
+\end{lstlisting}
+The default libvirt network is a NAT bridge \texttt{virbr0}. A guest with no connectivity usually has no working bridge or NAT. \pyq{}
+
+\textbf{LXC}: containers share the host kernel, so they start in a second and use little memory, but a container cannot run a different kernel. \pyq{}
+
+\begin{lstlisting}
+sudo lxc-create -n web -t download -- -d ubuntu -r jammy -a amd64
+sudo lxc-start -n web
+sudo lxc-ls -f
+sudo lxc-attach -n web
+sudo lxc-stop -n web
+\end{lstlisting}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}ll>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}} & \textbf{\color{slate}Container (LXC, Docker)} & \textbf{\color{slate}VM (KVM, VirtualBox)} \\ \midrule
+Kernel & shared with host & own kernel per guest \\
+Start time & seconds & tens of seconds \\
+Isolation & weaker & stronger \\
+Different OS & no (same kernel) & yes \\
+\bottomrule
+\end{tabularx}\end{center}
+\subsection{Open-source cloud: OpenStack}
+IaaS: you get compute, storage and network on demand. \pyq{}
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Component} & \textbf{\color{slate}Does} \\ \midrule
+Nova & compute (VMs) \\
+Neutron & networking \\
+Cinder & block storage \\
+Swift & object storage \\
+Glance & VM images \\
+Keystone & identity and authentication \\
+Horizon & web dashboard \\
+Heat & orchestration templates \\
+\bottomrule
+\end{tabularx}\end{center}
+IaaS gives machines, PaaS gives a platform to run code, SaaS gives finished software. Ansible configuration is \textbf{idempotent}: running it again changes nothing if the state is already right. \pyq{}
+
+\subsection{Git}
+Mental model: \textbf{working folder, then staging area, then repository.} \texttt{git add} moves to staging, \texttt{git commit} records it.
+
+\begin{lstlisting}
+git init                      # new repo here
+git clone URL                 # copy a remote repo
+git status -s                 # what changed
+git add file                  # stage
+git commit -m "message"
+git log --oneline
+git switch -c feature         # new branch (older: git checkout -b feature)
+git switch main
+git merge feature
+git remote add origin URL
+git push -u origin main
+git pull                      # fetch + merge
+git diff                      # unstaged changes
+git restore file              # discard unstaged edits
+\end{lstlisting}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Command} & \textbf{\color{slate}In one line} \\ \midrule
+\texttt{git fetch} & download remote changes, do not merge \\
+\texttt{git pull} & fetch and merge \\
+\texttt{git stash} & shelve uncommitted work \\
+\texttt{.gitignore} & patterns of files Git must not track \\
+\bottomrule
+\end{tabularx}\end{center}
+A merge conflict means both branches edited the same lines: open the file, keep what is right, remove the \texttt{<<<<<<<} markers, \texttt{git add}, then \texttt{git commit}.
+
+\subsection*{Drill}
+\begin{lstlisting}
+mkdir t && cd t && git init
+echo hi > a.txt; git add a.txt; git commit -m first
+git switch -c feature; echo more >> a.txt; git commit -am more
+git switch main; git merge feature; git log --oneline
+\end{lstlisting}
+\clearpage
+\section{Programming: bash, awk, Python, sockets, web, Django}
+\subsection{Bash}
+\textbf{Command substitution.} To capture a function's output you need \texttt{\$( )}:
+
+\begin{lstlisting}
+cube() { echo $(( $1 * $1 * $1 )); }
+result=$(cube 3)        # correct: 27
+result=cube 3           # wrong: runs a command named "3" with result=cube set for it  [PYQ]
+\end{lstlisting}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Syntax} & \textbf{\color{slate}Means} \\ \midrule
+\texttt{\$(( expr ))} & arithmetic \\
+\texttt{\$( cmd )} & output of \texttt{cmd} \\
+\texttt{\$\#} & number of arguments \\
+\texttt{\$?} & exit status of the last command \\
+\texttt{\$@} & all arguments, separately \\
+\bottomrule
+\end{tabularx}\end{center}
+\subsection{awk}
+Shape: \texttt{awk 'pattern \{ action \}' file}. \texttt{BEGIN} runs first, \texttt{END} last. Fields are \texttt{\$1}, \texttt{\$2}, \texttt{\$NF} (last); \texttt{NR} is the line number. Default separator is whitespace; \texttt{-F:} changes it. \pyq{}
+
+\begin{lstlisting}
+awk '{ s += $1 } END { print s }' f                       # sum of column 1
+awk -F: '$3 >= 1000 { print $1 }' /etc/passwd             # normal users
+awk '$1 > max { max = $1; line = $0 } END { print max, line }' f   # line with largest $1
+\end{lstlisting}
+Uninitialised awk variables start as 0 or empty, which is why \texttt{max} works unset.
+
+\subsection{Python basics and traps}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Trap} & \textbf{\color{slate}What happens} \\ \midrule
+Assign to a global inside a function & the name becomes local; reading it first gives \texttt{UnboundLocalError}. Fix with \texttt{global x} \pyq{} \\
+\texttt{b = a} for a list & same object; changes show in both \\
+\texttt{a += [3]} on a list & extends \textbf{in place}, so \texttt{a is b} stays True. \texttt{a = a + [3]} makes a new list \pyq{} \\
+\texttt{json.dumps(obj)} & object to \textbf{string} \\
+\texttt{json.loads(s)} & \textbf{string} to object (\texttt{dump} and \texttt{load} use files) \pyq{} \\
+\texttt{re.findall(p, s)} & list of all non-overlapping matches \pyq{} \\
+\texttt{re.match} / \texttt{re.search} & start only / anywhere \\
+\bottomrule
+\end{tabularx}\end{center}
+Regex: \texttt{\textbackslash{}d} a digit, \texttt{\textbackslash{}w} word character, \texttt{\textbackslash{}s} whitespace, \texttt{\textasciicircum{}} start of line, \texttt{\$} end. Command-line arguments: \texttt{sys.argv}, or \texttt{argparse} for options.
+
+\textbf{OOP in one example:}
+
+\begin{lstlisting}
+class Device:
+    count = 0                       # class attribute, shared
+    def __init__(self, name):
+        self.name = name            # instance attribute
+        Device.count += 1
+    def info(self):
+        return f"Device {self.name}"
+
+class Router(Device):               # inheritance
+    def info(self):                 # overriding
+        return "Router " + self.name + " / " + super().info()
+
+r = Router("R1")
+print(r.info(), Device.count)
+\end{lstlisting}
+Remember: \texttt{self} is the object, \texttt{\_\_init\_\_} is the constructor, \texttt{super()} calls the parent.
+
+\textbf{Data visualisation} (matplotlib):
+
+\begin{lstlisting}
+import matplotlib.pyplot as plt
+plt.bar(["Mon", "Tue", "Wed"], [12, 7, 15])
+plt.title("Tickets per day"); plt.xlabel("Day"); plt.ylabel("Count")
+plt.savefig("tickets.png")          # or plt.show()
+\end{lstlisting}
+\texttt{plt.plot} for lines, \texttt{plt.scatter}, \texttt{plt.hist}, \texttt{plt.pie} for the others.
+
+\subsection{Socket programming}
+Call order \pyq{}:
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Role} & \textbf{\color{slate}Order} \\ \midrule
+TCP server & \texttt{socket}, \texttt{bind}, \texttt{listen}, \texttt{accept}, \texttt{recv/send}, \texttt{close} \\
+TCP client & \texttt{socket}, \texttt{connect}, \texttt{send/recv}, \texttt{close} \\
+UDP server & \texttt{socket}, \texttt{bind}, \texttt{recvfrom/sendto} (no listen or accept) \\
+\bottomrule
+\end{tabularx}\end{center}
+A working Python echo (run on loopback, prints \texttt{b'HELLO'}):
+
+\begin{lstlisting}
+import socket, threading
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind(("127.0.0.1", 50007)); s.listen(1)
+def serve():
+    conn, addr = s.accept()
+    conn.sendall(conn.recv(1024).upper())
+    conn.close()
+threading.Thread(target=serve, daemon=True).start()
+c = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+c.connect(("127.0.0.1", 50007)); c.sendall(b"hello"); print(c.recv(1024))
+\end{lstlisting}
+\texttt{SOCK\_STREAM} is TCP, \texttt{SOCK\_DGRAM} is UDP.
+
+\subsection{Web: HTML5, CSS, JavaScript, Ajax, PHP}
+\textbf{HTML5 semantic elements} describe meaning: \texttt{<header>}, \texttt{<nav>}, \texttt{<main>}, \texttt{<section>}, \texttt{<article>}, \texttt{<aside>}, \texttt{<footer>}. \texttt{<div>} and \texttt{<span>} carry no meaning. A link in a new tab: \texttt{<a href="URL" target="\_blank">text</a>}.
+
+\textbf{CSS specificity.} Higher wins: inline style, then \texttt{\#id}, then \texttt{.class}, then element name. Unstyled children inherit \texttt{color} from the parent. \pyq{}
+
+\begin{lstlisting}
+<style> p { color: green; } #n { color: red; } </style>
+<p id="n">...</p>      <!-- red: the id rule beats the element rule -->
+\end{lstlisting}
+\textbf{JavaScript.} \texttt{document.getElementById("status").innerHTML = "Done";} changes the page without a reload. \texttt{"5" + 3} is \texttt{"53"} (string), \texttt{"5" - 3} is \texttt{2}. \pyq{}
+
+\textbf{Ajax.} Fetch data in the background and update part of the page without a reload. It is JavaScript plus a server script, not a language. \pyq{}
+
+\begin{lstlisting}
+fetch("/api/status").then(r => r.text()).then(t => {
+  document.getElementById("status").innerHTML = t;
+});
+\end{lstlisting}
+\textbf{PHP.} Server side; every variable starts with \texttt{\$}. Call \texttt{session\_start()} before using \texttt{\$\_SESSION['k'] = v;}. \pyq{} Form data arrives in \texttt{\$\_POST} or \texttt{\$\_GET}. Never put user input straight into a SQL string; use prepared statements.
+
+\subsection{Django}
+Intuition: \textbf{MVT}. A request goes to \texttt{urls.py}, which calls a view in \texttt{views.py}, which uses models from \texttt{models.py} (the database) and renders a template.
+
+\begin{lstlisting}
+pip install django
+django-admin startproject mysite
+cd mysite
+python manage.py startapp polls
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver          # http://127.0.0.1:8000 , admin at /admin/
+\end{lstlisting}
+Steps after \texttt{startapp}: add \texttt{'polls'} to \texttt{INSTALLED\_APPS} in \texttt{settings.py}, then:
+
+\begin{lstlisting}
+# polls/views.py
+from django.http import HttpResponse
+def index(request):
+    return HttpResponse("Hello from polls")
+
+# polls/urls.py
+from django.urls import path
+from . import views
+urlpatterns = [path("", views.index)]
+
+# mysite/urls.py
+from django.urls import path, include
+urlpatterns = [path("polls/", include("polls.urls"))]
+\end{lstlisting}
+Change a model, then always \texttt{makemigrations} and \texttt{migrate}. \pyq{} \texttt{runserver} is for development only.
+
+\subsection*{Drills}
+\begin{lstlisting}
+python3 -c 'a=[1,2]; b=a; a+=[3]; print(a is b, b)'
+python3 -c 'a=[1,2]; b=a; a=a+[3]; print(a is b, b)'
+printf '4 a\n6 b\n10 c\n' | awk '{s+=$1} END{print s}'
+\end{lstlisting}
+Write the echo server and client above as two separate files and run them in two terminals on \texttt{ubuntu-lab}.
+
+\clearpage
+\section{Databases: MySQL and MariaDB}
+\subsection{Users and privileges}
+\begin{lstlisting}
+CREATE USER 'app'@'localhost' IDENTIFIED BY 'strong-password';
+GRANT SELECT, INSERT ON shop.* TO 'app'@'localhost';
+SHOW GRANTS FOR 'app'@'localhost';
+REVOKE INSERT ON shop.* FROM 'app'@'localhost';
+DROP USER 'app'@'localhost';
+\end{lstlisting}
+The account is \texttt{user@host}: the same name from another host is a different account. Grant the least that works. \texttt{FLUSH PRIVILEGES} is needed only after editing the grant tables by hand.
+
+\textbf{Roles} group privileges, then you give the role to users:
+
+\begin{lstlisting}
+CREATE ROLE reader;
+GRANT SELECT ON shop.* TO reader;
+GRANT reader TO 'app'@'localhost';
+SET DEFAULT ROLE reader FOR 'app'@'localhost';
+\end{lstlisting}
+\subsection{Backup and restore}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Kind} & \textbf{\color{slate}Tool} & \textbf{\color{slate}Note} \\ \midrule
+Logical (SQL text) & \texttt{mysqldump} \pyq{} & portable, slower on large data \\
+Physical & \texttt{mariabackup}, copying the data directory & fast, version-sensitive \\
+\bottomrule
+\end{tabularx}\end{center}
+\begin{lstlisting}
+mysqldump -u root -p --single-transaction shop > shop.sql     # back up
+mysql -u root -p shop < shop.sql                              # restore (database must exist)
+mysqldump -u root -p --all-databases > all.sql
+\end{lstlisting}
+\texttt{--single-transaction} gives a consistent snapshot of InnoDB tables without locking. Always test a restore.
+
+\subsection{Queries, joins, optimisation}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Join} & \textbf{\color{slate}Returns} \\ \midrule
+INNER & rows matching in both tables \\
+LEFT & all left rows, matching right (NULL if none) \pyq{} \\
+RIGHT & all right rows, matching left \\
+FULL OUTER & all rows from both (MySQL lacks it; use LEFT UNION RIGHT) \\
+\bottomrule
+\end{tabularx}\end{center}
+\begin{itemize}
+\item \texttt{WHERE} filters rows before grouping; \texttt{HAVING} filters groups after \texttt{GROUP BY}.
+\item \texttt{TRUNCATE} empties a table and keeps its structure; \texttt{DROP} removes the table; \texttt{DELETE} removes chosen rows and can be rolled back.
+\item Speed up: \texttt{CREATE INDEX idx\_name ON emp(name);}, check the plan with \texttt{EXPLAIN SELECT ...}, avoid \texttt{SELECT *}, find slow queries with the slow query log.
+\item A primary key is unique and not NULL. A foreign key refers to a primary key in another table.
+\end{itemize}
+\subsection{Scripts}
+\begin{lstlisting}
+mysql -u root -p -e "SHOW DATABASES;"
+mysql -u root -p shop < schema.sql       # run a script file
+\end{lstlisting}
+\subsection*{Drill}
+Create a database, a table with a primary key, a user with only SELECT, log in as that user, try an INSERT (it must fail), dump the database, drop it, and restore it from the dump.
+
+\clearpage
+\section{Hardware and cabling}
+\subsection{Assembling a PC (in order)}
+\begin{enumerate}
+\item Wear an anti-static strap or touch bare metal. Work on a clean surface.
+\item Fit the CPU in the socket (match the corner marker), apply a pea of thermal paste, mount the cooler.
+\item Fit the RAM in the matching slots until the clips click.
+\item Fit the motherboard onto the standoffs in the case.
+\item Mount the power supply, drives (SATA or M.2) and the graphics card if any.
+\item Connect power: the 24-pin to the board, the 4 or 8-pin CPU power, SATA power, and the case front-panel and USB headers.
+\item Power on and watch POST; enter BIOS/UEFI, set the boot order, install the OS.
+\end{enumerate}
+POST beeps or no display usually mean RAM, GPU or CPU is not seated, or power cables are missing. Reseat before replacing.
+
+\subsection{Cables and crimping}
+Both standards use the same colours in a different order:
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{\color{slate}Pin} & \textbf{\color{slate}T568A} & \textbf{\color{slate}T568B} \\ \midrule
+1 & white-green & white-orange \\
+2 & green & orange \\
+3 & white-orange & white-green \\
+4 & blue & blue \\
+5 & white-blue & white-blue \\
+6 & orange & green \\
+7 & white-brown & white-brown \\
+8 & brown & brown \\
+\bottomrule
+\end{tabular}\end{center}
+Pins are counted with the clip down and the contacts facing you, pin 1 on the left.
+
+\begin{itemize}
+\item \textbf{Straight-through}: same standard at both ends (usually T568B). PC to switch, switch to router.
+\item \textbf{Crossover}: T568A at one end, T568B at the other. Like to like, such as PC to PC. Modern ports auto-detect (Auto-MDI/MDIX), so a straight cable usually works anyway.
+\item 10/100 Mbps use pins 1, 2, 3, 6; gigabit uses all eight.
+\item Maximum run is 100 m for twisted pair.
+\end{itemize}
+Crimping steps: strip about 2.5 cm of jacket, untwist the pairs, order them to the standard, flatten, cut the ends even (about 1.2 cm), insert fully into the RJ45 until the wires touch the front, crimp, then \textbf{test with a cable tester}.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Category} & \textbf{\color{slate}Typical speed} \\ \midrule
+Cat5e & 1 Gbps at 100 m \\
+Cat6 & 1 Gbps at 100 m, 10 Gbps up to about 55 m \\
+Fibre & long distance, immune to EMI \\
+\bottomrule
+\end{tabularx}\end{center}
+\clearpage
+\section{Revision checklist}
+Tick when you can answer without notes.
+
+\begin{itemize}
+\item[$\square$] What \texttt{chmod 754} and umask 022 give.
+\item[$\square$] \texttt{nice} vs \texttt{renice}; which signal \texttt{kill} sends by default.
+\item[$\square$] Reading a load average against core count.
+\item[$\square$] Hard vs symbolic link after deleting the original.
+\item[$\square$] Partition a disk, make a filesystem, mount it, put it in fstab.
+\item[$\square$] Which file: \texttt{nsswitch.conf}, \texttt{hosts} or \texttt{resolv.conf}.
+\item[$\square$] \texttt{lsof +D} for a busy mount.
+\item[$\square$] Block size and network address for any /19 to /30.
+\item[$\square$] Switch learn, forward, flood.
+\item[$\square$] Access vs trunk, 802.1Q, 802.1D.
+\item[$\square$] The four IOS prompts and the command to save a config.
+\item[$\square$] DHCP Discover, Offer, Request, Acknowledge; the DNS record types.
+\item[$\square$] TCP client and server call order.
+\item[$\square$] LDAP DN read from leaf to root; ports 389 and 636.
+\item[$\square$] Container vs VM; Type-1 vs Type-2.
+\item[$\square$] Git: working folder, staging, repository.
+\item[$\square$] \texttt{\$(cmd)} vs a bare command in bash; awk \texttt{END}.
+\item[$\square$] Python global assignment trap and list aliasing.
+\item[$\square$] Django MVT and the three \texttt{manage.py} commands that follow a model change.
+\item[$\square$] \texttt{mysqldump} and restore commands; \texttt{GRANT} and \texttt{REVOKE}.
+\item[$\square$] T568B colour order.
+\end{itemize}
+\end{document}

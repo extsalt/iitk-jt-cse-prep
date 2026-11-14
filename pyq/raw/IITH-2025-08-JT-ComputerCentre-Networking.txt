@@ -1,0 +1,422 @@
+Indian Institute of Technology Hyderabad
+
+Junior Technician - Computer Centre (Networking)
+
+                         Written Test- Question
+                     (Multiple Choice Questions)
+
+Applicant Name: .............................................................................................................................
+
+Application Number(s): ..................................................................................................................
+
+Duration: 90 Minutes  14th August 2025  200 Marks
+
+                   Instructions to the Candidates
+
+1. Do NOT turn over this page till the start of the exam is announced. Once the exam starts,
+   you may turn over and read the questions.
+
+2. Please ensure you are carrying a government-issued valid ID card in original during the
+   exam.
+
+3. All questions are of equal marks.
+
+4. There is a negative marking. For every correct answer you get +4 marks. For each
+   wrong answer, you get -1 mark.
+
+5. There are 50 questions. The duration of the exam is for 90 minutes.
+
+6. All the best
+
+                      1
+1. The best algorithm for finding the maximum element in an unsorted singly linked list of
+   integers, given a pointer to the head of the list, has a worst-case time complexity of:
+     (a) O(1)
+     (b) O(n)
+     (c) O(n2)
+     (d) O(log n)
+
+2. Which data structure uses the First-In-First-Out (FIFO) principle?
+     (a) Stack
+     (b) Queue
+     (c) Tree
+     (d) Graph
+
+3. What is the time complexity of accessing an element in an array by index?
+     (a) O(n)
+     (b) O(1)
+     (c) O(log n)
+     (d) O(n2)
+
+4. What device is typically used to connect multiple computers in a LAN?
+     (a) Router
+     (b) Modem
+     (c) Switch
+     (d) Firewall
+
+5. Which IP address range is reserved for private networks?
+     (a) 192.0.2.0/24
+     (b) 172.16.0.0/12
+     (c) 8.8.8.0/24
+     (d) 203.0.113.0/24
+
+6. What protocol is used assign IP addresses to clients in a LAN?
+     (a) DNS
+     (b) DHCP
+     (c) HTTP
+     (d) SNMP
+
+                                                      2
+ 7. Which of the following actions is most relevant to secure a Wi-Fi service?
+      (a) Disabling the SSID
+      (b) Using WPA2 or WPA3 encryption
+      (c) Limiting the number of connected devices
+      (d) Setting a static IP address
+
+ 8. Which protocol is typically used with Active Directory for Wi-Fi authentication?
+      (a) SNMP
+      (b) RADIUS
+      (c) FTP
+      (d) DHCP
+
+ 9. What is a domain in Active Directory?
+      (a) A wireless network name
+      (b) A collection of IP addresses
+      (c) A logical group of users, computers, and resources
+      (d) A type of NTFS permission
+
+10. What is the main function of a firewall in a university LAN?
+      (a) Providing Wi-Fi access
+      (b) Assigning MAC addresses
+      (c) Blocking unauthorized access
+      (d) Increasing data speed
+
+11. What is the main advantage of using a Layer 3 switch in a campus or enterprise network?
+      (a) It only boosts wireless signal strength
+      (b) It provides NAT functionality for public IPs
+      (c) It allows routing between VLANs and performs high-speed packet forwarding
+      (d) It replaces the need for a firewall
+
+12. What is the primary role of the MIB in network management?
+      (a) Encrypt data packets for secure transfer
+      (b) Define the routing path for packets
+      (c) Organize and describe manageable objects in a structured format
+      (d) Store firewall rules
+
+                                                        3
+13. What does the ping command check?
+      (a) DNS record changes
+      (b) Device CPU load
+      (c) Internet download speed
+      (d) Connectivity to a host
+
+14. What is the maximum length of a standard IPv4 address (in bits)?
+      (a) 16 bits
+      (b) 32 bits
+      (c) 64 bits
+      (d) 128 bits
+
+15. Which protocol is used to translate a hostname like www.example.com to an IP address?
+      (a) DHCP
+      (b) TCP
+      (c) DNS
+      (d) FTP
+
+16. Which device operates at the network layer of the OSI model?
+      (a) Switch
+      (b) Router
+      (c) Repeater
+      (d) Hub
+
+17. What does TCP provide that UDP does not?
+      (a) Low latency
+      (b) Faster transmission
+      (c) Connection-oriented communication
+      (d) Broadcasting
+
+18. What is the purpose of the ARP?
+      (a) Translate an IP address to a MAC address
+      (b) Assign IP addresses dynamically
+      (c) Encrypt network traffic
+      (d) Resolve a hostname to an IP address
+
+                                                        4
+19. Which of the following is not a valid IPv4 address?
+      (a) 10.0.0.1
+      (b) 192.168.1.300
+      (c) 172.16.254.1
+      (d) 8.8.8.8
+
+20. Which protocol is used for secure web communication (HTTPS)?
+      (a) SSL/TLS
+      (b) FTP
+      (c) SNMP
+      (d) Telnet
+
+21. In the OSI model, which layer is responsible for the ene-to-end path determination and
+     logical addressing?
+      (a) Physical layer
+      (b) Transport layer
+      (c) Network layer
+      (d) Session layer
+
+22. What protocol suite is used by IPsec to secure IP communication?
+      (a) TCP and UDP
+      (b) ESP and AH
+      (c) ARP and RARP
+      (d) FTP and SMTP
+
+23. What is the unit of data at the Data Link layer?
+      (a) Datagram
+      (b) Frame
+      (c) Packet
+      (d) Segment
+
+24. Which command is used to display the IP address configuration in a Linux system?
+      (a) netstat
+      (b) ifconfig or ip a
+      (c) ping
+      (d) tcpdump
+
+                                                        5
+25. In what kind of situation would a technician use tcpdump or Wireshark?
+      (a) When displaying the IP address configuration on a system
+      (b) When updating firmware
+      (c) When diagnosing network slowness, dropped packets, or suspicious traffic
+      (d) When remotely rebooting a switch
+
+26. What does the command "chmod 744 file.sh" do?
+      (a) Gives full permissions to everyone
+      (b) Grants read, write, execute to owner; read only to group and others
+      (c) Deletes the file
+      (d) Makes the file read-only to all
+
+27. What is the purpose of the /etc/passwd file?
+      (a) Stores login passwords in plaintext
+      (b) Stores login passwords in encrypted text
+      (c) Stores user account information
+      (d) Contains running processes
+
+28. Which command shows the IP address of a Windows machine?
+      (a) ping
+      (b) ipconfig
+      (c) netstat
+      (d) tracert
+
+29. Which built-in Windows feature offers real-time protection against malware?
+      (a) Windows Defender Antivirus
+      (b) Remote Desktop
+      (c) Registry Editor
+      (d) Event Viewer
+
+30. What is the next number in the sequence: 2, 4, 8, 16, ?
+      (a) 18
+      (b) 20
+      (c) 24
+      (d) 32
+
+                                                        6
+31. A technician earns INR 20,000 per month. If he gets a 10% increase, what will his new
+     salary be?
+      (a) INR 21,000
+      (b) INR 22,000
+      (c) INR 23,000
+      (d) INR 24,000
+
+32. A task takes 4 workers 6 hours to complete. How long would it take 3 workers to complete
+     the same task, assuming equal efficiency?
+      (a) 6 hours
+      (b) 7 hours
+      (c) 8 hours
+      (d) 9 hours
+
+33. If the cost price of a device is Rs. 1,200 and it is sold for Rs. 1,500, what is the percentage
+     profit?
+      (a) 20%
+      (b) 25%
+      (c) 30%
+      (d) 35%
+
+34. A clock shows 3:15. What is the angle between the hour and the minute hand?
+      (a) 0
+      (b) 7.5
+      (c) 30
+      (d) 45
+
+35. The of a process contains temporary data such as function parameters, return addresses,
+     and local variables.
+      (a) text section
+      (b) data section
+      (c) program counter
+      (d) stack
+
+36. Which of the following operating systems is not open source?
+      (a) Windows
+      (b) BSD UNIX
+      (c) Linux
+      (d) PC Linux OS
+
+                                                        7
+37. The list of processes waiting for a particular I/O device is called a(n)
+      (a) standby queue
+      (b) device queue
+      (c) ready queue
+      (d) interrupt queue
+
+38. Which of the following statements regarding privileged instructions is considered false?
+      (a) They may cause harm to the system.
+      (b) They can only be executed in kernel mode.
+      (c) They can be executed from user mode.
+      (d) They are used to manage interrupts.
+
+39. Which of the following statements about static variables in C is true?
+      (a) They are stored in the stack segment.
+      (b) They retain their value across function calls.
+      (c) They must be initialized explicitly.
+      (d) They can only be used in global scope.
+
+40. What will be the output of the following program?
+     int main() {
+            int a = 10, b = 20;
+            printf("%d\n", a+++b);
+            return 0;
+     }
+      (a) 30
+      (b) 31
+      (c) Compiler error
+      (d) Undefined behavior
+
+                                                        8
+41. What will be the output?
+
+#include <stdio.h>
+#define SQR(x) x*x
+int main() {
+
+       int a = 3;
+       printf("%d\n", SQR(a+1));
+}
+
+      (a) 7
+      (b) 10
+      (c) 16
+      (d) Undefined
+42. What will be the output of the following code snippet in Python?
+
+x = [1,2,3]
+y=x
+x += [4]
+print(x is y, x)
+
+(a) False [1,2,3,4]
+
+(b) True [1,2,3,4]
+
+(c) False [1,2,3]
+
+(d) True [1,2,3]
+
+43. Which statement about Python's GIL is correct?
+
+(a) GIL prevents true parallelism for CPU-bound threads in CPython
+
+(b) GIL is absent in CPython 3.10+
+
+(c) GIL prevents parallelism in multiprocessing module
+
+(d) GIL ensures no race conditions at all
+
+44. Even during challenging times, John's     to ensure the project's completion remained
+     strong.
+
+(a) ambivalence
+
+(b) satisfaction
+
+(c) resolve
+
+(d) revolve
+
+                                           9
+45. Which one of the following sentence sequences creates a coherent narrative?
+
+i. Ananya felt the cool morning air wake her up as she started down the lane.
+
+ii. She waved to her friend at the corner and hurried to catch up.
+
+iii. Together, they walked toward the tall red gates of the school.
+
+iv. Ananya slung her schoolbag over her shoulder and stepped out of the house.
+
+(a) (i), (ii), (iv), (iii)
+
+(b) (iv), (i), (ii), (iii)
+
+(c) (ii), (iii), (i), (iv)
+
+(d) (iii), (ii), (i), (iv)
+
+46. Gauri said that she can play the keyboard her sister.
+
+(a) as well as
+
+(b) as better as
+
+(c) as nice as
+
+(d) as worse as
+
+47. Choose the word that is opposite in meaning to the word "coherent".
+
+(a) sticky
+
+(b) rambling
+
+(c) well-connected
+
+(d) friendly
+
+48. Krishna is confident of speaking English      six months as he has been practicing regularly
+           the last three weeks.
+
+(a) within, for
+
+(b) during,in
+
+(c) for, in
+
+(d) during, for
+
+49. Pipelining in CPUs is mainly used to:
+
+(a) Increase memory size
+
+(b) Increase instruction throughput
+
+(c) Reduce instruction size
+
+(d) Reduce cache misses
+
+                                              10
+50. The ALU is mainly responsible for:
+      (a) Storing program instructions
+      (b) Performing arithmetic and logical operations
+      (c) Managing I/O devices
+      (d) Controlling instruction execution
+
+                                                       11
+Key for Junior Technician - Computer Centre (Networking)
+
+ 1. (b)  11. (c)  21. (c)  31. (b)  41. (a)
+ 2. (a)  12. (c)  22. (b)  32. (c)  42. (b)
+ 3. (b)  13. (d)  23. (b)  33. (b)  43. (a)
+ 4. (c)  14. (b)  24. (b)  34. (b)  44. (c)
+ 5. (b)  15. (c)  25. (c)  35. (d)  45. (b)
+ 6. (b)  16. (b)  26. (b)  36. (a)  46. (a)
+ 7. (b)  17. (c)  27. (c)  37. (c)  47. (b)
+ 8. (b)  18. (a)  28. (b)  38. (c)  48. (a)
+ 9. (c)  19. (b)  29. (a)  39. (b)  49. (b)
+10. (c)  20. (a)  30. (d)  40. (a)  50. (b)
+
+                  1
+

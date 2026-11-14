@@ -1,0 +1,335 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem,xcolor,fancyhdr,array}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small\color{slate}IIT Kanpur Junior Technician (CSE) -- Mock Test 02 (PYQ pattern)}
+\rhead{\small\color{slate}Page \thepage}
+\setlength{\parindent}{0pt}
+\newcommand{\opts}[4]{\par\nopagebreak\vspace{2pt}%
+\begin{tabular}{@{}p{0.47\linewidth}p{0.47\linewidth}@{}}
+(a) #1 & (b) #2\\ (c) #3 & (d) #4\end{tabular}}
+\newcommand{\optl}[4]{\par\nopagebreak\vspace{2pt}%
+\begin{tabular}{@{}p{0.95\linewidth}@{}}
+(a) #1\\ (b) #2\\ (c) #3\\ (d) #4\end{tabular}}
+\newcommand{\sect}[2]{\vspace{8pt}{\large\bfseries\color{ember}#1}\hfill{\small\color{slate}#2}\par
+{\color{slate}\hrule}\vspace{6pt}}
+\setlist[enumerate]{itemsep=9pt,leftmargin=*}
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\color{slate}Mock Test 02}\\[2pt]
+{\large\color{ember}PYQ pattern: built from IIT Hyderabad 2023--2025 papers}\\[4pt]
+{\large IIT Kanpur -- Junior Technician (CSE), Advt.\ No.\ 1/2026 pattern}\\[6pt]
+\begin{tabular}{|l|l|c|}\hline
+\textbf{Part} & \textbf{Content} & \textbf{Marks}\\\hline
+A & General ability, objective (Q1--Q40) & 40\\
+B & CSE domain, objective (Q41--Q100) & 60\\
+C & Descriptive, English (2 questions) & 20\\\hline
+\multicolumn{2}{|r|}{Total} & 120\\\hline
+\end{tabular}
+\end{center}
+\textbf{Time: 2 hours 30 minutes.} Suggested split: Part A 35 min, Part B 70 min, Part C 35 min, review 10 min.\\
+\textbf{Marking:} Parts A and B: $+1$ for a correct answer, $-0.25$ for a wrong answer, 0 if left blank.
+Part C is evaluated only if you clear the minimum in Parts A and B.\\
+\textbf{Rules for yourself:} one sitting, no phone, no notes, no terminal. Mark answers on paper first.
+Many questions here are close variants of real questions asked by IIT Hyderabad; the key shows which.
+
+\sect{Part A: General Ability}{40 questions, 40 marks}
+\begin{enumerate}
+\item Which of the following is an \textbf{asymmetric-key} (public-key) cryptosystem?
+\opts{AES}{DES}{RC4}{RSA}
+\item A malicious program that copies itself from machine to machine over a network, without attaching to a host file, is called a:
+\opts{Trojan horse}{worm}{logic bomb}{keylogger}
+\item Which of the following is an open-source machine-learning library?
+\opts{Wireshark}{scikit-learn}{Nagios}{Tally}
+\item The Linux kernel was first released in 1991 by:
+\opts{Linus Torvalds}{Richard Stallman}{Dennis Ritchie}{Ken Thompson}
+\item Aadhaar numbers are issued by the:
+\opts{NPCI}{RBI}{CERT-In}{UIDAI}
+\item The Digital India programme, meant to expand online services and connectivity, was launched in:
+\opts{2010}{2013}{2018}{2015}
+\item One pipe can fill a tank in 10 hours and another can empty it in 15 hours. With both open, the empty tank is filled in:
+\opts{20 hours}{25 hours}{30 hours}{45 hours}
+\item The average of 6 numbers is 25. When one number is removed, the average of the remaining numbers becomes 24. The removed number is:
+\opts{30}{28}{32}{35}
+\item A group of friends planned to spend Rs.\ 120 on food. Five of them did not turn up, so each of the rest paid Rs.\ 4 more. How many friends had planned to go?
+\opts{12}{15}{18}{20}
+\item A dealer sells an article for Rs.\ 2400 and makes a loss of 20\%. At what price should he sell it to gain 10\%?
+\opts{Rs.\ 3000}{Rs.\ 3200}{Rs.\ 3300}{Rs.\ 3600}
+\item A car covers the first half of a journey at 40 km/h and the second half at 60 km/h. Its average speed for the whole journey is:
+\opts{50 km/h}{48 km/h}{45 km/h}{52 km/h}
+\item The sum of the series $60, 57, 54, \ldots, 0$ is:
+\opts{630}{600}{620}{660}
+\item The perimeter of a rectangle is 56 cm and its length is 18 cm. Its breadth is:
+\opts{10 cm}{8 cm}{12 cm}{14 cm}
+\item The sum of two numbers is 30 and their product is 200. The sum of their reciprocals is:
+\opts{$1/10$}{$3/20$}{$1/6$}{$2/15$}
+\item The difference between 45\% and 30\% of a number is 54. The number is:
+\opts{300}{400}{450}{360}
+\item Meena is twice as old as Seema. Four years ago she was three times as old as Seema was then. How old is Meena now?
+\opts{16 years}{12 years}{14 years}{18 years}
+\item The angle between the hour and minute hands of a clock at 2:20 is:
+\opts{$40^\circ$}{$60^\circ$}{$50^\circ$}{$70^\circ$}
+\item 6 workers can finish a job in 8 days. Working at the same rate, 4 workers will finish it in:
+\opts{12 days}{10 days}{14 days}{16 days}
+\item The number of ways to arrange the letters of the word LINUX so that the two vowels do \textbf{not} come together is:
+\opts{48}{96}{120}{72}
+\item Statements: All routers are devices. Some devices are switches.\\ Conclusions: I. Some routers are switches. \quad II. Some devices are routers.
+\opts{Only I follows}{Only II follows}{Both follow}{Neither follows}
+\item The day after the day before two days after today is Thursday. What day is today?
+\opts{Monday}{Wednesday}{Tuesday}{Friday}
+\item Asha walks 12 m North, turns right and walks 5 m, then turns right again and walks 12 m. Where is she with respect to her starting point?
+\opts{5 m to the West}{12 m to the North}{17 m to the East}{5 m to the East}
+\item In a row of 45 students, Rahul is 18th from the left end. His position from the right end is:
+\opts{28th}{26th}{27th}{29th}
+\item If COMPUTER is written as DPNQVUFS in a code, how is SERVER written in the same code?
+\opts{TFSVFS}{RDQUDQ}{TFSWFS}{TFSWES}
+\item Find the next term: 3, 8, 15, 24, 35, ?
+\opts{46}{48}{50}{52}
+\item Pointing to a photograph, Anil says, ``She is the daughter of my grandfather's only son.'' How is the girl related to Anil?
+\opts{Cousin}{Sister}{Niece}{Aunt}
+\item Find the odd one out:
+\opts{Python}{Java}{Linux}{Ruby}
+\item Regular software updates close known security holes. If this is not a good reason to keep systems updated, nothing else is. Which of the following can be logically inferred?
+\optl{Updates are the only way to keep a system secure.}{A system that is not updated will certainly be attacked.}{Updates never cause any problems.}{Closing security holes is a strong reason to keep systems updated.}
+\item Arrange the sentences into a coherent sequence.\\ (i) The technician replaced the faulty cable.\\ (ii) A user reported that the lab network was down.\\ (iii) Connectivity was restored within minutes.\\ (iv) After testing each link, he found one cable damaged.
+\opts{(ii), (iv), (i), (iii)}{(ii), (i), (iv), (iii)}{(iv), (ii), (i), (iii)}{(i), (ii), (iv), (iii)}
+\item As soon as the alarm rang, the technician \rule{1.2cm}{0.4pt} the server room.
+\opts{enters}{entered}{entering}{had been enter}
+\item Choose the word closest in meaning to \textbf{ROBUST}:
+\opts{fragile}{temporary}{sturdy}{expensive}
+\item Choose the word opposite in meaning to \textbf{SCARCE}:
+\opts{abundant}{rare}{limited}{meagre}
+\item The accounts office issues \rule{1.2cm}{0.4pt} to all lab staff every month.
+\opts{stationary}{stationery}{stationnery}{stationerry}
+\item Choose the sentence that is most suitable in grammar and usage:
+\optl{The log was useless to us because there were no needed informations in it.}{Since the log did not contain the needed details, it was not real useful to us.}{Since the log lacked the needed details, it was of no use to us.}{Since the log lacked the needed details, it would not had been useful to us.}
+\item She has been learning Linux \rule{1.2cm}{0.4pt} three months and hopes to finish the course \rule{1.2cm}{0.4pt} two more months.
+\opts{for, within}{since, within}{for, since}{during, from}
+\item The idiom ``to hit the nail on the head'' means:
+\optl{to damage a tool}{to work very hard}{to make a loud noise}{to state exactly what is true or important}
+\end{enumerate}
+\par\vspace{4pt}\fbox{\parbox{0.94\linewidth}{\small\textbf{Read the passage and answer the next three questions.}\\[2pt] A backup is a copy of data kept at a separate location so that it can be restored after a loss. Backups protect against hardware failure, accidental deletion and ransomware. Experts recommend keeping at least three copies on two different types of media, with one copy stored off-site. A backup that has never been tested cannot be trusted, because a corrupted copy is discovered only when it is needed. Automation helps, since manual backups are easily forgotten, but automated jobs still need regular checking.}}\par\vspace{2pt}
+\begin{enumerate}[resume]
+\item According to the passage, why should a backup be tested?
+\optl{Testing makes the copy smaller.}{Tested backups can be kept on a single disk.}{A corrupted copy would otherwise be found only when it is needed.}{Untested backups cannot be automated.}
+\item Which of the following is \textbf{not} mentioned in the passage as something a backup protects against?
+\opts{Hardware failure}{Accidental deletion}{Ransomware}{Power cuts}
+\item The rule recommended in the passage is:
+\optl{two copies, on one type of media, none off-site}{three copies, all on the same disk}{one copy, on tape, kept in the lab}{three copies, on two types of media, one of them off-site}
+\item Choose the word closest in meaning to \textbf{MITIGATE}:
+\opts{aggravate}{imitate}{alleviate}{migrate}
+\end{enumerate}
+\sect{Part B: CSE Domain}{60 questions, 60 marks}
+\begin{enumerate}[resume]
+\item A 5-stage pipelined processor has stage delays of 3 ns, 5 ns, 4 ns, 7 ns and 2 ns. Ignoring register overhead, the minimum clock period is:
+\opts{21 ns}{4.2 ns}{7 ns}{2 ns}
+\item A cache has an access time of 10 ns. On a miss, an additional 100 ns penalty is paid to fetch from main memory. With a 90\% hit rate, the average memory access time is:
+\opts{19 ns}{15 ns}{110 ns}{20 ns}
+\item The range of integers representable in 10-bit two's complement is:
+\opts{$-511$ to $+512$}{$-512$ to $+511$}{$-1024$ to $+1023$}{$0$ to $1023$}
+\item A processor running at 2 GHz executes 3 billion instructions every second. Its IPC is:
+\opts{1.5}{0.67}{3}{6}
+\item Which single operation divides an unsigned integer by 8?
+\opts{Logical shift right by 3}{Logical shift left by 3}{Logical shift right by 8}{AND with 8}
+\item How many child processes are created when this program runs on Linux?
+\begin{verbatim}
+int main() {
+    fork(); fork(); fork(); fork();
+    return 0;
+}
+\end{verbatim}
+\opts{4}{8}{16}{15}
+\item What is the output?
+\begin{verbatim}
+#define SQR(x) x*x
+int main() {
+    int a = 3;
+    printf("%d", SQR(a+2));
+}
+\end{verbatim}
+\opts{25}{13}{11}{10}
+\item On a 64-bit machine (pointers are 8 bytes, \texttt{int} is 4 bytes), what is the output?
+\begin{verbatim}
+int *p = (int *)malloc(40);
+printf("%d", (int)sizeof(p));
+\end{verbatim}
+\opts{40}{4}{10}{8}
+\item What is the output?
+\begin{verbatim}
+int f(int n) {
+    if (n <= 0) return 0;
+    return n + f(n - 3);
+}
+printf("%d", f(10));
+\end{verbatim}
+\opts{21}{22}{18}{25}
+\item What is the output?
+\begin{verbatim}
+int x = 4, y = 6;
+int z = x+++y;
+printf("%d %d", x, z);
+\end{verbatim}
+\opts{4 10}{5 10}{5 11}{Compile error}
+\item Given \texttt{void swap(int *a, int *b)} that exchanges the two values it points to, which call exchanges the \texttt{int} variables \texttt{p} and \texttt{q}?
+\opts{\texttt{swap(p, q)}}{\texttt{swap(*p, *q)}}{\texttt{swap(\&p, \&q)}}{\texttt{swap(p, \&q)}}
+\item What is the output?
+\begin{verbatim}
+int a = 5, b = 8;
+void show(int b) { printf("%d,%d", a, b); }
+int main() {
+    int a = 2, b = 3;
+    show(a);
+    return 0;
+}
+\end{verbatim}
+\opts{2,3}{5,2}{5,8}{2,2}
+\item A binary tree has preorder traversal 1, 2, 4, 5, 3 and inorder traversal 4, 2, 5, 1, 3. Its postorder traversal is:
+\opts{4, 2, 5, 3, 1}{5, 4, 2, 3, 1}{4, 5, 2, 3, 1}{4, 5, 3, 2, 1}
+\item S1: In a binary search tree, an inorder traversal visits the keys in sorted order.\\ S2: The height of an AVL tree with $n$ nodes is $O(\log n)$.
+\opts{Both S1 and S2 are true}{Only S1 is true}{Only S2 is true}{Neither is true}
+\item Two sorted arrays of sizes $m$ and $n$ are merged into one sorted array. The worst-case number of comparisons is:
+\opts{$m+n-1$}{$mn$}{$m+n+1$}{$\max(m,n)/2$}
+\item Let $G$ be a connected weighted graph.\\ S1: If all edge weights are distinct, $G$ has a unique minimum spanning tree.\\ S2: If $G$ has a unique minimum spanning tree, all its edge weights are distinct.
+\opts{Only S2 is true}{Only S1 is true}{Both are true}{Neither is true}
+\item Which technique makes Linux \texttt{fork()} fast, by letting parent and child share physical pages until one of them writes to a page?
+\opts{Copy-on-write}{Demand segmentation}{Thrashing}{Spooling}
+\item Which scheduling policy do ordinary user processes use by default in Linux?
+\opts{\texttt{SCHED\_FIFO}}{\texttt{SCHED\_RR}}{\texttt{SCHED\_OTHER}}{\texttt{SCHED\_DEADLINE}}
+\item A process references pages in the order 1, 2, 3, 1, 4, 2, 1, 5 with 3 initially empty frames and LRU replacement. The number of page faults is:
+\opts{5}{6}{7}{8}
+\item A system has 3 processes, each needing at most 3 instances of one resource type. The minimum number of instances that guarantees no deadlock is:
+\opts{7}{6}{8}{9}
+\item Which of the following instructions must be executed only in kernel mode?
+\optl{Disable all interrupts}{Read the value of a general register}{Add two registers}{Load a value into a general register}
+\item Which command makes the running process with PID 2345 \textbf{less} favoured by the scheduler?
+\opts{\texttt{nice -n 10 -p 2345}}{\texttt{renice -n 10 -p 2345}}{\texttt{renice -n -10 -p 2345}}{\texttt{nice -n -10 -p 2345}}
+\item A server with 4 CPU cores reports: \texttt{load average: 2.00, 3.50, 6.00}. The most accurate reading is:
+\optl{load is rising and the system is already overloaded}{the CPU is 200\% busy right now}{only I/O-bound tasks contributed to the load}{load was heavy 15 minutes ago and is falling; it is now below the 4-core capacity}
+\item A file \texttt{/data/a.txt} has a hard link \texttt{/data/b.txt} and a symbolic link \texttt{/data/c.txt} pointing to it. After \texttt{rm /data/a.txt}, which statement is true?
+\optl{both b.txt and c.txt are still readable}{b.txt is still readable; c.txt is a dangling link}{neither b.txt nor c.txt is readable}{c.txt is readable but b.txt is broken}
+\item \texttt{umount /mnt/usb} says ``target is busy''. Which command lists the processes holding files open under that mount?
+\opts{\texttt{df -h /mnt/usb}}{\texttt{du -sh /mnt/usb}}{\texttt{lsof +D /mnt/usb}}{\texttt{mount | grep usb}}
+\item Which file controls the order in which hostname lookups use local files, DNS, LDAP and so on?
+\opts{\texttt{/etc/nsswitch.conf}}{\texttt{/etc/hosts}}{\texttt{/etc/resolv.conf}}{\texttt{/etc/fstab}}
+\item A host can \texttt{ping 1.1.1.1} but \texttt{ping example.com} fails. Which file should be checked first?
+\opts{\texttt{/etc/resolv.conf}}{\texttt{/etc/fstab}}{\texttt{/etc/shadow}}{\texttt{/etc/group}}
+\item In this script, which line must change to print \texttt{Cube is 27}?
+\begin{verbatim}
+1 #!/bin/bash
+2 cube() { echo $(( $1 * $1 * $1 )); }
+3 result=cube 3
+4 echo "Cube is $result"
+\end{verbatim}
+\opts{Line 1}{Line 2}{Line 4}{Line 3}
+\item The file \texttt{data.txt} contains the lines \texttt{4 a}, \texttt{6 b} and \texttt{10 c}. What does \texttt{awk '\{ s += \$1 \} END \{ print s \}' data.txt} print?
+\opts{10}{3}{0}{20}
+\item Which command is the safe way to edit \texttt{/etc/sudoers}, because it checks the syntax before saving?
+\opts{\texttt{chmod 440 /etc/sudoers}}{\texttt{usermod -aG sudo user}}{\texttt{visudo}}{\texttt{su -c cat /etc/sudoers}}
+\item An \texttt{/etc/fstab} line reads \texttt{UUID=3f2a-91cc /backup ext4 defaults,ro 0 2}. What does \texttt{ro} do?
+\optl{restricts the mount to root only}{disables execution of binaries}{skips the fsck check at boot}{mounts the filesystem read-only}
+\item The subnet mask for a /21 prefix is:
+\opts{255.255.248.0}{255.255.240.0}{255.255.252.0}{255.255.224.0}
+\item The number of usable host addresses in \texttt{10.0.0.0/22} is:
+\opts{1024}{510}{1022}{254}
+\item Which DNS record type maps an IP address back to a hostname (reverse lookup)?
+\opts{A}{CNAME}{PTR}{MX}
+\item A Layer-2 switch receives a frame whose source MAC address is not yet in its table. It:
+\optl{forwards the frame to the default gateway}{records that source MAC against the incoming port}{discards the frame}{sends an ARP broadcast to learn the address}
+\item Which option maps the Physical, Data link, Network and Transport layers, in that order, to their data units?
+\optl{bits, frames, packets, segments}{frames, bits, packets, segments}{bits, packets, frames, segments}{bits, frames, segments, packets}
+\item The \texttt{traceroute} command discovers the hops on a path by sending packets with increasing:
+\opts{MTU}{port number}{window size}{TTL}
+\item Which set of 2.4 GHz Wi-Fi channels (20 MHz wide) do not overlap?
+\opts{1, 6, 11}{1, 2, 3}{3, 7, 9}{2, 4, 6}
+\item Which sequence of calls is correct for a TCP \textbf{client}?
+\optl{\texttt{socket(), listen(), accept(), send()}}{\texttt{socket(), connect(), send(), close()}}{\texttt{bind(), socket(), connect(), send()}}{\texttt{socket(), accept(), connect(), close()}}
+\item Spanning Tree Protocol, which prevents switching loops in a LAN with redundant links, is defined by:
+\opts{IEEE 802.1Q}{IEEE 802.1X}{IEEE 802.1D}{IEEE 802.3ad}
+\item Which of the following is a private IPv4 address?
+\opts{172.32.10.1}{192.169.0.1}{11.0.0.1}{172.20.5.9}
+\item During an HTTPS handshake, which party checks that the server's certificate chains to a trusted certificate authority?
+\opts{The server itself}{The DNS resolver}{The default gateway}{The client (browser)}
+\item An IDS sees inbound TCP packets with the FIN, PSH and URG flags all set. This is most likely a:
+\opts{SYN flood}{Xmas scan}{ACK scan}{Null scan}
+\item An attacker posts a comment containing JavaScript on a forum. The script is saved in the database and runs in every visitor's browser. This is:
+\opts{reflected XSS}{SQL injection}{stored XSS}{directory traversal}
+\item Tables: \texttt{student(roll, name, dept\_id)} and \texttt{dept(dept\_id, dept\_name)}. Which query lists \textbf{all} students, even those with no department?
+\optl{\texttt{SELECT name, dept\_name FROM student INNER JOIN dept USING (dept\_id);}}{\texttt{SELECT name, dept\_name FROM student RIGHT JOIN dept USING (dept\_id);}}{\texttt{SELECT name, dept\_name FROM dept INNER JOIN student USING (dept\_id);}}{\texttt{SELECT name, dept\_name FROM student LEFT JOIN dept USING (dept\_id);}}
+\item Two transactions both read A, update it and write it back, and the final value reflects only one of the two updates. This anomaly is called:
+\opts{phantom read}{lost update}{dirty read}{deadlock}
+\item Which statement is true for a relation in BCNF?
+\optl{It has no multivalued dependencies}{For every non-trivial functional dependency $X \to Y$, $X$ is a superkey}{It has only single-attribute candidate keys}{It is always in 5NF}
+\item Relation $R(A,B,C,D)$ has the dependencies $A \to B$, $B \to C$ and $C \to D$. The candidate key is:
+\opts{B}{AD}{D}{A}
+\item Which of the following is a document-oriented NoSQL database?
+\opts{Redis}{Cassandra}{MongoDB}{Neo4j}
+\item What colours are ``Alpha'' and ``Beta'' on this page?
+\begin{verbatim}
+<style>
+  p  { color: green; }
+  #n { color: red; }
+</style>
+<body style="color: black;">
+  <p id="n">Alpha</p>
+  <div>Beta</div>
+</body>
+\end{verbatim}
+\opts{Alpha green, Beta black}{Alpha red, Beta green}{Alpha red, Beta black}{both black}
+\item Which JavaScript statement changes the text of the element with \texttt{id="status"} to \texttt{Done}?
+\optl{\texttt{document.getElementById("status").innerHTML = "Done";}}{\texttt{document.getElement("status").text = "Done";}}{\texttt{document.status.innerHTML = "Done";}}{\texttt{getElementById.status.innerHTML = "Done";}}
+\item In PHP, which function must be called before \texttt{\$\_SESSION} can be used?
+\opts{\texttt{session\_start()}}{\texttt{start\_session()}}{\texttt{session\_create()}}{\texttt{begin\_session()}}
+\item The main benefit of Ajax in a web application is that it:
+\optl{compiles PHP code in the browser}{updates part of a page by exchanging data with the server without reloading the whole page}{replaces the need for any database}{encrypts all traffic automatically}
+\item Which function parses a JSON string into a Python object?
+\opts{\texttt{json.dumps()}}{\texttt{json.loads()}}{\texttt{json.dump()}}{\texttt{json.parse()}}
+\item What is the output?
+\begin{verbatim}
+count = 3
+def bump():
+    count += 1
+bump()
+print(count)
+\end{verbatim}
+\opts{4}{3}{UnboundLocalError}{1}
+\item What is the output?
+\begin{verbatim}
+a = [1, 2]
+b = a
+a += [3]
+print(a is b, b)
+\end{verbatim}
+\opts{True [1, 2, 3]}{False [1, 2, 3]}{True [1, 2]}{False [1, 2]}
+\item Which statement about containers (LXC, Docker) and KVM virtual machines is correct?
+\optl{containers carry their own kernel, while KVM guests share the host kernel}{containers are Type-1 hypervisors}{KVM guests cannot run a different Linux distribution}{containers share the host kernel, while each KVM guest runs its own kernel}
+\item A configuration-management run that can be repeated many times and changes nothing when the system is already in the desired state is called:
+\opts{immutable}{replicated}{idempotent}{orchestrated}
+\item A KVM guest cannot reach the Internet although the host can. The most probable cause is:
+\optl{the guest has too little RAM}{the host CPU lacks AVX}{the disk image is in qcow2 format}{the guest NIC is not attached to a working bridge or NAT network}
+\item Which of the following is open-source software for building a private Infrastructure-as-a-Service cloud?
+\opts{Wireshark}{Nagios}{Gitea}{OpenStack}
+\end{enumerate}
+
+\newpage
+\sect{Part C: Descriptive (English)}{2 questions, 20 marks}
+\textbf{C1. Office memo (10 marks, about 120 words).}\\
+You are in charge of the CSE computer lab. The lab file server will be unavailable for disk replacement and operating-system
+patching on Saturday, 12 December, from 9 pm to 6 am. Write an office memo from the Lab In-charge to all lab users
+informing them of this. State the impact, what users should do before the shutdown, and whom to contact.
+
+\vspace{10pt}
+\textbf{C2. Case study (10 marks, about 200 words).}\\
+The department's student lab has 60 desktop PCs. In each of the last two monsoons, 8 to 10 PCs failed: motherboards
+corroded and hard disks developed bad sectors. The lab has no dehumidifier, the windows are often left open, and dust
+collects inside the cabinets. The budget this year is limited. Analyse the causes and recommend a prioritised plan with
+preventive and corrective actions.
+
+\vfill
+\begin{center}\color{slate}--- End of paper. Check the key only after you finish. ---\end{center}
+\end{document}

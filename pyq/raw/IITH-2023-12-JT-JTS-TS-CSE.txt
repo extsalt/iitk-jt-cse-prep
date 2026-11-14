@@ -1,0 +1,606 @@
+                                                     Advt. No. IITH/2023/NF/15
+                                              Question Paper Code: 120
+
+IIT HyderabadApplication Number of the CandidatePay Level: 3/6/8
+                                              Duration: 01 hr. 30 min
+Name of the Post: JT/JTS/TS for CSE
+                                              Number of Question  Maximum Marks
+Date & Time of the Exam: 19-Dec-2023, 9.30am            10                10
+                                                        50                50
+Scheme of the Exam: Written Exam
+
+                              Topic
+ General English/Aptitude
+ Work Related Topics
+
+Instructions to fill the responses in the OMR answer sheet:
+
+    1. Candidate must write his/her application number in the designated box on the top of the OMR
+         answer sheet. If applied for multiple positions, all the application numbers must be captured in the
+         OMR sheet and the question paper.
+
+    2. Candidates must write the postcode and Question paper code in the designated boxes on the top
+         of the OMR answer sheet.
+
+    3. Candidates must sign in the box provided in the OMR answer sheet.
+    4. Each answer sheet must be signed by the invigilator in the space printed in the OMR answer
+
+         sheet.
+    5. Only one response to be selected & marked. In case more than one response is marked for a
+
+         single question or no response is marked for a question, no marks will be awarded for that
+         question.
+    6. Partially filled circles shall not be considered as responses.
+    7. Erasing or changing of answer is not allowed.
+    8. Negative marking -0.25
+    9. Candidate must use Blue/Black ball point pen to fill his/her responses.
+    10. Rough work should not be done on the OMR answer sheet.
+    11. Candidates can use the designated page(s) of the question booklet for the purpose of rough work.
+
+                                                                  Page 1 of 14
+IIT HyderabadGeneral English/Aptitude
+
+1. He saw me by chance and _____ the car.
+    a) stops
+    b) stopped
+    c) stopping
+    d) was stopping
+
+2. What is the synonym for "meticulous"?
+a) Careless
+b) Sloppy
+c) Precise
+d) Lazy
+
+3. What will be the sum of 44, 42, 40, ..., 0 ?
+
+a) 502
+b) 506
+c) 510
+d) 508
+
+4. Find the number of different 8-letter arrangements that can be made from the letters of
+the word DAUGHTER so that all vowels do not occur together.
+
+a) 4320
+b) 8660
+c) 36000
+d) 40320
+
+5. We should turn off the car engine when the car is ______.
+
+a) Ideal
+b) Idol
+c) Idle
+d) Idel
+
+                                                                                                        Page 2 of 14
+6. A dealer incurs a loss of 10% if he sells an article for Rs. 1710. What price must he sell
+the article so as to gain 5% on that article?
+
+a) 1995
+b) 2050
+c) 1945
+d) 2000
+
+7. How many numbers greater than 1000000 can be formed by using the digits 1, 2, 0, 2, 4,
+2, 4?
+
+a) 180
+b) 360
+c) 540
+d) 720
+
+8. Given the sequence of terms, AD, CG, FK, JP, the next term is
+
+a) OW
+b) OV
+c) PV
+d) PW
+IIT Hyderabad
+9. A tourist covers half of his journey by train at 30 km/h, half of the remainder by bus at 15
+km/h and the rest by cycle at 5 km/h. The average speed of the tourist in km/h during his
+entire journey is:
+
+a) 18
+b) 9
+c) 25
+d) 12
+
+10. A rewording of something written or spoken is a __________.
+
+a) Paradox
+b) Paraphrase
+
+                                                                 Page 3 of 14
+IIT Hyderabadc) Paradigm
+d) Parallel
+
+WORK RELATED TOPICS
+
+11: How many child processes are created by the C program given below when it's executed on
+    a Linux machine?
+
+int main()
+{
+fork(); fork(); fork(); fork(); fork();
+return 0;
+}
+
+a) 5
+b) 31
+c) 63
+d) None of the above
+
+12: Which of the following is TRUE regarding the boot process in the Linux system?
+
+a) BIOS directly loads GRUB
+b) On boot, BIOS runs first
+c) init is the grand parent of all processes in Linux
+d) All of the above
+
+13: In personal computer systems, which kinds of jobs are given higher priorities by the CPU
+schedulers?
+a) Background jobs
+b) CPU-bound jobs
+c) I/O-bound jobs
+d) All of the above
+
+14: How many disk failures can RAID 5 and RAID 6 tolerate without losing data?
+a) 1 & 2
+b) 2 & 3
+c) 3 & 4
+d) 5 & 6
+
+                                                                                                        Page 4 of 14
+IIT Hyderabad15: Which of the following commands increases the priority of a process with PID 1234 in a
+Linux system?
+
+a) nice -n 10 -p 1234
+b) nice -n -10 -p 1234
+c) renice -n 10 -p 1234
+d) renice -n -10 -p 1234
+
+16: What does the kill command do with a process by default in Linux Systems?
+
+a) Suspends the process
+b) Terminates the process immediately
+c) Sends a SIGTERM signal to the process
+d) Restarts the process
+
+17: Which of the following tools can be used to monitor network traffic of a specific interface?
+
+a) top
+b) netstat
+c) tcpdump
+d) ps
+
+18: Which file in the /proc directory of a running process (PID 1234) would most likely contain
+information about the process's open files?
+
+a) /proc/1234/fd
+b) /proc/1234/status
+c) /proc/1234/environ
+d) /proc/1234/cwd
+
+19: Which of the following cache misses is NOT seen in a fully-associative cache?
+
+a) Compulsory miss
+b) Conflict miss
+c) Capacity miss
+d) Conflict and capacity miss
+
+20: Branch instructions lead to ____ hazard in a pipelined processor.
+
+a) Data
+b) Control
+c) Structural
+d) Deadlock
+
+                                                                                                        Page 5 of 14
+IIT Hyderabad21: Consider a 6-stage pipelined processor with delays of 4 ns, 3 ns, 2 ns, 7 ns, 5 ns, and 6 ns
+for the six stages. The minimum clock period that ensures correct functioning of this processor
+is:
+
+a) 2 ns (minimum of all stages)
+b) 27 ns (sum of all stages)
+c) 4.5 ns (average of all stages)
+d) 7 ns (maximum of all stages)
+
+22: Which of the following becomes better with the use of pipelining?
+
+a) Throughput (number of instructions per unit time)
+b) Latency to execute a single instruction
+c) Both throughput and latency
+d) Depends upon whether it is 3-stage or 5-stage pipelining
+
+23: Which kind of locality is depicted by the variable p in the given C code snippet.
+         int main(){
+                   int i, a[100], b[100], p;
+                   for (i=0;i<100;i++)
+                             b[99-i] = a[i] + p;
+         }
+
+a) Temporal
+b) Spatial
+c) Temporal and spatial
+d) Neither temporal nor spatial
+
+24: Which of the following correctly represents the increasing order of access times when the
+processor accesses any data?
+
+a) L1 cache, L2 cache, CPU registers, Main memory
+b) CPU registers, L2 cache, L1 cache, Main memory
+c) L1 cache, CPU registers, L2 cache, Main memory
+d) CPU registers, L1 cache, L2 cache, Main memory
+
+25: What is the binary equivalent of 29, in an 8-bit representation?
+
+a) 00110101
+b) 00011101
+c) 00011111
+d) 00011001
+
+                                                                                                        Page 6 of 14
+IIT Hyderabad26: Which of the following is a typical characteristic of a RISC processor?
+
+a) Variable length instructions
+b) Complex instructions
+c) Load-store architecture
+d) Large number of instructions
+
+27: Which of the following events will NOT generate an interrupt/exception to the CPU?
+
+a) Invalid memory address
+b) System call
+c) A key-stroke on a keyboard
+d) Calling another user-defined function inside main function in C language
+
+28: A processor system contains a single-level cache. The cache has an access time of 30 ns
+and main memory has an access time of 150 ns. What is the average memory access time if the
+cache hit rate is 80%?
+
+a) 80 ns
+b) 60 ns
+c) 150 ns
+d) 30 ns
+
+29) Which of the following database systems use RDMS?
+
+a) Oracle
+b) Microsoft SQLServer
+c) IBM-DB2
+d) All of the above
+
+30) Consider the following two relations: Student and Enroll
+
+         Student(roll_number, name, course_number, marks)
+         Enroll(course_number, course_name)
+
+The Student relation has m tuples, and Enroll relation has n tuples. If the natural join is applied
+between these two relations, then what will be the maximum possible number of tuples in the
+resulting relation?
+
+a) m+n
+b) mn
+c) m-n
+d) m-n-1
+
+                                                                                                        Page 7 of 14
+IIT Hyderabad31) Which of the following is the correct output for the given query?
+
+     (SELECT databaseid
+    FROM RDBMS
+    WHERE SECTION = 'c')
+    EXCEPT
+    (SELECT databaseid
+    FROM RDBMS
+    WHERE id < 10);
+
+ a) All the values of the databaseid for which section is c and id > 10
+ b) All the values of the databaseid for which section not c and id > 10
+ c) All the values of the databaseid for which section is c and id < 10
+ d) All the values of the databaseid for which section, not c and id < 10
+
+32) The dependency rules specified by the database designer are known as _______
+
+a) Functional dependencies
+b) Designer dependencies
+c) Database rules
+d) None of the mentioned
+
+33) What is a foreign key?
+
+ a) A foreign key is a primary key of a relation, which is an attribute in another relation
+ b) A foreign key is a superkey of a relation which is an attribute in more than one other
+relations
+ c) A foreign key is an attribute of a relation that is a primary key of another relation
+ d) A foreign key is the primary key of a relation that does not occur anywhere else in the
+schema
+
+34) Which forms are based on the concept of functional dependency:
+
+  a) 1NF
+  b) 2NF
+  c) 3NF
+  d) 4NF
+
+35) The situation where no transaction can proceed with normal execution is known as
+________
+
+ a) Roadblock
+ b) Deadlock
+ c) Execution halt
+ d) Abortion
+
+                                                                                                        Page 8 of 14
+IIT Hyderabad36) NoSQL databases are used mainly for handling large volumes of ______________ data.
+
+  a) unstructured
+  b) structured
+  c) semi-structured
+  d) all of the mentioned
+
+37: What content will this webpage display in the browser?
+
+<html><head>
+   <style>
+      #div1{color:red;} h2{color:green;}
+   </style>
+
+</head>
+<body style="color:black;">
+
+   <div id="div1">
+     <h2 id="head2">[Hello IITH]</h2>
+     [I-am-Robot]
+
+   </div>
+</body></html>
+
+a) [Hello IITH] in black and [I-am-Robot] in black
+b) [Hello IITH] in red and [I-am-Robot] in red
+c) [Hello IITH] in green and [I-am-Robot] in red
+d) [Hello IITH] in black and [I-am-Robot] in red
+
+38: What will this webpage display after clicking the button given in the webpage?
+<html><head>
+
+   <script>
+      function myFun() {
+          document.getElementById("head2").innerHTML = "Welcome to CSE@IITH";
+      }
+
+   </script>
+</head>
+<body>
+
+   <div id="div1" style="color:green;">
+     <h2 id="head2" style="color:green;">[Hello IITH]</h2> </div>
+
+   <button type="button" onclick="myFun()">Click Here</button>
+</body></html>
+
+a) Welcome to CSE@IITH [Hello IITH]
+b) [Hello IITH]Welcome to CSE@IITH
+c) No change because HTML doesn't understand function calls.
+d) Welcome to CSE@IITH
+
+                                                                                                        Page 9 of 14
+IIT Hyderabad39: Suppose you need to design a simple web-page which displays the grades of IITH students.
+Assume that there is a text field in the page to enter the roll number of the student. After clicking
+the submit button the same webpage shows the grades of the student in tabular format.
+
+Which of the following statements related to the technology required to design this page is
+correct?
+
+Important Notes: The grades of the students are already stored in a database. Also no need to
+check any input data validity. Assume that PHP is the only server-side scripting language known
+to the developer.
+
+a) PHP is not essential, only HTML and JavaScript are enough.
+b) PHP is essential but SQL is not required.
+c) PHP is essential but JavaScript is not essential.
+d) PHP is essential but no server (or localhost) is required.
+
+40: Assume that a PHP page mypage.php is stored in a server. A user (client computer) tried to
+access the page by entering the appropriate URL of the page in its web browser. Which of the
+following is not true in this context.
+
+a) The PHP file (mypage.php) will be sent directly from the server to the client computer and the
+local browser will display it in the client computer.
+b) The server will prepare a dynamic HTML page and send it to the client computer to display
+on its local browser.
+c) The PHP file (mypage.php) will be sent to the client computer and the browser on the client
+computer will convert it to HTML before displaying.
+d) None of the above is correct.
+
+41: Which of the following is not a valid syntax to embed CSS in HTML. In all the following
+options assume head2 as the id of an H2 tag in the HTML.
+
+a) <h2 id="head2" style="color: green;"> Hello </h2>
+b) <head><style> h2{color: green;} </style></head>
+c) <head><style> .head2{color: green;} </style></head>
+d) <head><style> #head2{color: green;} </style></head>
+
+42: Which of the following technologies can be used in web applications to send and retrieve
+data from a server asynchronously (in the background) without interfering with the display of the
+existing page?
+
+    a) Ajax
+    b) CSS
+    c) PHP
+    d) MySQL
+
+                                                                                                      Page 10 of 14
+IIT Hyderabad43: Which of the following HTML statements is correct for opening a link in a new window.
+Assume that the HTML page has a text called "Visit IITH", where once you click, the webpage
+of IIT Hyderabad opens in a new window.
+
+    a) <a href="https://iith.ac.in" target="_blank">Visit IITH</a>
+    b) <a hrf="https://iith.ac.in" target="_blank">Visit IITH</a>
+    c) <a href="https://iith.ac.in">Visit IITH</a>
+    d) <a hrf="https://iith.ac.in">Visit IITH</a>
+
+44: In PHP, how can you set a session variable?
+
+     a) set_session()
+     b) create_session()
+     c) $_SESSION['variable'] = value;
+     d) session_set('variable', value);
+
+45: What does the regular expression `\d` match?
+    a) Any character
+     b) Any digit (0-9)
+     c) Any whitespace character
+     d) Any word character
+
+46: Which character is used to represent the start of a line in a regular expression?
+    a) `^`
+    b) `$`
+    c) `*`
+    d) `#`
+
+Networking concepts: Internet, Wi-Fi, socket programming; Topics in Network and Systems
+Administration and Cybersecurity;
+
+47: How do you know the MAC address of an Interface card in a Linux machine?
+
+a) use getmac command
+b) use ifconfig command
+c) use ping command
+d) check /etc/hosts file
+
+48: What is the size of the IPv6 address?
+
+a) 4 bytes
+b) 8 bytes
+c) 16 bytes
+d) 32 bytes
+
+                                                                                                      Page 11 of 14
+IIT Hyderabad49: You want to implement a mechanism that automates the IP configuration, including IP
+address allocation, subnet mask, default gateway, and DNS information. Which protocol will you
+use to accomplish this?
+
+a) DNS
+b) ARP
+c) DHCP
+d) All of the above
+
+50: Which one of the following protocol uses TCP port 443?
+
+a) DNS
+b) HTTPS
+c) TFTP
+d) Telnet
+
+51: Which order completes the Protocol Data Unit Encapsulation on the Internet?
+
+a) Bits, frames, packets, segments, data
+b) Data, bits, segments, frames, packets
+c) Data, Packets, frames, segments, bits
+d) Data, segments, packets, frames, bits
+
+52: Social engineering cyber attacks are best countered by:
+
+a) Spam filters
+b) Critical thinking
+c) Firewalls
+d) Anti-virus software
+
+53: Natively, which device can look at all protocol headers up to the transport layer?
+
+a) Router
+b) Switch
+c) Firewall
+d) Hub
+
+54: What does a Layer-2 switch do when a frame is received on an interface and the destination
+MAC address is unknown or not available in its switch table?
+
+a) Drops the frame
+b) Forwards the frame to the first available link
+c) Floods the frame on to all the ports excluding the port from which it received the frame
+d) Sends back a message to the originating station asking for a name resolution
+
+55. The time taken to search an element in a linked list of length n is
+  (a) O(log2n)
+  (b) O(n2)
+  (c) O(1)
+  (d) O(n)
+
+                                                                                                      Page 12 of 14
+IIT Hyderabad56. For merging two sorted list of sizes m and n into a sorted list of size m + n, we require
+comparisons of
+a) O(m)
+b) O(n)
+c) O(m + n)
+d) O(log m + log n)
+
+57. For the following C function swap ( ):
+
+         void swap (int a, int b)
+         {
+
+              int t;
+              t = a;
+              a = b;
+              b = t;
+         }
+
+         In order to exchange the values of two variables w and z
+    a) call swap(*w, *z)
+    b) call swap(&w, &z)
+    c) swap( ) cannot be used as it does not return any value
+    d) swap( ) cannot be used as parameters are passed by value
+
+58. What is the output of the following program:
+         #include<stdio.h>
+         int xyz(int n){
+             if(n < 2){
+              xyz(xyz(xyz(++n)));
+             }
+              printf("%d", n);
+             return n;
+         }
+         int main(){
+             xyz(1);
+             return 0;
+         }
+
+    a) 2222
+    b) 1222
+    c) 1111
+    d) 2121
+
+59. A single array A[1..SIZE] is used to implement two stacks. The two stacks grow from
+opposite ends of the array. Variables top1 and top2 (top1 < top2) point to the location of the
+topmost element in each of the stacks. If the space is to be used efficiently, the condition for
+"stack full" is:
+
+                                                                                                      Page 13 of 14
+IIT Hyderabada) (top1 = SIZE/2) and (top2 = SIZE/2+1)
+    b) top1 + top2 = SIZE
+    c) (top1= SIZE/2) or (top2 = SIZE)
+    d) top1= top2 -1
+60. What is the output of the below function, assuming that it was given a single linked-list with
+the first node as the Head node?
+
+         next: next node pointer, val: unique int value of the node.
+         void fun1(Node* Head) {
+
+           If (!Head) {
+             return;
+
+           }
+          fun1(Head->next);
+          printf("%d->", Head->val);
+         }
+    a) Prints all nodes of linked lists
+    b) Prints all nodes of linked list in reverse order
+    c) Prints alternate nodes of Linked List
+    d) Prints forward and reverse order of the nodes in the single linked list.
+
+                                                                                                      Page 14 of 14
+

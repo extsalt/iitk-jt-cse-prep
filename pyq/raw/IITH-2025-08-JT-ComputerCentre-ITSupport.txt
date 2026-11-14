@@ -1,0 +1,431 @@
+Indian Institute of Technology Hyderabad
+
+Junior Technician - Computer Centre (IT Support)
+
+                               Written Test
+                     (Multiple Choice Questions)
+
+Applicant Name: .............................................................................................................................
+
+Application Number(s): ..................................................................................................................
+
+Duration: 90 Minutes  14th August 2025  200 Marks
+
+                   Instructions to the Candidates
+
+1. Do NOT turn over this page till the start of the exam is announced. Once the exam starts,
+   you may turn over and read the questions.
+
+2. Please ensure you are carrying a government-issued valid ID card in original during the
+   exam.
+
+3. All questions are of equal marks.
+
+4. There is a negative marking. For every correct answer you get +4 marks. For each
+   wrong answer, you get -1 mark.
+
+5. There are 50 questions. The duration of the exam is for 90 minutes.
+
+6. All the best
+
+                      1
+1. Why is link redundancy important in a LAN?
+     (a) It increases Wi-Fi signal strength.
+     (b) It allows multiple devices to share the same MAC address.
+     (c) It ensures network availability even if one link fails, improving fault tolerance.
+     (d) It reduces the number of switches required.
+
+2. Which protocol is commonly used to prevent loops in a LAN with redundant links?
+     (a) VxLAN
+     (b) STP
+     (c) RIP
+     (d) LLDP
+
+3. What type of port on a switch can carry traffic for multiple VLANs?
+     (a) Access port
+     (b) Trunk port
+     (c) Blackhole port
+     (d) Mirroring port
+
+4. Which protocol is commonly used to transfer files over a network?
+     (a) SMTP
+     (b) FTP
+     (c) SNMP
+     (d) DHCP
+
+5. Which of the following best describes latency in a network?
+     (a) Amount of data transferred per second
+     (b) Number of users on the network
+     (c) Number of packets dropped
+     (d) Time delay between sending and receiving data
+
+6. The memory unit that directly communicates with the CPU is:
+     (a) Main memory
+     (b) Secondary storage
+     (c) Cache memory
+     (d) Virtual memory
+
+                                                      2
+ 7. Which type of memory is used for permanent storage of the BIOS?
+      (a) SRAM
+      (b) DRAM
+      (c) ROM
+      (d) Cache
+
+ 8. Which register holds the address of the next instruction to be fetched?
+      (a) Program Counter (PC)
+      (b) Instruction Register (IR)
+      (c) Memory Address Register (MAR)
+      (d) Accumulator
+
+ 9. Which of the following is NOT a type of addressing mode?
+      (a) Immediate
+      (b) Logical
+      (c) Direct
+      (d) Indirect
+
+10. If a processor executes 2 billion instructions in 1 second at a clock frequency of 4 GHz, the
+     IPC is:
+      (a) 0.25
+      (b) 0.5
+      (c) 2
+      (d) 4
+
+11. Which of the following is a linear data structure?
+      (a) Binary Tree
+      (b) Graph
+      (c) Array
+      (d) Heap
+
+12. What is the main advantage of a linked list over an array?
+      (a) Faster access time
+      (b) Fixed size
+      (c) Dynamic memory allocation
+      (d) Easier sorting
+
+                                                        3
+13. Which data structure is best suited for implementing recursion?
+      (a) Queue
+      (b) Stack
+      (c) Linked List
+      (d) Hash Table
+
+14. What does a linked list node typically contain?
+      (a) Only data
+      (b) Data and a pointer to the next node
+      (c) Data and a pointer to the previous node
+      (d) Only a pointer
+
+15. What is the height of a balanced binary tree with n nodes approximately?
+      (a) O(n)
+      (b) O(log n)
+      (c) O(n2)
+      (d) O(1)
+
+16. Which Linux command is utilized to generate a new file?
+      (a) create
+      (b) file
+      (c) tch
+      (d) touch
+
+17. Which user has unrestricted access to all files and commands on a Linux system?
+      (a) admin
+      (b) root
+      (c) superuser
+      (d) sudo
+
+18. Which is the output of this shell script?
+     x=5
+     echo $x
+
+      (a) x=5
+      (b) $x
+      (c) 5
+      (d) x
+
+                                                        4
+19. What is the purpose of a hypervisor in virtualization?
+      (a) To increase disk storage automatically
+      (b) To provide remote access
+      (c) To create and manage virtual machines on physical hardware
+      (d) To detect malware in VMs
+
+20. What is remote server management used for in data centre operations?
+      (a) To install routers physically
+      (b) To monitor temperature and humidity in the data centre
+      (c) To control and monitor servers without physical access
+      (d) To patch network cables
+
+21. Which command is used to display the current working directory?
+      (a) pwd
+      (b) current
+      (c) dir
+      (d) ls
+
+22. Which command can be used to display the last lines of a file?
+      (a) head
+      (b) tail
+      (c) end
+      (d) last
+
+23. Which command displays the help manual for another command?
+      (a) help
+      (b) man
+      (c) guide
+      (d) info
+
+24. What does the `df' command do?
+      (a) Display free disk space
+      (b) Display file permissions
+      (c) Display system processes
+      (d) Display current users
+
+                                                        5
+25. What will happen if you call free() on a pointer that was not allocated by malloc()?
+      (a) Memory leak
+      (b) Program crash / undefined behavior
+      (c) Safe, but nothing happens
+      (d) Compiler error
+
+26. What does volatile keyword do?
+      (a) Makes variable immutable
+      (b) Prevents compiler optimization for the variable
+      (c) Makes variable static
+      (d) Forces variable to be constant across threads
+
+27. Which of the following is a correct declaration of a pointer to a function returning int?
+      (a) int *func();
+      (b) int (*func)();
+      (c) int *func(int);
+      (d) int func(*)();
+
+28. In C, sizeof(`A') will return:
+      (a) 1
+      (b) 2
+      (c) 4
+      (d) Can not be determined
+
+29. What is the output?
+
+     int main() {
+            int x = 5;
+            printf("%d %d %d\n", x, x<<1, x>>1);
+            return 0;
+
+     }
+
+      (a) 5 10 2
+      (b) 5 5 5
+      (c) 5 2 10
+      (d) 5 10 1
+
+                                                        6
+30. What is the output of this C program?
+
+     int fun(int n) {
+            if (n <= 0) return 0;
+            return n + fun(n - 2);
+
+     }
+     int main() {
+
+            printf("%d", fun(6));
+            return 0;
+     }
+
+      (a) 6
+      (b) 8
+      (c) 10
+      (d) 12
+31. Which of the following methods is used to convert a Python dictionary to a JSON string?
+
+      (a) json.dump()
+      (b) json.dumps()
+      (c) json.load()
+      (d) json.loads()
+32. Consider the following Python code:
+
+     y = 10
+
+     def change_y():
+             y=y+5
+
+     change_y()
+     print(y)
+
+     What will be the output of the code when executed?
+
+      (a) 15
+      (b) 10
+      (c) UnboundLocalError
+      (d) 0
+33. Which Python module is used to handle command-line arguments in scripts?
+
+      (a) sys
+      (b) os
+      (c) argparse
+      (d) Both 1 and 3
+
+                                                        7
+34. Consider the following Python code:
+
+     def g(n):
+             print("X", end=" ")
+             if n > 1:
+                    g(n-2)
+             print("Y", end=" ")
+
+     print("Z", end=" ")
+     g(3)
+
+     What will be the output when this code is executed?
+      (a) Z X X Y Y
+      (b) Z X Y
+      (c) Z X X Y Y Y
+      (d) Z X X X Y Y Y
+35. What will be the output of the following Python code?
+
+     x = [[0], [1]]
+     print(','.join(list(map(str, x))))
+
+      (a) 01
+      (b) [0][1]
+      (c) ('0,1')
+      (d) ('[0][1]',)
+36. Which of the following best describes Python's memory management?
+      (a) Manual allocation and deallocation by the programmer
+      (b) Garbage collection via reference counting and a cyclic GC
+      (c) Garbage collection via mark-and-sweep only
+      (d) Memory is reclaimed only at program termination
+
+                                                        8
+37. What will be the output of the following Python program?
+
+     def modify_list(lst):
+             lst[0] = ['one']
+             lst[-1] = ['two']
+             return id(lst)
+
+     data = ['first', 'last']
+     print(id(data) == modify_list(data))
+
+      (a) False
+      (b) True
+      (c) 0
+      (d) Error
+38. In Python's re module, which function returns all non-overlapping matches of a pattern as
+     a list?
+
+      (a) re.match()
+      (b) re.findall()
+      (c) re.search()
+      (d) re.fullmatch()
+39. Given below are two statements 1 and 2, and two conclusions I and II
+     Statement 1: All entrepreneurs are wealthy. Statement 2: All wealthy are risk seekers.
+     Conclusion I: All risk seekers are wealthy Conclusion II: Only some entrepreneurs are risk
+     seekers
+     Based on the above statements and conclusions, which one of the following options is logi-
+     cally CORRECT?
+      (a) Only conclusion I is correct
+      (b) Only conclusion II is correct
+      (c) Both conclusions are correct
+      (d) Neither conclusion I nor II is correct
+40. Ram walked 40 meters towards North, took a left turn and walked 20 meters. He again took
+     a left turn and walked 40 meters. How far and in which direction is he from the starting
+     point?
+      (a) 20 meters to the East
+      (b) 20 meters to the North
+      (c) 20 meters to the South
+      (d) 20 meters to the West
+
+                                                        9
+41. Krishna is fourteenth from the right end in a row of 40 boys. What is his position from the
+     left end.
+      (a) 24th
+      (b) 14th
+      (c) 26th
+      (d) 27th
+
+42. Gita is twice as old as Rama. Three years ago, she was three times as old as Rama. How old
+     is Gita now?
+      (a) 12 years
+      (b) 10 years
+      (c) 8 years
+      (d) 6 years
+
+43. If `rain' is `water', `water' is `road' , `road' is `cloud', `cloud' is `sky', `sky' is `sea' and
+     `sea' is `path', where do aeroplanes fly?
+      (a) Road
+      (b) Sea
+      (c) Cloud
+      (d) Water
+
+44. If the digits of each number are arranged in ascending order, which number becomes the
+     smallest?
+      (a) 621
+      (b) 431
+      (c) 512
+      (d) 798
+
+45. The Indian Constitution is published in multiple languages, reflecting the voices of people
+     from every corner of the country. If this is not an indication of the nation's diversity, nothing
+     else is.
+
+     Which of the following can be logically inferred from the above sentences?
+      (a) The Indian Constitution is written in all the languages spoken in India.
+      (b) India is a country of exactly seventeen languages.
+      (c) Linguistic pluralism is strong evidence of India's diversity.
+      (d) Linguistic pluralism is the only indicator of a nation's diversity.
+
+                                                       10
+46. Choose the sentence in which the underlined word is used correctly.
+      (a) She bought a personnel gift for her friend's birthday.
+      (b) We need to move the heavy boxes with a personnel vehicle.
+      (c) My personnel opinion is that this movie is overrated.
+      (d) The company's personnel are required to wear ID badges at all times.
+
+47. Choose the most appropriate word from the options given below to complete the following
+     sentence:
+     Scientists are working on new methods to the planet's limited supply of freshwater.
+      (a) uphold
+      (b) restrain
+      (c) conserve
+      (d) cherish
+
+48. Out of the following 4 sentences, select the most suitable sentence with respect to grammar
+     and usage:
+      (a) The report was useless to them because there were no needed information in it.
+      (b) Since the report lacked needed information, it was of no use to them.
+      (c) Since the report did not contain the needed information, it was not real useful to
+              them.
+      (d) Since the report lacked needed information, it would not had been useful to them.
+
+49. Which of the following is a common issue in analog broadcasting but less so in digital?
+      (a) Interference
+      (b) Fading
+      (c) Multipath reception
+      (d) All of the above
+
+50. Which type of microphone is commonly used for close-up voice recording, often clipped to
+     clothing?
+      (a) Shotgun microphone
+      (b) Lavalier microphone
+      (c) Dynamic microphone
+      (d) Condenser microphone
+
+                                                       11
+Key for Junior Technician - Computer Centre (IT Support)
+
+ 1. (c)  11. (c)  21. (a)  31. (b)  41. (d)
+ 2. (b)  12. (d)  22. (b)  32. (c)  42. (a)
+ 3. (b)  13. (b)  23. (b)  33. (d)  43. (b)
+ 4. (b)  14. (c)  24. (a)  34. (a)  44. (c)
+ 5. (d)  15. (b)  25. (b)  35. (b)  45. (c)
+ 6. (c)  16. (d)  26. (b)  36. (b)  46. (d)
+ 7. (c)  17. (b)  27. (b)  37. (b)  47. (c)
+ 8. (a)  18. (c)  28. (c)  38. (b)  48. (b)
+ 9. (b)  19. (c)  29. (a)  39. (d)  49. (d)
+10. (b)  20. (c)  30. (d)  40. (d)  50. (b)
+
+                  1
+

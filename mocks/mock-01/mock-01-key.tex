@@ -1,0 +1,141 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=16mm]{geometry}
+\usepackage{enumitem,xcolor,multicol}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\setlength{\parindent}{0pt}
+\newcommand{\sect}[1]{\vspace{6pt}{\large\bfseries\color{ember}#1}\par\vspace{2pt}{\color{slate}\hrule}\vspace{5pt}}
+\newcommand{\ak}[2]{\item \textbf{(#1)} #2}
+\setlist[enumerate]{itemsep=1pt,leftmargin=*}
+\begin{document}
+\begin{center}{\Large\bfseries\color{slate}Mock Test 01 -- Answer Key with Reasons}\end{center}
+\textbf{Scoring:} score $=$ correct $-\,0.25 \times$ wrong. Note the count of correct, wrong and blank for Part A and Part B separately.
+
+\sect{Part A}
+\begin{multicols}{2}
+\begin{enumerate}
+\ak{b}{Chandrayaan-3 landed on 23 Aug 2023.}
+\ak{c}{NPCI runs UPI; RBI regulates it.}
+\ak{b}{Shubhanshu Shukla, Axiom-4, 2025.}
+\ak{c}{C-DAC, Pune.}
+\ak{c}{DPDP Act, 2023.}
+\ak{d}{Los Angeles 2028 (Brisbane is 2032).}
+\ak{a}{Solar observatory at the L1 point.}
+\ak{b}{African Union.}
+\ak{d}{$45 / 0.15 = 300$.}
+\ak{c}{$1/12 + 1/18 = 5/36$, so $36/5 = 7.2$ days.}
+\ak{a}{54 km/h $=$ 15 m/s; $150/15 = 10$ s.}
+\ak{b}{$5000 \times 8 \times 3 / 100 = 1200$.}
+\ak{d}{Sum 100; $(100 - 30)/4 = 17.5$.}
+\ak{a}{$40 \times 2/5 = 16$.}
+\ak{c}{$100/400 = 25\%$.}
+\ak{b}{$2^2 \cdot 3^2 \cdot 5 = 180$.}
+\ak{d}{$x = 7$; $49 - 1 = 48$.}
+\ak{b}{$1.2 \times 0.8 = 0.96$, a 4\% fall.}
+\ak{c}{$10000 \times 1.21 - 10000 = 2100$.}
+\ak{a}{$22/7 \times 49 = 154$.}
+\ak{c}{Differences 4, 6, 8, 10, 12; $30 + 12 = 42$.}
+\ak{d}{$4 + 15 + 7 = 26$.}
+\ak{b}{``All servers are computers'' gives ``some computers are servers''. I does not follow.}
+\ak{a}{South and North cancel; 5 m East remains.}
+\ak{c}{The only daughter of her mother is herself.}
+\ak{d}{Monitor is an output device; the rest are input.}
+\ak{b}{$35 - 12 + 1 = 24$.}
+\ak{a}{A library holds books; a directory holds files.}
+\ak{c}{$45 \bmod 7 = 3$; Sunday $+ 3 =$ Wednesday.}
+\ak{d}{Gaps 2, 3, 4, 5, 6; O(15) $+ 6 =$ U(21).}
+\ak{b}{Outdated.}
+\ak{c}{Opaque.}
+\ak{d}{``Since'' with a point in time.}
+\ak{c}{``Each'' takes a singular verb: has submitted.}
+\ak{a}{Maintenance.}
+\ak{b}{Simple past becomes ``was repaired''.}
+\ak{c}{To work late into the night.}
+\ak{d}{Agenda (minutes are the record afterwards).}
+\ak{b}{``Equipment'' is uncountable and singular.}
+\ak{a}{Prone to.}
+\end{enumerate}
+\end{multicols}
+
+\sect{Part B}
+\begin{multicols}{2}
+\begin{enumerate}[start=41]
+\ak{b}{$32 + 8 + 4 + 1 = 45$.}
+\ak{c}{$2 \times 16 + 15 = 47$.}
+\ak{d}{RAM loses its contents without power.}
+\ak{a}{$20 = 00010100$; invert to $11101011$; add 1.}
+\ak{b}{Registers are inside the CPU.}
+\ak{c}{Firmware runs POST before the bootloader.}
+\ak{d}{Post-increment: b gets 5, then a becomes 6.}
+\ak{c}{\texttt{*(p+2)} is \texttt{arr[2]}.}
+\ak{b}{5 characters plus the terminating \texttt{\textbackslash 0}.}
+\ak{a}{\texttt{x = 0} is assignment; its value 0 is false.}
+\ak{c}{A static local keeps its value between calls.}
+\ak{d}{calloc zero-fills; malloc does not.}
+\ak{a}{Pop 2; then 3 and 4 pushed; pop 4, pop 3.}
+\ak{b}{BFS uses a queue; DFS uses a stack.}
+\ak{c}{The range halves at every step.}
+\ak{d}{Worst case, e.g.\ sorted input with a bad pivot.}
+\ak{a}{Left, root, right gives sorted order.}
+\ak{b}{$2^4 - 1 = 15$.}
+\ak{c}{7 owner rwx, 5 group r-x, 4 others \texttt{r-{}-}.}
+\ak{d}{\texttt{top}; \texttt{ps} gives a one-time snapshot.}
+\ak{a}{Signal 9 is SIGKILL; 15 is SIGTERM.}
+\ak{b}{The system spends its time swapping pages.}
+\ak{c}{Short jobs keep jumping ahead of long ones.}
+\ak{d}{The condition is \emph{no} preemption.}
+\ak{a}{Faults on 1, 2, 3, 4, 1, 2, 5, 3, 4; hits on 1, 2, 5.}
+\ak{b}{\texttt{/etc/shadow}, readable only by root.}
+\ak{c}{$666 - 022 = 644$ for files (777 for directories).}
+\ak{d}{\texttt{-c} count; \texttt{-n} line numbers; \texttt{-v} invert.}
+\ak{a}{\texttt{\$\#} count; \texttt{\$\$} PID; \texttt{\$?} exit status; \texttt{\$@} all.}
+\ak{b}{RAID 1 mirrors; RAID 0 stripes with no redundancy.}
+\ak{c}{Layer 3; switches are layer 2.}
+\ak{d}{5 host bits: $2^5 - 2 = 30$.}
+\ak{a}{Block size 64: 0, 64, 128. 77 lies in the 64 block.}
+\ak{b}{UDP has no handshake.}
+\ak{c}{22 SSH; 21 FTP; 23 Telnet; 25 SMTP.}
+\ak{d}{DORA.}
+\ak{a}{ARP maps IP to MAC; RARP is the reverse.}
+\ak{b}{Four /24 networks need 2 fewer prefix bits: /22.}
+\ak{c}{Star.}
+\ak{d}{802.1Q; 802.1X is port authentication.}
+\ak{a}{WPA3 is the newest; WEP is broken.}
+\ak{b}{SYN, SYN-ACK, ACK.}
+\ak{c}{TRUNCATE is DDL; DELETE is DML; DROP removes the table.}
+\ak{d}{HAVING filters groups; WHERE filters rows.}
+\ak{a}{Unique and NOT NULL.}
+\ak{b}{GRANT gives; REVOKE takes back.}
+\ak{c}{\texttt{mysqldump db > file.sql}.}
+\ak{d}{Index.}
+\ak{a}{Atomicity, Consistency, Isolation, Durability.}
+\ak{b}{GROUP BY dept with MAX(salary).}
+\ak{c}{\texttt{git clone}; \texttt{pull} and \texttt{fetch} need an existing repo.}
+\ak{d}{389 LDAP; 636 LDAPS.}
+\ak{a}{VirtualBox runs on top of a host OS.}
+\ak{b}{Containers share the host kernel.}
+\ak{d}{\texttt{<article>} describes its content.}
+\ak{a}{\texttt{\#} for id; \texttt{.} for class.}
+\ak{b}{\texttt{+} with a string concatenates.}
+\ak{c}{\texttt{\$name}.}
+\ak{d}{\texttt{b} is another name for the same list.}
+\ak{a}{\texttt{runserver}; \texttt{startapp} creates an app.}
+\end{enumerate}
+\end{multicols}
+
+\sect{Part C: what the examiner looks for}
+\textbf{C1 Official letter.} Sender's designation and department; date; ``To, The Head, Department of CSE'';
+a one-line subject (``Request for purchase of 10 UPS units for the computer lab''); salutation; body in three short
+paragraphs (the problem with dates, the request with quantity, the benefit); ``Yours faithfully''; name and designation.
+Formal tone, no contractions.
+
+\textbf{C2 Incident report.} Title; date, time and location; reported by; then headed sections:
+\emph{Summary}, \emph{Timeline}, \emph{Impact} (which services, how long), \emph{Cause}, \emph{Action taken},
+\emph{Preventive measures} (temperature alarm, backup cooling, automatic alerts, a weekend on-call contact).
+Past tense, facts only, no blame.
+
+\textbf{Self-marking out of 10 each:} format 3, content 4, language 3.
+\end{document}

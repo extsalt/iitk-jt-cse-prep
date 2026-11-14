@@ -1,0 +1,479 @@
+                                                      QUESTION PAPER ID
+                                                                   018
+
+QUESTION PAPER: JUNIOR TECHNICAL SUPERINTENDENT - CSE (Post No. 16.8)
+               Recruitment Notification. No. IITH/2024/NF/16 dated 19.10.2024.
+
+Name:                                                 Duration: 90 minutes
+Application Number:                                   Total Marks: 50
+                                                      Date: 23.08.2025
+
+       Section                              Topic     Number of Questions  Marks
+Section A            General Ability                              10         10
+Section B            Technical Knowledge                          40         40
+
+                                                  INSTRUCTIONS TO THE CANDIDATES
+
+ 1. Candidates must read all the instructions printed on the Question Paper Booklet carefully before attempting to answer.
+ 2. Do not break the seal of the Question Paper Booklet until the Invigilator gives an official indication to begin the examination.
+ 3. After the Invigilator instructs you to open the booklet, ensure that it contains all questions, with four options/choices for each.
+
+     If you find any issues such as missing questions/options or printing defects, immediately request a replacement booklet from
+     the Invigilator.
+ 4. After confirming that the Question Paper Booklet is complete and without defects, write your Application Number in the space
+     provided on the front page of the booklet.
+ 5. Before beginning to answer, write the Question Paper ID in the space provided on the OMR Answer Sheet and darken the
+     corresponding circles accurately.
+ 6. All questions are of equal marks. There is a negative marking. For every correct answer you get +1 marks. For each
+     wrong answer, you get -0.25 mark.
+
+ 7. For each question, choose the most appropriate answer from the four given options and darken the corresponding circle in
+     the OMR Answer Sheet. Note: Do not shade more than one circle for any question, as multiple responses will be treated as
+     incorrect.
+
+ 8. Do not mark or indicate answers on the Question Paper Booklet.
+ 9. Use only the space provided in the Question Paper Booklet for rough work. Loose sheets or other paper materials are not
+
+     permitted inside the examination hall.
+10. Candidates are not allowed to leave the examination hall before the scheduled end time. You must sign the attendance sheet
+
+     before leaving; failure to do so will result in your OMR Answer Sheet being disqualified from evaluation.
+11. Before leaving the examination hall, you must hand over the Question Paper Booklet and the OMR Answer Sheet to the
+
+     Invigilator. Failure to do so will result in criminal prosecution as per law and disqualification from this examination.
+
+                                           Instructions for Filling Out the OMR Answer Sheet
+
+ 1. Write your Application Number in the designated box at the top of the OMR Answer Sheet.
+ 2. Write the Post Code and Question Paper Code in the respective boxes at the top of the OMR Answer Sheet.
+ 3. Sign in the space provided on the OMR Answer Sheet.
+ 4. The Invigilator will also sign the OMR Answer Sheet in the designated area.
+ 5. Only one response should be selected and marked for each question. If more than one response is marked, or if no response is
+
+     marked, no marks will be awarded.
+ 6. Partially filled or incomplete circles will not be considered valid responses.
+ 7. Do not erase or alter answers once marked. Any tampering will result in disqualification of that response.
+ 8. Use only a blue or black ballpoint pen to fill in your responses.
+ 9. Do not do rough work on the OMR Answer Sheet.
+
+                                                   1
+Section A: General Ability
+
+   1. Which of the following is a Symmetric Key Cryptosystem?
+         (a) RSA
+         (b) AES
+         (c) ElGamal
+         (d) RDSP
+
+   2. Which of the following is also deemed as a translator?
+         (a) Data representation
+         (b) MS-DOS
+         (c) Operating System
+         (d) Language Processor
+
+   3. Stuxnet is a type of
+         (a) Network congestion control protocol
+         (b) Computer worm
+         (c) Technical social media platform
+         (d) Network simulator
+
+   4. A tap can fill a tank in 12 hours. Another tap can empty it in 18 hours. If both taps are opened together, how long
+       will it take to fill the tank?
+         (a) 24 h
+         (b) 36 h
+         (c) 48 h
+         (d) 72 h
+
+   5. The average of 8 numbers is 20. If one number is removed, the average becomes 19. Find the removed number.
+         (a) 26
+         (b) 27
+         (c) 28
+         (d) 29
+
+   6. The day before two days after the day before tomorrow is Saturday. What day is it today?
+         (a) Thursday
+         (b) Friday
+         (c) Saturday
+         (d) Sunday
+
+   7. A number of friends decided to go on an outing and planned to spend Rs. 96 on eatables. Four of them, however,
+       did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 each extra. The number of those
+       who were initially planning to go for the outing was:
+         (a) 8
+         (b) 12
+         (c) 16
+         (d) 20
+
+                                                                        2
+Read the paragraph below and answer the next three questions:
+
+The subject matter of system administration includes computer systems and the ways people use them in an organization.
+This entails a knowledge of operating systems and applications, as well as hardware and software troubleshooting, but
+also knowledge of the purposes for which people in the organization use the computers.
+Perhaps the most important skill for a system administrator is problem solving--frequently under various sorts of con-
+straints and stress. The sysadmin is on call when a computer system goes down or malfunctions, and must be able to
+quickly and correctly diagnose what is wrong and how best to fix it. They may also need to have teamwork and commu-
+nication skills; as well as being able to install and configure hardware and software.
+Sysadmins must understand the behavior of software in order to deploy it and to troubleshoot problems, and generally
+know several programming languages used for scripting or automation of routine tasks. A typical sysadmin's role is
+not to design or write new application software but when they are responsible for automating system or application
+configuration with various configuration management tools, the lines somewhat blur. Depending on the sysadmin's role
+and skillset they may be expected to understand equivalent key/core concepts a software engineer understands. That said,
+system administrators are not software engineers or developers, in the job title sense.
+
+   8. A system administrator needs to
+         (a) know nothing about why people of an organization want to use the computers
+         (b) know why people of an organization want to use the computers.
+         (c) know everything about the people of an organization
+         (d) know nothing about the people of an organization
+
+   9. When a computer system goes down,
+         (a) it boots up again on its own
+         (b) a system administrator has to be ready to respond
+         (c) the response depends on the sysadmin's skillset
+         (d) a software engineer is on call for response
+
+  10. Which of the skills a system administrator need not possess
+         (a) problem solving in stressful circumstances
+         (b) teamwork and communication skills
+         (c) a knowledge of algorithms
+         (d) key concepts a software engineer understands
+
+Section B: Technical Knowledge
+
+  11. Which of the following is a distance-vector routing protocol?
+         (a) OSPF
+         (b) RIP
+         (c) IS-IS
+         (d) BGP
+
+  12. Which protocol is used by ping?
+         (a) TCP
+         (b) UDP
+         (c) ICMP
+         (d) ARP
+
+                                                                        3
+13. In the 2.4 GHz band, which channels are non-overlapping in most countries?
+       (a) 1, 2, 3
+       (b) 1, 6, 11
+       (c) 3, 7, 9
+       (d) 2, 4, 6
+
+14. Which of these is the correct order of socket functions for a TCP server?
+       (a) socket()  bind()  listen()  accept()
+       (b) socket()  connect()  accept()  listen()
+       (c) socket()  listen()  bind()  accept()
+       (d) socket()  accept()  listen()  bind()
+
+15. The recvfrom() function is typically used with:
+       (a) TCP sockets
+       (b) UDP sockets
+       (c) Both TCP and UDP
+       (d) Raw sockets only
+
+16. Which of these is an effect of pipelining?
+       (a) Reduces latency of each instruction
+       (b) Reduces latency of each instruction and increases throughput
+       (c) Increases throughput but does not reduce latency of each instruction
+       (d) Does not affect throughput and latency
+
+17. Which of these cache configurations does not require any replacement policy?
+       (a) Set associative
+       (b) Direct mapped
+       (c) All cache configurations require some replacement policy
+       (d) Fully associative
+
+18. A 64-bit positive number is added to a 64-bit negative number (in 2's complement representation). Which of the
+     following is true, if the result is to be stored in 64-bits?
+       (a) There will be NO overflow
+       (b) The result can overflow and final value is positive
+       (c) The result can overflow and final value is negative
+       (d) The value of positive and negative input numbers will decide if overflow happens or not
+
+19. We want to multiply a number by 32. Which of these instructions should be used for the same?
+       (a) Load
+       (b) Branch
+       (c) Shift
+       (d) And
+
+                                                                      4
+20. Given two tables: (i) employee(emp id, name, dept id) and (ii) department(dept id, dept name)
+     Which query returns all employees along with their department name, even if no department is assigned?
+       (a) SELECT name, dept name FROM employees INNER JOIN departments USING (dept id);
+       (b) SELECT name, dept name FROM employees LEFT JOIN departments USING (dept id);
+       (c) SELECT name, dept name FROM employees RIGHT JOIN departments USING (dept id);
+       (d) SELECT name, dept name FROM employees FULL JOIN departments USING (dept id);
+
+21. Which of the following is an advantage of using a NoSQL database over an RDBMS?
+       (a) Complex transactions support
+       (b) Strict referential integrity
+       (c) Fixed schema design
+       (d) Easy horizontal scaling
+
+22. Consider two transactions:
+     T1: Read(A); A=A+50; Write(A)
+     T2: Read(A); A=A*2; Write(A)
+     If both run concurrently without control, which problem may occur?
+       (a) Lost update
+       (b) Phantom read
+       (c) Dirty read
+       (d) Deadlock
+
+23. Which SQL statement is equivalent to the following relational algebra expression?
+     name,course id(instructor.ID=teaches.ID(dept name="CSE (instructor × teaches)))
+       (a) select name, course id, instructor.ID from instructor, teaches where instructor.ID = teaches.ID and
+               dept name ="CSE"
+       (b) select name, course id from instructor, teaches where instructor.ID = teaches.ID and dept name ="CSE"
+       (c) select name, course id from instructor, teaches where instructor.ID = teaches.ID or dept name ="CSE"
+       (d) select name, course id, instructor.ID, teaches.ID from instructor, teaches where instructor.ID = teaches.ID
+               and dept name ="CSE"
+
+24. Given a relation R(ABCDE) with the following FDs
+     F:
+         A  BC
+         C  DE
+         BD
+         EB
+     Which of the following decompositions is possible if you follow the BCNF decomposition rule to decompose the
+     relation? Note: You are not required to check that the decomposed relations are in BCNF or not.
+       (a) R1(ABC) R2(CDE)
+       (b) R1(ABCE) R2(BD)
+       (c) R1(ACDE) R2(EB)
+       (d) All of the above options are as per BCNF.
+
+                                                                      5
+25. Let the postorder traversal of a binary tree be 8, 9, 6, 7, 4, 5, 2, 3, 1. Further, the inorder traversal of the same tree is
+     8, 6, 9, 4, 7, 2, 5, 1, 3. The height of a tree is defined as the length of the longest path from the root to any leaf. What
+     is the height of the binary tree constructed from the above inorder and postorder traversal?
+       (a) 2
+       (b) 3
+       (c) 4
+       (d) 5
+
+26. Let T be a tree on n vertices. Which among the following statements about T is TRUE?
+       (a) If T has a vertex of degree 7, then T has at least 7 leaf vertices.
+       (b) There exists an edge e in T such that deleting e would not disconnect T .
+       (c) If T has at least 7 leaf vertices, then T has a vertex of degree at least 7.
+       (d) There is a vertex of degree exactly 2 in T .
+
+27. Let n, i, and sum be int variables. The user enters a positive integer value of n. Which of the following program
+     segments prints the largest value of sum?
+       (a) sum = 0; i = 1; while (++i < n) sum += i; printf("%d", sum);
+       (b) sum = 0; i = 1; while (i++ < n) sum += i; printf("%d", sum);
+       (c) for (sum = 0, i = 1; i < n; i++) sum += i; printf("%d", sum);
+       (d) for (sum = 0, i = 1; i < n+1; ++i) sum += i; printf("%d", sum);
+
+28. What number is printed on screen when the following program is run?
+
+     #include <stdio.h>
+
+     int g ( int n )
+     {
+
+       if (n < 7)
+        return n;
+
+       return g(n/2);
+     }
+
+     int main()
+     {
+
+            printf("%d", g(346));
+            return 0;
+     }
+
+       (a) 5
+       (b) 6
+       (c) 4
+       (d) 21
+
+                                                                      6
+29. Assume that on a certain machine an int variable is of size 32 bits (or 4 bytes), char variable is of size 8 bits (or 1
+     byte), and each memory address is of size 32 bits. Assume further that the sizeof() function call returns the size of
+     its operand in bytes. What number is printed on screen when the following program is run?
+
+     #include<stdio.h>
+     #include<stdlib.h>
+     int main()
+     {
+
+       int *p;
+       p = (int *)malloc(20);
+       printf("%d", sizeof(p));
+       free(p);
+       return 0;
+     }
+
+       (a) 80
+       (b) 20
+       (c) 640
+       (d) 4
+30. Which Bash syntax is used for arithmetic evaluation?
+       (a) $((...))
+       (b) $(...)
+       (c) {...}
+       (d) @((...))
+31. What will be the output of the following awk program when run on a file with these contents?
+     8 apple
+     3 banana
+     10 cherry
+     5 date
+     Awk Code:
+     $1 > max { max = $1; maxline = $0 }
+     END { print max, maxline }
+       (a) 10 cherry
+       (b) 10 10 cherry
+       (c) 8 apple
+       (d) 10 8 apple
+32. On a 64-bit Linux system, which command most directly shows the mapping of virtual to physical addresses for a
+     process?
+       (a) vmstat in /proc
+       (b) pagemap in /proc
+       (c) dmesg
+       (d) free
+
+                                                                      7
+33. Which Linux command shows the number of context switches for a given process in real time?
+       (a) pidstat -w
+       (b) ps -o cswch
+       (c) vmstat
+       (d) top
+
+34. A file system uses 2048-byte blocks and 32-bit block pointers (for both disk and file block addressing). Assuming
+     each pointer can uniquely identify a block, what is the maximum disk capacity that this file system can support?
+       (a) 2 TB
+       (b) 4 TB
+       (c) 8 TB
+       (d) 16 TB
+
+35. Which of the following statement is TRUE about TLB (Translation Lookaside Buffer)?
+       (a) It's a small memory segment locked up at a specific space in DRAM
+       (b) It should be big enough to hold working set of the process
+       (c) It should be big enough to hold inverted page table of the system
+       (d) It need not be flushed on a context switch if hardware does not support ASIDs/PCIDs
+
+36. Which of the following statements is TRUE regarding process address space and the fork() system call in UNIX-
+     like systems?
+       (a) The child process created by fork() shares the same stack and heap as the parent process
+       (b) The child process has a separate copy of the code segment, heap, and stack immediately after fork
+       (c) The child process shares the same code segment as the parent, but gets separate logical copies of stack and
+               heap due to copy-on-write
+       (d) The child process runs in kernel space until exec() is called
+
+37. Which of the following describes /etc/sudoers?
+       (a) Stores encrypted user passwords
+       (b) Defines who can run commands as root
+       (c) Contains network configuration
+       (d) Lists default environment variables
+
+38. Which RAID level provides fault tolerance and mirroring?
+       (a) RAID 0
+       (b) RAID 1
+       (c) RAID 5
+       (d) RAID 10
+
+39. Which of the following commands will schedule a reboot at 2:00 AM?
+       (a) cronjob with @reboot
+       (b) at 02:00 reboot
+       (c) shutdown -r 02:00
+       (d) systemctl reboot ­time 02:00
+
+                                                                      8
+40. A user complains they cannot access the internet, but local ping works. Which file should you check first?
+       (a) /etc/fstab
+       (b) /etc/hosts
+       (c) /etc/resolv.conf
+       (d) /etc/shadow
+
+41. What does the /etc/nsswitch.conf file control?
+       (a) Network service startup order
+       (b) DNS resolver settings
+       (c) Name service lookup order (files, DNS, LDAP, etc.)
+       (d) Mounting remote file systems
+
+42. Which security model is based on the principle of "no read up, no write down"?
+       (a) Clark-Wilson
+       (b) Brewer-Nash
+       (c) Bell-LaPadula
+       (d) Biba
+
+43. Which type of firewall operates at the application layer of the OSI model?
+       (a) Packet-filtering firewall
+       (b) Stateful inspection firewall
+       (c) Proxy firewall
+       (d) Circuit-level gateway
+
+44. Which of the following is not a common privilege escalation method?
+       (a) Exploiting software vulnerabilities
+       (b) Misconfigured file permissions
+       (c) Social engineering
+       (d) Installing MFA
+
+45. Your IDS detects multiple inbound packets with the TCP flags FIN, URG, and PSH set simultaneously. What is
+     most likely happening?
+       (a) SYN flood attack
+       (b) Xmas scan
+       (c) ACK scan
+       (d) Null scan
+
+46. Your security team discovers that an attacker placed malicious JavaScript in a frequently visited public forum to
+     target employees from your company. What is this technique called?
+       (a) Drive-by download
+       (b) Spear phishing
+       (c) Watering hole attack
+       (d) Clickjacking
+
+                                                                      9
+47. A VM running on KVM has no internet connectivity. The host machine has internet, but the VM cannot ping
+     outside. What is the most probable cause?
+       (a) Incorrect CPU pinning
+       (b) Missing bridge or NAT configuration
+       (c) Insufficient RAM assigned
+       (d) Kernel module kvm intel not loaded
+
+48. You run an Ansible playbook to configure SLURM on all cluster nodes. Running the playbook multiple times
+     should not reapply unchanged settings. This property is called:
+       (a) Immutability
+       (b) Convergence
+       (c) Replication
+       (d) Idempotency
+
+49. In SLURM, if you want to request 4 nodes with 8 CPUs each, which directive should you use in your job script?
+       (a) #SBATCH ­ntasks=32
+       (b) #SBATCH ­nodes=4 ­cpus-per-task=8
+       (c) #SBATCH ­nodes=4 ­ntasks-per-node=8
+       (d) #SBATCH ­cpus-per-task=32
+
+50. Which of the following is primarily used as an Infrastructure-as-a-Service (IaaS) platform?
+       (a) Kubernetes
+       (b) OpenStack
+       (c) Docker
+       (d) Grafana
+
+                                                                     10
+SPACE FOR ROUGH WORK
+               11
+                                Key for Set 1
+
+Section A: General Ability
+
+1. (b)   3. (b)                 5. (b)         7. (b)    9. (b)
+2. (d)   4. (b)                 6. (b)         8. (b)   10. (c)
+
+Section B: Technical Knowledge                          43. (c)
+                                                        44. (d)
+11. (b)  19. (c)                27. (d)        35. (b)  45. (b)
+12. (c)  20. (b)                28. (a)        36. (c)  46. (c)
+13. (b)  21. (d)                29. (d)        37. (b)  47. (b)
+14. (a)  22. (a)                30. (a)        38. (b)  48. (d)
+15. (b)  23. (b)                31. (b)        39. (c)  49. (c)
+16. (c)  24. (d)                32. (b)        40. (c)  50. (b)
+17. (b)  25. (c)                33. (a)        41. (c)
+18. (a)  26. (a)                34. (c)        42. (c)
+
+                                         1
+SPACE FOR ROUGH WORK
+                2
+

@@ -1,0 +1,151 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem,xcolor,fancyhdr,array}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small\color{slate}IIT Kanpur Junior Technician (CSE) -- Mock Test 02 key}
+\rhead{\small\color{slate}Page \thepage}
+\setlength{\parindent}{0pt}
+\newcommand{\opts}[4]{\par\nopagebreak\vspace{2pt}%
+\begin{tabular}{@{}p{0.47\linewidth}p{0.47\linewidth}@{}}
+(a) #1 & (b) #2\\ (c) #3 & (d) #4\end{tabular}}
+\newcommand{\optl}[4]{\par\nopagebreak\vspace{2pt}%
+\begin{tabular}{@{}p{0.95\linewidth}@{}}
+(a) #1\\ (b) #2\\ (c) #3\\ (d) #4\end{tabular}}
+\newcommand{\sect}[2]{\vspace{8pt}{\large\bfseries\color{ember}#1}\hfill{\small\color{slate}#2}\par
+{\color{slate}\hrule}\vspace{6pt}}
+\setlist[enumerate]{itemsep=9pt,leftmargin=*}
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\color{slate}Mock Test 02 -- Answer Key}
+\end{center}
+\textbf{PYQ tags.} \textbf{NF15} = IIT Hyderabad JT/JTS/TS CSE, 19 Dec 2023. \textbf{ITS25} = JT Computer Centre (IT Support), 14 Aug 2025.
+\textbf{NET25} = JT Computer Centre (Networking), 14 Aug 2025. \textbf{JTS25} = JTS CSE, 23 Aug 2025. \textbf{TS25} = Technical Superintendent CSE, 2025.
+The tag names the real question this one is modelled on (same concept, new numbers or wording).
+Questions with no tag are my own, added to cover syllabus areas those papers touch.
+
+\sect{Part A}{Q1--Q40}\small
+\noindent\textbf{1.} \textbf{(d)} RSA uses a public/private key pair; AES, DES and RC4 are symmetric. {\color{ember}\scriptsize[JTS25 Q1]}\par\vspace{3pt}
+\noindent\textbf{2.} \textbf{(b)} Worms self-replicate over networks; a Trojan needs the user to run it; a logic bomb waits for a condition; a keylogger only records keystrokes. {\color{ember}\scriptsize[JTS25 Q3 (Stuxnet = worm)]}\par\vspace{3pt}
+\noindent\textbf{3.} \textbf{(b)} scikit-learn is an open-source Python ML library; Wireshark is a packet analyser, Nagios a monitoring tool, Tally accounting software. {\color{ember}\scriptsize[TS25 Q2]}\par\vspace{3pt}
+\noindent\textbf{4.} \textbf{(a)} Torvalds wrote the kernel; Stallman started GNU; Ritchie and Thompson created C and Unix.\par\vspace{3pt}
+\noindent\textbf{5.} \textbf{(d)} The Unique Identification Authority of India issues Aadhaar.\par\vspace{3pt}
+\noindent\textbf{6.} \textbf{(d)} It was launched on 1 July 2015.\par\vspace{3pt}
+\noindent\textbf{7.} \textbf{(c)} Net rate $=1/10-1/15=1/30$ per hour. {\color{ember}\scriptsize[JTS25 Q4]}\par\vspace{3pt}
+\noindent\textbf{8.} \textbf{(a)} $6\times25-5\times24=150-120=30$. {\color{ember}\scriptsize[JTS25 Q5]}\par\vspace{3pt}
+\noindent\textbf{9.} \textbf{(b)} $120/(n-5)-120/n=4 \Rightarrow n^2-5n-150=0 \Rightarrow n=15$ (check: Rs.\ 12 each versus Rs.\ 8 each). {\color{ember}\scriptsize[JTS25 Q7]}\par\vspace{3pt}
+\noindent\textbf{10.} \textbf{(c)} CP $=2400/0.8=3000$; SP for 10\% gain $=3000\times1.1=3300$. {\color{ember}\scriptsize[NF15 Q6]}\par\vspace{3pt}
+\noindent\textbf{11.} \textbf{(b)} Equal distances: $2\cdot40\cdot60/(40+60)=48$. {\color{ember}\scriptsize[NF15 Q9]}\par\vspace{3pt}
+\noindent\textbf{12.} \textbf{(a)} 21 terms; sum $=21\times(60+0)/2=630$. {\color{ember}\scriptsize[NF15 Q3]}\par\vspace{3pt}
+\noindent\textbf{13.} \textbf{(a)} Breadth $=56/2-18=10$. {\color{ember}\scriptsize[TS25 Q4]}\par\vspace{3pt}
+\noindent\textbf{14.} \textbf{(b)} $1/a+1/b=(a+b)/ab=30/200=3/20$. {\color{ember}\scriptsize[TS25 Q5]}\par\vspace{3pt}
+\noindent\textbf{15.} \textbf{(d)} $15\%$ of the number $=54$, so the number is 360. {\color{ember}\scriptsize[TS25 Q6]}\par\vspace{3pt}
+\noindent\textbf{16.} \textbf{(a)} $M=2S$, $M-4=3(S-4) \Rightarrow S=8$, $M=16$. {\color{ember}\scriptsize[ITS25 Q42]}\par\vspace{3pt}
+\noindent\textbf{17.} \textbf{(c)} Hour hand $=2\times30+20\times0.5=70^\circ$; minute hand $=120^\circ$; difference $50^\circ$. {\color{ember}\scriptsize[NET25 Q34]}\par\vspace{3pt}
+\noindent\textbf{18.} \textbf{(a)} Work $=48$ worker-days; $48/4=12$. {\color{ember}\scriptsize[NET25 Q32]}\par\vspace{3pt}
+\noindent\textbf{19.} \textbf{(d)} Total $5!=120$; vowels together $4!\times2!=48$; $120-48=72$. {\color{ember}\scriptsize[NF15 Q4]}\par\vspace{3pt}
+\noindent\textbf{20.} \textbf{(b)} All routers are devices, so some devices are routers. Nothing links routers to switches. {\color{ember}\scriptsize[TS25 Q7]}\par\vspace{3pt}
+\noindent\textbf{21.} \textbf{(c)} Two days after today is T+2; the day before is T+1; the day after that is T+2 = Thursday, so today is Tuesday. {\color{ember}\scriptsize[JTS25 Q6]}\par\vspace{3pt}
+\noindent\textbf{22.} \textbf{(d)} North 12, East 5, then South 12: she ends 5 m East of the start. {\color{ember}\scriptsize[ITS25 Q40]}\par\vspace{3pt}
+\noindent\textbf{23.} \textbf{(a)} $45-18+1=28$. {\color{ember}\scriptsize[ITS25 Q41]}\par\vspace{3pt}
+\noindent\textbf{24.} \textbf{(c)} Each letter moves one step forward: S$\to$T, E$\to$F, R$\to$S, V$\to$W, E$\to$F, R$\to$S.\par\vspace{3pt}
+\noindent\textbf{25.} \textbf{(b)} Terms are $n^2-1$ for $n=2,3,4,5,6$; next is $7^2-1=48$. {\color{ember}\scriptsize[NET25 Q30]}\par\vspace{3pt}
+\noindent\textbf{26.} \textbf{(b)} Grandfather's only son is Anil's father; his daughter is Anil's sister.\par\vspace{3pt}
+\noindent\textbf{27.} \textbf{(c)} Linux is an operating-system kernel; the others are programming languages.\par\vspace{3pt}
+\noindent\textbf{28.} \textbf{(d)} Only the first option is supported; the others over-claim. {\color{ember}\scriptsize[ITS25 Q45]}\par\vspace{3pt}
+\noindent\textbf{29.} \textbf{(a)} Report, diagnosis, repair, result. {\color{ember}\scriptsize[NET25 Q45]}\par\vspace{3pt}
+\noindent\textbf{30.} \textbf{(b)} Simple past agrees with the past event ``rang''. {\color{ember}\scriptsize[NF15 Q1]}\par\vspace{3pt}
+\noindent\textbf{31.} \textbf{(c)} Robust means strong and sturdy. {\color{ember}\scriptsize[NF15 Q2]}\par\vspace{3pt}
+\noindent\textbf{32.} \textbf{(a)} Scarce means in short supply; abundant is the opposite. {\color{ember}\scriptsize[NET25 Q47]}\par\vspace{3pt}
+\noindent\textbf{33.} \textbf{(b)} Stationery is writing material; stationary means not moving. {\color{ember}\scriptsize[NF15 Q5 (homophones)]}\par\vspace{3pt}
+\noindent\textbf{34.} \textbf{(c)} ``Information'' is uncountable, ``real'' should be ``really'', and ``would not had been'' is ungrammatical. {\color{ember}\scriptsize[ITS25 Q48]}\par\vspace{3pt}
+\noindent\textbf{35.} \textbf{(a)} ``For'' takes a duration; ``since'' needs a starting point; ``within'' fits a deadline. {\color{ember}\scriptsize[NET25 Q48]}\par\vspace{3pt}
+\noindent\textbf{36.} \textbf{(d)} It means to be exactly right about something.\par\vspace{3pt}
+\noindent\textbf{37.} \textbf{(c)} Stated in the fourth sentence. {\color{ember}\scriptsize[JTS25 Q8--10 (passage)]}\par\vspace{3pt}
+\noindent\textbf{38.} \textbf{(d)} The passage lists hardware failure, accidental deletion and ransomware only. {\color{ember}\scriptsize[JTS25 Q8--10 (passage)]}\par\vspace{3pt}
+\noindent\textbf{39.} \textbf{(d)} Stated in the third sentence. {\color{ember}\scriptsize[JTS25 Q8--10 (passage)]}\par\vspace{3pt}
+\noindent\textbf{40.} \textbf{(c)} To mitigate is to make less severe. {\color{ember}\scriptsize[NF15 Q2]}\par\vspace{3pt}
+\normalsize\sect{Part B}{Q41--Q100}\small
+\noindent\textbf{41.} \textbf{(c)} The clock must fit the slowest stage. {\color{ember}\scriptsize[NF15 Q21]}\par\vspace{3pt}
+\noindent\textbf{42.} \textbf{(d)} $10+0.1\times100=20$ ns. {\color{ember}\scriptsize[NF15 Q28]}\par\vspace{3pt}
+\noindent\textbf{43.} \textbf{(b)} $-2^{n-1}$ to $2^{n-1}-1$ with $n=10$. {\color{ember}\scriptsize[TS25 Q20]}\par\vspace{3pt}
+\noindent\textbf{44.} \textbf{(a)} IPC $=3\times10^9/(2\times10^9)=1.5$. {\color{ember}\scriptsize[ITS25 Q10]}\par\vspace{3pt}
+\noindent\textbf{45.} \textbf{(a)} $8=2^3$, so shift right by 3 bits. {\color{ember}\scriptsize[JTS25 Q19]}\par\vspace{3pt}
+\noindent\textbf{46.} \textbf{(d)} Four forks give $2^4=16$ processes in total, so 15 children. {\color{ember}\scriptsize[NF15 Q11]}\par\vspace{3pt}
+\noindent\textbf{47.} \textbf{(c)} The macro expands to \texttt{a+2*a+2} $=3+6+2=11$. {\color{ember}\scriptsize[NET25 Q41]}\par\vspace{3pt}
+\noindent\textbf{48.} \textbf{(d)} \texttt{sizeof(p)} is the size of the pointer, not of the block it points to. {\color{ember}\scriptsize[JTS25 Q29]}\par\vspace{3pt}
+\noindent\textbf{49.} \textbf{(b)} $10+7+4+1+0=22$. {\color{ember}\scriptsize[ITS25 Q30]}\par\vspace{3pt}
+\noindent\textbf{50.} \textbf{(b)} \texttt{x+++y} parses as \texttt{(x++)+y}: $z=4+6=10$, then \texttt{x} becomes 5. {\color{ember}\scriptsize[NET25 Q40]}\par\vspace{3pt}
+\noindent\textbf{51.} \textbf{(c)} Pass the addresses of the variables. {\color{ember}\scriptsize[NF15 Q57]}\par\vspace{3pt}
+\noindent\textbf{52.} \textbf{(b)} \texttt{show(a)} passes main's local \texttt{a}=2 as parameter \texttt{b}. Inside \texttt{show}, \texttt{a} is the global 5. {\color{ember}\scriptsize[TS25 Q31]}\par\vspace{3pt}
+\noindent\textbf{53.} \textbf{(c)} Root 1; left subtree {4,2,5} has root 2 with children 4 and 5; right subtree is {3}. Postorder: 4 5 2 3 1. {\color{ember}\scriptsize[JTS25 Q25]}\par\vspace{3pt}
+\noindent\textbf{54.} \textbf{(a)} Both are standard results. {\color{ember}\scriptsize[TS25 Q26]}\par\vspace{3pt}
+\noindent\textbf{55.} \textbf{(a)} Each comparison places one element; the last element needs no comparison. {\color{ember}\scriptsize[NF15 Q56]}\par\vspace{3pt}
+\noindent\textbf{56.} \textbf{(b)} S2 fails: a triangle with weights 1, 1, 5 has the unique MST of the two weight-1 edges. {\color{ember}\scriptsize[TS25 Q28]}\par\vspace{3pt}
+\noindent\textbf{57.} \textbf{(a)} Pages are copied only on the first write. {\color{ember}\scriptsize[JTS25 Q36]}\par\vspace{3pt}
+\noindent\textbf{58.} \textbf{(c)} \texttt{SCHED\_OTHER} (also called \texttt{SCHED\_NORMAL}) is the time-sharing policy; the others are real-time policies. {\color{ember}\scriptsize[TS25 Q34]}\par\vspace{3pt}
+\noindent\textbf{59.} \textbf{(b)} Faults on 1, 2, 3, 4 (evicts 2), 2 (evicts 3), 5 (evicts 4); hits on the second 1 and the third 1.\par\vspace{3pt}
+\noindent\textbf{60.} \textbf{(a)} $n(m-1)+1=3\times2+1=7$. With 6, each could hold 2 and wait.\par\vspace{3pt}
+\noindent\textbf{61.} \textbf{(a)} Disabling interrupts affects the whole system, so it is privileged. {\color{ember}\scriptsize[NET25 Q38]}\par\vspace{3pt}
+\noindent\textbf{62.} \textbf{(b)} \texttt{renice} changes a running process, \texttt{nice} only starts commands; a higher nice value means lower priority. {\color{ember}\scriptsize[NF15 Q15]}\par\vspace{3pt}
+\noindent\textbf{63.} \textbf{(d)} The three values are the 1, 5 and 15 minute averages, so 2.00 < 3.50 < 6.00 means falling. {\color{ember}\scriptsize[TS25 Q36]}\par\vspace{3pt}
+\noindent\textbf{64.} \textbf{(b)} The inode survives while a hard link remains; the symlink points to a name that no longer exists. {\color{ember}\scriptsize[TS25 Q37]}\par\vspace{3pt}
+\noindent\textbf{65.} \textbf{(c)} \texttt{lsof} lists open files and their owning processes. {\color{ember}\scriptsize[TS25 Q38]}\par\vspace{3pt}
+\noindent\textbf{66.} \textbf{(a)} nsswitch.conf defines the lookup order for each database (hosts, passwd, group). {\color{ember}\scriptsize[JTS25 Q41]}\par\vspace{3pt}
+\noindent\textbf{67.} \textbf{(a)} Pinging by IP works, so routing is fine; the DNS server list lives in resolv.conf. {\color{ember}\scriptsize[JTS25 Q40]}\par\vspace{3pt}
+\noindent\textbf{68.} \textbf{(d)} \texttt{result=cube 3} just runs a command \texttt{3}; it must be \texttt{result=\$(cube 3)}. {\color{ember}\scriptsize[TS25 Q32]}\par\vspace{3pt}
+\noindent\textbf{69.} \textbf{(d)} It adds field 1 of every line: $4+6+10=20$. {\color{ember}\scriptsize[JTS25 Q31]}\par\vspace{3pt}
+\noindent\textbf{70.} \textbf{(c)} visudo locks the file and validates it, avoiding a broken sudo. {\color{ember}\scriptsize[JTS25 Q37]}\par\vspace{3pt}
+\noindent\textbf{71.} \textbf{(d)} \texttt{ro} is read-only; \texttt{noexec} blocks execution; the last number (2) is the fsck order. {\color{ember}\scriptsize[TS25 Q41]}\par\vspace{3pt}
+\noindent\textbf{72.} \textbf{(a)} $21=8+8+5$ and five bits in the third octet give 248. {\color{ember}\scriptsize[TS25 Q12]}\par\vspace{3pt}
+\noindent\textbf{73.} \textbf{(c)} $2^{10}-2=1022$.\par\vspace{3pt}
+\noindent\textbf{74.} \textbf{(c)} PTR records live in the in-addr.arpa zone. {\color{ember}\scriptsize[TS25 Q13 (AAAA)]}\par\vspace{3pt}
+\noindent\textbf{75.} \textbf{(b)} Learning is done from the source address; flooding is for unknown destinations. {\color{ember}\scriptsize[NF15 Q54]}\par\vspace{3pt}
+\noindent\textbf{76.} \textbf{(a)} Bits, frames, packets and segments (TCP) or datagrams (UDP). {\color{ember}\scriptsize[NF15 Q51; NET25 Q23]}\par\vspace{3pt}
+\noindent\textbf{77.} \textbf{(d)} Each router that decrements TTL to 0 returns an ICMP Time Exceeded message. {\color{ember}\scriptsize[JTS25 Q12]}\par\vspace{3pt}
+\noindent\textbf{78.} \textbf{(a)} Channels are 5 MHz apart but 20 MHz wide; 1, 6 and 11 are spaced far enough. {\color{ember}\scriptsize[JTS25 Q13]}\par\vspace{3pt}
+\noindent\textbf{79.} \textbf{(b)} A client creates a socket and connects; listen/accept belong to the server. {\color{ember}\scriptsize[JTS25 Q14]}\par\vspace{3pt}
+\noindent\textbf{80.} \textbf{(c)} 802.1Q is VLAN tagging, 802.1X is port authentication, 802.3ad is link aggregation. {\color{ember}\scriptsize[ITS25 Q2]}\par\vspace{3pt}
+\noindent\textbf{81.} \textbf{(d)} Private ranges: 10/8, 172.16/12 (172.16 to 172.31), 192.168/16. {\color{ember}\scriptsize[NET25 Q5]}\par\vspace{3pt}
+\noindent\textbf{82.} \textbf{(d)} The browser holds the trusted CA list and validates the server's certificate. {\color{ember}\scriptsize[TS25 Q11]}\par\vspace{3pt}
+\noindent\textbf{83.} \textbf{(b)} FIN+PSH+URG lights up the packet like a Christmas tree; a Null scan sets no flags. {\color{ember}\scriptsize[JTS25 Q45]}\par\vspace{3pt}
+\noindent\textbf{84.} \textbf{(c)} The payload is persisted on the server, so it is stored XSS. {\color{ember}\scriptsize[TS25 Q43--44]}\par\vspace{3pt}
+\noindent\textbf{85.} \textbf{(d)} LEFT JOIN keeps every row of the left table (student). {\color{ember}\scriptsize[JTS25 Q20]}\par\vspace{3pt}
+\noindent\textbf{86.} \textbf{(b)} One transaction's write overwrites the other's. {\color{ember}\scriptsize[JTS25 Q22]}\par\vspace{3pt}
+\noindent\textbf{87.} \textbf{(b)} That is the definition of BCNF. {\color{ember}\scriptsize[TS25 Q23]}\par\vspace{3pt}
+\noindent\textbf{88.} \textbf{(d)} $A^+=\{A,B,C,D\}$; $B^+$ lacks A, so only A works. {\color{ember}\scriptsize[JTS25 Q24]}\par\vspace{3pt}
+\noindent\textbf{89.} \textbf{(c)} Redis is key-value, Cassandra is column-family and Neo4j is graph. {\color{ember}\scriptsize[TS25 Q22]}\par\vspace{3pt}
+\noindent\textbf{90.} \textbf{(c)} An id selector beats an element selector, so Alpha is red; Beta has no rule and inherits black from body. {\color{ember}\scriptsize[NF15 Q37]}\par\vspace{3pt}
+\noindent\textbf{91.} \textbf{(a)} getElementById returns the element, whose innerHTML can be assigned. {\color{ember}\scriptsize[NF15 Q38]}\par\vspace{3pt}
+\noindent\textbf{92.} \textbf{(a)} \texttt{session\_start()} creates or resumes the session. {\color{ember}\scriptsize[NF15 Q44]}\par\vspace{3pt}
+\noindent\textbf{93.} \textbf{(b)} Ajax sends and receives data asynchronously in the background. {\color{ember}\scriptsize[NF15 Q42]}\par\vspace{3pt}
+\noindent\textbf{94.} \textbf{(b)} \texttt{loads} reads from a string, \texttt{load} from a file, \texttt{dumps} writes a string. {\color{ember}\scriptsize[ITS25 Q31]}\par\vspace{3pt}
+\noindent\textbf{95.} \textbf{(c)} Assigning to \texttt{count} inside the function makes it local, and it is read before assignment. {\color{ember}\scriptsize[ITS25 Q32]}\par\vspace{3pt}
+\noindent\textbf{96.} \textbf{(a)} \texttt{+=} extends the list in place, so \texttt{a} and \texttt{b} are still the same object. {\color{ember}\scriptsize[NET25 Q42]}\par\vspace{3pt}
+\noindent\textbf{97.} \textbf{(d)} Containers are OS-level isolation; KVM provides full virtual machines. {\color{ember}\scriptsize[TS25 Q46]}\par\vspace{3pt}
+\noindent\textbf{98.} \textbf{(c)} Idempotency is the core property of Ansible modules. {\color{ember}\scriptsize[JTS25 Q48]}\par\vspace{3pt}
+\noindent\textbf{99.} \textbf{(d)} Guest connectivity depends on the virtual network (libvirt NAT or a bridge). {\color{ember}\scriptsize[JTS25 Q47]}\par\vspace{3pt}
+\noindent\textbf{100.} \textbf{(d)} OpenStack provides compute, storage and networking as a service. {\color{ember}\scriptsize[JTS25 Q50]}\par\vspace{3pt}
+\normalsize\sect{Distribution of correct options}{check}
+\begin{tabular}{|l|c|c|c|c|}\hline & (a) & (b) & (c) & (d)\\\hline
+Part A & 10 & 10 & 10 & 10\\
+Part B & 15 & 15 & 15 & 15\\\hline\end{tabular}
+
+\sect{Part C: marking guide}{20 marks}
+\textbf{C1 memo (10).} Content 4, format 3, language 3.
+Format: ``MEMORANDUM'', To / From / Date / Subject lines, short body, name and designation, no salutation or closing.
+Must contain: what (file server unavailable), when (Saturday 12 December, 9 pm to 6 am), why (disk replacement and OS patching),
+impact (no access to home directories and shared files), action (save and close work, copy urgent files locally before 9 pm), contact (name and extension).
+Deduct for a letter-style layout, missing date or subject, or more than about 150 words.
+
+\textbf{C2 case study (10).} Analysis 3, recommendations 4, structure 3.
+Causes to see: high humidity and no dehumidifier, open windows letting in moisture and dust, dust inside cabinets, no routine maintenance.
+Plan to see: low-cost first (keep windows shut, silica gel or two dehumidifiers, cleaning schedule with compressed air before and after monsoon),
+then backup of student data and disk-health (SMART) checks, then replacement of failing units on a priority list, then a review after the next monsoon.
+Marks go to prioritising under the budget limit and to separating preventive from corrective actions.
+\end{document}

@@ -1,0 +1,523 @@
+                                                      QUESTION PAPER ID
+                                                                   011
+
+QUESTION PAPER: TECHNICIAN SUPERINTENDENT - CSE (Post No. 16.3)
+          Recruitment Notification. No. IITH/2024/NF/16 dated 19.10.2024.
+
+Name:                                                 Duration: 90 minutes
+Application Number:                                   Total Marks: 50
+                                                      Date: 18.08.2025
+
+       Section                              Topic     Number of Questions  Marks
+Section A            General Ability                              10         10
+Section B            Technical Knowledge                          40         40
+
+                                                  INSTRUCTIONS TO THE CANDIDATES
+
+ 1. Candidates must read all the instructions printed on the Question Paper Booklet carefully before attempting to answer.
+ 2. Do not break the seal of the Question Paper Booklet until the Invigilator gives an official indication to begin the examination.
+ 3. After the Invigilator instructs you to open the booklet, ensure that it contains all questions, with four options/choices for each.
+
+     If you find any issues such as missing questions/options or printing defects, immediately request a replacement booklet from
+     the Invigilator.
+ 4. After confirming that the Question Paper Booklet is complete and without defects, write your Application Number in the space
+     provided on the front page of the booklet.
+ 5. Before beginning to answer, write the Question Paper ID in the space provided on the OMR Answer Sheet and darken the
+     corresponding circles accurately.
+ 6. All questions are of equal marks. There is a negative marking. For every correct answer you get +1 marks. For each
+     wrong answer, you get -0.25 mark.
+
+ 7. For each question, choose the most appropriate answer from the four given options and darken the corresponding circle in
+     the OMR Answer Sheet. Note: Do not shade more than one circle for any question, as multiple responses will be treated as
+     incorrect.
+
+ 8. Do not mark or indicate answers on the Question Paper Booklet.
+ 9. Use only the space provided in the Question Paper Booklet for rough work. Loose sheets or other paper materials are not
+
+     permitted inside the examination hall.
+10. Candidates are not allowed to leave the examination hall before the scheduled end time. You must sign the attendance sheet
+
+     before leaving; failure to do so will result in your OMR Answer Sheet being disqualified from evaluation.
+11. Before leaving the examination hall, you must hand over the Question Paper Booklet and the OMR Answer Sheet to the
+
+     Invigilator. Failure to do so will result in criminal prosecution as per law and disqualification from this examination.
+
+                                           Instructions for Filling Out the OMR Answer Sheet
+
+ 1. Write your Application Number in the designated box at the top of the OMR Answer Sheet.
+ 2. Write the Post Code and Question Paper Code in the respective boxes at the top of the OMR Answer Sheet.
+ 3. Sign in the space provided on the OMR Answer Sheet.
+ 4. The Invigilator will also sign the OMR Answer Sheet in the designated area.
+ 5. Only one response should be selected and marked for each question. If more than one response is marked, or if no response is
+
+     marked, no marks will be awarded.
+ 6. Partially filled or incomplete circles will not be considered valid responses.
+ 7. Do not erase or alter answers once marked. Any tampering will result in disqualification of that response.
+ 8. Use only a blue or black ballpoint pen to fill in your responses.
+ 9. Do not do rough work on the OMR Answer Sheet.
+
+                                                   1
+Section A: General Ability
+
+   1. The mobile app BHIM (Bharat Interface for Money) is based on?
+         (a) Central Payment Interface
+         (b) Local Payment Interface
+         (c) Unified Payment Interface
+         (d) World Payment Interface
+
+   2. A popular example of an open-source machine learning library is
+         (a) PyTorch
+         (b) Qiskit
+         (c) OSML
+         (d) CNN
+
+   3. Which state of India has border with three countries?
+         (a) Arunachal Pradesh
+         (b) Sikkim
+         (c) Uttar Pradesh
+         (d) Assam
+
+   4. The perimeter of a rectangle is 50 cm and its length is 15 cm. What is its breadth?
+         (a) 5 cm
+         (b) 15 cm
+         (c) 12 cm
+         (d) 10 cm
+
+   5. The sum of two numbers is 50, and their product is 600. What is the sum of their reciprocals?
+         (a) 1/12
+         (b) 1/5
+         (c) 1/4
+         (d) 1/3
+
+   6. The difference between 35% of a number and 25% of the same number is 21. What is the number?
+         (a) 180
+         (b) 200
+         (c) 210
+         (d) 220
+
+                                                                        2
+   7. All cats are animals. Some animals are tigers.
+       Conclusions:
+       I. All tigers are cats.
+       II. Some cats are animals.
+
+         (a) Only I
+         (b) Only II
+         (c) Both I & II
+         (d) Neither I nor II
+
+Read the paragraph below and answer the next three questions:
+
+    Climate change refers to long-term changes in average weather patterns, primarily driven by human activities such as
+burning fossil fuels, deforestation, and large-scale industrialization. These actions increase greenhouse gases like carbon
+dioxide and methane, trapping heat in the atmosphere and causing global temperatures to rise. Consequences include
+rising sea levels, more frequent extreme weather events, and threats to biodiversity and food security. Mitigation strategies
+involve shifting to renewable energy, conserving forests, adopting sustainable agriculture, and reducing waste. While
+international policies and government actions are crucial, individuals can also help by conserving energy, reducing meat
+consumption, and supporting eco-friendly products. Tackling climate change requires global cooperation and urgency.
+
+   8. Which is NOT listed as a greenhouse gas in the passage?
+         (a) Carbon dioxide
+         (b) Methane
+         (c) Nitrous oxide
+         (d) None of the above
+
+   9. Who is responsible for creating climate policies?
+         (a) Local farmers
+         (b) Governments
+         (c) Students
+         (d) Tourists
+
+  10. One suggested mitigation strategy is:
+         (a) Increasing fossil fuel use
+         (b) Conserving forests
+         (c) Expanding industrial activity
+         (d) Ignoring climate agreements
+
+Section B: Technical Knowledge
+
+  11. When the web browser communicates with the web server using HTTPS, who will authenticate whose certifi-
+       cate?
+         (a) The certificate authority (CA) authenticates certificates of the client
+         (b) The certificate authority (CA) authenticates certificates of the server
+         (c) The client authenticates the server's certificate
+         (d) The server authenticates the client's certificate
+
+                                                                        3
+12. The CIDR notation /20 corresponds to which subnet mask?
+
+       (a) 255.255.255.0
+       (b) 255.255.240.0
+       (c) 255.255.248.0
+       (d) 255.255.224.0
+13. Which type of DNS record maps a domain name to an IPv6 address?
+
+       (a) A
+       (b) AAAA
+       (c) CNAME
+       (d) PTR
+14. Which technology allows multiple VLANs to travel over a single network link?
+
+       (a) Forwarding Table
+       (b) Spanning Tree Protocol
+       (c) Port Mirroring
+       (d) Trunking
+
+15. If a TCP socket receives FIN from the remote host:
+
+       (a) The socket is reset immediately
+       (b) The application can still send data but cannot receive more
+       (c) Both send and receive are disabled
+       (d) The socket is placed in LISTEN state
+
+16. Which register holds the address of the next instruction to be executed?
+
+       (a) Program counter (PC)
+       (b) Stack pointer (SP)
+       (c) Page table base register (PTBR)
+       (d) Link register (LR)
+
+17. Which of these cache configurations does not suffer from conflict miss?
+
+       (a) 8-way set associative
+       (b) Direct mapped
+       (c) 4-way set associative
+       (d) Fully associative
+
+18. Assume the following order of block accesses by a CPU.
+     Block number (in decimal): 1, 3, 4, 6, 12, 46, 145, 2, 32, 16, 9, 109, 51, 72, 99, 101, 7, 21, 92, 81, 36, 11
+     Assume two different cache organizations.
+     C1: 4 KB capacity, 64 Byte block, 4-way set associative, LRU replacement
+     C2: 16 KB capacity, 64 Byte block, 2-way set associative, FIFO replacement
+     Which cache organization will incur lesser number of misses?
+
+       (a) C1
+       (b) C2
+       (c) Both C1 and C2 will have same number of misses
+       (d) Insufficient data to conclude
+
+                                                                      4
+19. Assume an assembly instruction add with following semantics.
+     add rd, rs1, rs2 meaning rd <- rs1+rs2
+     The given assembly code is expected to multiply the value of register x5 by 5 and store the result in register x6
+     (e.g., x6<-x5*5).
+
+     add x6, x5, x5
+     add x6, x6, x6
+     add A, x6, B
+     The registers A and B in the last instruction correspond to:
+
+       (a) A is x5 and B is x6
+       (b) A is x5 and B is x5
+       (c) A is x6 and B is x5
+       (d) A is x6 and B is x6
+20. Which of these correspond to the range of decimal numbers that can be represented in 2's complement format,
+     using 8-bits?
+
+       (a) -128 to +127
+       (b) 0 to 255
+       (c) -128 to +128
+       (d) -127 to +128
+21. Which join will return only rows with matching values in both tables?
+
+       (a) LEFT JOIN
+       (b) RIGHT JOIN
+       (c) INNER JOIN
+       (d) FULL OUTER JOIN
+22. Which of the following is a Column-family NoSQL database?
+
+       (a) Redis
+       (b) MongoDB
+       (c) Neo4j
+       (d) Cassandra
+23. Which of the following is always true for Boyce­Codd Normal Form (BCNF)?
+
+       (a) Every determinant is a superkey
+       (b) The table is free from partial dependencies
+       (c) The table is in 4NF
+       (d) All candidate keys are single-attribute
+24. Which of the following is a canonical cover of the following set of functional dependencies F:
+
+         A  BC
+         AD
+         D  CB
+       (a) A  BC, D  CB
+       (b) A  D, D  CB
+       (c) A  BD, D  CB
+       (d) A  CD, D  CB
+
+                                                                      5
+25. Which of the following is a multi-valued dependency?
+       (a) One attribute uniquely determines another
+       (b) One attribute determines multiple independent values of another attribute
+       (c) All attributes depend on a single key
+       (d) One attribute determines the entire tuple
+
+26. Which of the following statements about binary search trees is/are TRUE?
+     S1: The height of a binary search tree on n nodes is always O(log n).
+     S2: The inorder traversal of a binary search tree prints the elements in the tree in a non-decreasing, sorted order.
+       (a) Only S1 is TRUE
+       (b) Only S2 is TRUE
+       (c) Both S1 and S2 are TRUE
+       (d) Neither S1 nor S2 is TRUE
+
+27. The preorder traversal of a binary search tree is given by 25 17 13 8 14 19 18 21 26 30 32 31 40. Then the postorder
+     traversal of this tree is
+       (a) 13 8 14 21 19 18 17 31 40 32 25 26 30
+       (b) 13 14 8 18 21 19 17 31 40 32 30 26 25
+       (c) 8 13 14 19 21 18 17 31 40 32 30 25 26
+       (d) 8 14 13 18 21 19 17 31 40 32 30 26 25
+
+28. Let G(V, E) be a simple, connected graph. Let w : E  N be a function that maps positive integer weights to the
+     edges of G.
+     S1: If all the edges of G have distinct weights, then G has a unique minimum spanning tree.
+     S2: If G has a unique minimum spanning tree, then all the edges of G have distinct weights.
+     Determine the TRUTH value of the above statements.
+       (a) Only S1 is TRUE.
+       (b) Only S2 is TRUE.
+       (c) Both S1 and S2 are TRUE.
+       (d) Both S1 and S2 are FALSE.
+
+                                                                      6
+29. What is the output of the following program?
+
+     #include <stdio.h>
+     #include <stdlib.h>
+
+     int main()
+     {
+
+            int *ptr;
+            *ptr = 10;
+            *ptr = 20;
+            *ptr = 30;
+            printf("%d", *ptr);
+            return 0;
+     }
+       (a) 10
+       (b) 20
+       (c) 30
+       (d) None of the above
+30. What will be the output of the following C program?
+
+     #include <stdio.h>
+
+     int fun(int *a, int n)
+     {
+
+            n++;
+            *a = *a + n;
+            return *a;
+     }
+
+     int main()
+     {
+
+            int n=10;
+            n = fun(&n,++n);
+            printf("%d", n);
+            return 0;
+     }
+
+       (a) 20
+       (b) 21
+       (c) 22
+       (d) 23
+
+                                                                      7
+31. What will be the output of the following C program?
+
+     #include <stdio.h>
+
+     int n = 17, r=35;
+
+     void my_disp_func(int r)
+     {
+
+            printf("%d,%d \n", n,r);
+     }
+
+     int main()
+     {
+
+            int n = 21, r=14;
+            my_disp_func(n);
+            return 0;
+     }
+
+       (a) 17,21
+       (b) 21,14
+       (c) 17,35
+       (d) 21,35
+32. Identify if there is an error in this program. It has to print "Double is: 12".
+     1 #!/bin/bash
+     2 double() {
+     3 echo $(($1 * 2))
+     4}
+     5 result=double 6
+     6 echo "Double is: $result"
+       (a) Line 2 and 3
+       (b) No error
+       (c) Line 5
+       (d) Line 6
+33. Which of the following awk scripts transforms the given input into the shown output?
+     Input:
+     420130 mary's birthday
+     720327 mark's birthday
+     700524 anniversary
+
+     Output:
+     420130 mary's birthday
+     720327 mark's birthday
+     700524 anniversary
+
+       (a) { $1 = substr($1,5,2) substr($1,1,2) substr($1,3,2); print }
+       (b) { $1 = substr($1,3,2) substr($1,1,2) substr($1,5,2); print }
+       (c) { $1 = substr($1,1,2) substr($1,5,2) substr($1,3,2); print }
+       (d) { $1 = substr($1,4,2) substr($1,2,2) substr($1,1,2); print }
+
+                                                                      8
+34. What is the default scheduling policy in a modern Linux system?
+       (a) SCHED FIFO
+       (b) SCHED ROUNDROBIN
+       (c) SCHED DEADLINE
+       (d) None of the above.
+
+35. A process with nice value -10 is running alongside one with nice value +15. Assuming the default Linux scheduler,
+     which process is likely to get more CPU time?
+       (a) The process with nice value -10
+       (b) The process with nice value +15
+       (c) Both get equal CPU time
+       (d) It depends only on I/O wait time
+
+36. A Linux server with 8 CPU cores shows: load average: 10.50, 8.20, 5.10. What is the most accu-
+     rate interpretation?
+       (a) The CPU usage is 105% over the last 1 minute
+       (b) On average, 10.5 tasks were either running or waiting for CPU or I/O in the last 1 minute
+       (c) The system was busy 105% in the last 15 minutes
+       (d) Only CPU-bound tasks contributed to the load average
+
+37. On a Linux system, a user creates a file at /data/report.txt, writes 10MB of data to it, then creates a hard
+     link at /home/user/reporthl.txt and a symbolic link at /home/user/reportsl.txt. The user then executes rm
+     /data/report.txt. What happens to the 10MB data block on the filesystem?
+       (a) The data block is immediately freed because the original file path was deleted.
+       (b) The data block is held until the symbolic link /home/user/reportsl.txt is also deleted.
+       (c) The filesystem becomes inconsistent and requires an fsck to reclaim space.
+       (d) The data block remains on disk and is still accessible via /home/user/reporthl.txt, since the inode's link
+               count is greater than zero.
+
+38. You attempt to unmount a filesystem with umount /mnt/data, but the system returns the error: target is
+     busy. You suspect that a process has an open file on this mount. Which command is the most direct and effective
+     way to identify the specific process and its open file descriptor causing the issue?
+       (a) ps aux | grep /mnt/data
+       (b) find /mnt/data -cmin -1
+       (c) lsof +D /mnt/data
+       (d) strace umount /mnt/data
+
+39. Your Linux server can ping a remote host by IP but not by hostname. Which is the most likely cause?
+       (a) Incorrect subnet mask
+       (b) ARP table corruption
+       (c) Firewall blocking ICMP
+       (d) DNS resolution failure
+
+                                                                      9
+40. A network admin wants to limit SSH access to a specific subnet (192.168.5.0/24) on a Linux server. Which config-
+     uration file should be modified?
+       (a) /etc/ssh/sshd config
+       (b) /etc/hosts.allow and /etc/hosts.deny
+       (c) /etc/resolv.conf
+       (d) /etc/network/interfaces
+
+41. You find the following entry in /etc/fstab:
+
+     UUID=xxxx /data ext4 defaults,noexec 0 2
+
+     What is the purpose of noexec?
+       (a) Disables all file writes
+       (b) Prevents execution of binaries from this mount
+       (c) Disables shell scripts only
+       (d) Prevents mounting by non-root users
+
+42. A company implements multi-factor authentication (MFA). Which of the following is not a valid MFA factor?
+       (a) Something you know
+       (b) Something you have
+       (c) Something you are
+       (d) Something you share
+
+43. Which OWASP Top 10 vulnerability relates to an attacker executing scripts in a victim's browser?
+       (a) Injection
+       (b) Broken Authentication
+       (c) Cross-Site Scripting
+       (d) Security Misconfiguration
+
+44. Your SOC (Security Operation Center) detects HTTP requests with: <script>alert(`Hacked!');</script>
+     What is the attacker attempting?
+       (a) Reflected XSS
+       (b) Stored XSS
+       (c) DOM-based XSS
+       (d) SQL injection
+
+45. You detect that a Windows system has the Sticky Keys binary replaced with cmd.exe. What attack technique does
+     this represent?
+       (a) Persistence via accessibility features
+       (b) DLL hijacking
+       (c) Process injection
+       (d) Pass-the-hash
+
+                                                                     10
+46. Docker containers are different from Virtual Machines (VMs) because:
+       (a) Containers include their own OS kernel
+       (b) Containers share the host OS kernel
+       (c) Containers always run faster than VMs
+       (d) Containers cannot run on VMs
+
+47. SLURM is mainly used for:
+       (a) Monitoring containerized applications
+       (b) Cloud storage replication
+       (c) Virtual machine provisioning
+       (d) Workload management in HPC clusters
+
+48. Which of the following best describes KVM?
+       (a) A Linux-based hypervisor
+       (b) A container runtime
+       (c) A monitoring dashboard
+       (d) A configuration management tool
+
+49. Which of the following would be the best monitoring setup for an HPC cluster running SLURM?
+       (a) Docker Swarm + Ceph
+       (b) Nextcloud + Ansible
+       (c) Prometheus + Grafana
+       (d) OpenStack + NFS
+
+50. A Kubernetes cluster is running an AI workload that suddenly increases in CPU usage. You want Pods to scale
+     automatically. Which feature should you configure?
+       (a) ReplicaSet with fixed replicas
+       (b) Horizontal Pod Autoscaler (HPA)
+       (c) StatefulSet with dynamic scaling
+       (d) Cluster Autoscaler only
+
+                                                                     11
+SPACE FOR ROUGH WORK
+               12
+                                Key for Set 1
+
+Section A: General Ability
+
+1. (c)   3. (b)                 5. (a)                                     7. (b)    9. (b)
+2. (a)   4. (d)                 6. (c)                                     8. (c)   10. (b)
+
+Section B: Technical Knowledge                                                      43. (c)
+                                                                                    44. (a)
+11. (d)  19. (c)                27. (d)                                    35. (a)  45. (a)
+12. (b)  20. (a)                28. (a)                                    36. (b)  46. (b)
+13. (b)  21. (c)                29. (d)                                    37. (d)  47. (d)
+14. (d)  22. (d)                30. (d)                                    38. (c)  48. (a)
+15. (b)  23. (a)                31. (a)                                    39. (d)  49. (c)
+16. (a)  24. (b)                32. (c)                                    40. (b)  50. (b)
+17. (d)  25. (b)                33.                                        41. (b)
+18. (c)  26. (b)                34. (d)                                    42. (d)
+
+Question No. 33 is marked as invalid and one mark is awarded to everyone.
+
+                                         1
+

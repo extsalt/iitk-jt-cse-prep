@@ -1,0 +1,115 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem,xcolor,fancyhdr,array,tabularx,booktabs,listings,amssymb}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\definecolor{codebg}{HTML}{F3F5F7}
+\usepackage[colorlinks=true,linkcolor=slate,urlcolor=ember]{hyperref}
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small\color{slate}IIT Kanpur Junior Technician (CSE) -- PYQ analysis}
+\rhead{\small\color{slate}Page \thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\sloppy
+\setlist{itemsep=2pt,topsep=3pt,leftmargin=*}
+\newcommand{\pyq}{\textcolor{ember}{\scriptsize\textbf{[PYQ]}}}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true,
+  backgroundcolor=\color{codebg},frame=l,framerule=2pt,rulecolor=\color{ember},
+  xleftmargin=8pt,framexleftmargin=6pt,aboveskip=6pt,belowskip=6pt}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{ember}}{\thesection}{0.6em}{}[{\color{slate}\titlerule}]
+\titleformat{\subsection}{\large\bfseries\color{slate}}{\thesubsection}{0.6em}{}
+\titleformat{name=\subsection,numberless}{\large\bfseries\color{slate}}{}{0em}{}
+\titleformat{name=\section,numberless}{\Large\bfseries\color{ember}}{}{0em}{}[{\color{slate}\titlerule}]
+\begin{document}
+\begin{center}
+{\LARGE\bfseries\color{slate}Previous-year-question analysis}
+\end{center}
+Written 2026-11-14. Source for Mock 02.
+
+\section*{What exists, and what does not}
+\textbf{No IIT Kanpur Junior Technician (CSE) past paper is public.} The IITK recruitment page and its archive list advertisements, shortlists and status sheets, but no question papers. Advt. 1/2026 itself (17 pages) has no exam scheme or syllabus, only the post table, eligibility and the line ``written test and skill test / job-oriented practical test''.
+
+So the closest real material is IIT Hyderabad, which publishes papers with keys. Five were read in full. Raw text is in \texttt{pyq/raw/}.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}Xl@{}}
+\toprule
+\textbf{\color{slate}Paper} & \textbf{\color{slate}Date} & \textbf{\color{slate}Format} & \textbf{\color{slate}Source} \\ \midrule
+JT / JTS / TS CSE (Advt NF/15) & 19 Dec 2023 & 60 Q, 90 min, 10 aptitude + 50 technical, -0.25 & \href{https://www.iith.ac.in/assets/files/careers/staff/nf15/qa/NF15-JT-JTS-TS-CSE-QP.pdf}{PDF} \\
+JT Computer Centre (IT Support) & 14 Aug 2025 & 50 Q, 90 min, +4 / -1 (same ratio as +1 / -0.25) & \href{https://iith.ac.in/assets/files/careers/staff/Previous_Question_Papers.pdf}{index page} \\
+JT Computer Centre (Networking) & 14 Aug 2025 & 50 Q, 90 min, +4 / -1 & same index page \\
+JTS CSE (Advt NF/16) & 23 Aug 2025 & 50 Q, 90 min, 10 general + 40 technical, -0.25 & same index page \\
+TS CSE (Advt NF/16) & 2025 & 50 Q, same layout as JTS & same index page \\
+\bottomrule
+\end{tabularx}\end{center}
+The index page links to 15 papers for NF/16. Only the five above are about computing posts; the others (biotech, chemistry, electrical, and so on) were skipped.
+
+\section*{IITH versus your exam}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}} & \textbf{\color{slate}IITH papers} & \textbf{\color{slate}IITK Junior Technician (CSE)} \\ \midrule
+Questions & 50 to 60, all objective & 100 objective + 2 descriptive \\
+Time & 90 min & 150 min \\
+Marks & 50 to 200 & 120 \\
+Descriptive & none & 20 marks (Part C) \\
+Practical & none & JOPT, 1 Dec, qualifying \\
+\bottomrule
+\end{tabularx}\end{center}
+Your paper is longer and has a descriptive part, so the IITH papers tell you about style and topic mix, not about difficulty cut-offs.
+
+\section*{What gets asked (my count across the five papers)}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Topic} & \textbf{\color{slate}In how many of 5 papers} & \textbf{\color{slate}Typical shape} \\ \midrule
+C code tracing & 5 & \texttt{a+++b}, macro \texttt{SQR(a+1)}, recursion, static, \texttt{sizeof} of a pointer, variable scope \\
+Data structures and algorithms & 5 & traversal from two orders, complexity, merge, MST and BST statements, linked-list recursion \\
+Computer architecture & 5 & pipeline clock period, cache miss types, AMAT, 2's complement range, IPC, shift to multiply, PC register \\
+Linux and OS & 5 & which command / which file, nice vs renice, links, \texttt{lsof}, load average, fork, COW, fstab, sudoers, nsswitch \\
+Networking & 5 & masks, DHCP, ARP, switch flooding, VLAN trunk, STP, DNS records, PDUs, sockets, Wi-Fi channels \\
+Aptitude and English & 5 & time and work, averages, profit and loss, ages, directions, syllogism, synonyms, a 3-question passage \\
+DBMS & 3 & joins, normalisation and FDs, lost update, NoSQL types \\
+Python & 2 & scoping, aliasing, \texttt{json}, \texttt{re}, GIL \\
+Security & 2 & XSS, firewall type, scan types, MFA \\
+Virtualization, cloud, automation & 2 & KVM networking, Ansible idempotency, OpenStack, containers vs VMs \\
+Web (HTML, CSS, JS, PHP, Ajax) & 1 & CSS precedence, \texttt{innerHTML}, \texttt{session\_start}, Ajax \\
+\bottomrule
+\end{tabularx}\end{center}
+Style points worth knowing:
+
+\begin{itemize}
+\item Most questions are one-concept, four short options. Code questions are 3 to 8 lines.
+\item The 2025 papers lean towards \textbf{troubleshooting scenarios}: ``ping by IP works but not by name, which file?'', ``umount says busy, which command?'', ``KVM guest has no network, why?''.
+\item C questions are mostly traps (operator parsing, macro expansion, shadowed variables), not algorithms.
+\item Aptitude is easy to medium, so it is the fastest place to bank marks.
+\end{itemize}
+\section*{Official keys that look wrong}
+By my own checking, these published answers disagree with the question. Verify against the PDFs before trusting them.
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Paper} & \textbf{\color{slate}Q} & \textbf{\color{slate}Key says} & \textbf{\color{slate}I get} \\ \midrule
+Networking 2025 & 2 (FIFO structure) & (a) Stack & (b) Queue \\
+Networking 2025 & 37 (processes waiting for an I/O device) & (c) ready queue & (b) device queue \\
+IT Support 2025 & 12 (linked list vs array) & (d) easier sorting & (c) dynamic allocation \\
+IT Support 2025 & 14 (linked list node) & (c) data and previous pointer & (b) data and next pointer \\
+TS CSE 2025 & 11 (HTTPS: who validates whose certificate) & (d) server validates client & (c) client validates server \\
+\bottomrule
+\end{tabularx}\end{center}
+TS CSE Q33 was officially marked invalid with a mark to everyone.
+
+\section*{Gaps against your syllabus}
+Topics in your syllabus that the five papers barely touch, so Mock 02 only lightly covers them: LDAP, Git, mail/web/file/print servers, Cisco IOS, TFTP, SNMP, hardware assembly and crimping, Django, and the open-source cloud beyond OpenStack. Mock 01 touched some. A subject test on these would be a sensible next step.
+
+Topics the papers asked that are \textbf{not} in your listed syllabus: SLURM, Kubernetes HPA, Prometheus/Grafana, Active Directory, RADIUS, IPsec, Bell-LaPadula. They appeared in the higher posts (JTS, TS), so they are low priority for a Junior Technician paper.
+
+Current affairs is not covered by any of the papers beyond basic tech facts. Study it separately.
+
+\end{document}
