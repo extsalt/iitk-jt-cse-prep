@@ -1,0 +1,235 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem,xcolor,fancyhdr,array,tabularx,booktabs,framed,amssymb}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\definecolor{codebg}{HTML}{F3F5F7}
+\colorlet{shadecolor}{codebg}
+\usepackage[colorlinks=true,linkcolor=slate,urlcolor=ember]{hyperref}
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small\color{slate}IIT Kanpur Junior Technician (CSE) -- Part C guide}
+\rhead{\small\color{slate}Page \thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\sloppy
+\setlist{itemsep=2pt,topsep=3pt,leftmargin=*}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{ember}}{\thesection}{0.6em}{}[{\color{slate}\titlerule}]
+\titleformat{\subsection}{\large\bfseries\color{slate}}{\thesubsection}{0.6em}{}
+\titleformat{name=\subsection,numberless}{\large\bfseries\color{slate}}{}{0em}{}
+\titleformat{name=\section,numberless}{\Large\bfseries\color{ember}}{}{0em}{}[{\color{slate}\titlerule}]
+\newcommand{\tb}[1]{\textbf{\color{slate}#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries\color{slate}Part C guide: descriptive answers}\\[2pt]
+{\small Official letter, memo and note, report, case study, incident report}
+\end{center}
+
+\section{Why Part C cost you marks}
+Intuition: the examiner has a \textbf{checklist}, one tick per expected element. A tick is earned by being on the page; a good idea that is missing earns nothing. Mock 01 (letter and incident report) scored 6.2 out of 20. The ideas were mostly right. The causes were:
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}YYY@{}}
+\toprule
+\tb{Cause} & \tb{What happened in Mock 01} & \tb{Fix} \\ \midrule
+Too short & about 55 words against 150; about 60 against 200 & write to the word count; the count tells you how many points are expected \\
+Missing format parts & letter had no date, no sender block, no enclosure line; report had no title, date, duration & learn the fixed parts of each format (section 3) \\
+Missed a required part & the question named four parts; the report had three (no Impact) & underline every part the question names, write one paragraph for each \\
+Language & ``few of computer'', ``are rebooted'', two closings in a row & past tense for past events; one formal closing (section 7) \\
+Wrong things on the page & ``I have never written an incident report''; binary sums & only the answer on the answer sheet; rough work on the rough sheet \\
+\bottomrule
+\end{tabularx}\end{center}
+Part C is only marked if you clear the minimum in Parts A and B. That is likely for you, so these 20 marks are real, and moving from 6 to 14 is worth more than any gain left in A and B.
+
+\section{Rules for every Part C answer}
+\begin{enumerate}
+\item \textbf{One minute to plan.} Underline what the question asks for (for example: what happened, impact, action taken, prevention). Each becomes a heading or a paragraph.
+\item \textbf{Hit the word count} within about 10 per cent. Roughly 10 words per handwritten line, so 150 words is 15 lines and 200 words is 20 lines.
+\item \textbf{Time:} about 10 to 12 minutes per 10-mark answer. Do not spend 25 minutes on Part A.
+\item \textbf{Facts from the question are fixed.} Do not change them (the question said power \emph{cuts}, not surges). You may add reasonable small details (``temporary cooling was arranged''). Do not invent figures, prices, names or phone numbers.
+\item \textbf{Past tense} for what already happened, \textbf{present or ``request'' tense} for what you ask for.
+\item \textbf{Short sentences}, 15 to 20 words each. One idea per sentence.
+\item \textbf{Neat layout.} Leave a line between parts, no crossings-out on the date and subject lines, no rough work on the sheet.
+\item \textbf{Do not write your real name or roll number} unless the paper tells you to. Sign as ``Junior Technician'' or follow the instruction on the paper.
+\item \textbf{Last minute:} re-read once for spelling, tense and a missing part.
+\end{enumerate}
+
+\section{The five formats side by side}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{7pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{22mm}YY@{}}
+\toprule
+\tb{Format} & \tb{Parts, in order} & \tb{Tone and length} \\ \midrule
+Official letter & sender block, date, recipient block, subject line, salutation, body (purpose, reason, request), closing, signature and designation, enclosure & formal, polite, about 120 to 180 words \\
+Memo & heading ``MEMORANDUM'', To, From, Date, Subject, body (purpose, detail, action needed) & internal, direct, no salutation or closing, 60 to 120 words \\
+Note & title, date, who it is for, key points (numbered), action or decision required & to the file or the senior; brief and factual; a memo goes to people, a note goes on record \\
+Report & title, prepared by and for, date, introduction, findings, conclusion, recommendations & neutral, past tense for findings, headings, 150 to 250 words \\
+Case study & background, problem, analysis (causes, options), solution chosen, outcome or lesson & show reasoning; say why the solution beats the alternatives \\
+Incident report & title, report number or date, date and time, location, what happened, impact, cause, action taken, prevention, prepared by & factual, past tense, no blame, in time order \\
+\bottomrule
+\end{tabularx}\end{center}
+
+\section{C1: official letter (model answer)}
+Question (Mock 01): letter to the Head of the Department requesting 10 UPS units after two power cuts damaged lab computers, about 150 words.
+
+The model below has about 150 words in the body.
+
+\begin{shaded}
+\small
+From,\\
+Junior Technician,\\
+Computer Laboratory, Department of Computer Science and Engineering,\\
+IIT Kanpur\\[3pt]
+Date: 15 November 2026\\[6pt]
+To,\\
+The Head of the Department,\\
+Department of Computer Science and Engineering,\\
+IIT Kanpur\\[6pt]
+\textbf{Subject: Request for approval to purchase 10 UPS units for the computer laboratory}\\[6pt]
+Respected Sir/Madam,\\[4pt]
+I am writing to request your approval for the purchase of 10 UPS units for the department computer laboratory.
+
+Twice this month, sudden power cuts have switched off the lab computers without warning. As a result, several computers have been damaged and need repair and reinstallation of software. This has also disrupted practical classes, because students could not use the affected systems. The lab is used for regular practical sessions, so every damaged system affects many students.
+
+A UPS provides battery backup, so that work can be saved and the computers shut down safely during a power failure. It also protects them from voltage fluctuations. Fitting 10 UPS units will protect the lab computers, prevent further repair costs and avoid loss of teaching time.
+
+I therefore request you to kindly approve the purchase. The specifications and an estimate of cost are enclosed for your reference. I shall be grateful for your early action.\\[6pt]
+Yours faithfully,\\
+(Signature)\\
+Name\\
+Junior Technician, Computer Laboratory\\[3pt]
+Enclosure: Specification sheet and cost estimate
+\end{shaded}
+
+\subsection{Why it scores}
+\begin{itemize}
+\item \textbf{Sender block and date} at the top: two easy ticks you missed.
+\item \textbf{Recipient} is the post, not the room: ``The Head of the Department'', department, institute.
+\item \textbf{Subject line} says what is requested and how many: ``Request for approval to purchase 10 UPS units''.
+\item \textbf{Body in three jobs:} paragraph 1 states the request, paragraph 2 gives the reason (what happened, what it cost), paragraph 3 explains why the UPS solves it. The last paragraph asks again and thanks.
+\item \textbf{One closing}, ``Yours faithfully'' (used after ``Sir/Madam''), then signature, name, designation. Not ``Thanking you'' and ``Best Regards'' together.
+\item \textbf{Enclosure line} is needed whenever you mention an attachment.
+\end{itemize}
+
+\section{C2: incident report (model answer)}
+Question (Mock 01): Saturday night, server room air conditioning failed, room overheated, two servers shut down, website and file server unavailable until Sunday morning. Cover what happened, impact, action taken, prevention. About 200 words.
+
+\begin{shaded}
+\small
+\begin{center}\textbf{INCIDENT REPORT}\end{center}
+\textbf{Title:} Server room overheating due to air conditioning failure\\
+\textbf{Date and time:} Saturday night (restored Sunday morning)\\
+\textbf{Location:} Department server room, CSE Department\\
+\textbf{Prepared by:} Junior Technician \hspace{1em} \textbf{Submitted to:} Head of the Department\\[6pt]
+\textbf{1. What happened.} On Saturday night the air conditioning in the department server room stopped working. With no cooling, the room overheated and two servers shut down.
+
+\textbf{2. Impact.} The department website and the file server were unavailable from Saturday night until Sunday morning. Students and staff could not open the website or reach their stored files during this period.
+
+\textbf{3. Action taken.} When the failure was noticed, temporary cooling was arranged and the room was ventilated. Once the temperature returned to normal, the two servers were restarted. The website and file server were then checked and found working on Sunday morning. The fault in the air conditioner was reported to the maintenance section for repair.
+
+\textbf{4. Cause.} The air conditioner failed. The exact reason is being examined by the maintenance section.
+
+\textbf{5. Prevention.} The following steps are recommended: (1) fit temperature sensors that send SMS or email alerts; (2) install a standby air conditioner; (3) service the air conditioners regularly; (4) set the servers to shut down safely at a high temperature; (5) keep a night contact list so that someone can respond quickly.
+
+This report is submitted for your information and necessary action.\\[4pt]
+(Signature) \hspace{2em} Junior Technician \hspace{2em} Date: \underline{\hspace{25mm}}
+\end{shaded}
+
+\subsection{Why it scores}
+\begin{itemize}
+\item \textbf{Every part the question names has its own heading}, in the same order. You skipped Impact; that is a whole part lost.
+\item \textbf{Facts in time order} in the past tense: stopped, overheated, shut down, were restarted, were checked.
+\item \textbf{Impact names what failed, for whom, and for how long}: website and file server, students and staff, Saturday night to Sunday morning.
+\item \textbf{Action taken is believable.} An air conditioner is not replaced overnight; cooling is arranged, servers restarted, services checked, the fault reported.
+\item \textbf{Prevention has five concrete items}, each a thing you can install or do. Your sensors and redundant server ideas were good; this adds backup cooling, maintenance, safe shutdown and an on-call list.
+\item \textbf{No blame, no opinion, no personal remark.}
+\end{itemize}
+
+\section{Templates for the other three formats}
+Skeletons only. Fill each part with 1 to 3 short sentences.
+
+\subsection{Memo}
+\begin{shaded}
+\small
+\textbf{MEMORANDUM}\\
+\textbf{To:} (post or group) \quad \textbf{From:} (your post) \quad \textbf{Date:}\\
+\textbf{Subject:} (what and why, five to ten words)\\[3pt]
+Purpose: one sentence.\\
+Detail: what, when, where, who (two to three sentences).\\
+Action required: what you want done and by when.\\[3pt]
+(Signature) \hspace{1em} Designation
+\end{shaded}
+No ``Dear Sir'' and no ``Yours faithfully'' in a memo. The note is the same idea without To and From: title, date, numbered points, decision required.
+
+\subsection{Report}
+\begin{shaded}
+\small
+\textbf{Title}\\
+Prepared by, prepared for, date\\
+\textbf{1. Introduction:} why this report exists, what it covers.\\
+\textbf{2. Findings:} what was observed or done, in order, facts and numbers.\\
+\textbf{3. Conclusion:} what the findings mean.\\
+\textbf{4. Recommendations:} what should be done next.
+\end{shaded}
+
+\subsection{Case study}
+\begin{shaded}
+\small
+\textbf{Background:} who and what, one or two sentences.\\
+\textbf{Problem:} what went wrong, with the effect.\\
+\textbf{Analysis:} the likely causes and the options (at least two) with one line on each.\\
+\textbf{Solution:} the chosen option and the reason it was chosen.\\
+\textbf{Outcome or lesson:} the result or the rule for next time.
+\end{shaded}
+
+\clearpage
+\section{Phrases: weak to formal}
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}YY@{}}
+\toprule
+\tb{Weak (Mock 01)} & \tb{Better} \\ \midrule
+``few of computer have been damaged'' & ``a few computers have been damaged'' \\
+``therefore requesting for purchase of'' & ``I therefore request you to kindly approve the purchase of'' \\
+``these damages causes burden of updating'' & ``this has caused additional repair and reinstallation work'' \\
+``Thanking you'' then ``Best Regards'' & ``Yours faithfully,'' then name and designation \\
+``servers are safely rebooted'' & ``the servers were restarted safely'' \\
+``AC units are replaced'' & ``the air conditioner was repaired and temporary cooling was arranged'' \\
+``I want'' / ``give me'' & ``I request'' / ``I would be grateful if'' \\
+``so'' / ``and'' repeated & ``as a result'', ``therefore'', ``in addition'' \\
+\bottomrule
+\end{tabularx}\end{center}
+Useful openers: ``I am writing to request\ldots'', ``This is to inform you that\ldots'', ``With reference to\ldots''. Useful closers: ``I shall be grateful for your early action.'', ``Kindly do the needful.'', ``This report is submitted for your information and necessary action.''
+
+\section{Practice plan to 29 Nov}
+One handwritten answer a day, timed at 12 minutes. Photograph it and send it; I mark it against the checklist for that format. Rotate through these (all use the lab and the department as the setting).
+
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{8mm}>{\raggedright\arraybackslash}p{26mm}Y@{}}
+\toprule
+\tb{Day} & \tb{Format} & \tb{Prompt (about 150 words, 200 for report and incident)} \\ \midrule
+1 & Letter & To the Registrar: request a replacement for a broken network switch in the lab. \\
+2 & Memo & To lab staff: scheduled server maintenance on Saturday, services unavailable 8 am to 2 pm. \\
+3 & Incident report & Two lab PCs were infected by malware from a USB drive; cover what happened, impact, action, prevention. \\
+4 & Report & Report on a Linux installation done on 20 lab computers: introduction, findings, recommendations. \\
+5 & Case study & Lab Wi-Fi slows down every afternoon; analyse causes and options and recommend one. \\
+6 & Note & Note for the Head on the need for regular data backup of the department file server. \\
+7 & Letter & To the Dean: request permission to attend a one-day Linux administration workshop. \\
+8 to 12 & Mixed & Repeat the weakest formats; two answers a day if time allows. \\
+13 & Full Part C & One letter and one incident report back to back, 25 minutes, as in the exam. \\
+\bottomrule
+\end{tabularx}\end{center}
+
+\section{Self-check before you hand in}
+\begin{itemize}
+\item[$\square$] Did I answer \emph{every} part the question names, each under its own heading?
+\item[$\square$] Is the format complete (date, recipient or title, subject, closing, designation, enclosure if mentioned)?
+\item[$\square$] Is the length within 10 per cent of the target?
+\item[$\square$] Past tense for what happened; ``request'' language for what I ask?
+\item[$\square$] Facts from the question unchanged; no invented figures or names?
+\item[$\square$] Neat, no rough work, no personal remarks, no real name unless asked?
+\end{itemize}
+\end{document}

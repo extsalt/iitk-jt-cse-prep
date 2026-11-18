@@ -217,6 +217,16 @@ Which package owns a file & \texttt{dpkg -S /path} & \texttt{rpm -qf /path} \\
 \end{tabularx}\end{center}
 \texttt{apt update} only refreshes the list of what is available; it installs nothing.
 
+\subsection{Mirrors and repositories}
+Intuition: a \textbf{repository} is the shop's catalogue and stock; a \textbf{mirror} is a branch of that shop closer to you (same packages, faster, and a campus can run its own so 500 machines do not each download from the internet).
+\begin{itemize}
+\item Debian/Ubuntu: the mirror URL is in \texttt{/etc/apt/sources.list} or \texttt{/etc/apt/sources.list.d/} (Ubuntu 24.04 uses \texttt{ubuntu.sources}). Change the URL, then \texttt{sudo apt update}.
+\item RHEL/Fedora: \texttt{/etc/yum.repos.d/*.repo}, with \texttt{baseurl=} or \texttt{mirrorlist=}. Refresh with \texttt{sudo dnf makecache}.
+\item Check where a package would come from: \texttt{apt-cache policy nginx}.
+\item Build a local mirror: sync the repository with \texttt{apt-mirror} (or \texttt{rsync}) to a disk, serve that folder with Apache/Nginx, and point clients' sources at \texttt{http://mirror.lab/ubuntu}.
+\end{itemize}
+A bad or unreachable mirror shows up as \texttt{apt update} errors (404, or ``Failed to fetch''), not as a broken install.
+
 \subsection{Boot, services, scheduling}
 Boot order: \textbf{power on, BIOS/UEFI runs POST, bootloader (GRUB), kernel plus initramfs, systemd (PID 1)}, then services. \texttt{init}/systemd is the ancestor of all processes. \pyq{}
 
@@ -465,8 +475,18 @@ A stateless filter checks each packet alone; a stateful one tracks connections; 
 \texttt{tcpdump -i IFACE -nn port 53} & capture DNS on that interface \pyq{} \\
 \texttt{tcpdump -i any -nn icmp} & watch pings \\
 \texttt{sudo tcpdump -w f.pcap} & save for Wireshark \\
+\texttt{curl -I http://host} & fetch only HTTP headers; shows status code and server \\
+\texttt{wget URL} & download a file \\
+\texttt{nc -zv host 22} & is this TCP port open? (connect test, no data) \\
+\texttt{ip neigh} (old: \texttt{arp -a}) & IP to MAC table on the local LAN \\
+\texttt{ip -s link} & per-interface packets, errors, drops \\
+\texttt{mtr host} & traceroute plus ping, per-hop loss and delay \\
+\texttt{iperf3 -s} / \texttt{iperf3 -c server} & measure throughput between two machines \\
+\texttt{nmap -p 1-1024 host} & scan open ports (only your own hosts) \\
 \bottomrule
 \end{tabularx}\end{center}
+\textbf{Performance metrics and the tool that shows each:} \textbf{latency} (delay; the \texttt{time=} in \texttt{ping}), \textbf{packet loss} (\texttt{ping} summary, \texttt{mtr}), \textbf{jitter} (variation in latency), \textbf{bandwidth} (link capacity) vs \textbf{throughput} (what you actually achieve; \texttt{iperf3}). Throughput is never above bandwidth.
+
 TCP states: after FIN the sender can still receive. Handshake: SYN, SYN-ACK, ACK.
 
 \subsection*{Drills (ubuntu-lab)}
@@ -499,6 +519,29 @@ Three roles: \textbf{MUA} (your mail client), \textbf{MTA} (moves mail between s
 
 \subsection{Web}
 Apache serves from \texttt{/var/www/html}. Debian way to enable a site: \texttt{sudo a2ensite site.conf}, \texttt{sudo apache2ctl configtest}, \texttt{sudo systemctl reload apache2}. PHP runs \textbf{on the server}; the browser receives only the HTML it prints. \pyq{}
+
+\subsection{Secure vs non-secure hosting}
+Intuition: HTTP is a \textbf{postcard} (anyone on the path reads it); HTTPS wraps it in a \textbf{sealed envelope} (TLS) and proves the server's identity with a certificate.
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Non-secure} & \textbf{\color{slate}Secure} & \textbf{\color{slate}Port} \\ \midrule
+HTTP & HTTPS (TLS) & 80 / 443 \\
+Telnet & SSH & 23 / 22 \\
+FTP & SFTP or FTPS & 21 / 22 \\
+\bottomrule
+\end{tabularx}\end{center}
+Apache HTTPS on Ubuntu, with a self-signed certificate (fine for a lab, browsers will warn; production uses a CA such as Let's Encrypt):
+\begin{lstlisting}
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+  -keyout /etc/ssl/private/lab.key -out /etc/ssl/certs/lab.crt
+sudo a2enmod ssl
+# in the 443 virtual host: SSLCertificateFile and SSLCertificateKeyFile
+sudo a2ensite default-ssl
+sudo apache2ctl configtest && sudo systemctl reload apache2
+sudo ufw allow 443/tcp
+\end{lstlisting}
+To redirect HTTP to HTTPS, put \texttt{Redirect permanent / https://host/} in the port-80 virtual host. Proof of the difference: \texttt{sudo tcpdump -A -nn port 80} shows page text; on port 443 it is unreadable.
 
 \subsection{File and print}
 \begin{itemize}
@@ -820,6 +863,31 @@ from django.urls import path, include
 urlpatterns = [path("polls/", include("polls.urls"))]
 \end{lstlisting}
 Change a model, then always \texttt{makemigrations} and \texttt{migrate}. \pyq{} \texttt{runserver} is for development only.
+
+\subsection{Open-source frameworks (what each is for)}
+A framework gives you the repeated plumbing (routing, templates, database access) so you write only your own logic.
+\begin{center}\small\renewcommand{\arraystretch}{1.18}\setlength{\tabcolsep}{9pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\color{slate}Name} & \textbf{\color{slate}Language} & \textbf{\color{slate}Use} \\ \midrule
+Django & Python & full-stack, batteries included (admin, ORM) \\
+Flask & Python & small and minimal; you add what you need \\
+Laravel & PHP & full-stack PHP framework \\
+Bootstrap & CSS/JS & ready-made responsive layout and components (front end) \\
+jQuery / React & JavaScript & browser-side DOM and UI \\
+Node.js + Express & JavaScript & server side in JavaScript \\
+\bottomrule
+\end{tabularx}\end{center}
+\textbf{LAMP} = Linux, Apache, MySQL/MariaDB, PHP: the classic open-source web stack.
+\textbf{Flask in five lines:}
+\begin{lstlisting}
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def home():
+    return "Hello"
+# run: flask --app file run     (default port 5000)
+\end{lstlisting}
 
 \subsection*{Drills}
 \begin{lstlisting}
