@@ -6,6 +6,12 @@
       "runtimeExecutable": "go",
       "runtimeArgs": ["-C", "runner", "run", ".", "-dir", "D:/iit-kanpur-lab/runner"],
       "port": 7070
+    },
+    {
+      "name": "runner-test",
+      "runtimeExecutable": "go",
+      "runtimeArgs": ["-C", "runner", "run", ".", "-addr", "127.0.0.1:7071", "-dir", "C:/Users/ganes/AppData/Local/Temp/claude/dc568dbd19a446ef/00bd1c2b-25b0-4890-8faa-51350606d657/scratchpad/runner-test"],
+      "port": 7071
     }
   ]
 }

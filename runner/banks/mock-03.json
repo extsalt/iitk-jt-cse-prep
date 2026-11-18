@@ -1,0 +1,1438 @@
+{
+  "id": "mock-03",
+  "title": "Mock Test 03 (harder)",
+  "minutes": 150,
+  "questions": [
+    {
+      "id": "mock-03-q001",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "ISRO's SpaDeX mission, launched in December 2024, was designed mainly to demonstrate:",
+      "options": [
+        "docking of two spacecraft in orbit",
+        "a soft landing on Mars",
+        "a crewed orbital flight",
+        "a reusable first stage landing"
+      ],
+      "answer": "a",
+      "explanation": "SpaDeX (Space Docking Experiment) achieved India's first in-orbit docking in January 2025."
+    },
+    {
+      "id": "mock-03-q002",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "CERT-In, India's national agency for responding to cyber security incidents, functions under the:",
+      "options": [
+        "Ministry of Home Affairs",
+        "Ministry of Electronics and Information Technology",
+        "Ministry of Defence",
+        "Department of Telecommunications"
+      ],
+      "answer": "b",
+      "explanation": "CERT-In is under MeitY, set up under Section 70B of the IT Act."
+    },
+    {
+      "id": "mock-03-q003",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "Which country held the G20 presidency and hosted the G20 Leaders' Summit in 2025?",
+      "options": [
+        "Brazil",
+        "South Africa",
+        "India",
+        "United States"
+      ],
+      "answer": "b",
+      "explanation": "India hosted in 2023, Brazil in 2024, South Africa in 2025 (Johannesburg)."
+    },
+    {
+      "id": "mock-03-q004",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The 2026 FIFA World Cup is jointly hosted by:",
+      "options": [
+        "the United States, Canada and Mexico",
+        "Spain, Portugal and Morocco",
+        "Saudi Arabia",
+        "Qatar and the UAE"
+      ],
+      "answer": "a",
+      "explanation": "2026 is the first World Cup with 48 teams, across the USA, Canada and Mexico; 2030 goes to Spain, Portugal and Morocco."
+    },
+    {
+      "id": "mock-03-q005",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "BHASHINI, a Government of India initiative, is mainly concerned with:",
+      "options": [
+        "a national digital payments network",
+        "AI-based translation and speech tools for Indian languages",
+        "satellite-based navigation",
+        "a cyber crime reporting portal"
+      ],
+      "answer": "b",
+      "explanation": "BHASHINI (Bhasha Interface for India) is the National Language Translation Mission under MeitY."
+    },
+    {
+      "id": "mock-03-q006",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "India won the ICC Champions Trophy 2025 by defeating which team in the final?",
+      "options": [
+        "Australia",
+        "South Africa",
+        "New Zealand",
+        "Pakistan"
+      ],
+      "answer": "c",
+      "explanation": "India beat New Zealand in the final in Dubai on 9 March 2025."
+    },
+    {
+      "id": "mock-03-q007",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "The Rust programming language was started by Graydon Hoare and developed with the backing of:",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Oracle",
+        "Mozilla"
+      ],
+      "answer": "d",
+      "explanation": "Rust began as Hoare's project and was sponsored by Mozilla from 2009."
+    },
+    {
+      "id": "mock-03-q008",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "The \"Year 2038 problem\" affects systems that store time as:",
+      "options": [
+        "a two-digit year",
+        "a signed 32-bit count of seconds since 1 January 1970",
+        "an unsigned 64-bit count of milliseconds",
+        "a BCD date in the BIOS"
+      ],
+      "answer": "b",
+      "explanation": "A signed 32-bit time_t overflows at 03:14:07 UTC on 19 January 2038."
+    },
+    {
+      "id": "mock-03-q009",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "A and B together finish a job in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone finish it?",
+      "options": [
+        "24 days",
+        "40 days",
+        "20 days",
+        "30 days"
+      ],
+      "answer": "d",
+      "explanation": "Chairs = LCM 60. A+B 5, B+C 4, C+A 3 a day, so A+B+C = 6 and A = 6 − 4 = 2; 60/2 = 30."
+    },
+    {
+      "id": "mock-03-q010",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "Pipes A and B fill a tank in 12 h and 15 h; pipe C empties it in 20 h. All three are opened on an empty tank, and C is closed after 5 hours. When is the tank full, counted from the start?",
+      "options": [
+        "8 h",
+        "7 h 40 min",
+        "9 h 10 min",
+        "8 h 20 min"
+      ],
+      "answer": "d",
+      "explanation": "Tank 60 L: A 5, B 4, C −3 per hour. 5 h × 6 = 30 L; remaining 30 L at 9 L/h = 3 h 20 min."
+    },
+    {
+      "id": "mock-03-q011",
+      "part": "A",
+      "topic": "Speed and distance",
+      "question": "Trains of 120 m and 180 m run on parallel tracks in the same direction at 54 km/h and 36 km/h. How long does the faster train take to pass the slower one completely?",
+      "options": [
+        "12 s",
+        "60 s",
+        "30 s",
+        "45 s"
+      ],
+      "answer": "b",
+      "explanation": "Relative speed 18 km/h = 5 m/s; distance 120 + 180 = 300 m; 300/5 = 60 s."
+    },
+    {
+      "id": "mock-03-q012",
+      "part": "A",
+      "topic": "Speed and distance",
+      "question": "A boat goes 30 km upstream and 44 km downstream in 10 hours, and 40 km upstream and 55 km downstream in 13 hours. Its speed in still water is:",
+      "options": [
+        "3 km/h",
+        "11 km/h",
+        "7 km/h",
+        "8 km/h"
+      ],
+      "answer": "d",
+      "explanation": "Solving gives upstream 5 and downstream 11 km/h; boat speed = (5 + 11)/2 = 8."
+    },
+    {
+      "id": "mock-03-q013",
+      "part": "A",
+      "topic": "Percentages",
+      "question": "The price of sugar rises by 25%. A family raises its sugar budget by 10%. By what percent must it cut its consumption?",
+      "options": [
+        "12%",
+        "15%",
+        "20%",
+        "10%"
+      ],
+      "answer": "a",
+      "explanation": "Consumption = 1.10/1.25 = 0.88 of the old amount, a 12% cut."
+    },
+    {
+      "id": "mock-03-q014",
+      "part": "A",
+      "topic": "Profit and loss",
+      "question": "A shopkeeper marks goods 40% above cost price and allows two successive discounts of 10% each. His profit percent is:",
+      "options": [
+        "20%",
+        "16%",
+        "12.6%",
+        "13.4%"
+      ],
+      "answer": "d",
+      "explanation": "1.4 × 0.9 × 0.9 = 1.134, so the profit is 13.4%."
+    },
+    {
+      "id": "mock-03-q015",
+      "part": "A",
+      "topic": "Interest",
+      "question": "The difference between compound interest and simple interest on a sum for 3 years at 10% per annum is Rs. 93. The sum is:",
+      "options": [
+        "Rs. 3100",
+        "Rs. 3000",
+        "Rs. 2900",
+        "Rs. 3300"
+      ],
+      "answer": "b",
+      "explanation": "Difference = P(0.331 − 0.300) = 0.031P = 93, so P = 3000."
+    },
+    {
+      "id": "mock-03-q016",
+      "part": "A",
+      "topic": "Mixtures",
+      "question": "A can holds 80 L of milk. 8 L is taken out and replaced with water, and this is done three times in all. How much milk is left?",
+      "options": [
+        "56 L",
+        "57.6 L",
+        "58.32 L",
+        "60.75 L"
+      ],
+      "answer": "c",
+      "explanation": "Milk = 80 × (1 − 8/80)³ = 80 × 0.729 = 58.32 L."
+    },
+    {
+      "id": "mock-03-q017",
+      "part": "A",
+      "topic": "Ratio",
+      "question": "A starts a business with Rs. 20,000. After 5 months B joins with Rs. 30,000. Out of a profit of Rs. 45,000 at the end of the year, B's share is:",
+      "options": [
+        "Rs. 21,000",
+        "Rs. 24,000",
+        "Rs. 22,500",
+        "Rs. 18,000"
+      ],
+      "answer": "a",
+      "explanation": "A : B = 20000×12 : 30000×7 = 8 : 7; B gets 45000 × 7/15 = 21,000."
+    },
+    {
+      "id": "mock-03-q018",
+      "part": "A",
+      "topic": "Clocks",
+      "question": "The angle between the hands of a clock at 7:38 is:",
+      "options": [
+        "11°",
+        "29°",
+        "1°",
+        "19°"
+      ],
+      "answer": "c",
+      "explanation": "|30 × 7 − 5.5 × 38| = |210 − 209| = 1°."
+    },
+    {
+      "id": "mock-03-q019",
+      "part": "A",
+      "topic": "Calendar",
+      "question": "On which day of the week was 26 January 1950?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Friday",
+        "Sunday"
+      ],
+      "answer": "a",
+      "explanation": "Odd days: first 1600 years 0, next 300 years 1, 1901–1949 (49 years, 12 leap) 61 → 5, then 26 January → 5. Total 11 → 4 = Thursday."
+    },
+    {
+      "id": "mock-03-q020",
+      "part": "A",
+      "topic": "Ages",
+      "question": "The average age of a family of 5 is 30 years. Five years ago the average age of the family was 32 years, when the youngest member had not been born. The youngest member's age now is:",
+      "options": [
+        "3 years",
+        "4 years",
+        "5 years",
+        "2 years"
+      ],
+      "answer": "d",
+      "explanation": "Now total 150. Five years ago 4 members totalled 128, so they total 148 now; youngest = 150 − 148 = 2."
+    },
+    {
+      "id": "mock-03-q021",
+      "part": "A",
+      "topic": "Permutations",
+      "question": "A committee of 5 is to be chosen from 6 men and 4 women so that it has at least 2 women. In how many ways can this be done?",
+      "options": [
+        "186",
+        "192",
+        "180",
+        "166"
+      ],
+      "answer": "a",
+      "explanation": "C(10,5) − C(6,5) − 4·C(6,4) = 252 − 6 − 60 = 186."
+    },
+    {
+      "id": "mock-03-q022",
+      "part": "A",
+      "topic": "Number series",
+      "question": "Find the next term: 2, 3, 10, 39, 172, ?",
+      "options": [
+        "860",
+        "905",
+        "875",
+        "885"
+      ],
+      "answer": "d",
+      "explanation": "×1+1, ×2+4, ×3+9, ×4+16, so ×5+25: 172 × 5 + 25 = 885."
+    },
+    {
+      "id": "mock-03-q023",
+      "part": "A",
+      "topic": "Syllogisms",
+      "question": "Statements: Some keyboards are mice. No mouse is a monitor. All monitors are screens.\nConclusions: I. Some keyboards are not monitors. II. Some screens are not mice.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answer": "c",
+      "explanation": "The keyboards that are mice cannot be monitors (I). Every monitor is a screen and no monitor is a mouse, so those screens are not mice (II)."
+    },
+    {
+      "id": "mock-03-q024",
+      "part": "A",
+      "topic": "Directions",
+      "question": "A man walks 6 km east, turns right and walks 4 km, then turns right again and walks 9 km. How far and in which direction is he from the start?",
+      "options": [
+        "5 km, South-East",
+        "7 km, South-West",
+        "5 km, South-West",
+        "5 km, North-West"
+      ],
+      "answer": "c",
+      "explanation": "He ends 3 km west and 4 km south of the start: √(9 + 16) = 5 km, south-west."
+    },
+    {
+      "id": "mock-03-q025",
+      "part": "A",
+      "topic": "Blood relations",
+      "question": "A + B means A is the mother of B; A − B means A is the brother of B; A × B means A is the father of B; A ÷ B means A is the sister of B. Which expression shows that P is the maternal uncle of Q?",
+      "options": [
+        "P − M + Q",
+        "P − M × Q",
+        "P ÷ M + Q",
+        "P × M − Q"
+      ],
+      "answer": "a",
+      "explanation": "P is the brother of M, and M is the mother of Q, so P is Q's maternal uncle. With M × Q he would be the paternal uncle."
+    },
+    {
+      "id": "mock-03-q026",
+      "part": "A",
+      "topic": "Puzzles",
+      "question": "Five friends A, B, C, D and E sit in a row facing north. C is in the middle. B is at one end. D is immediately to the left of C. E is not next to D. A is not at an end. Who sits at the right end?",
+      "options": [
+        "E",
+        "B",
+        "A",
+        "D"
+      ],
+      "answer": "a",
+      "explanation": "Only B D C A E fits every clue."
+    },
+    {
+      "id": "mock-03-q027",
+      "part": "A",
+      "topic": "Coding-decoding",
+      "question": "In a certain code NETWORK is written as LSPXUFO. How is SERVER written in that code?",
+      "options": [
+        "TFSWFS",
+        "SFWSFT",
+        "SFWSFS",
+        "RDUQDR"
+      ],
+      "answer": "b",
+      "explanation": "The word is reversed and every letter moved one place forward: REVRES → SFWSFT."
+    },
+    {
+      "id": "mock-03-q028",
+      "part": "A",
+      "topic": "Ranking",
+      "question": "Ravi is 14th from the top of a class and Mohan is 17th from the bottom. When they swap places, Ravi becomes 25th from the top. How many students are in the class?",
+      "options": [
+        "41",
+        "42",
+        "40",
+        "39"
+      ],
+      "answer": "a",
+      "explanation": "Mohan's old place is 25th from the top and 17th from the bottom: 25 + 17 − 1 = 41."
+    },
+    {
+      "id": "mock-03-q029",
+      "part": "A",
+      "topic": "Letter series",
+      "question": "Find the next letter: B, E, J, Q, ?",
+      "options": [
+        "Y",
+        "Z",
+        "X",
+        "W"
+      ],
+      "answer": "b",
+      "explanation": "Positions 2, 5, 10, 17, 26 (gaps 3, 5, 7, 9): the 26th letter is Z."
+    },
+    {
+      "id": "mock-03-q030",
+      "part": "A",
+      "topic": "Analogy",
+      "question": "6 : 35 :: 11 : ?",
+      "options": [
+        "122",
+        "121",
+        "110",
+        "120"
+      ],
+      "answer": "d",
+      "explanation": "n² − 1: 36 − 1 = 35 and 121 − 1 = 120."
+    },
+    {
+      "id": "mock-03-q031",
+      "part": "A",
+      "topic": "Critical reasoning",
+      "question": "Statement: \"The computer lab will be closed on Saturday for maintenance; all users must save their work to the server by Friday 5 pm.\"\nAssumptions: I. Work not saved by then may be lost or unavailable. II. The lab is normally open on Saturdays.",
+      "options": [
+        "Only I is implicit",
+        "Only II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answer": "c",
+      "explanation": "Asking users to save implies a risk to unsaved work (I), and announcing a Saturday closure implies the lab normally opens then (II)."
+    },
+    {
+      "id": "mock-03-q032",
+      "part": "A",
+      "topic": "Odd one out",
+      "question": "Find the odd one out:",
+      "options": [
+        "37",
+        "41",
+        "51",
+        "53"
+      ],
+      "answer": "c",
+      "explanation": "51 = 3 × 17; the other three are prime."
+    },
+    {
+      "id": "mock-03-q033",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word closest in meaning to EPHEMERAL:",
+      "options": [
+        "permanent",
+        "ethereal",
+        "transient",
+        "essential"
+      ],
+      "answer": "c",
+      "explanation": "Ephemeral means lasting a very short time."
+    },
+    {
+      "id": "mock-03-q034",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word opposite in meaning to METICULOUS:",
+      "options": [
+        "careful",
+        "precise",
+        "thorough",
+        "careless"
+      ],
+      "answer": "d",
+      "explanation": "Meticulous means showing great attention to detail."
+    },
+    {
+      "id": "mock-03-q035",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Identify the part with an error: \"Neither the manager nor the technicians / was informed / about the / outage.\"",
+      "options": [
+        "Neither the manager nor the technicians",
+        "was informed",
+        "about the",
+        "outage."
+      ],
+      "answer": "b",
+      "explanation": "With neither ... nor, the verb agrees with the nearer subject (technicians): \"were informed\"."
+    },
+    {
+      "id": "mock-03-q036",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Fill in the blank: The committee has not yet arrived _____ a decision.",
+      "options": [
+        "to",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": "b",
+      "explanation": "The fixed phrase is \"arrive at a decision\"."
+    },
+    {
+      "id": "mock-03-q037",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "One word for \"impossible to read\":",
+      "options": [
+        "ineligible",
+        "inaudible",
+        "illegible",
+        "invisible"
+      ],
+      "answer": "c",
+      "explanation": "Illegible = cannot be read; ineligible = not qualified."
+    },
+    {
+      "id": "mock-03-q038",
+      "part": "A",
+      "topic": "Voice and speech",
+      "question": "Choose the correct indirect form: He said, \"I have completed the backup.\"",
+      "options": [
+        "He said that he has completed the backup.",
+        "He said that I had completed the backup.",
+        "He said that he had completed the backup.",
+        "He said that he completed the backup yesterday."
+      ],
+      "answer": "c",
+      "explanation": "With a past reporting verb, present perfect becomes past perfect and \"I\" becomes \"he\"."
+    },
+    {
+      "id": "mock-03-q039",
+      "part": "A",
+      "topic": "Idioms",
+      "question": "The idiom \"to cut corners\" means:",
+      "options": [
+        "to do something cheaply or carelessly, ignoring rules",
+        "to take the shortest road",
+        "to reduce staff",
+        "to make a sharp turn"
+      ],
+      "answer": "a",
+      "explanation": "Cutting corners = saving time or money by skipping proper steps."
+    },
+    {
+      "id": "mock-03-q040",
+      "part": "A",
+      "topic": "Office terms",
+      "question": "In an official letter, the abbreviation \"Encl.\" below the signature shows that:",
+      "options": [
+        "a copy is sent to other officers",
+        "the letter is confidential",
+        "a reply is expected within a week",
+        "documents are attached to the letter"
+      ],
+      "answer": "d",
+      "explanation": "Encl. = enclosure(s); copies to others are shown by \"Copy to\" or \"cc\"."
+    },
+    {
+      "id": "mock-03-q041",
+      "part": "B",
+      "topic": "Computer basics",
+      "question": "Integrated circuits (ICs) are the defining technology of which generation of computers?",
+      "options": [
+        "First",
+        "Second",
+        "Fourth",
+        "Third"
+      ],
+      "answer": "d",
+      "explanation": "Vacuum tubes (1st), transistors (2nd), ICs (3rd), microprocessors/VLSI (4th)."
+    },
+    {
+      "id": "mock-03-q042",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The decimal value of the binary number 1011.101 is:",
+      "options": [
+        "11.625",
+        "11.5",
+        "11.75",
+        "13.625"
+      ],
+      "answer": "a",
+      "explanation": "1011 = 11 and .101 = 0.5 + 0.125 = 0.625."
+    },
+    {
+      "id": "mock-03-q043",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The octal number 745 in hexadecimal is:",
+      "options": [
+        "1F5",
+        "1E3",
+        "1E5",
+        "2E5"
+      ],
+      "answer": "c",
+      "explanation": "745₈ = 111 100 101₂ = 1 1110 0101₂ = 1E5₁₆."
+    },
+    {
+      "id": "mock-03-q044",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The 8-bit two's complement number 10110110 represents the decimal value:",
+      "options": [
+        "−54",
+        "−74",
+        "182",
+        "−73"
+      ],
+      "answer": "b",
+      "explanation": "10110110 = 182 unsigned; 182 − 256 = −74."
+    },
+    {
+      "id": "mock-03-q045",
+      "part": "B",
+      "topic": "Memory and storage",
+      "question": "A direct-mapped cache of 16 KB with 32-byte blocks is used with 32-bit byte addresses. How many bits form the tag?",
+      "options": [
+        "17",
+        "19",
+        "14",
+        "18"
+      ],
+      "answer": "d",
+      "explanation": "Offset 5 bits, index log₂(16K/32) = 9 bits, tag = 32 − 14 = 18."
+    },
+    {
+      "id": "mock-03-q046",
+      "part": "B",
+      "topic": "Computer architecture",
+      "question": "The 32-bit value 0x12345678 is stored at address 100 on a little-endian machine. Which byte is at address 100?",
+      "options": [
+        "0x12",
+        "0x56",
+        "0x34",
+        "0x78"
+      ],
+      "answer": "d",
+      "explanation": "Little-endian stores the least significant byte at the lowest address."
+    },
+    {
+      "id": "mock-03-q047",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int a[5] = {1, 2, 3, 4, 5};\nint *p = a;\np += 2;\nprintf(\"%d\", *p + *(p + 1) * 2);",
+      "options": [
+        "7",
+        "10",
+        "9",
+        "11"
+      ],
+      "answer": "d",
+      "explanation": "p points to a[2] = 3 and *(p+1) = 4; 3 + 4 × 2 = 11."
+    },
+    {
+      "id": "mock-03-q048",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "char *s = \"IITKANPUR\";\nprintf(\"%s\", s + 3);",
+      "options": [
+        "IITKANPUR",
+        "TKANPUR",
+        "KANPUR",
+        "ANPUR"
+      ],
+      "answer": "c",
+      "explanation": "s + 3 points to the fourth character, so printing starts at K."
+    },
+    {
+      "id": "mock-03-q049",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int f(int n) { return n <= 1 ? 1 : n * f(n - 2); }\n/* in main: */ printf(\"%d\", f(7));",
+      "options": [
+        "5040",
+        "48",
+        "105",
+        "15"
+      ],
+      "answer": "c",
+      "explanation": "f(7) = 7 × f(5) = 7 × 5 × f(3) = 7 × 5 × 3 × f(1) = 105."
+    },
+    {
+      "id": "mock-03-q050",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "printf(\"%d\", 5 & 3 | 8 >> 1 ^ 2);",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "2"
+      ],
+      "answer": "b",
+      "explanation": "Precedence: >> first (8>>1 = 4), then & (5&3 = 1), then ^ (4^2 = 6), then | (1|6 = 7)."
+    },
+    {
+      "id": "mock-03-q051",
+      "part": "B",
+      "topic": "C programming",
+      "question": "On a typical system with 4-byte int and natural alignment, what does this print?",
+      "code": "struct rec { char c; int i; char d; };\nprintf(\"%zu\", sizeof(struct rec));",
+      "options": [
+        "6",
+        "9",
+        "8",
+        "12"
+      ],
+      "answer": "d",
+      "explanation": "c at 0, padding to 4, i at 4–7, d at 8, then padding to a multiple of 4: 12."
+    },
+    {
+      "id": "mock-03-q052",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int i = 2;\nswitch (i) {\n  case 1: printf(\"A\");\n  case 2: printf(\"B\");\n  case 3: printf(\"C\"); break;\n  default: printf(\"D\");\n}",
+      "options": [
+        "B",
+        "BCD",
+        "ABC",
+        "BC"
+      ],
+      "answer": "d",
+      "explanation": "Execution enters at case 2 and falls through to case 3 until break."
+    },
+    {
+      "id": "mock-03-q053",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int i;\nfor (i = 0; i < 10; i += 3);\nprintf(\"%d\", i);",
+      "options": [
+        "9",
+        "10",
+        "0 3 6 9",
+        "12"
+      ],
+      "answer": "d",
+      "explanation": "The semicolon after for() makes an empty loop body; i stops at the first value ≥ 10, which is 12."
+    },
+    {
+      "id": "mock-03-q054",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "The value of the postfix expression 6 2 3 + − 3 8 2 / + * is:",
+      "options": [
+        "7",
+        "1",
+        "49",
+        "5"
+      ],
+      "answer": "a",
+      "explanation": "6 − (2 + 3) = 1; 3 + 8/2 = 7; 1 × 7 = 7."
+    },
+    {
+      "id": "mock-03-q055",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "The postfix form of A + B * C − D / E is:",
+      "options": [
+        "A B + C * D E / −",
+        "A B C * + D E / −",
+        "A B C * D E / − +",
+        "A B C + * D − E /"
+      ],
+      "answer": "b",
+      "explanation": "* and / bind tighter; + and − are left-associative: (A + (B*C)) − (D/E)."
+    },
+    {
+      "id": "mock-03-q056",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "Keys 15, 25, 35 and 20 are inserted in that order into a hash table of size 10 with h(k) = k mod 10 and linear probing. In which slot does 35 end up?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": "d",
+      "explanation": "15 → 5, 25 → 6 (5 taken), 35 → 7 (5 and 6 taken), 20 → 0."
+    },
+    {
+      "id": "mock-03-q057",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "The keys 50, 30, 70, 20, 40, 60, 80, 35 are inserted in that order into an empty binary search tree. How many leaf nodes does it have?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "answer": "c",
+      "explanation": "Leaves are 20, 35, 60 and 80 (40 has the child 35)."
+    },
+    {
+      "id": "mock-03-q058",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "The max-heap [50, 30, 40, 10, 20, 35] (stored as an array) has its maximum deleted in the usual way. The resulting array is:",
+      "options": [
+        "[40, 30, 35, 10, 20]",
+        "[40, 35, 30, 10, 20]",
+        "[35, 30, 40, 10, 20]",
+        "[40, 30, 20, 10, 35]"
+      ],
+      "answer": "a",
+      "explanation": "The last element 35 moves to the root and sifts down past 40."
+    },
+    {
+      "id": "mock-03-q059",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Processes P1, P2 and P3 arrive at times 0, 1 and 2 with burst times 5, 3 and 1. Under SRTF (preemptive shortest remaining time first), the average waiting time is:",
+      "options": [
+        "2.33",
+        "1.67",
+        "2.00",
+        "3.00"
+      ],
+      "answer": "b",
+      "explanation": "Gantt: P1 0–1, P2 1–2, P3 2–3, P2 3–5, P1 5–9. Waits 4, 1, 0: average 5/3."
+    },
+    {
+      "id": "mock-03-q060",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "A resource has 10 instances. P1, P2 and P3 hold 3, 2 and 2 and may need at most 9, 4 and 7. Which is a safe sequence?",
+      "options": [
+        "P2, P3, P1",
+        "P1, P2, P3",
+        "P3, P2, P1",
+        "P2, P1, P3"
+      ],
+      "answer": "a",
+      "explanation": "Free 3: only P2 (needs 2) can finish → free 5 → P3 (needs 5) → free 7 → P1 (needs 6)."
+    },
+    {
+      "id": "mock-03-q061",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "A system uses 32-bit logical addresses, 4 KB pages and 4-byte page-table entries with a single-level page table. The page table of one process takes:",
+      "options": [
+        "1 MB",
+        "4 KB",
+        "4 MB",
+        "2 MB"
+      ],
+      "answer": "c",
+      "explanation": "2³² / 2¹² = 2²⁰ entries × 4 bytes = 4 MB."
+    },
+    {
+      "id": "mock-03-q062",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "A counting semaphore starts at 7. Then 20 wait (P) and 15 signal (V) operations are performed. Its final value is:",
+      "options": [
+        "2",
+        "−2",
+        "12",
+        "5"
+      ],
+      "answer": "a",
+      "explanation": "7 − 20 + 15 = 2."
+    },
+    {
+      "id": "mock-03-q063",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "After chmod 4755 prog, ls -l shows the permissions as:",
+      "options": [
+        "-rwxr-sr-x",
+        "-rwxr-xr-t",
+        "-rwSr-xr-x",
+        "-rwsr-xr-x"
+      ],
+      "answer": "d",
+      "explanation": "4 = setuid, shown as s in the owner's execute place (lower-case because x is also set)."
+    },
+    {
+      "id": "mock-03-q064",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "ls -ld /tmp shows drwxrwxrwt. What does the final t mean?",
+      "options": [
+        "files in it are deleted at every reboot",
+        "only root can create files in it",
+        "users can delete or rename only their own files in the directory",
+        "new files inherit the directory's group"
+      ],
+      "answer": "c",
+      "explanation": "The sticky bit on a directory restricts deletion and renaming to the file's owner, the directory's owner and root."
+    },
+    {
+      "id": "mock-03-q065",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "What does find /var/log -name \"*.log\" -mtime +7 -delete do?",
+      "options": [
+        "deletes .log files modified within the last 7 days",
+        "lists .log files bigger than 7 MB",
+        "deletes .log files last modified more than 7 days ago",
+        "deletes every file in /var/log older than 7 days"
+      ],
+      "answer": "c",
+      "explanation": "-mtime +7 means modified more than 7 full days ago; -name limits it to *.log."
+    },
+    {
+      "id": "mock-03-q066",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "When does this crontab entry run?\n30 2 * * 1-5 /usr/local/bin/backup.sh",
+      "options": [
+        "at 2:30 am, Monday to Friday",
+        "at 2:30 pm every day",
+        "at 2:30 am on days 1 to 5 of each month",
+        "every 30 minutes from 2 am, Monday to Friday"
+      ],
+      "answer": "a",
+      "explanation": "Fields: minute 30, hour 2, any day of month, any month, day of week 1–5 (Mon–Fri)."
+    },
+    {
+      "id": "mock-03-q067",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "What is the output?",
+      "code": "echo \"lab-01-lab\" | sed 's/lab/LAB/'",
+      "options": [
+        "LAB-01-lab",
+        "LAB-01-LAB",
+        "lab-01-LAB",
+        "LAB-01"
+      ],
+      "answer": "a",
+      "explanation": "Without the g flag, s/// replaces only the first match on each line."
+    },
+    {
+      "id": "mock-03-q068",
+      "part": "B",
+      "topic": "Bash",
+      "question": "Which command sends both the standard output and the standard error of cmd into out.txt?",
+      "options": [
+        "cmd 2>&1 > out.txt",
+        "cmd > out.txt 1>&2",
+        "cmd > out.txt 2>&1",
+        "cmd 2> out.txt"
+      ],
+      "answer": "c",
+      "explanation": "Redirections apply left to right: stdout goes to the file first, then stderr is copied to where stdout now points."
+    },
+    {
+      "id": "mock-03-q069",
+      "part": "B",
+      "topic": "Bash",
+      "question": "What is the output?",
+      "code": "x=5\ny=$((x++ + 2))\necho $x $y",
+      "options": [
+        "6 7",
+        "5 7",
+        "6 8",
+        "5 6"
+      ],
+      "answer": "a",
+      "explanation": "x++ yields 5 (then x becomes 6), so y = 5 + 2 = 7."
+    },
+    {
+      "id": "mock-03-q070",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "Which single command starts the nginx service now and also makes it start at every boot?",
+      "options": [
+        "systemctl start nginx",
+        "systemctl enable nginx",
+        "systemctl enable --now nginx",
+        "service nginx boot"
+      ],
+      "answer": "c",
+      "explanation": "enable creates the boot-time link; --now also starts it immediately."
+    },
+    {
+      "id": "mock-03-q071",
+      "part": "B",
+      "topic": "Packages",
+      "question": "On Debian or Ubuntu, which command tells you which installed package provides the file /usr/bin/ssh?",
+      "options": [
+        "dpkg -L /usr/bin/ssh",
+        "dpkg -S /usr/bin/ssh",
+        "apt show /usr/bin/ssh",
+        "apt-cache depends ssh"
+      ],
+      "answer": "b",
+      "explanation": "dpkg -S searches installed packages for a file; dpkg -L lists the files of a package."
+    },
+    {
+      "id": "mock-03-q072",
+      "part": "B",
+      "topic": "Disks and file systems",
+      "question": "Four 2 TB disks are combined in RAID 5. The usable capacity is about:",
+      "options": [
+        "6 TB",
+        "8 TB",
+        "4 TB",
+        "2 TB"
+      ],
+      "answer": "a",
+      "explanation": "RAID 5 gives (n − 1) disks of capacity: 3 × 2 TB."
+    },
+    {
+      "id": "mock-03-q073",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "How many /26 subnets can be made from a /23 network?",
+      "options": [
+        "4",
+        "16",
+        "6",
+        "8"
+      ],
+      "answer": "d",
+      "explanation": "2^(26 − 23) = 8."
+    },
+    {
+      "id": "mock-03-q074",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The broadcast address of the network that contains 172.16.45.200/20 is:",
+      "options": [
+        "172.16.45.255",
+        "172.16.63.255",
+        "172.16.47.255",
+        "172.16.32.255"
+      ],
+      "answer": "c",
+      "explanation": "/20 has blocks of 16 in the third octet: 45 is in 32–47, so the broadcast is 172.16.47.255."
+    },
+    {
+      "id": "mock-03-q075",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The eight networks 10.1.64.0/24 to 10.1.71.0/24 are best summarised as:",
+      "options": [
+        "10.1.64.0/22",
+        "10.1.64.0/21",
+        "10.1.64.0/20",
+        "10.1.0.0/16"
+      ],
+      "answer": "b",
+      "explanation": "8 = 2³ networks: 24 − 3 = /21, and 64 is a multiple of 8."
+    },
+    {
+      "id": "mock-03-q076",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "A 100 Mbps link has a round-trip time of 40 ms. Its bandwidth-delay product, the data that can be in flight to keep it full, is:",
+      "options": [
+        "4 MB",
+        "500 KB",
+        "50 KB",
+        "400 KB"
+      ],
+      "answer": "b",
+      "explanation": "100 × 10⁶ b/s × 0.04 s = 4 × 10⁶ bits = 500,000 bytes."
+    },
+    {
+      "id": "mock-03-q077",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "The transmission delay of a 1500-byte frame on a 10 Mbps link is:",
+      "options": [
+        "0.15 ms",
+        "12 ms",
+        "1.2 ms",
+        "1.5 ms"
+      ],
+      "answer": "c",
+      "explanation": "1500 × 8 = 12,000 bits; 12,000 / 10⁷ s = 1.2 ms."
+    },
+    {
+      "id": "mock-03-q078",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Which TCP mechanism stops a fast sender from overrunning a slow receiver?",
+      "options": [
+        "congestion control using slow start",
+        "the three-way handshake",
+        "flow control using the receiver's advertised window",
+        "the checksum field"
+      ],
+      "answer": "c",
+      "explanation": "Flow control protects the receiver; congestion control protects the network."
+    },
+    {
+      "id": "mock-03-q079",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "SNMP agents listen on UDP port ___, and traps are sent to the manager on UDP port ___.",
+      "options": [
+        "162, 161",
+        "161, 162",
+        "69, 161",
+        "514, 162"
+      ],
+      "answer": "b",
+      "explanation": "161 for get/set requests to agents; 162 for traps. 69 is TFTP, 514 syslog."
+    },
+    {
+      "id": "mock-03-q080",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Which statement about TFTP is correct?",
+      "options": [
+        "it runs over UDP port 69 and has no authentication",
+        "it runs over TCP port 21 and encrypts files",
+        "it needs a username and password",
+        "it can list remote directories"
+      ],
+      "answer": "a",
+      "explanation": "TFTP is a minimal UDP protocol, often used for router configs and network boot."
+    },
+    {
+      "id": "mock-03-q081",
+      "part": "B",
+      "topic": "Cisco IOS",
+      "question": "On a Cisco router, which command saves the current configuration so that it survives a reload?",
+      "options": [
+        "copy running-config startup-config",
+        "copy startup-config running-config",
+        "show running-config",
+        "write erase"
+      ],
+      "answer": "a",
+      "explanation": "The running config lives in RAM; startup-config is in NVRAM. write erase deletes it."
+    },
+    {
+      "id": "mock-03-q082",
+      "part": "B",
+      "topic": "Network tools",
+      "question": "Which command captures only DNS traffic on interface eth0?",
+      "options": [
+        "tcpdump -i eth0 port 53",
+        "tcpdump -i eth0 port 80",
+        "tcpdump -w eth0 dns",
+        "tcpdump -c 53 -i eth0"
+      ],
+      "answer": "a",
+      "explanation": "-i chooses the interface and the filter \"port 53\" selects DNS; -c sets a packet count."
+    },
+    {
+      "id": "mock-03-q083",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Clients on 10.2.0.0/24 must get addresses from a DHCP server on 10.1.0.0/24, across a router. What is needed?",
+      "options": [
+        "a DHCP relay agent on the router (e.g. ip helper-address)",
+        "nothing, because DHCP broadcasts cross routers",
+        "a static ARP entry for the server",
+        "a DNS forwarder"
+      ],
+      "answer": "a",
+      "explanation": "DHCP discovery is a broadcast; routers drop broadcasts unless they relay them."
+    },
+    {
+      "id": "mock-03-q084",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "A Storage Area Network (SAN) mainly provides:",
+      "options": [
+        "file shares over SMB or NFS",
+        "block-level storage over a dedicated network, e.g. Fibre Channel or iSCSI",
+        "a backup tape library",
+        "web storage over HTTP"
+      ],
+      "answer": "b",
+      "explanation": "SAN = block devices to servers; NAS = file-level shares."
+    },
+    {
+      "id": "mock-03-q085",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Using the table emp shown, what does the query return?",
+      "code": "name | dept | sal\nA    | IT   | 50\nB    | IT   | 70\nC    | HR   | 40\nD    | HR   | NULL\nE    | OPS  | 60\n\nSELECT dept, COUNT(sal) FROM emp\nGROUP BY dept HAVING COUNT(*) > 1 ORDER BY dept;",
+      "options": [
+        "HR, 2; IT, 2",
+        "IT, 2",
+        "HR, 1; IT, 2",
+        "HR, 1; IT, 2; OPS, 1"
+      ],
+      "answer": "c",
+      "explanation": "HAVING keeps HR and IT (2 rows each); COUNT(sal) skips D's NULL, so HR counts 1."
+    },
+    {
+      "id": "mock-03-q086",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Using the table emp shown, what does the query return?",
+      "code": "name | dept | sal\nA    | IT   | 50\nB    | IT   | 70\nC    | HR   | 40\nD    | HR   | NULL\nE    | OPS  | 60\n\nSELECT AVG(sal) FROM emp;",
+      "options": [
+        "44",
+        "55",
+        "50",
+        "60"
+      ],
+      "answer": "b",
+      "explanation": "AVG ignores NULL: (50 + 70 + 40 + 60) / 4 = 55."
+    },
+    {
+      "id": "mock-03-q087",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "Which isolation level prevents dirty reads but still allows non-repeatable reads?",
+      "options": [
+        "READ UNCOMMITTED",
+        "REPEATABLE READ",
+        "SERIALIZABLE",
+        "READ COMMITTED"
+      ],
+      "answer": "d",
+      "explanation": "READ COMMITTED reads only committed data, but a re-read can see another transaction's new commit."
+    },
+    {
+      "id": "mock-03-q088",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "R(A, B, C) has only the dependencies A → B and B → C. The highest normal form R satisfies is:",
+      "options": [
+        "3NF",
+        "BCNF",
+        "2NF",
+        "1NF"
+      ],
+      "answer": "c",
+      "explanation": "The key is A, so there is no partial dependency (2NF), but A → B → C is transitive, breaking 3NF."
+    },
+    {
+      "id": "mock-03-q089",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "Which statement lists the privileges held by the MySQL account 'lab'@'localhost'?",
+      "options": [
+        "SELECT * FROM GRANTS WHERE user='lab';",
+        "SHOW PRIVILEGES 'lab';",
+        "DESCRIBE USER 'lab'@'localhost';",
+        "SHOW GRANTS FOR 'lab'@'localhost';"
+      ],
+      "answer": "d",
+      "explanation": "SHOW GRANTS FOR user prints the GRANT statements for that account."
+    },
+    {
+      "id": "mock-03-q090",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "How do you restore the dump file college.sql into an existing database named college?",
+      "options": [
+        "mysqldump -u root -p college < college.sql",
+        "mysqladmin -u root -p restore college.sql",
+        "mysqlimport college.sql",
+        "mysql -u root -p college < college.sql"
+      ],
+      "answer": "d",
+      "explanation": "A mysqldump file is plain SQL, so the mysql client replays it; mysqldump only exports."
+    },
+    {
+      "id": "mock-03-q091",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "Which statement shows how MySQL plans to execute a SELECT, including whether it uses an index?",
+      "options": [
+        "DESCRIBE TABLE",
+        "EXPLAIN",
+        "SHOW INDEX",
+        "ANALYZE TABLE"
+      ],
+      "answer": "b",
+      "explanation": "EXPLAIN SELECT ... shows the access type, key used and estimated rows."
+    },
+    {
+      "id": "mock-03-q092",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "In MySQL 8, the role 'reader' is granted to 'lab'@'localhost'. By default, its privileges take effect in lab's sessions only after:",
+      "options": [
+        "FLUSH PRIVILEGES is run",
+        "the server is restarted",
+        "the role is activated with SET ROLE or made a default with SET DEFAULT ROLE",
+        "nothing; they are active at once"
+      ],
+      "answer": "c",
+      "explanation": "Granted roles are inactive until activated, unless activate_all_roles_on_login is ON."
+    },
+    {
+      "id": "mock-03-q093",
+      "part": "B",
+      "topic": "Git",
+      "question": "What does git reset --soft HEAD~1 do?",
+      "options": [
+        "undoes the last commit but keeps its changes staged",
+        "deletes the last commit and its changes",
+        "undoes the last commit and unstages its changes",
+        "creates a new commit that reverses the last one"
+      ],
+      "answer": "a",
+      "explanation": "--soft moves HEAD only; --mixed (default) also unstages; --hard also discards; revert makes a new commit."
+    },
+    {
+      "id": "mock-03-q094",
+      "part": "B",
+      "topic": "LDAP",
+      "question": "In the DN uid=ravi,ou=people,dc=iitk,dc=ac,dc=in, the relative distinguished name (RDN) is:",
+      "options": [
+        "uid=ravi",
+        "ou=people",
+        "dc=iitk,dc=ac,dc=in",
+        "the whole DN"
+      ],
+      "answer": "a",
+      "explanation": "The RDN is the leftmost component; the rest is the parent entry's DN."
+    },
+    {
+      "id": "mock-03-q095",
+      "part": "B",
+      "topic": "Firewall",
+      "question": "The iptables INPUT chain has rule 1: -p tcp --dport 22 -j ACCEPT and rule 2: -s 10.0.0.5 -j DROP. An SSH connection from 10.0.0.5 is:",
+      "options": [
+        "dropped, because DROP always wins",
+        "accepted, because rule 1 matches first",
+        "dropped, because the more specific rule wins",
+        "rejected with an ICMP message"
+      ],
+      "answer": "b",
+      "explanation": "iptables stops at the first matching rule in order."
+    },
+    {
+      "id": "mock-03-q096",
+      "part": "B",
+      "topic": "Backup",
+      "question": "What does rsync -a --delete /data/ /backup/data/ do?",
+      "options": [
+        "copies /data and then deletes the source files",
+        "makes /backup/data an exact copy, removing files that no longer exist in /data",
+        "copies only new files and never removes anything",
+        "deletes /backup/data and copies /data into /backup"
+      ],
+      "answer": "b",
+      "explanation": "--delete removes files on the receiver that are absent on the sender; -a keeps permissions and times."
+    },
+    {
+      "id": "mock-03-q097",
+      "part": "B",
+      "topic": "JavaScript",
+      "question": "What is printed?",
+      "code": "let a = \"5\";\nlet b = a * 2 + \"1\";\nconsole.log(b);",
+      "options": [
+        "11",
+        "20",
+        "NaN",
+        "101"
+      ],
+      "answer": "d",
+      "explanation": "\"5\" * 2 converts to the number 10; 10 + \"1\" concatenates to \"101\"."
+    },
+    {
+      "id": "mock-03-q098",
+      "part": "B",
+      "topic": "PHP",
+      "question": "What does this PHP 8 code print?",
+      "code": "$a = \"10\";\n$b = $a + 5 . \"5\";\necho $b;",
+      "options": [
+        "20",
+        "155",
+        "105",
+        "15"
+      ],
+      "answer": "b",
+      "explanation": "In PHP 8, + binds tighter than . so it is (\"10\" + 5) . \"5\" = \"155\"."
+    },
+    {
+      "id": "mock-03-q099",
+      "part": "B",
+      "topic": "Python",
+      "question": "What is printed?",
+      "code": "class Lab:\n    count = 0\n    def __init__(self):\n        Lab.count += 1\n\na = Lab(); b = Lab()\na.count = 10\nprint(Lab.count, b.count, a.count)",
+      "options": [
+        "10 10 10",
+        "2 2 10",
+        "2 10 10",
+        "0 0 10"
+      ],
+      "answer": "b",
+      "explanation": "Lab.count is 2 after two objects. a.count = 10 creates an instance attribute that hides the class one only for a."
+    },
+    {
+      "id": "mock-03-q100",
+      "part": "B",
+      "topic": "Django",
+      "question": "After adding a field to a Django model, which pair of commands updates the database?",
+      "options": [
+        "python manage.py migrate, then python manage.py runserver",
+        "python manage.py syncdb",
+        "python manage.py startapp, then python manage.py migrate",
+        "python manage.py makemigrations, then python manage.py migrate"
+      ],
+      "answer": "d",
+      "explanation": "makemigrations writes the migration file; migrate applies it. syncdb was removed in Django 1.9."
+    }
+  ],
+  "partc": [
+    {
+      "id": "C1",
+      "title": "Office note (10 marks, about 150 words).",
+      "words": 150,
+      "prompt": "The CSE department's 40 lab PCs run an operating system that reaches end of support in three months. Prepare an office note for the Head of the Department proposing an upgrade before the next semester. Give the background, the proposal with an estimated cost of Rs. 2.4 lakh for licences and staff time, and the approval you are seeking.",
+      "guide": "Format 3: heading \"NOTE\" or \"Office Note\", file or reference number, subject line, numbered paragraphs, \"Submitted for approval\" (or \"for kind consideration\"), signature with name, designation and date. No salutation and no \"Yours faithfully\" (it is not a letter). Content 4: background (40 PCs, end of support in three months, security risk), proposal (upgrade schedule before the semester, testing, backup of data), cost (Rs. 2.4 lakh, budget head), the specific approval sought. Language 3: impersonal, concise, third person (\"It is proposed that...\"), no contractions."
+    },
+    {
+      "id": "C2",
+      "title": "Report (10 marks, about 200 words).",
+      "words": 200,
+      "prompt": "You were asked to carry out the annual stock verification of the CSE computer lab. You found 58 of the 60 PCs, 2 projectors missing their remote controls, 3 UPS units with dead batteries, and 4 network switches not entered in the stock register. Write a report to the Head of the Department on the verification and your recommendations.",
+      "guide": "Format 3: title, To / From / Date / Subject (or a report heading block), headed sections: Introduction (who ordered it, when, scope), Method, Findings, Recommendations, Conclusion; signature with name and designation. Content 4: all four findings with numbers (2 PCs not traced, 2 remotes missing, 3 UPS batteries dead, 4 switches unregistered), the likely reasons, recommendations (search and report the 2 PCs to the store, replace batteries, enter switches in the register, a movement register for equipment), and a date for follow-up. Language 3: past tense for what was done, facts not guesses, no blame without evidence, about 200 words."
+    }
+  ],
+  "partc_note": "Self-marking out of 10 each: format 3, content 4, language 3."
+}

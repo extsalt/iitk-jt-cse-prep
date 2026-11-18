@@ -1,0 +1,1438 @@
+{
+  "id": "mock-04",
+  "title": "Mock Test 04 (harder)",
+  "minutes": 150,
+  "questions": [
+    {
+      "id": "mock-04-q001",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "NavIC, developed by ISRO, is:",
+      "options": [
+        "India's regional satellite navigation system",
+        "a weather forecasting satellite series",
+        "a national broadband network",
+        "a launch vehicle for small satellites"
+      ],
+      "answer": "a",
+      "explanation": "NavIC (IRNSS) gives positioning over India and about 1500 km around it."
+    },
+    {
+      "id": "mock-04-q002",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The Aditya-L1 spacecraft observes the Sun from:",
+      "options": [
+        "a low Earth orbit",
+        "an orbit around the Moon",
+        "a halo orbit around the Sun–Earth Lagrange point L1",
+        "the Sun–Earth Lagrange point L2"
+      ],
+      "answer": "c",
+      "explanation": "L1 lies about 1.5 million km sunward, giving an uninterrupted view of the Sun."
+    },
+    {
+      "id": "mock-04-q003",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "UPI Lite is designed for:",
+      "options": [
+        "small-value payments from an on-device balance without entering the UPI PIN each time",
+        "international remittances",
+        "large payments above Rs. 1 lakh",
+        "payments by feature phones over a voice call"
+      ],
+      "answer": "a",
+      "explanation": "UPI Lite is an on-device wallet for small payments; UPI 123PAY is the feature-phone option."
+    },
+    {
+      "id": "mock-04-q004",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The IndiaAI Mission approved by the Union Cabinet in 2024 focuses mainly on:",
+      "options": [
+        "banning AI tools in government offices",
+        "a single national chatbot for railway bookings",
+        "replacing Aadhaar with face recognition",
+        "building AI compute capacity, datasets and Indian foundation models"
+      ],
+      "answer": "d",
+      "explanation": "The mission funds GPU compute, datasets (AIKosh), foundation models, skilling and start-ups."
+    },
+    {
+      "id": "mock-04-q005",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "At the Paris 2024 Olympics, Neeraj Chopra won which medal in the men's javelin?",
+      "options": [
+        "Gold",
+        "Bronze",
+        "He did not win a medal",
+        "Silver"
+      ],
+      "answer": "d",
+      "explanation": "Arshad Nadeem won gold with an Olympic record; Chopra took silver."
+    },
+    {
+      "id": "mock-04-q006",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "ISRO's headquarters is located in:",
+      "options": [
+        "Bengaluru",
+        "Sriharikota",
+        "Thiruvananthapuram",
+        "Ahmedabad"
+      ],
+      "answer": "a",
+      "explanation": "Sriharikota is the launch centre; VSSC is in Thiruvananthapuram; SAC is in Ahmedabad."
+    },
+    {
+      "id": "mock-04-q007",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "The International Telecommunication Union (ITU), the UN agency for ICT standards, is headquartered in:",
+      "options": [
+        "New York",
+        "Geneva",
+        "Paris",
+        "Vienna"
+      ],
+      "answer": "b",
+      "explanation": "ITU is in Geneva, Switzerland."
+    },
+    {
+      "id": "mock-04-q008",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "Tim Berners-Lee proposed the World Wide Web in 1989 while working at:",
+      "options": [
+        "CERN",
+        "MIT",
+        "Bell Labs",
+        "Xerox PARC"
+      ],
+      "answer": "a",
+      "explanation": "He proposed it at CERN near Geneva."
+    },
+    {
+      "id": "mock-04-q009",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "A is twice as efficient as B. Together they finish a job in 14 days. A alone would take:",
+      "options": [
+        "28 days",
+        "21 days",
+        "42 days",
+        "18 days"
+      ],
+      "answer": "b",
+      "explanation": "A makes 2 chairs a day and B 1: total 3 × 14 = 42 chairs; A alone 42/2 = 21 days."
+    },
+    {
+      "id": "mock-04-q010",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "12 men working 8 hours a day finish a job in 10 days. How many days will 16 men working 6 hours a day take?",
+      "options": [
+        "10 days",
+        "8 days",
+        "12 days",
+        "9 days"
+      ],
+      "answer": "a",
+      "explanation": "Total 12 × 8 × 10 = 960 man-hours; 960 / (16 × 6) = 10."
+    },
+    {
+      "id": "mock-04-q011",
+      "part": "A",
+      "topic": "Speed and distance",
+      "question": "A man goes to a town at 40 km/h and returns at 60 km/h. The whole trip takes 5 hours. How far is the town?",
+      "options": [
+        "100 km",
+        "125 km",
+        "150 km",
+        "120 km"
+      ],
+      "answer": "d",
+      "explanation": "d/40 + d/60 = 5 gives d/24 = 5, so d = 120."
+    },
+    {
+      "id": "mock-04-q012",
+      "part": "A",
+      "topic": "Speed and distance",
+      "question": "In a 1 km race A beats B by 100 m, and B beats C by 100 m. By how much does A beat C?",
+      "options": [
+        "200 m",
+        "180 m",
+        "190 m",
+        "210 m"
+      ],
+      "answer": "c",
+      "explanation": "When A runs 1000, B runs 900 and C runs 900 × 0.9 = 810: A wins by 190 m."
+    },
+    {
+      "id": "mock-04-q013",
+      "part": "A",
+      "topic": "Percentages",
+      "question": "A town of 50,000 grows 10% in the first year, falls 10% in the second and grows 20% in the third. Its population after three years is:",
+      "options": [
+        "60,000",
+        "59,000",
+        "59,400",
+        "58,800"
+      ],
+      "answer": "c",
+      "explanation": "50,000 × 1.1 × 0.9 × 1.2 = 59,400."
+    },
+    {
+      "id": "mock-04-q014",
+      "part": "A",
+      "topic": "Profit and loss",
+      "question": "By selling 33 m of cloth, a shopkeeper gains the selling price of 11 m. His gain percent is:",
+      "options": [
+        "33.33%",
+        "50%",
+        "25%",
+        "66.67%"
+      ],
+      "answer": "b",
+      "explanation": "SP(33) − CP(33) = SP(11), so CP(33) = SP(22): gain 11 on 22 = 50%."
+    },
+    {
+      "id": "mock-04-q015",
+      "part": "A",
+      "topic": "Profit and loss",
+      "question": "A dealer claims to sell at cost price but uses a 900 g weight for 1 kg. His gain percent is:",
+      "options": [
+        "11.11%",
+        "10%",
+        "9.09%",
+        "12.5%"
+      ],
+      "answer": "a",
+      "explanation": "He gives 900 g for the price of 1000 g: gain 100/900 = 11.11%."
+    },
+    {
+      "id": "mock-04-q016",
+      "part": "A",
+      "topic": "Interest",
+      "question": "A sum doubles in 5 years at simple interest. In how many years will it become four times itself?",
+      "options": [
+        "20 years",
+        "15 years",
+        "10 years",
+        "12 years"
+      ],
+      "answer": "b",
+      "explanation": "Interest equal to the sum takes 5 years (20% a year); three times the sum takes 15 years."
+    },
+    {
+      "id": "mock-04-q017",
+      "part": "A",
+      "topic": "Interest",
+      "question": "The compound interest on Rs. 8,000 for 1 year at 10% per annum, compounded half-yearly, is:",
+      "options": [
+        "Rs. 800",
+        "Rs. 840",
+        "Rs. 820",
+        "Rs. 810"
+      ],
+      "answer": "c",
+      "explanation": "5% per half-year: 8000 × 1.05² = 8820, so CI = 820."
+    },
+    {
+      "id": "mock-04-q018",
+      "part": "A",
+      "topic": "Mixtures",
+      "question": "Two vessels hold milk and water in the ratios 3 : 1 and 5 : 3. Equal quantities from both are mixed. The ratio of milk to water in the mixture is:",
+      "options": [
+        "2 : 1",
+        "7 : 3",
+        "3 : 1",
+        "11 : 5"
+      ],
+      "answer": "d",
+      "explanation": "Milk fraction (3/4 + 5/8)/2 = 11/16, water 5/16."
+    },
+    {
+      "id": "mock-04-q019",
+      "part": "A",
+      "topic": "Ratio",
+      "question": "The incomes of A and B are in the ratio 5 : 4 and their expenses in the ratio 3 : 2. Each saves Rs. 3,000. A's income is:",
+      "options": [
+        "Rs. 6,000",
+        "Rs. 7,500",
+        "Rs. 9,000",
+        "Rs. 7,000"
+      ],
+      "answer": "b",
+      "explanation": "5x − 3y = 3000 and 4x − 2y = 3000 give x = 1500, y = 1500; A earns 5 × 1500."
+    },
+    {
+      "id": "mock-04-q020",
+      "part": "A",
+      "topic": "Clocks",
+      "question": "How many times in a day (24 hours) are the hands of a clock at right angles?",
+      "options": [
+        "48",
+        "22",
+        "44",
+        "24"
+      ],
+      "answer": "c",
+      "explanation": "22 times in 12 hours (twice an hour, minus 2 shared cases), so 44 in a day."
+    },
+    {
+      "id": "mock-04-q021",
+      "part": "A",
+      "topic": "Probability",
+      "question": "Two cards are drawn together from a well-shuffled pack of 52. The probability that both are kings is:",
+      "options": [
+        "1/169",
+        "1/26",
+        "2/221",
+        "1/221"
+      ],
+      "answer": "d",
+      "explanation": "(4/52) × (3/51) = 12/2652 = 1/221."
+    },
+    {
+      "id": "mock-04-q022",
+      "part": "A",
+      "topic": "Number series",
+      "question": "Find the next term: 4, 6, 12, 30, 90, ?",
+      "options": [
+        "270",
+        "360",
+        "300",
+        "315"
+      ],
+      "answer": "d",
+      "explanation": "Multipliers 1.5, 2, 2.5, 3, then 3.5: 90 × 3.5 = 315."
+    },
+    {
+      "id": "mock-04-q023",
+      "part": "A",
+      "topic": "Syllogisms",
+      "question": "Statements: All servers are machines. Some machines are routers.\nConclusions: I. Some servers are routers. II. No server is a router.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows"
+      ],
+      "answer": "c",
+      "explanation": "Neither follows alone, but I and II are exact opposites about servers and routers, so one of them must be true."
+    },
+    {
+      "id": "mock-04-q024",
+      "part": "A",
+      "topic": "Puzzles",
+      "question": "Six people A to F sit around a round table facing the centre. A sits opposite D. B is second to the right of A. E is immediately to the right of D. C is not next to B. Who sits immediately to the left of A?",
+      "options": [
+        "F",
+        "C",
+        "B",
+        "E"
+      ],
+      "answer": "b",
+      "explanation": "Fix A: D opposite, B two seats to A's right, E next to D on D's right. The two seats left are beside A; C cannot be beside B, so C is on A's left."
+    },
+    {
+      "id": "mock-04-q025",
+      "part": "A",
+      "topic": "Blood relations",
+      "question": "Introducing a man, a woman said, \"His wife is the only daughter of my mother.\" How is the woman related to the man?",
+      "options": [
+        "Wife",
+        "Sister",
+        "Sister-in-law",
+        "Mother-in-law"
+      ],
+      "answer": "a",
+      "explanation": "The only daughter of her mother is the woman herself, so she is his wife."
+    },
+    {
+      "id": "mock-04-q026",
+      "part": "A",
+      "topic": "Directions",
+      "question": "Early in the morning Ravi stands facing a pole. The pole's shadow falls exactly to his right. Which direction is he facing?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "answer": "b",
+      "explanation": "Morning sun is in the east, so shadows fall west. West on his right means he faces south."
+    },
+    {
+      "id": "mock-04-q027",
+      "part": "A",
+      "topic": "Coding-decoding",
+      "question": "If CAT is coded as 3120 (each letter replaced by its position, written one after another), then DOG is coded as:",
+      "options": [
+        "4715",
+        "26",
+        "4157",
+        "41507"
+      ],
+      "answer": "c",
+      "explanation": "D = 4, O = 15, G = 7 → 4157."
+    },
+    {
+      "id": "mock-04-q028",
+      "part": "A",
+      "topic": "Ranking",
+      "question": "In a row of 40 students, A is 13th from the left and B is 9th from the right. How many students are between them?",
+      "options": [
+        "19",
+        "17",
+        "18",
+        "20"
+      ],
+      "answer": "c",
+      "explanation": "B is 40 − 9 + 1 = 32nd from the left; between = 32 − 13 − 1 = 18."
+    },
+    {
+      "id": "mock-04-q029",
+      "part": "A",
+      "topic": "Analogy",
+      "question": "ACE : BDF :: MOQ : ?",
+      "options": [
+        "NOP",
+        "NPR",
+        "LNP",
+        "NQS"
+      ],
+      "answer": "b",
+      "explanation": "Each letter moves one place forward."
+    },
+    {
+      "id": "mock-04-q030",
+      "part": "A",
+      "topic": "Number series",
+      "question": "Find the next term: 2, 6, 30, 210, ?",
+      "options": [
+        "2100",
+        "1890",
+        "2520",
+        "2310"
+      ],
+      "answer": "d",
+      "explanation": "Products of the first primes: 2, 2·3, 2·3·5, 2·3·5·7, then ×11."
+    },
+    {
+      "id": "mock-04-q031",
+      "part": "A",
+      "topic": "Critical reasoning",
+      "question": "What is P's present age?\nI. P is 4 years older than Q.\nII. The sum of the present ages of P and Q is 40.",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Both together are not sufficient"
+      ],
+      "answer": "c",
+      "explanation": "Neither alone fixes P, but together P − Q = 4 and P + Q = 40 give P = 22."
+    },
+    {
+      "id": "mock-04-q032",
+      "part": "A",
+      "topic": "Odd one out",
+      "question": "Find the odd one out:",
+      "options": [
+        "BDF",
+        "HJL",
+        "NPR",
+        "TVY"
+      ],
+      "answer": "d",
+      "explanation": "The others skip one letter each time (T V X would fit); TVY skips two at the end."
+    },
+    {
+      "id": "mock-04-q033",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word closest in meaning to PRUDENT:",
+      "options": [
+        "reckless",
+        "proud",
+        "rude",
+        "sensible"
+      ],
+      "answer": "d",
+      "explanation": "Prudent = acting with care and thought for the future."
+    },
+    {
+      "id": "mock-04-q034",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word opposite in meaning to AMBIGUOUS:",
+      "options": [
+        "clear",
+        "vague",
+        "doubtful",
+        "obscure"
+      ],
+      "answer": "a",
+      "explanation": "Ambiguous = open to more than one meaning."
+    },
+    {
+      "id": "mock-04-q035",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Fill in the blank: Hardly had he reached the lab _____ the power failed.",
+      "options": [
+        "than",
+        "when",
+        "then",
+        "as"
+      ],
+      "answer": "b",
+      "explanation": "The pattern is \"hardly ... when\" (\"no sooner ... than\")."
+    },
+    {
+      "id": "mock-04-q036",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Identify the part with an error: \"One of the servers / have crashed / since / last night.\"",
+      "options": [
+        "One of the servers",
+        "have crashed",
+        "since",
+        "last night."
+      ],
+      "answer": "b",
+      "explanation": "The subject is \"one\", so the verb is singular: \"has crashed\"."
+    },
+    {
+      "id": "mock-04-q037",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Fill in the blank: The new policy will come _____ effect from 1 December.",
+      "options": [
+        "into",
+        "in",
+        "to",
+        "on"
+      ],
+      "answer": "a",
+      "explanation": "The fixed phrase is \"come into effect\"."
+    },
+    {
+      "id": "mock-04-q038",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "One word for \"a formal written request signed by many people and sent to an authority\":",
+      "options": [
+        "petition",
+        "memorandum",
+        "circular",
+        "affidavit"
+      ],
+      "answer": "a",
+      "explanation": "An affidavit is a sworn statement; a circular is a notice sent to many."
+    },
+    {
+      "id": "mock-04-q039",
+      "part": "A",
+      "topic": "Voice and speech",
+      "question": "Choose the passive form of: \"Someone has stolen the projector.\"",
+      "options": [
+        "The projector was stolen by someone.",
+        "The projector has stolen.",
+        "The projector has been stolen.",
+        "The projector had been stolen."
+      ],
+      "answer": "c",
+      "explanation": "Present perfect active → has been + past participle; an indefinite agent is dropped."
+    },
+    {
+      "id": "mock-04-q040",
+      "part": "A",
+      "topic": "Spelling",
+      "question": "Choose the correctly spelt word:",
+      "options": [
+        "Acommodation",
+        "Accomodation",
+        "Acomodation",
+        "Accommodation"
+      ],
+      "answer": "d",
+      "explanation": "Double c and double m: accommodation."
+    },
+    {
+      "id": "mock-04-q041",
+      "part": "B",
+      "topic": "Computer basics",
+      "question": "A computer that works on continuously varying physical quantities such as voltage or pressure is called:",
+      "options": [
+        "a digital computer",
+        "an analog computer",
+        "a hybrid computer",
+        "a quantum computer"
+      ],
+      "answer": "b",
+      "explanation": "Analog = continuous values; digital = discrete; hybrid = both."
+    },
+    {
+      "id": "mock-04-q042",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "In IEEE 754 single precision (32-bit) floating point, how many bits hold the exponent?",
+      "options": [
+        "8",
+        "11",
+        "23",
+        "7"
+      ],
+      "answer": "a",
+      "explanation": "1 sign bit, 8 exponent bits (bias 127), 23 fraction bits; double uses 11."
+    },
+    {
+      "id": "mock-04-q043",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "0x3F + 0x2C equals:",
+      "options": [
+        "0x5B",
+        "0x6B",
+        "0x6A",
+        "0x7B"
+      ],
+      "answer": "b",
+      "explanation": "63 + 44 = 107 = 0x6B."
+    },
+    {
+      "id": "mock-04-q044",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The Gray code of the binary number 1011 is:",
+      "options": [
+        "1101",
+        "1110",
+        "0110",
+        "1011"
+      ],
+      "answer": "b",
+      "explanation": "Gray = b XOR (b >> 1) = 1011 XOR 0101 = 1110."
+    },
+    {
+      "id": "mock-04-q045",
+      "part": "B",
+      "topic": "Memory and storage",
+      "question": "TLB lookup takes 10 ns and a memory access 100 ns, with a TLB hit ratio of 90% and a single-level page table. The effective memory access time is:",
+      "options": [
+        "110 ns",
+        "130 ns",
+        "210 ns",
+        "120 ns"
+      ],
+      "answer": "d",
+      "explanation": "0.9 × (10 + 100) + 0.1 × (10 + 100 + 100) = 99 + 21 = 120 ns."
+    },
+    {
+      "id": "mock-04-q046",
+      "part": "B",
+      "topic": "Computer architecture",
+      "question": "40% of a program can run in parallel. By Amdahl's law, the speed-up on 4 processors is about:",
+      "options": [
+        "1.6",
+        "4",
+        "2.5",
+        "1.43"
+      ],
+      "answer": "d",
+      "explanation": "1 / (0.6 + 0.4/4) = 1/0.7 ≈ 1.43."
+    },
+    {
+      "id": "mock-04-q047",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int x = 10;\nint *p = &x;\nint **q = &p;\n**q = 20;\nprintf(\"%d\", x);",
+      "options": [
+        "10",
+        "An address",
+        "20",
+        "Compile error"
+      ],
+      "answer": "c",
+      "explanation": "q points to p, which points to x, so **q = 20 changes x."
+    },
+    {
+      "id": "mock-04-q048",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "printf(\"%d\", sizeof(int) * 3 > -1);",
+      "options": [
+        "0",
+        "1",
+        "12",
+        "Compile error"
+      ],
+      "answer": "a",
+      "explanation": "sizeof gives an unsigned size_t, so −1 is converted to the largest size_t and 12 > that is false."
+    },
+    {
+      "id": "mock-04-q049",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int f(int n) {\n  static int s = 0;\n  s += n;\n  if (n > 0) f(n - 1);\n  return s;\n}\n/* in main: */ printf(\"%d\", f(4));",
+      "options": [
+        "4",
+        "0",
+        "10",
+        "1"
+      ],
+      "answer": "c",
+      "explanation": "The static s is shared by all calls: 4 + 3 + 2 + 1 + 0 = 10."
+    },
+    {
+      "id": "mock-04-q050",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "char s[] = \"abc\\0def\";\nprintf(\"%zu %zu\", sizeof(s), strlen(s));",
+      "options": [
+        "3 3",
+        "8 3",
+        "7 3",
+        "8 7"
+      ],
+      "answer": "b",
+      "explanation": "sizeof counts all 7 characters plus the final \\0 (8); strlen stops at the first \\0 (3)."
+    },
+    {
+      "id": "mock-04-q051",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "#define MAX(a, b) ((a) > (b) ? (a) : (b))\nint i = 3, j = 2;\nint k = MAX(i++, j);\nprintf(\"%d %d\", i, k);",
+      "options": [
+        "5 4",
+        "4 3",
+        "4 4",
+        "5 3"
+      ],
+      "answer": "a",
+      "explanation": "The macro expands to ((i++)>(j)?(i++):(j)): i++ runs twice, so k = 4 and i ends at 5."
+    },
+    {
+      "id": "mock-04-q052",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int a[3][3] = {{1,2,3},{4,5,6},{7,8,9}};\nprintf(\"%d\", *(*(a + 1) + 2));",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "c",
+      "explanation": "*(a + 1) is row 1; adding 2 and dereferencing gives a[1][2] = 6."
+    },
+    {
+      "id": "mock-04-q053",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "For the linked list 1 → 2 → 3, what does f(head) print?",
+      "code": "void f(struct node *h) {\n  if (!h) return;\n  f(h->next);\n  printf(\"%d \", h->data);\n}",
+      "options": [
+        "3 2 1",
+        "1 2 3",
+        "3",
+        "1"
+      ],
+      "answer": "a",
+      "explanation": "The recursive call comes before printf, so nodes are printed on the way back: in reverse."
+    },
+    {
+      "id": "mock-04-q054",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "A binary tree has inorder 10 20 30 40 50 60 and preorder 40 20 10 30 50 60. Its postorder traversal is:",
+      "options": [
+        "10 20 30 60 50 40",
+        "10 30 20 50 60 40",
+        "10 30 20 60 50 40",
+        "60 50 40 30 20 10"
+      ],
+      "answer": "c",
+      "explanation": "Root 40; left subtree 20 (10, 30); right subtree 50 with right child 60."
+    },
+    {
+      "id": "mock-04-q055",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "The maximum number of comparisons binary search needs on a sorted array of 1000 elements is:",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "500"
+      ],
+      "answer": "b",
+      "explanation": "⌈log₂(1000 + 1)⌉ = 10, since 2¹⁰ = 1024 > 1000."
+    },
+    {
+      "id": "mock-04-q056",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "The best-case time complexity of insertion sort (input already sorted) is:",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "answer": "a",
+      "explanation": "Each element is compared once with its left neighbour and not moved."
+    },
+    {
+      "id": "mock-04-q057",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "Graph edges (taken in alphabetical order): A→B, A→C, B→D, B→E, C→F, E→F. A recursive depth-first search from A visits the vertices in the order:",
+      "options": [
+        "A B C D E F",
+        "A C F B E D",
+        "A B D E F C",
+        "A B E F D C"
+      ],
+      "answer": "c",
+      "explanation": "A, then B and its subtree D, E, F; C's only neighbour F is already visited."
+    },
+    {
+      "id": "mock-04-q058",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "Keys 10, 20 and 30 are inserted in that order into an empty AVL tree. Which rebalancing happens?",
+      "options": [
+        "a single right rotation at 30",
+        "a single left rotation at 10",
+        "a left-right double rotation",
+        "no rotation is needed"
+      ],
+      "answer": "b",
+      "explanation": "The tree leans right-right (10 → 20 → 30), so one left rotation makes 20 the root."
+    },
+    {
+      "id": "mock-04-q059",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "P1, P2 and P3 all arrive at time 0, in that order, with bursts 5, 3 and 1. With round robin and a time quantum of 2, the average turnaround time is:",
+      "options": [
+        "6.00",
+        "7.33",
+        "5.67",
+        "9.00"
+      ],
+      "answer": "b",
+      "explanation": "Gantt: P1 0–2, P2 2–4, P3 4–5, P1 5–7, P2 7–8, P1 8–9. Finish times 9, 8, 5: average 22/3."
+    },
+    {
+      "id": "mock-04-q060",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "With 3 frames, how many page faults does the optimal (OPT) algorithm cause for the reference string 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1?",
+      "options": [
+        "12",
+        "9",
+        "15",
+        "8"
+      ],
+      "answer": "b",
+      "explanation": "OPT replaces the page used farthest in the future; this classic string gives 9 (LRU 12, FIFO 15)."
+    },
+    {
+      "id": "mock-04-q061",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Belady's anomaly, where adding frames can increase page faults, can occur with:",
+      "options": [
+        "FIFO",
+        "LRU",
+        "Optimal (OPT)",
+        "every stack-based algorithm"
+      ],
+      "answer": "a",
+      "explanation": "LRU and OPT are stack algorithms and never show the anomaly."
+    },
+    {
+      "id": "mock-04-q062",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "How many times is x printed?",
+      "code": "if (fork() && fork())\n    fork();\nprintf(\"x\");",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "b",
+      "explanation": "Parent's first fork makes C1 (which skips the rest and prints). The second fork makes C2 (prints). The parent, with both forks true, forks C3. Four processes print."
+    },
+    {
+      "id": "mock-04-q063",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "The disk head is at cylinder 50. Requests: 82, 170, 43, 140, 24, 16, 190. With SSTF scheduling, the total head movement is:",
+      "options": [
+        "642",
+        "230",
+        "190",
+        "208"
+      ],
+      "answer": "d",
+      "explanation": "Order 43, 24, 16, 82, 140, 170, 190: 7 + 19 + 8 + 66 + 58 + 30 + 20 = 208 (FCFS gives 642)."
+    },
+    {
+      "id": "mock-04-q064",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "With umask 027, a newly created directory gets the permissions:",
+      "options": [
+        "640",
+        "750",
+        "027",
+        "755"
+      ],
+      "answer": "b",
+      "explanation": "Directories start from 777: 777 − 027 = 750 (files start from 666 and get 640)."
+    },
+    {
+      "id": "mock-04-q065",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "What does setfacl -m u:ravi:rw report.txt do?",
+      "options": [
+        "makes ravi the owner of report.txt",
+        "gives user ravi read and write access without changing the file's owner or group",
+        "adds ravi to the file's group",
+        "removes all permissions except ravi's"
+      ],
+      "answer": "b",
+      "explanation": "An ACL entry adds per-user rights on top of the owner/group/other bits; getfacl shows it."
+    },
+    {
+      "id": "mock-04-q066",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "What does awk -F: '$3 >= 1000 { print $1 }' /etc/passwd print?",
+      "options": [
+        "the first 1000 lines of the file",
+        "the users whose home directory is longer than 1000 characters",
+        "the third field of every line",
+        "the usernames whose UID is 1000 or more"
+      ],
+      "answer": "d",
+      "explanation": "-F: sets the field separator; field 3 is the UID and field 1 the username (regular users usually start at 1000)."
+    },
+    {
+      "id": "mock-04-q067",
+      "part": "B",
+      "topic": "Bash",
+      "question": "In a folder with a.txt and b.txt, what does this loop do?\nfor f in *.txt; do mv \"$f\" \"${f%.txt}.bak\"; done",
+      "options": [
+        "renames them to a.txt.bak and b.txt.bak",
+        "deletes the .txt files",
+        "renames them to a.bak and b.bak",
+        "copies them to a.bak and b.bak, keeping the originals"
+      ],
+      "answer": "c",
+      "explanation": "${f%.txt} removes the shortest .txt suffix from the end of $f."
+    },
+    {
+      "id": "mock-04-q068",
+      "part": "B",
+      "topic": "Bash",
+      "question": "What is the output?",
+      "code": "a=(lab net db)\necho ${a[1]} ${#a[@]}",
+      "options": [
+        "lab 3",
+        "net 2",
+        "net 3",
+        "lab net db 3"
+      ],
+      "answer": "c",
+      "explanation": "Bash arrays start at index 0, and ${#a[@]} is the number of elements."
+    },
+    {
+      "id": "mock-04-q069",
+      "part": "B",
+      "topic": "Packages",
+      "question": "On Ubuntu you change the mirror in /etc/apt/sources.list. What must you run before apt install picks it up?",
+      "options": [
+        "apt upgrade",
+        "apt update",
+        "dpkg --configure -a",
+        "apt-get autoclean"
+      ],
+      "answer": "b",
+      "explanation": "apt update downloads the package lists from the configured mirrors."
+    },
+    {
+      "id": "mock-04-q070",
+      "part": "B",
+      "topic": "Disks and file systems",
+      "question": "Which statement about MBR and GPT is correct?",
+      "options": [
+        "MBR supports up to 128 primary partitions",
+        "GPT disks cannot boot with UEFI",
+        "MBR disks can be up to 16 TiB with 512-byte sectors",
+        "GPT supports disks larger than 2 TiB and 128 partitions by default"
+      ],
+      "answer": "d",
+      "explanation": "MBR: 4 primary partitions, 2 TiB limit with 512-byte sectors. GPT: 128 entries by default, used by UEFI."
+    },
+    {
+      "id": "mock-04-q071",
+      "part": "B",
+      "topic": "Disks and file systems",
+      "question": "Which order creates a usable LVM logical volume on a new disk /dev/sdb?",
+      "options": [
+        "vgcreate, pvcreate, lvcreate, mkfs",
+        "lvcreate, vgcreate, pvcreate, mkfs",
+        "mkfs, pvcreate, vgcreate, lvcreate",
+        "pvcreate, vgcreate, lvcreate, mkfs"
+      ],
+      "answer": "d",
+      "explanation": "Physical volume → volume group → logical volume → file system."
+    },
+    {
+      "id": "mock-04-q072",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Which Windows command shows the IP address, subnet mask, gateway, DNS servers and MAC address of every adapter?",
+      "options": [
+        "netstat -r",
+        "tracert",
+        "nslookup",
+        "ipconfig /all"
+      ],
+      "answer": "d",
+      "explanation": "ipconfig /all is the Windows counterpart of ip addr plus resolver details."
+    },
+    {
+      "id": "mock-04-q073",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "From 192.168.10.0/24 you need equal subnets, each with at least 50 usable hosts. How many such subnets can you make?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "6"
+      ],
+      "answer": "a",
+      "explanation": "50 hosts need 6 host bits (62 hosts): /26, and a /24 holds four /26 subnets."
+    },
+    {
+      "id": "mock-04-q074",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "Which of these is a usable host address in 10.0.8.0/21?",
+      "options": [
+        "10.0.15.254",
+        "10.0.16.1",
+        "10.0.7.255",
+        "10.0.15.255"
+      ],
+      "answer": "a",
+      "explanation": "10.0.8.0/21 spans 10.0.8.0 to 10.0.15.255; .15.255 is the broadcast."
+    },
+    {
+      "id": "mock-04-q075",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "The shortest valid form of the IPv6 address 2001:0db8:0000:0000:0000:ff00:0042:8329 is:",
+      "options": [
+        "2001:db8::ff00:42:8329",
+        "2001:db8::ff:42:8329",
+        "2001:db8:0:0::ff00:0042:8329:0",
+        "2001:db8:ff00:42:8329"
+      ],
+      "answer": "a",
+      "explanation": "Drop leading zeros in each group and replace the longest run of zero groups with ::."
+    },
+    {
+      "id": "mock-04-q076",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "Ignoring overheads, how long does it take to send a 10 MB file (10 × 10⁶ bytes) over an 8 Mbps link?",
+      "options": [
+        "10 s",
+        "1.25 s",
+        "80 s",
+        "12.5 s"
+      ],
+      "answer": "a",
+      "explanation": "80 × 10⁶ bits / 8 × 10⁶ bit/s = 10 s."
+    },
+    {
+      "id": "mock-04-q077",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "A signal travels 2000 km through a cable at 2 × 10⁸ m/s. The propagation delay is:",
+      "options": [
+        "10 ms",
+        "1 ms",
+        "100 ms",
+        "20 ms"
+      ],
+      "answer": "a",
+      "explanation": "2 × 10⁶ m / 2 × 10⁸ m/s = 0.01 s."
+    },
+    {
+      "id": "mock-04-q078",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "In stop-and-wait, a frame takes 1 ms to transmit and the one-way propagation delay is 4 ms. Ignoring ACK size and processing, the link utilisation is about:",
+      "options": [
+        "20%",
+        "25%",
+        "50%",
+        "11.1%"
+      ],
+      "answer": "d",
+      "explanation": "U = T / (T + 2P) = 1 / (1 + 8) ≈ 11.1%."
+    },
+    {
+      "id": "mock-04-q079",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Which pair of default ports is correct?",
+      "options": [
+        "IMAPS 995, POP3S 993",
+        "IMAPS 143, POP3S 110",
+        "IMAPS 993, POP3S 995",
+        "IMAPS 465, POP3S 587"
+      ],
+      "answer": "c",
+      "explanation": "IMAP 143 / IMAPS 993; POP3 110 / POP3S 995; 465 and 587 are SMTP submission."
+    },
+    {
+      "id": "mock-04-q080",
+      "part": "B",
+      "topic": "Wi-Fi",
+      "question": "IEEE 802.11ac (Wi-Fi 5) operates in:",
+      "options": [
+        "the 5 GHz band only",
+        "the 2.4 GHz band only",
+        "both 2.4 and 5 GHz",
+        "the 60 GHz band"
+      ],
+      "answer": "a",
+      "explanation": "802.11ac is 5 GHz only; 802.11n and 802.11ax use both bands."
+    },
+    {
+      "id": "mock-04-q081",
+      "part": "B",
+      "topic": "Cisco IOS",
+      "question": "On a Cisco switch, which command lists the VLANs and the access ports assigned to each?",
+      "options": [
+        "show ip route",
+        "show interfaces trunk",
+        "show vlan brief",
+        "show mac address-table"
+      ],
+      "answer": "c",
+      "explanation": "show vlan brief gives VLAN IDs, names, status and member ports; trunks are shown by show interfaces trunk."
+    },
+    {
+      "id": "mock-04-q082",
+      "part": "B",
+      "topic": "Cisco IOS",
+      "question": "The prompt Router(config-if)# shows that you are in:",
+      "options": [
+        "global configuration mode",
+        "privileged EXEC mode",
+        "interface configuration mode",
+        "line configuration mode"
+      ],
+      "answer": "c",
+      "explanation": "Router> user EXEC, Router# privileged, (config)# global, (config-if)# interface, (config-line)# line."
+    },
+    {
+      "id": "mock-04-q083",
+      "part": "B",
+      "topic": "Network tools",
+      "question": "Which command lists the listening TCP ports together with the owning processes on a modern Linux system?",
+      "options": [
+        "ip route",
+        "arp -a",
+        "ping -l",
+        "ss -tlnp"
+      ],
+      "answer": "d",
+      "explanation": "-t TCP, -l listening, -n numeric, -p process; ss replaces netstat."
+    },
+    {
+      "id": "mock-04-q084",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "Hosts in VLAN 10 and VLAN 20 on the same switch must talk to each other. What is required?",
+      "options": [
+        "nothing; a switch forwards between VLANs by default",
+        "a hub between the two VLANs",
+        "a DNS server for each VLAN",
+        "a Layer-3 device: a router (e.g. router-on-a-stick) or a Layer-3 switch"
+      ],
+      "answer": "d",
+      "explanation": "VLANs are separate broadcast domains; traffic between them must be routed."
+    },
+    {
+      "id": "mock-04-q085",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Using the tables shown, what does the query return?",
+      "code": "student(id, name): (1,Asha) (2,Bilal) (3,Chen) (4,Divya)\nmarks(sid, score):  (1,70) (1,85) (2,60)\n\nSELECT COUNT(*) FROM student s LEFT JOIN marks m ON s.id = m.sid;",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "12"
+      ],
+      "answer": "a",
+      "explanation": "LEFT JOIN keeps every student: Asha matches 2 rows, Bilal 1, and Chen and Divya 1 each with NULL marks: 5."
+    },
+    {
+      "id": "mock-04-q086",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Using the table shown, what does the query return?",
+      "code": "emp(name, sal): (A,30) (B,50) (C,70) (D,90)\n\nSELECT name FROM emp\nWHERE sal > (SELECT AVG(sal) FROM emp) ORDER BY name;",
+      "options": [
+        "D",
+        "B, C, D",
+        "C, D",
+        "A, B"
+      ],
+      "answer": "c",
+      "explanation": "The average is (30 + 50 + 70 + 90)/4 = 60; C (70) and D (90) are above it."
+    },
+    {
+      "id": "mock-04-q087",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Using the table shown, what does the query return?",
+      "code": "emp(name, sal): (A,30) (B,50) (C,70) (D,90)\n\nSELECT MAX(sal) FROM emp\nWHERE sal < (SELECT MAX(sal) FROM emp);",
+      "options": [
+        "90",
+        "50",
+        "70",
+        "30"
+      ],
+      "answer": "c",
+      "explanation": "The inner query finds the top salary (90); the outer MAX below it is the second highest."
+    },
+    {
+      "id": "mock-04-q088",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "R(A, B, C, D) has the dependencies AB → C, C → D and D → A. Its candidate keys are:",
+      "options": [
+        "AB, BC, BD",
+        "AB only",
+        "AB, CD",
+        "B"
+      ],
+      "answer": "a",
+      "explanation": "B appears on no right side, so every key has B. AB, BC (C→D→A) and BD (D→A, AB→C) each determine everything."
+    },
+    {
+      "id": "mock-04-q089",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "A schedule is conflict-serializable exactly when:",
+      "options": [
+        "it has no write operations",
+        "every transaction commits",
+        "its precedence (conflict) graph has no cycle",
+        "transactions never read the same item"
+      ],
+      "answer": "c",
+      "explanation": "An acyclic precedence graph gives a serial order by topological sort."
+    },
+    {
+      "id": "mock-04-q090",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "In GRANT ALL PRIVILEGES ON college.* TO 'lab'@'%';, the % means that:",
+      "options": [
+        "it gets privileges on all databases",
+        "the account may connect from any host",
+        "the password is optional",
+        "the grant expires after one session"
+      ],
+      "answer": "b",
+      "explanation": "% is a wildcard in the host part; college.* limits it to the college database."
+    },
+    {
+      "id": "mock-04-q091",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "mysqldump --single-transaction is mainly used to:",
+      "options": [
+        "dump only one table",
+        "restore a backup in one transaction",
+        "take a consistent backup of InnoDB tables without locking them",
+        "back up only the last transaction log"
+      ],
+      "answer": "c",
+      "explanation": "It starts a REPEATABLE READ transaction and dumps a consistent snapshot."
+    },
+    {
+      "id": "mock-04-q092",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "A table has a composite index on (dept, sal). Which WHERE clause can use this index?",
+      "options": [
+        "WHERE sal > 50000",
+        "WHERE sal = 40000 OR name = 'A'",
+        "WHERE UPPER(dept) = 'IT'",
+        "WHERE dept = 'IT'"
+      ],
+      "answer": "d",
+      "explanation": "A composite index works from its leftmost column; a function on the column also prevents index use."
+    },
+    {
+      "id": "mock-04-q093",
+      "part": "B",
+      "topic": "Virtualization",
+      "question": "Which command lists all KVM/libvirt virtual machines, including those that are shut off?",
+      "options": [
+        "virsh list",
+        "virsh list --all",
+        "virt-install --list",
+        "kvm -ls"
+      ],
+      "answer": "b",
+      "explanation": "Plain virsh list shows only running domains."
+    },
+    {
+      "id": "mock-04-q094",
+      "part": "B",
+      "topic": "Servers",
+      "question": "Postfix, commonly installed on Linux mail servers, is:",
+      "options": [
+        "a mail transfer agent (SMTP server)",
+        "an IMAP and POP3 server",
+        "a webmail client",
+        "a spam filter"
+      ],
+      "answer": "a",
+      "explanation": "Postfix moves mail with SMTP; Dovecot is the usual IMAP/POP3 server."
+    },
+    {
+      "id": "mock-04-q095",
+      "part": "B",
+      "topic": "Servers",
+      "question": "To serve a site over HTTPS with Apache on Ubuntu, you need:",
+      "options": [
+        "only to open port 443 in the firewall",
+        "to rename the site's files to .https",
+        "to set Listen 80 ssl in ports.conf",
+        "mod_ssl enabled and a virtual host on port 443 with SSLCertificateFile and SSLCertificateKeyFile"
+      ],
+      "answer": "d",
+      "explanation": "a2enmod ssl, then a :443 virtual host pointing to the certificate and key (for example from Let's Encrypt)."
+    },
+    {
+      "id": "mock-04-q096",
+      "part": "B",
+      "topic": "HTML and CSS",
+      "question": "Which selector has the highest specificity?",
+      "options": [
+        ".content p.note",
+        "div.content p",
+        "body div p",
+        "#main p"
+      ],
+      "answer": "d",
+      "explanation": "#main p = (1,0,1); .content p.note = (0,2,1); div.content p = (0,1,2); one id beats any number of classes."
+    },
+    {
+      "id": "mock-04-q097",
+      "part": "B",
+      "topic": "JavaScript",
+      "question": "What is printed?",
+      "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i));\n}",
+      "options": [
+        "0 1 2",
+        "undefined undefined undefined",
+        "2 2 2",
+        "3 3 3"
+      ],
+      "answer": "d",
+      "explanation": "var is function-scoped, so all three callbacks share one i, which is 3 when they run."
+    },
+    {
+      "id": "mock-04-q098",
+      "part": "B",
+      "topic": "Python",
+      "question": "What is printed?",
+      "code": "def add(x, lst=[]):\n    lst.append(x)\n    return lst\n\nadd(1)\nprint(add(2))",
+      "options": [
+        "[2]",
+        "[1, 2]",
+        "[1]",
+        "Error"
+      ],
+      "answer": "b",
+      "explanation": "The default list is created once when the function is defined and shared between calls."
+    },
+    {
+      "id": "mock-04-q099",
+      "part": "B",
+      "topic": "Data visualization",
+      "question": "To show how the exam scores of 200 students are distributed across score ranges, which Matplotlib function fits best?",
+      "options": [
+        "plt.pie()",
+        "plt.plot()",
+        "plt.hist()",
+        "plt.scatter()"
+      ],
+      "answer": "c",
+      "explanation": "A histogram groups values into bins and shows the count in each."
+    },
+    {
+      "id": "mock-04-q100",
+      "part": "B",
+      "topic": "Cloud",
+      "question": "In OpenStack, which service provides compute (it runs the virtual machines)?",
+      "options": [
+        "Swift",
+        "Neutron",
+        "Keystone",
+        "Nova"
+      ],
+      "answer": "d",
+      "explanation": "Nova = compute, Swift = object storage, Neutron = networking, Keystone = identity."
+    }
+  ],
+  "partc": [
+    {
+      "id": "C1",
+      "title": "Official letter (10 marks, about 150 words).",
+      "words": 150,
+      "prompt": "As the Head of the CSE Department, write to the Registrar requesting sanction to renew the annual maintenance contract (AMC) for the department's eight lab servers, which expires on 31 December. The renewal costs Rs. 3.6 lakh. Two quotations are enclosed, and a copy should go to the Finance Officer.",
+      "guide": "Format 3: sender's office and address, letter number and date, \"To, The Registrar, ...\", subject line, reference if any, \"Sir/Madam,\", body, \"Yours faithfully,\", signature with name and designation, \"Encl.: Two quotations\" and \"Copy to: The Finance Officer\". Content 4: what (AMC renewal for 8 servers), why (expiry on 31 December, risk of unsupported downtime, academic work affected), cost (Rs. 3.6 lakh, lowest quotation recommended), the request (sanction before the expiry date). Language 3: formal, polite, active requests (\"It is requested that...\"), no contractions, about 150 words."
+    },
+    {
+      "id": "C2",
+      "title": "Incident report (10 marks, about 200 words).",
+      "words": 200,
+      "prompt": "On Monday at 10:15 am a lab PC was infected with ransomware from a student's USB drive. Files on the shared project drive were encrypted before the PC was isolated at 10:40 am. The drive was restored from the previous night's backup and service resumed at 4:30 pm; one morning's work was lost. Write an incident report.",
+      "guide": "Format 3: title, incident number, date and time of the incident and of the report, location, reported by, then headed sections: Summary, Timeline, Impact, Cause, Action taken, Preventive measures, signature with name and designation. Content 4: timeline (10:15 infection, 10:40 isolation, restore, 4:30 pm resumption: about 6 h 15 min of downtime), impact (shared project drive unavailable, one morning's work lost), cause (malware on a USB drive, autorun or user execution, missing endpoint protection or USB policy), actions (isolation, scan, restore from backup, password resets if needed), prevention (USB blocking or scanning, updated antivirus, user awareness, backup verification, least-privilege share permissions). Language 3: past tense, factual, no blame on the student by name, about 200 words."
+    }
+  ],
+  "partc_note": "Self-marking out of 10 each: format 3, content 4, language 3."
+}
