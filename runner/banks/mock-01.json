@@ -1,0 +1,1430 @@
+{
+  "id": "mock-01",
+  "title": "Mock Test 01",
+  "minutes": 150,
+  "questions": [
+    {
+      "id": "mock-01-q001",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "National Space Day is observed in India on 23 August to mark:",
+      "options": [
+        "the launch of Aryabhata",
+        "the soft landing of Chandrayaan-3 on the Moon",
+        "the Mars Orbiter Mission entering Mars orbit",
+        "the first Gaganyaan test flight"
+      ],
+      "answer": "b",
+      "explanation": "Chandrayaan-3 landed on 23 Aug 2023."
+    },
+    {
+      "id": "mock-01-q002",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The Unified Payments Interface (UPI) is developed and operated by:",
+      "options": [
+        "RBI",
+        "SEBI",
+        "NPCI",
+        "NITI Aayog"
+      ],
+      "answer": "c",
+      "explanation": "NPCI runs UPI; RBI regulates it."
+    },
+    {
+      "id": "mock-01-q003",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "Which Indian astronaut travelled to the International Space Station on the Axiom-4 mission in 2025?",
+      "options": [
+        "Rakesh Sharma",
+        "Shubhanshu Shukla",
+        "Prasanth Nair",
+        "Ajit Krishnan"
+      ],
+      "answer": "b",
+      "explanation": "Shubhanshu Shukla, Axiom-4, 2025."
+    },
+    {
+      "id": "mock-01-q004",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "The PARAM series of supercomputers was developed by:",
+      "options": [
+        "ISRO",
+        "DRDO",
+        "C-DAC",
+        "NIC"
+      ],
+      "answer": "c",
+      "explanation": "C-DAC, Pune."
+    },
+    {
+      "id": "mock-01-q005",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The Digital Personal Data Protection Act was passed by the Indian Parliament in:",
+      "options": [
+        "2019",
+        "2021",
+        "2023",
+        "2025"
+      ],
+      "answer": "c",
+      "explanation": "DPDP Act, 2023."
+    },
+    {
+      "id": "mock-01-q006",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The 2028 Summer Olympic Games are scheduled to be held in:",
+      "options": [
+        "Brisbane",
+        "Paris",
+        "Tokyo",
+        "Los Angeles"
+      ],
+      "answer": "d",
+      "explanation": "Los Angeles 2028 (Brisbane is 2032)."
+    },
+    {
+      "id": "mock-01-q007",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "ISRO’s Aditya-L1 mission was launched to study:",
+      "options": [
+        "the Sun",
+        "the Moon",
+        "Mars",
+        "Venus"
+      ],
+      "answer": "a",
+      "explanation": "Solar observatory at the L1 point."
+    },
+    {
+      "id": "mock-01-q008",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "Which grouping became a permanent member of the G20 at the 2023 New Delhi summit?",
+      "options": [
+        "ASEAN",
+        "African Union",
+        "SAARC",
+        "Arab League"
+      ],
+      "answer": "b",
+      "explanation": "African Union."
+    },
+    {
+      "id": "mock-01-q009",
+      "part": "A",
+      "topic": "Percentages",
+      "question": "15% of a number is 45. The number is:",
+      "options": [
+        "200",
+        "250",
+        "275",
+        "300"
+      ],
+      "answer": "d",
+      "explanation": "45 / 0.15 = 300."
+    },
+    {
+      "id": "mock-01-q010",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "A can finish a job in 12 days and B in 18 days. Working together, they finish it in:",
+      "options": [
+        "6 days",
+        "7.5 days",
+        "7.2 days",
+        "8 days"
+      ],
+      "answer": "c",
+      "explanation": "1/12 + 1/18 = 5/36, so 36/5 = 7.2 days."
+    },
+    {
+      "id": "mock-01-q011",
+      "part": "A",
+      "topic": "Speed and distance",
+      "question": "A train 150 m long runs at 54 km/h. The time it takes to cross a pole is:",
+      "options": [
+        "10 s",
+        "8 s",
+        "12 s",
+        "15 s"
+      ],
+      "answer": "a",
+      "explanation": "54 km/h = 15 m/s; 150/15 = 10 s."
+    },
+    {
+      "id": "mock-01-q012",
+      "part": "A",
+      "topic": "Interest",
+      "question": "The simple interest on Rs. 5000 at 8% per annum for 3 years is:",
+      "options": [
+        "Rs. 1000",
+        "Rs. 1200",
+        "Rs. 1250",
+        "Rs. 1500"
+      ],
+      "answer": "b",
+      "explanation": "5000 × 8 × 3 / 100 = 1200."
+    },
+    {
+      "id": "mock-01-q013",
+      "part": "A",
+      "topic": "Averages",
+      "question": "The average of 5 numbers is 20. If the number 30 is removed, the average of the remaining numbers is:",
+      "options": [
+        "15",
+        "18",
+        "22.5",
+        "17.5"
+      ],
+      "answer": "d",
+      "explanation": "Sum 100; (100 − 30)/4 = 17.5."
+    },
+    {
+      "id": "mock-01-q014",
+      "part": "A",
+      "topic": "Ratio",
+      "question": "In a class of 40 students, the ratio of boys to girls is 3 : 2. The number of girls is:",
+      "options": [
+        "16",
+        "24",
+        "18",
+        "15"
+      ],
+      "answer": "a",
+      "explanation": "40 × 2/5 = 16."
+    },
+    {
+      "id": "mock-01-q015",
+      "part": "A",
+      "topic": "Profit and loss",
+      "question": "An article bought for Rs. 400 is sold for Rs. 500. The profit percentage is:",
+      "options": [
+        "20%",
+        "22.5%",
+        "25%",
+        "80%"
+      ],
+      "answer": "c",
+      "explanation": "100/400 = 25%."
+    },
+    {
+      "id": "mock-01-q016",
+      "part": "A",
+      "topic": "Number system",
+      "question": "The LCM of 12, 18 and 30 is:",
+      "options": [
+        "90",
+        "180",
+        "360",
+        "60"
+      ],
+      "answer": "b",
+      "explanation": "2² · 3² · 5 = 180."
+    },
+    {
+      "id": "mock-01-q017",
+      "part": "A",
+      "topic": "Algebra",
+      "question": "If 2x + 3 = 17, then the value of x² − 1 is:",
+      "options": [
+        "49",
+        "50",
+        "35",
+        "48"
+      ],
+      "answer": "d",
+      "explanation": "x = 7; 49 − 1 = 48."
+    },
+    {
+      "id": "mock-01-q018",
+      "part": "A",
+      "topic": "Percentages",
+      "question": "A price is increased by 20% and then the new price is decreased by 20%. The net change is:",
+      "options": [
+        "no change",
+        "4% decrease",
+        "4% increase",
+        "2% decrease"
+      ],
+      "answer": "b",
+      "explanation": "1.2 × 0.8 = 0.96, a 4% fall."
+    },
+    {
+      "id": "mock-01-q019",
+      "part": "A",
+      "topic": "Interest",
+      "question": "The compound interest on Rs. 10,000 at 10% per annum for 2 years, compounded annually, is:",
+      "options": [
+        "Rs. 2000",
+        "Rs. 2010",
+        "Rs. 2100",
+        "Rs. 2200"
+      ],
+      "answer": "c",
+      "explanation": "10000 × 1.21 − 10000 = 2100."
+    },
+    {
+      "id": "mock-01-q020",
+      "part": "A",
+      "topic": "Mensuration",
+      "question": "The area of a circle of radius 7 cm (take π = 22/7) is:",
+      "options": [
+        "154 cm²",
+        "144 cm²",
+        "44 cm²",
+        "308 cm²"
+      ],
+      "answer": "a",
+      "explanation": "22/7 × 49 = 154."
+    },
+    {
+      "id": "mock-01-q021",
+      "part": "A",
+      "topic": "Number series",
+      "question": "Find the next term: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "answer": "c",
+      "explanation": "Differences 4, 6, 8, 10, 12; 30 + 12 = 42."
+    },
+    {
+      "id": "mock-01-q022",
+      "part": "A",
+      "topic": "Coding-decoding",
+      "question": "If CAT is coded as 24 (sum of letter positions), then DOG is coded as:",
+      "options": [
+        "24",
+        "25",
+        "27",
+        "26"
+      ],
+      "answer": "d",
+      "explanation": "4 + 15 + 7 = 26."
+    },
+    {
+      "id": "mock-01-q023",
+      "part": "A",
+      "topic": "Syllogisms",
+      "question": "Statements: All servers are computers. Some computers are laptops.\nConclusions: I. Some servers are laptops. II. Some computers are servers.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "answer": "b",
+      "explanation": "“All servers are computers” gives “some computers are servers”. I does not follow."
+    },
+    {
+      "id": "mock-01-q024",
+      "part": "A",
+      "topic": "Directions",
+      "question": "Ravi walks 10 m towards South, turns left and walks 5 m, then turns left again and walks 10 m. Where is he from the starting point?",
+      "options": [
+        "5 m to the East",
+        "5 m to the West",
+        "10 m to the East",
+        "At the starting point"
+      ],
+      "answer": "a",
+      "explanation": "South and North cancel; 5 m East remains."
+    },
+    {
+      "id": "mock-01-q025",
+      "part": "A",
+      "topic": "Blood relations",
+      "question": "Pointing to a man, a woman says, “His mother is the only daughter of my mother.” How is the woman related to the man?",
+      "options": [
+        "Sister",
+        "Aunt",
+        "Mother",
+        "Grandmother"
+      ],
+      "answer": "c",
+      "explanation": "The only daughter of her mother is herself."
+    },
+    {
+      "id": "mock-01-q026",
+      "part": "A",
+      "topic": "Odd one out",
+      "question": "Find the odd one out:",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "Scanner",
+        "Monitor"
+      ],
+      "answer": "d",
+      "explanation": "Monitor is an output device; the rest are input."
+    },
+    {
+      "id": "mock-01-q027",
+      "part": "A",
+      "topic": "Ranking",
+      "question": "In a row of 35 students, Ravi is 12th from the left end. His position from the right end is:",
+      "options": [
+        "23rd",
+        "24th",
+        "25th",
+        "22nd"
+      ],
+      "answer": "b",
+      "explanation": "35 − 12 + 1 = 24."
+    },
+    {
+      "id": "mock-01-q028",
+      "part": "A",
+      "topic": "Analogy",
+      "question": "Book : Library :: File : ?",
+      "options": [
+        "Directory",
+        "Byte",
+        "Printer",
+        "Keyboard"
+      ],
+      "answer": "a",
+      "explanation": "A library holds books; a directory holds files."
+    },
+    {
+      "id": "mock-01-q029",
+      "part": "A",
+      "topic": "Calendar",
+      "question": "If today is Sunday, what day of the week will it be after 45 days?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Wednesday",
+        "Friday"
+      ],
+      "answer": "c",
+      "explanation": "45 mod 7 = 3; Sunday + 3 = Wednesday."
+    },
+    {
+      "id": "mock-01-q030",
+      "part": "A",
+      "topic": "Letter series",
+      "question": "Find the next letter: A, C, F, J, O, ?",
+      "options": [
+        "T",
+        "V",
+        "S",
+        "U"
+      ],
+      "answer": "d",
+      "explanation": "Gaps 2, 3, 4, 5, 6; O(15) + 6 = U(21)."
+    },
+    {
+      "id": "mock-01-q031",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word closest in meaning to OBSOLETE:",
+      "options": [
+        "modern",
+        "outdated",
+        "expensive",
+        "fragile"
+      ],
+      "answer": "b",
+      "explanation": "Outdated."
+    },
+    {
+      "id": "mock-01-q032",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word opposite in meaning to TRANSPARENT:",
+      "options": [
+        "clear",
+        "visible",
+        "opaque",
+        "thin"
+      ],
+      "answer": "c",
+      "explanation": "Opaque."
+    },
+    {
+      "id": "mock-01-q033",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Fill in the blank: He has been working in this lab _____ 2019.",
+      "options": [
+        "for",
+        "from",
+        "by",
+        "since"
+      ],
+      "answer": "d",
+      "explanation": "“Since” with a point in time."
+    },
+    {
+      "id": "mock-01-q034",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Identify the part with an error: “Each of / the students / have submitted / the form.”",
+      "options": [
+        "Each of",
+        "the students",
+        "have submitted",
+        "the form"
+      ],
+      "answer": "c",
+      "explanation": "“Each” takes a singular verb: has submitted."
+    },
+    {
+      "id": "mock-01-q035",
+      "part": "A",
+      "topic": "Spelling",
+      "question": "Choose the correctly spelt word:",
+      "options": [
+        "Maintenance",
+        "Maintainance",
+        "Maintenence",
+        "Maintanance"
+      ],
+      "answer": "a",
+      "explanation": "Maintenance."
+    },
+    {
+      "id": "mock-01-q036",
+      "part": "A",
+      "topic": "Voice and speech",
+      "question": "Change to passive voice: “The technician repaired the printer.”",
+      "options": [
+        "The printer is repaired by the technician.",
+        "The printer was repaired by the technician.",
+        "The printer has been repaired by the technician.",
+        "The technician was repaired by the printer."
+      ],
+      "answer": "b",
+      "explanation": "Simple past becomes “was repaired”."
+    },
+    {
+      "id": "mock-01-q037",
+      "part": "A",
+      "topic": "Idioms",
+      "question": "The idiom “to burn the midnight oil” means:",
+      "options": [
+        "to waste money",
+        "to cause a fire",
+        "to work late into the night",
+        "to sleep early"
+      ],
+      "answer": "c",
+      "explanation": "To work late into the night."
+    },
+    {
+      "id": "mock-01-q038",
+      "part": "A",
+      "topic": "Office terms",
+      "question": "A list of items to be discussed at a meeting is called:",
+      "options": [
+        "Minutes",
+        "Memo",
+        "Circular",
+        "Agenda"
+      ],
+      "answer": "d",
+      "explanation": "Agenda (minutes are the record afterwards)."
+    },
+    {
+      "id": "mock-01-q039",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Choose the grammatically correct sentence:",
+      "options": [
+        "The equipments are kept in the lab.",
+        "The equipment is kept in the lab.",
+        "The equipment are kept in the lab.",
+        "An equipments is kept in the lab."
+      ],
+      "answer": "b",
+      "explanation": "“Equipment” is uncountable and singular."
+    },
+    {
+      "id": "mock-01-q040",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Fill in the blank: The old server is prone _____ overheating.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "of"
+      ],
+      "answer": "a",
+      "explanation": "Prone to."
+    },
+    {
+      "id": "mock-01-q041",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The decimal value of the binary number 101101 is:",
+      "options": [
+        "43",
+        "45",
+        "47",
+        "53"
+      ],
+      "answer": "b",
+      "explanation": "32 + 8 + 4 + 1 = 45."
+    },
+    {
+      "id": "mock-01-q042",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The decimal value of the hexadecimal number 2F is:",
+      "options": [
+        "37",
+        "45",
+        "47",
+        "215"
+      ],
+      "answer": "c",
+      "explanation": "2 × 16 + 15 = 47."
+    },
+    {
+      "id": "mock-01-q043",
+      "part": "B",
+      "topic": "Memory and storage",
+      "question": "Which of the following is volatile memory?",
+      "options": [
+        "ROM",
+        "SSD",
+        "Hard disk",
+        "RAM"
+      ],
+      "answer": "d",
+      "explanation": "RAM loses its contents without power."
+    },
+    {
+      "id": "mock-01-q044",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The 8-bit 2’s complement representation of −20 is:",
+      "options": [
+        "11101100",
+        "11101011",
+        "10010100",
+        "11101101"
+      ],
+      "answer": "a",
+      "explanation": "20 = 00010100; invert to 11101011; add 1."
+    },
+    {
+      "id": "mock-01-q045",
+      "part": "B",
+      "topic": "Memory and storage",
+      "question": "Which of these is the fastest storage a CPU can access?",
+      "options": [
+        "Cache",
+        "Registers",
+        "RAM",
+        "SSD"
+      ],
+      "answer": "b",
+      "explanation": "Registers are inside the CPU."
+    },
+    {
+      "id": "mock-01-q046",
+      "part": "B",
+      "topic": "Computer basics",
+      "question": "The Power-On Self-Test (POST) during boot is carried out by:",
+      "options": [
+        "the OS kernel",
+        "the bootloader",
+        "the BIOS/UEFI firmware",
+        "a device driver"
+      ],
+      "answer": "c",
+      "explanation": "Firmware runs POST before the bootloader."
+    },
+    {
+      "id": "mock-01-q047",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int a = 5, b;\nb = a++;\nprintf(\"%d %d\", a, b);",
+      "options": [
+        "5 5",
+        "5 6",
+        "6 6",
+        "6 5"
+      ],
+      "answer": "d",
+      "explanation": "Post-increment: b gets 5, then a becomes 6."
+    },
+    {
+      "id": "mock-01-q048",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int arr[] = {10, 20, 30, 40};\nint *p = arr;\nprintf(\"%d\", *(p + 2));",
+      "options": [
+        "20",
+        "12",
+        "30",
+        "An address"
+      ],
+      "answer": "c",
+      "explanation": "`*(p+2)` is `arr[2]`."
+    },
+    {
+      "id": "mock-01-q049",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "char s[] = \"hello\";\nprintf(\"%d\", (int)sizeof(s));",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "8"
+      ],
+      "answer": "b",
+      "explanation": "5 characters plus the terminating `\\0`."
+    },
+    {
+      "id": "mock-01-q050",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int x = 10;\nif (x = 0) printf(\"A\"); else printf(\"B\");",
+      "options": [
+        "B",
+        "A",
+        "AB",
+        "Compile error"
+      ],
+      "answer": "a",
+      "explanation": "`x = 0` is assignment; its value 0 is false."
+    },
+    {
+      "id": "mock-01-q051",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "void f() { static int c = 0; c++; printf(\"%d \", c); }\nint main() { f(); f(); f(); return 0; }",
+      "options": [
+        "1 1 1",
+        "0 1 2",
+        "1 2 3",
+        "Compile error"
+      ],
+      "answer": "c",
+      "explanation": "A static local keeps its value between calls."
+    },
+    {
+      "id": "mock-01-q052",
+      "part": "B",
+      "topic": "C programming",
+      "question": "Which C library function allocates memory and initialises it to zero?",
+      "options": [
+        "malloc",
+        "realloc",
+        "alloca",
+        "calloc"
+      ],
+      "answer": "d",
+      "explanation": "calloc zero-fills; malloc does not."
+    },
+    {
+      "id": "mock-01-q053",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "On an empty stack, the operations push(1), push(2), pop, push(3), push(4), pop, pop are performed. The popped values, in order, are:",
+      "options": [
+        "2, 4, 3",
+        "2, 3, 4",
+        "1, 2, 3",
+        "4, 3, 2"
+      ],
+      "answer": "a",
+      "explanation": "Pop 2; then 3 and 4 pushed; pop 4, pop 3."
+    },
+    {
+      "id": "mock-01-q054",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "Breadth-first search of a graph uses which data structure?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Hash table"
+      ],
+      "answer": "b",
+      "explanation": "BFS uses a queue; DFS uses a stack."
+    },
+    {
+      "id": "mock-01-q055",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "The worst-case time complexity of binary search on a sorted array of n elements is:",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "c",
+      "explanation": "The range halves at every step."
+    },
+    {
+      "id": "mock-01-q056",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "The worst-case time complexity of quicksort is:",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "d",
+      "explanation": "Worst case, e.g. sorted input with a bad pivot."
+    },
+    {
+      "id": "mock-01-q057",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "Which traversal of a binary search tree visits the keys in ascending order?",
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "a",
+      "explanation": "Left, root, right gives sorted order."
+    },
+    {
+      "id": "mock-01-q058",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "The maximum number of nodes in a binary tree with 4 levels is:",
+      "options": [
+        "8",
+        "15",
+        "16",
+        "31"
+      ],
+      "answer": "b",
+      "explanation": "2⁴ − 1 = 15."
+    },
+    {
+      "id": "mock-01-q059",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "After `chmod 754 report.sh`, the group has which permissions?",
+      "options": [
+        "read, write, execute",
+        "read only",
+        "read and execute",
+        "write and execute"
+      ],
+      "answer": "c",
+      "explanation": "7 owner rwx, 5 group r-x, 4 others `r--`."
+    },
+    {
+      "id": "mock-01-q060",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "Which Linux command shows a continuously updating view of running processes?",
+      "options": [
+        "ls",
+        "ps",
+        "df",
+        "top"
+      ],
+      "answer": "d",
+      "explanation": "`top`; `ps` gives a one-time snapshot."
+    },
+    {
+      "id": "mock-01-q061",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "`kill -9 1234` sends which signal to process 1234?",
+      "options": [
+        "SIGKILL",
+        "SIGTERM",
+        "SIGHUP",
+        "SIGSTOP"
+      ],
+      "answer": "a",
+      "explanation": "Signal 9 is SIGKILL; 15 is SIGTERM."
+    },
+    {
+      "id": "mock-01-q062",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Thrashing in an operating system refers to:",
+      "options": [
+        "the CPU overheating under load",
+        "excessive paging activity with very little useful work done",
+        "fragmentation of the disk",
+        "two processes waiting on each other forever"
+      ],
+      "answer": "b",
+      "explanation": "The system spends its time swapping pages."
+    },
+    {
+      "id": "mock-01-q063",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Which CPU scheduling algorithm can cause starvation of long processes?",
+      "options": [
+        "FCFS",
+        "Round Robin",
+        "Shortest Job First",
+        "None of these"
+      ],
+      "answer": "c",
+      "explanation": "Short jobs keep jumping ahead of long ones."
+    },
+    {
+      "id": "mock-01-q064",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Which of the following is NOT a necessary condition for deadlock?",
+      "options": [
+        "Mutual exclusion",
+        "Hold and wait",
+        "Circular wait",
+        "Preemption"
+      ],
+      "answer": "d",
+      "explanation": "The condition is no preemption."
+    },
+    {
+      "id": "mock-01-q065",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "With 3 frames and FIFO page replacement, the number of page faults for the reference string 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 is:",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "7"
+      ],
+      "answer": "a",
+      "explanation": "Faults on 1, 2, 3, 4, 1, 2, 5, 3, 4; hits on 1, 2, 5."
+    },
+    {
+      "id": "mock-01-q066",
+      "part": "B",
+      "topic": "Linux system files",
+      "question": "On a modern Linux system, hashed user passwords are stored in:",
+      "options": [
+        "`/etc/passwd`",
+        "`/etc/shadow`",
+        "`/etc/group`",
+        "`/etc/login.defs`"
+      ],
+      "answer": "b",
+      "explanation": "`/etc/shadow`, readable only by root."
+    },
+    {
+      "id": "mock-01-q067",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "With a umask of 022, a newly created regular file gets the permissions:",
+      "options": [
+        "755",
+        "666",
+        "644",
+        "022"
+      ],
+      "answer": "c",
+      "explanation": "666 − 022 = 644 for files (777 for directories)."
+    },
+    {
+      "id": "mock-01-q068",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "Which option makes `grep` print only the count of matching lines?",
+      "options": [
+        "`-n`",
+        "`-v`",
+        "`-i`",
+        "`-c`"
+      ],
+      "answer": "d",
+      "explanation": "`-c` count; `-n` line numbers; `-v` invert."
+    },
+    {
+      "id": "mock-01-q069",
+      "part": "B",
+      "topic": "Bash",
+      "question": "In a bash script, `$#` holds:",
+      "options": [
+        "the number of arguments passed to the script",
+        "the process ID of the script",
+        "the exit status of the last command",
+        "all the arguments as one string"
+      ],
+      "answer": "a",
+      "explanation": "`$#` count; `$$` PID; `$?` exit status; `$@` all."
+    },
+    {
+      "id": "mock-01-q070",
+      "part": "B",
+      "topic": "Disks and file systems",
+      "question": "Which RAID level mirrors data across two disks?",
+      "options": [
+        "RAID 0",
+        "RAID 1",
+        "RAID 5",
+        "RAID 6"
+      ],
+      "answer": "b",
+      "explanation": "RAID 1 mirrors; RAID 0 stripes with no redundancy."
+    },
+    {
+      "id": "mock-01-q071",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "Routers operate mainly at which OSI layer?",
+      "options": [
+        "Data link",
+        "Transport",
+        "Network",
+        "Physical"
+      ],
+      "answer": "c",
+      "explanation": "Layer 3; switches are layer 2."
+    },
+    {
+      "id": "mock-01-q072",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The number of usable host addresses in a /27 subnet is:",
+      "options": [
+        "32",
+        "62",
+        "14",
+        "30"
+      ],
+      "answer": "d",
+      "explanation": "5 host bits: 2⁵ − 2 = 30."
+    },
+    {
+      "id": "mock-01-q073",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The network address of the host 192.168.10.77/26 is:",
+      "options": [
+        "192.168.10.64",
+        "192.168.10.0",
+        "192.168.10.76",
+        "192.168.10.128"
+      ],
+      "answer": "a",
+      "explanation": "Block size 64: 0, 64, 128. 77 lies in the 64 block."
+    },
+    {
+      "id": "mock-01-q074",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Which transport protocol is connectionless?",
+      "options": [
+        "TCP",
+        "UDP",
+        "Both",
+        "Neither"
+      ],
+      "answer": "b",
+      "explanation": "UDP has no handshake."
+    },
+    {
+      "id": "mock-01-q075",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "The default port of SSH is:",
+      "options": [
+        "21",
+        "23",
+        "22",
+        "25"
+      ],
+      "answer": "c",
+      "explanation": "22 SSH; 21 FTP; 23 Telnet; 25 SMTP."
+    },
+    {
+      "id": "mock-01-q076",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "The correct order of DHCP messages when a client gets an address is:",
+      "options": [
+        "Discover, Request, Offer, Acknowledge",
+        "Offer, Discover, Request, Acknowledge",
+        "Request, Offer, Discover, Acknowledge",
+        "Discover, Offer, Request, Acknowledge"
+      ],
+      "answer": "d",
+      "explanation": "DORA."
+    },
+    {
+      "id": "mock-01-q077",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Which protocol finds the MAC address for a known IP address?",
+      "options": [
+        "ARP",
+        "DNS",
+        "RARP",
+        "ICMP"
+      ],
+      "answer": "a",
+      "explanation": "ARP maps IP to MAC; RARP is the reverse."
+    },
+    {
+      "id": "mock-01-q078",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The networks 192.168.0.0/24, 192.168.1.0/24, 192.168.2.0/24 and 192.168.3.0/24 can be summarised (supernetted) as:",
+      "options": [
+        "192.168.0.0/23",
+        "192.168.0.0/22",
+        "192.168.0.0/21",
+        "192.168.0.0/24"
+      ],
+      "answer": "b",
+      "explanation": "Four /24 networks need 2 fewer prefix bits: /22."
+    },
+    {
+      "id": "mock-01-q079",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "In which topology is every device connected to one central switch?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Mesh"
+      ],
+      "answer": "c",
+      "explanation": "Star."
+    },
+    {
+      "id": "mock-01-q080",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "VLAN tagging on a trunk link is defined by:",
+      "options": [
+        "IEEE 802.3",
+        "IEEE 802.11",
+        "IEEE 802.1X",
+        "IEEE 802.1Q"
+      ],
+      "answer": "d",
+      "explanation": "802.1Q; 802.1X is port authentication."
+    },
+    {
+      "id": "mock-01-q081",
+      "part": "B",
+      "topic": "Wi-Fi",
+      "question": "Which Wi-Fi security standard is the strongest?",
+      "options": [
+        "WPA3",
+        "WPA2",
+        "WPA",
+        "WEP"
+      ],
+      "answer": "a",
+      "explanation": "WPA3 is the newest; WEP is broken."
+    },
+    {
+      "id": "mock-01-q082",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "The TCP three-way handshake is:",
+      "options": [
+        "SYN, ACK, FIN",
+        "SYN, SYN-ACK, ACK",
+        "ACK, SYN, SYN-ACK",
+        "SYN, SYN, ACK"
+      ],
+      "answer": "b",
+      "explanation": "SYN, SYN-ACK, ACK."
+    },
+    {
+      "id": "mock-01-q083",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Which SQL command is a DDL command that removes all rows of a table but keeps its structure?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "TRUNCATE",
+        "REMOVE"
+      ],
+      "answer": "c",
+      "explanation": "TRUNCATE is DDL; DELETE is DML; DROP removes the table."
+    },
+    {
+      "id": "mock-01-q084",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Which clause filters groups produced by GROUP BY?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "DISTINCT",
+        "HAVING"
+      ],
+      "answer": "d",
+      "explanation": "HAVING filters groups; WHERE filters rows."
+    },
+    {
+      "id": "mock-01-q085",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "A primary key column must be:",
+      "options": [
+        "unique and NOT NULL",
+        "unique, but it may contain one NULL",
+        "NOT NULL, but values may repeat",
+        "numeric"
+      ],
+      "answer": "a",
+      "explanation": "Unique and NOT NULL."
+    },
+    {
+      "id": "mock-01-q086",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "Which MySQL statement gives privileges to a user?",
+      "options": [
+        "ALLOW",
+        "GRANT",
+        "PERMIT",
+        "REVOKE"
+      ],
+      "answer": "b",
+      "explanation": "GRANT gives; REVOKE takes back."
+    },
+    {
+      "id": "mock-01-q087",
+      "part": "B",
+      "topic": "MySQL admin",
+      "question": "Which tool takes a logical (SQL) backup of a MySQL/MariaDB database?",
+      "options": [
+        "mysqladmin",
+        "mysqlcheck",
+        "mysqldump",
+        "mysqlshow"
+      ],
+      "answer": "c",
+      "explanation": "`mysqldump db > file.sql`."
+    },
+    {
+      "id": "mock-01-q088",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "Which database object is created mainly to speed up searches on a column?",
+      "options": [
+        "View",
+        "Trigger",
+        "Foreign key",
+        "Index"
+      ],
+      "answer": "d",
+      "explanation": "Index."
+    },
+    {
+      "id": "mock-01-q089",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "In the ACID properties, “I” stands for:",
+      "options": [
+        "Isolation",
+        "Integrity",
+        "Indexing",
+        "Independence"
+      ],
+      "answer": "a",
+      "explanation": "Atomicity, Consistency, Isolation, Durability."
+    },
+    {
+      "id": "mock-01-q090",
+      "part": "B",
+      "topic": "SQL",
+      "question": "For a table `emp(id, dept, salary)`, which query returns the highest salary in each department?",
+      "options": [
+        "`SELECT dept, MAX(salary) FROM emp;`",
+        "`SELECT dept, MAX(salary) FROM emp GROUP BY dept;`",
+        "`SELECT dept, salary FROM emp ORDER BY salary DESC;`",
+        "`SELECT MAX(dept), salary FROM emp GROUP BY salary;`"
+      ],
+      "answer": "b",
+      "explanation": "GROUP BY dept with MAX(salary)."
+    },
+    {
+      "id": "mock-01-q091",
+      "part": "B",
+      "topic": "Git",
+      "question": "Which Git command copies a remote repository to your machine for the first time?",
+      "options": [
+        "git init",
+        "git pull",
+        "git clone",
+        "git fetch"
+      ],
+      "answer": "c",
+      "explanation": "`git clone`; `pull` and `fetch` need an existing repo."
+    },
+    {
+      "id": "mock-01-q092",
+      "part": "B",
+      "topic": "LDAP",
+      "question": "The default port of LDAP (without TLS) is:",
+      "options": [
+        "143",
+        "443",
+        "636",
+        "389"
+      ],
+      "answer": "d",
+      "explanation": "389 LDAP; 636 LDAPS."
+    },
+    {
+      "id": "mock-01-q093",
+      "part": "B",
+      "topic": "Virtualization",
+      "question": "Which of these is a Type-2 (hosted) hypervisor?",
+      "options": [
+        "Oracle VirtualBox",
+        "Xen",
+        "VMware ESXi",
+        "Microsoft Hyper-V"
+      ],
+      "answer": "a",
+      "explanation": "VirtualBox runs on top of a host OS."
+    },
+    {
+      "id": "mock-01-q094",
+      "part": "B",
+      "topic": "Virtualization",
+      "question": "LXC is best described as:",
+      "options": [
+        "full hardware emulation of a machine",
+        "OS-level virtualization in which containers share the host kernel",
+        "a Type-1 hypervisor",
+        "a cloud storage service"
+      ],
+      "answer": "b",
+      "explanation": "Containers share the host kernel."
+    },
+    {
+      "id": "mock-01-q095",
+      "part": "B",
+      "topic": "HTML and CSS",
+      "question": "Which of these is an HTML5 semantic element?",
+      "options": [
+        "`<div>`",
+        "`<span>`",
+        "`<b>`",
+        "`<article>`"
+      ],
+      "answer": "d",
+      "explanation": "`<article>` describes its content."
+    },
+    {
+      "id": "mock-01-q096",
+      "part": "B",
+      "topic": "HTML and CSS",
+      "question": "Which CSS selector targets the element with `id=\"main\"`?",
+      "options": [
+        "`#main`",
+        "`.main`",
+        "`*main`",
+        "`main`"
+      ],
+      "answer": "a",
+      "explanation": "`#` for id; `.` for class."
+    },
+    {
+      "id": "mock-01-q097",
+      "part": "B",
+      "topic": "JavaScript",
+      "question": "In JavaScript, the expression `\"5\" + 3` evaluates to:",
+      "options": [
+        "8",
+        "`\"53\"`",
+        "NaN",
+        "an error"
+      ],
+      "answer": "b",
+      "explanation": "`+` with a string concatenates."
+    },
+    {
+      "id": "mock-01-q098",
+      "part": "B",
+      "topic": "PHP",
+      "question": "In PHP, every variable name begins with:",
+      "options": [
+        "`@`",
+        "`#`",
+        "`$`",
+        "`%`"
+      ],
+      "answer": "c",
+      "explanation": "`$name`."
+    },
+    {
+      "id": "mock-01-q099",
+      "part": "B",
+      "topic": "Python",
+      "question": "What is the output?",
+      "code": "a = [1, 2, 3]\nb = a\nb.append(4)\nprint(len(a))",
+      "options": [
+        "3",
+        "Error",
+        "1",
+        "4"
+      ],
+      "answer": "d",
+      "explanation": "`b` is another name for the same list."
+    },
+    {
+      "id": "mock-01-q100",
+      "part": "B",
+      "topic": "Django",
+      "question": "Which command starts the Django development server?",
+      "options": [
+        "`python manage.py runserver`",
+        "`django start`",
+        "`python manage.py startapp`",
+        "`python django.py run`"
+      ],
+      "answer": "a",
+      "explanation": "`runserver`; `startapp` creates an app."
+    }
+  ],
+  "partc": [
+    {
+      "id": "C1",
+      "title": "Official letter (10 marks, about 150 words).",
+      "words": 150,
+      "prompt": "You are a Junior Technician in the CSE Department computer lab. Twice this month, sudden power cuts have damaged lab computers. Write an official letter to the Head of the Department requesting the purchase of 10 UPS units.",
+      "guide": "Sender’s designation and department; date; “To, The Head, Department of CSE”; a one-line subject (“Request for purchase of 10 UPS units for the computer lab”); salutation; body in three short paragraphs (the problem with dates, the request with quantity, the benefit); “Yours faithfully”; name and designation. Formal tone, no contractions."
+    },
+    {
+      "id": "C2",
+      "title": "Incident report (10 marks, about 200 words).",
+      "words": 200,
+      "prompt": "On a Saturday night the air conditioning in the department server room failed. The room overheated and two servers shut down, so the department website and file server were unavailable until Sunday morning. Write an incident report covering what happened, the impact, the action taken, and how to prevent it in future.",
+      "guide": "Title; date, time and location; reported by; then headed sections: Summary, Timeline, Impact (which services, how long), Cause, Action taken, Preventive measures (temperature alarm, backup cooling, automatic alerts, a weekend on-call contact). Past tense, facts only, no blame."
+    }
+  ],
+  "partc_note": "**Self-marking out of 10 each:** format 3, content 4, language 3."
+}

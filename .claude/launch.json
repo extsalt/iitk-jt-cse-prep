@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "runner",
+      "runtimeExecutable": "go",
+      "runtimeArgs": ["-C", "runner", "run", ".", "-dir", "D:/iit-kanpur-lab/runner"],
+      "port": 7070
+    }
+  ]
+}

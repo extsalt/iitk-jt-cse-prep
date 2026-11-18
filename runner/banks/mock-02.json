@@ -1,0 +1,1528 @@
+{
+  "id": "mock-02",
+  "title": "Mock Test 02",
+  "minutes": 150,
+  "questions": [
+    {
+      "id": "mock-02-q001",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "Which of the following is an **asymmetric-key** (public-key) cryptosystem?",
+      "options": [
+        "AES",
+        "DES",
+        "RC4",
+        "RSA"
+      ],
+      "answer": "d",
+      "explanation": "RSA uses a public/private key pair; AES, DES and RC4 are symmetric.",
+      "source": "JTS25 Q1"
+    },
+    {
+      "id": "mock-02-q002",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "A malicious program that copies itself from machine to machine over a network, without attaching to a host file, is called a:",
+      "options": [
+        "Trojan horse",
+        "worm",
+        "logic bomb",
+        "keylogger"
+      ],
+      "answer": "b",
+      "explanation": "Worms self-replicate over networks; a Trojan needs the user to run it; a logic bomb waits for a condition; a keylogger only records keystrokes.",
+      "source": "JTS25 Q3 (Stuxnet = worm)"
+    },
+    {
+      "id": "mock-02-q003",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "Which of the following is an open-source machine-learning library?",
+      "options": [
+        "Wireshark",
+        "scikit-learn",
+        "Nagios",
+        "Tally"
+      ],
+      "answer": "b",
+      "explanation": "scikit-learn is an open-source Python ML library; Wireshark is a packet analyser, Nagios a monitoring tool, Tally accounting software.",
+      "source": "TS25 Q2"
+    },
+    {
+      "id": "mock-02-q004",
+      "part": "A",
+      "topic": "Tech GK",
+      "question": "The Linux kernel was first released in 1991 by:",
+      "options": [
+        "Linus Torvalds",
+        "Richard Stallman",
+        "Dennis Ritchie",
+        "Ken Thompson"
+      ],
+      "answer": "a",
+      "explanation": "Torvalds wrote the kernel; Stallman started GNU; Ritchie and Thompson created C and Unix."
+    },
+    {
+      "id": "mock-02-q005",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "Aadhaar numbers are issued by the:",
+      "options": [
+        "NPCI",
+        "RBI",
+        "CERT-In",
+        "UIDAI"
+      ],
+      "answer": "d",
+      "explanation": "The Unique Identification Authority of India issues Aadhaar."
+    },
+    {
+      "id": "mock-02-q006",
+      "part": "A",
+      "topic": "Current affairs",
+      "question": "The Digital India programme, meant to expand online services and connectivity, was launched in:",
+      "options": [
+        "2010",
+        "2013",
+        "2018",
+        "2015"
+      ],
+      "answer": "d",
+      "explanation": "It was launched on 1 July 2015."
+    },
+    {
+      "id": "mock-02-q007",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "One pipe can fill a tank in 10 hours and another can empty it in 15 hours. With both open, the empty tank is filled in:",
+      "options": [
+        "20 hours",
+        "25 hours",
+        "30 hours",
+        "45 hours"
+      ],
+      "answer": "c",
+      "explanation": "Net rate =1/10−1/15=1/30 per hour.",
+      "source": "JTS25 Q4"
+    },
+    {
+      "id": "mock-02-q008",
+      "part": "A",
+      "topic": "Averages",
+      "question": "The average of 6 numbers is 25. When one number is removed, the average of the remaining numbers becomes 24. The removed number is:",
+      "options": [
+        "30",
+        "28",
+        "32",
+        "35"
+      ],
+      "answer": "a",
+      "explanation": "6×25−5×24=150−120=30.",
+      "source": "JTS25 Q5"
+    },
+    {
+      "id": "mock-02-q009",
+      "part": "A",
+      "topic": "Algebra",
+      "question": "A group of friends planned to spend Rs. 120 on food. Five of them did not turn up, so each of the rest paid Rs. 4 more. How many friends had planned to go?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "answer": "b",
+      "explanation": "120/(n−5)−120/n=4 ⇒ n²−5n−150=0 ⇒ n=15 (check: Rs. 12 each versus Rs. 8 each).",
+      "source": "JTS25 Q7"
+    },
+    {
+      "id": "mock-02-q010",
+      "part": "A",
+      "topic": "Profit and loss",
+      "question": "A dealer sells an article for Rs. 2400 and makes a loss of 20%. At what price should he sell it to gain 10%?",
+      "options": [
+        "Rs. 3000",
+        "Rs. 3200",
+        "Rs. 3300",
+        "Rs. 3600"
+      ],
+      "answer": "c",
+      "explanation": "CP =2400/0.8=3000; SP for 10% gain =3000×1.1=3300.",
+      "source": "NF15 Q6"
+    },
+    {
+      "id": "mock-02-q011",
+      "part": "A",
+      "topic": "Speed and distance",
+      "question": "A car covers the first half of a journey at 40 km/h and the second half at 60 km/h. Its average speed for the whole journey is:",
+      "options": [
+        "50 km/h",
+        "48 km/h",
+        "45 km/h",
+        "52 km/h"
+      ],
+      "answer": "b",
+      "explanation": "Equal distances: 2·40·60/(40+60)=48.",
+      "source": "NF15 Q9"
+    },
+    {
+      "id": "mock-02-q012",
+      "part": "A",
+      "topic": "Number series",
+      "question": "The sum of the series 60, 57, 54, …, 0 is:",
+      "options": [
+        "630",
+        "600",
+        "620",
+        "660"
+      ],
+      "answer": "a",
+      "explanation": "21 terms; sum =21×(60+0)/2=630.",
+      "source": "NF15 Q3"
+    },
+    {
+      "id": "mock-02-q013",
+      "part": "A",
+      "topic": "Mensuration",
+      "question": "The perimeter of a rectangle is 56 cm and its length is 18 cm. Its breadth is:",
+      "options": [
+        "10 cm",
+        "8 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "answer": "a",
+      "explanation": "Breadth =56/2−18=10.",
+      "source": "TS25 Q4"
+    },
+    {
+      "id": "mock-02-q014",
+      "part": "A",
+      "topic": "Algebra",
+      "question": "The sum of two numbers is 30 and their product is 200. The sum of their reciprocals is:",
+      "options": [
+        "1/10",
+        "3/20",
+        "1/6",
+        "2/15"
+      ],
+      "answer": "b",
+      "explanation": "1/a+1/b=(a+b)/ab=30/200=3/20.",
+      "source": "TS25 Q5"
+    },
+    {
+      "id": "mock-02-q015",
+      "part": "A",
+      "topic": "Percentages",
+      "question": "The difference between 45% and 30% of a number is 54. The number is:",
+      "options": [
+        "300",
+        "400",
+        "450",
+        "360"
+      ],
+      "answer": "d",
+      "explanation": "15% of the number =54, so the number is 360.",
+      "source": "TS25 Q6"
+    },
+    {
+      "id": "mock-02-q016",
+      "part": "A",
+      "topic": "Ages",
+      "question": "Meena is twice as old as Seema. Four years ago she was three times as old as Seema was then. How old is Meena now?",
+      "options": [
+        "16 years",
+        "12 years",
+        "14 years",
+        "18 years"
+      ],
+      "answer": "a",
+      "explanation": "M=2S, M−4=3(S−4) ⇒ S=8, M=16.",
+      "source": "ITS25 Q42"
+    },
+    {
+      "id": "mock-02-q017",
+      "part": "A",
+      "topic": "Clocks",
+      "question": "The angle between the hour and minute hands of a clock at 2:20 is:",
+      "options": [
+        "40°",
+        "60°",
+        "50°",
+        "70°"
+      ],
+      "answer": "c",
+      "explanation": "Hour hand =2×30+20×0.5=70°; minute hand =120°; difference 50°.",
+      "source": "NET25 Q34"
+    },
+    {
+      "id": "mock-02-q018",
+      "part": "A",
+      "topic": "Time and work",
+      "question": "6 workers can finish a job in 8 days. Working at the same rate, 4 workers will finish it in:",
+      "options": [
+        "12 days",
+        "10 days",
+        "14 days",
+        "16 days"
+      ],
+      "answer": "a",
+      "explanation": "Work =48 worker-days; 48/4=12.",
+      "source": "NET25 Q32"
+    },
+    {
+      "id": "mock-02-q019",
+      "part": "A",
+      "topic": "Permutations",
+      "question": "The number of ways to arrange the letters of the word LINUX so that the two vowels do **not** come together is:",
+      "options": [
+        "48",
+        "96",
+        "120",
+        "72"
+      ],
+      "answer": "d",
+      "explanation": "Total 5!=120; vowels together 4!×2!=48; 120−48=72.",
+      "source": "NF15 Q4"
+    },
+    {
+      "id": "mock-02-q020",
+      "part": "A",
+      "topic": "Syllogisms",
+      "question": "Statements: All routers are devices. Some devices are switches.\nConclusions: I. Some routers are switches. II. Some devices are routers.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "answer": "b",
+      "explanation": "All routers are devices, so some devices are routers. Nothing links routers to switches.",
+      "source": "TS25 Q7"
+    },
+    {
+      "id": "mock-02-q021",
+      "part": "A",
+      "topic": "Calendar",
+      "question": "The day after the day before two days after today is Thursday. What day is today?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Tuesday",
+        "Friday"
+      ],
+      "answer": "c",
+      "explanation": "Two days after today is T+2; the day before is T+1; the day after that is T+2 = Thursday, so today is Tuesday.",
+      "source": "JTS25 Q6"
+    },
+    {
+      "id": "mock-02-q022",
+      "part": "A",
+      "topic": "Directions",
+      "question": "Asha walks 12 m North, turns right and walks 5 m, then turns right again and walks 12 m. Where is she with respect to her starting point?",
+      "options": [
+        "5 m to the West",
+        "12 m to the North",
+        "17 m to the East",
+        "5 m to the East"
+      ],
+      "answer": "d",
+      "explanation": "North 12, East 5, then South 12: she ends 5 m East of the start.",
+      "source": "ITS25 Q40"
+    },
+    {
+      "id": "mock-02-q023",
+      "part": "A",
+      "topic": "Ranking",
+      "question": "In a row of 45 students, Rahul is 18th from the left end. His position from the right end is:",
+      "options": [
+        "28th",
+        "26th",
+        "27th",
+        "29th"
+      ],
+      "answer": "a",
+      "explanation": "45−18+1=28.",
+      "source": "ITS25 Q41"
+    },
+    {
+      "id": "mock-02-q024",
+      "part": "A",
+      "topic": "Coding-decoding",
+      "question": "If COMPUTER is written as DPNQVUFS in a code, how is SERVER written in the same code?",
+      "options": [
+        "TFSVFS",
+        "RDQUDQ",
+        "TFSWFS",
+        "TFSWES"
+      ],
+      "answer": "c",
+      "explanation": "Each letter moves one step forward: S→T, E→F, R→S, V→W, E→F, R→S."
+    },
+    {
+      "id": "mock-02-q025",
+      "part": "A",
+      "topic": "Number series",
+      "question": "Find the next term: 3, 8, 15, 24, 35, ?",
+      "options": [
+        "46",
+        "48",
+        "50",
+        "52"
+      ],
+      "answer": "b",
+      "explanation": "Terms are n²−1 for n=2,3,4,5,6; next is 7²−1=48.",
+      "source": "NET25 Q30"
+    },
+    {
+      "id": "mock-02-q026",
+      "part": "A",
+      "topic": "Blood relations",
+      "question": "Pointing to a photograph, Anil says, “She is the daughter of my grandfather’s only son.” How is the girl related to Anil?",
+      "options": [
+        "Cousin",
+        "Sister",
+        "Niece",
+        "Aunt"
+      ],
+      "answer": "b",
+      "explanation": "Grandfather’s only son is Anil’s father; his daughter is Anil’s sister."
+    },
+    {
+      "id": "mock-02-q027",
+      "part": "A",
+      "topic": "Odd one out",
+      "question": "Find the odd one out:",
+      "options": [
+        "Python",
+        "Java",
+        "Linux",
+        "Ruby"
+      ],
+      "answer": "c",
+      "explanation": "Linux is an operating-system kernel; the others are programming languages."
+    },
+    {
+      "id": "mock-02-q028",
+      "part": "A",
+      "topic": "Critical reasoning",
+      "question": "Regular software updates close known security holes. If this is not a good reason to keep systems updated, nothing else is. Which of the following can be logically inferred?",
+      "options": [
+        "Updates are the only way to keep a system secure.",
+        "A system that is not updated will certainly be attacked.",
+        "Updates never cause any problems.",
+        "Closing security holes is a strong reason to keep systems updated."
+      ],
+      "answer": "d",
+      "explanation": "Only the first option is supported; the others over-claim.",
+      "source": "ITS25 Q45"
+    },
+    {
+      "id": "mock-02-q029",
+      "part": "A",
+      "topic": "Sentence order",
+      "question": "Arrange the sentences into a coherent sequence.\n(i) The technician replaced the faulty cable.\n(ii) A user reported that the lab network was down.\n(iii) Connectivity was restored within minutes.\n(iv) After testing each link, he found one cable damaged.",
+      "options": [
+        "(ii), (iv), (i), (iii)",
+        "(ii), (i), (iv), (iii)",
+        "(iv), (ii), (i), (iii)",
+        "(i), (ii), (iv), (iii)"
+      ],
+      "answer": "a",
+      "explanation": "Report, diagnosis, repair, result.",
+      "source": "NET25 Q45"
+    },
+    {
+      "id": "mock-02-q030",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "As soon as the alarm rang, the technician _____ the server room.",
+      "options": [
+        "enters",
+        "entered",
+        "entering",
+        "had been enter"
+      ],
+      "answer": "b",
+      "explanation": "Simple past agrees with the past event “rang”.",
+      "source": "NF15 Q1"
+    },
+    {
+      "id": "mock-02-q031",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word closest in meaning to **ROBUST**:",
+      "options": [
+        "fragile",
+        "temporary",
+        "sturdy",
+        "expensive"
+      ],
+      "answer": "c",
+      "explanation": "Robust means strong and sturdy.",
+      "source": "NF15 Q2"
+    },
+    {
+      "id": "mock-02-q032",
+      "part": "A",
+      "topic": "Vocabulary",
+      "question": "Choose the word opposite in meaning to **SCARCE**:",
+      "options": [
+        "abundant",
+        "rare",
+        "limited",
+        "meagre"
+      ],
+      "answer": "a",
+      "explanation": "Scarce means in short supply; abundant is the opposite.",
+      "source": "NET25 Q47"
+    },
+    {
+      "id": "mock-02-q033",
+      "part": "A",
+      "topic": "Spelling",
+      "question": "The accounts office issues _____ to all lab staff every month.",
+      "options": [
+        "stationary",
+        "stationery",
+        "stationnery",
+        "stationerry"
+      ],
+      "answer": "b",
+      "explanation": "Stationery is writing material; stationary means not moving.",
+      "source": "NF15 Q5 (homophones)"
+    },
+    {
+      "id": "mock-02-q034",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "Choose the sentence that is most suitable in grammar and usage:",
+      "options": [
+        "The log was useless to us because there were no needed informations in it.",
+        "Since the log did not contain the needed details, it was not real useful to us.",
+        "Since the log lacked the needed details, it was of no use to us.",
+        "Since the log lacked the needed details, it would not had been useful to us."
+      ],
+      "answer": "c",
+      "explanation": "“Information” is uncountable, “real” should be “really”, and “would not had been” is ungrammatical.",
+      "source": "ITS25 Q48"
+    },
+    {
+      "id": "mock-02-q035",
+      "part": "A",
+      "topic": "Grammar",
+      "question": "She has been learning Linux _____ three months and hopes to finish the course _____ two more months.",
+      "options": [
+        "for, within",
+        "since, within",
+        "for, since",
+        "during, from"
+      ],
+      "answer": "a",
+      "explanation": "“For” takes a duration; “since” needs a starting point; “within” fits a deadline.",
+      "source": "NET25 Q48"
+    },
+    {
+      "id": "mock-02-q036",
+      "part": "A",
+      "topic": "Idioms",
+      "question": "The idiom “to hit the nail on the head” means:",
+      "options": [
+        "to damage a tool",
+        "to work very hard",
+        "to make a loud noise",
+        "to state exactly what is true or important"
+      ],
+      "answer": "d",
+      "explanation": "It means to be exactly right about something."
+    },
+    {
+      "id": "mock-02-q037",
+      "part": "A",
+      "topic": "Comprehension",
+      "passage": "**Read the passage and answer the next three questions.**\nA backup is a copy of data kept at a separate location so that it can be restored after a loss. Backups protect against hardware failure, accidental deletion and ransomware. Experts recommend keeping at least three copies on two different types of media, with one copy stored off-site. A backup that has never been tested cannot be trusted, because a corrupted copy is discovered only when it is needed. Automation helps, since manual backups are easily forgotten, but automated jobs still need regular checking.",
+      "question": "According to the passage, why should a backup be tested?",
+      "options": [
+        "Testing makes the copy smaller.",
+        "Tested backups can be kept on a single disk.",
+        "A corrupted copy would otherwise be found only when it is needed.",
+        "Untested backups cannot be automated."
+      ],
+      "answer": "c",
+      "explanation": "Stated in the fourth sentence.",
+      "source": "JTS25 Q8--10 (passage)"
+    },
+    {
+      "id": "mock-02-q038",
+      "part": "A",
+      "topic": "Comprehension",
+      "passage": "**Read the passage and answer the next three questions.**\nA backup is a copy of data kept at a separate location so that it can be restored after a loss. Backups protect against hardware failure, accidental deletion and ransomware. Experts recommend keeping at least three copies on two different types of media, with one copy stored off-site. A backup that has never been tested cannot be trusted, because a corrupted copy is discovered only when it is needed. Automation helps, since manual backups are easily forgotten, but automated jobs still need regular checking.",
+      "question": "Which of the following is **not** mentioned in the passage as something a backup protects against?",
+      "options": [
+        "Hardware failure",
+        "Accidental deletion",
+        "Ransomware",
+        "Power cuts"
+      ],
+      "answer": "d",
+      "explanation": "The passage lists hardware failure, accidental deletion and ransomware only.",
+      "source": "JTS25 Q8--10 (passage)"
+    },
+    {
+      "id": "mock-02-q039",
+      "part": "A",
+      "topic": "Comprehension",
+      "passage": "**Read the passage and answer the next three questions.**\nA backup is a copy of data kept at a separate location so that it can be restored after a loss. Backups protect against hardware failure, accidental deletion and ransomware. Experts recommend keeping at least three copies on two different types of media, with one copy stored off-site. A backup that has never been tested cannot be trusted, because a corrupted copy is discovered only when it is needed. Automation helps, since manual backups are easily forgotten, but automated jobs still need regular checking.",
+      "question": "The rule recommended in the passage is:",
+      "options": [
+        "two copies, on one type of media, none off-site",
+        "three copies, all on the same disk",
+        "one copy, on tape, kept in the lab",
+        "three copies, on two types of media, one of them off-site"
+      ],
+      "answer": "d",
+      "explanation": "Stated in the third sentence.",
+      "source": "JTS25 Q8--10 (passage)"
+    },
+    {
+      "id": "mock-02-q040",
+      "part": "A",
+      "topic": "Vocabulary",
+      "passage": "**Read the passage and answer the next three questions.**\nA backup is a copy of data kept at a separate location so that it can be restored after a loss. Backups protect against hardware failure, accidental deletion and ransomware. Experts recommend keeping at least three copies on two different types of media, with one copy stored off-site. A backup that has never been tested cannot be trusted, because a corrupted copy is discovered only when it is needed. Automation helps, since manual backups are easily forgotten, but automated jobs still need regular checking.",
+      "question": "Choose the word closest in meaning to **MITIGATE**:",
+      "options": [
+        "aggravate",
+        "imitate",
+        "alleviate",
+        "migrate"
+      ],
+      "answer": "c",
+      "explanation": "To mitigate is to make less severe.",
+      "source": "NF15 Q2"
+    },
+    {
+      "id": "mock-02-q041",
+      "part": "B",
+      "topic": "Computer architecture",
+      "question": "A 5-stage pipelined processor has stage delays of 3 ns, 5 ns, 4 ns, 7 ns and 2 ns. Ignoring register overhead, the minimum clock period is:",
+      "options": [
+        "21 ns",
+        "4.2 ns",
+        "7 ns",
+        "2 ns"
+      ],
+      "answer": "c",
+      "explanation": "The clock must fit the slowest stage.",
+      "source": "NF15 Q21"
+    },
+    {
+      "id": "mock-02-q042",
+      "part": "B",
+      "topic": "Computer architecture",
+      "question": "A cache has an access time of 10 ns. On a miss, an additional 100 ns penalty is paid to fetch from main memory. With a 90% hit rate, the average memory access time is:",
+      "options": [
+        "19 ns",
+        "15 ns",
+        "110 ns",
+        "20 ns"
+      ],
+      "answer": "d",
+      "explanation": "10+0.1×100=20 ns.",
+      "source": "NF15 Q28"
+    },
+    {
+      "id": "mock-02-q043",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "The range of integers representable in 10-bit two’s complement is:",
+      "options": [
+        "−511 to +512",
+        "−512 to +511",
+        "−1024 to +1023",
+        "0 to 1023"
+      ],
+      "answer": "b",
+      "explanation": "−2ⁿ⁻¹ to 2ⁿ⁻¹−1 with n=10.",
+      "source": "TS25 Q20"
+    },
+    {
+      "id": "mock-02-q044",
+      "part": "B",
+      "topic": "Computer architecture",
+      "question": "A processor running at 2 GHz executes 3 billion instructions every second. Its IPC is:",
+      "options": [
+        "1.5",
+        "0.67",
+        "3",
+        "6"
+      ],
+      "answer": "a",
+      "explanation": "IPC =3×10⁹/(2×10⁹)=1.5.",
+      "source": "ITS25 Q10"
+    },
+    {
+      "id": "mock-02-q045",
+      "part": "B",
+      "topic": "Number systems",
+      "question": "Which single operation divides an unsigned integer by 8?",
+      "options": [
+        "Logical shift right by 3",
+        "Logical shift left by 3",
+        "Logical shift right by 8",
+        "AND with 8"
+      ],
+      "answer": "a",
+      "explanation": "8=2³, so shift right by 3 bits.",
+      "source": "JTS25 Q19"
+    },
+    {
+      "id": "mock-02-q046",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "How many child processes are created when this program runs on Linux?",
+      "code": "int main() {\n    fork(); fork(); fork(); fork();\n    return 0;\n}",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "15"
+      ],
+      "answer": "d",
+      "explanation": "Four forks give 2⁴=16 processes in total, so 15 children.",
+      "source": "NF15 Q11"
+    },
+    {
+      "id": "mock-02-q047",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "#define SQR(x) x*x\nint main() {\n    int a = 3;\n    printf(\"%d\", SQR(a+2));\n}",
+      "options": [
+        "25",
+        "13",
+        "11",
+        "10"
+      ],
+      "answer": "c",
+      "explanation": "The macro expands to `a+2*a+2` =3+6+2=11.",
+      "source": "NET25 Q41"
+    },
+    {
+      "id": "mock-02-q048",
+      "part": "B",
+      "topic": "C programming",
+      "question": "On a 64-bit machine (pointers are 8 bytes, `int` is 4 bytes), what is the output?",
+      "code": "int *p = (int *)malloc(40);\nprintf(\"%d\", (int)sizeof(p));",
+      "options": [
+        "40",
+        "4",
+        "10",
+        "8"
+      ],
+      "answer": "d",
+      "explanation": "`sizeof(p)` is the size of the pointer, not of the block it points to.",
+      "source": "JTS25 Q29"
+    },
+    {
+      "id": "mock-02-q049",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int f(int n) {\n    if (n <= 0) return 0;\n    return n + f(n - 3);\n}\nprintf(\"%d\", f(10));",
+      "options": [
+        "21",
+        "22",
+        "18",
+        "25"
+      ],
+      "answer": "b",
+      "explanation": "10+7+4+1+0=22.",
+      "source": "ITS25 Q30"
+    },
+    {
+      "id": "mock-02-q050",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int x = 4, y = 6;\nint z = x+++y;\nprintf(\"%d %d\", x, z);",
+      "options": [
+        "4 10",
+        "5 10",
+        "5 11",
+        "Compile error"
+      ],
+      "answer": "b",
+      "explanation": "`x+++y` parses as `(x++)+y`: z=4+6=10, then `x` becomes 5.",
+      "source": "NET25 Q40"
+    },
+    {
+      "id": "mock-02-q051",
+      "part": "B",
+      "topic": "C programming",
+      "question": "Given `void swap(int *a, int *b)` that exchanges the two values it points to, which call exchanges the `int` variables `p` and `q`?",
+      "options": [
+        "`swap(p, q)`",
+        "`swap(*p, *q)`",
+        "`swap(&p, &q)`",
+        "`swap(p, &q)`"
+      ],
+      "answer": "c",
+      "explanation": "Pass the addresses of the variables.",
+      "source": "NF15 Q57"
+    },
+    {
+      "id": "mock-02-q052",
+      "part": "B",
+      "topic": "C programming",
+      "question": "What is the output?",
+      "code": "int a = 5, b = 8;\nvoid show(int b) { printf(\"%d,%d\", a, b); }\nint main() {\n    int a = 2, b = 3;\n    show(a);\n    return 0;\n}",
+      "options": [
+        "2,3",
+        "5,2",
+        "5,8",
+        "2,2"
+      ],
+      "answer": "b",
+      "explanation": "`show(a)` passes main’s local `a`=2 as parameter `b`. Inside `show`, `a` is the global 5.",
+      "source": "TS25 Q31"
+    },
+    {
+      "id": "mock-02-q053",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "A binary tree has preorder traversal 1, 2, 4, 5, 3 and inorder traversal 4, 2, 5, 1, 3. Its postorder traversal is:",
+      "options": [
+        "4, 2, 5, 3, 1",
+        "5, 4, 2, 3, 1",
+        "4, 5, 2, 3, 1",
+        "4, 5, 3, 2, 1"
+      ],
+      "answer": "c",
+      "explanation": "Root 1; left subtree 4,2,5 has root 2 with children 4 and 5; right subtree is 3. Postorder: 4 5 2 3 1.",
+      "source": "JTS25 Q25"
+    },
+    {
+      "id": "mock-02-q054",
+      "part": "B",
+      "topic": "Data structures",
+      "question": "S1: In a binary search tree, an inorder traversal visits the keys in sorted order.\nS2: The height of an AVL tree with n nodes is O(log n).",
+      "options": [
+        "Both S1 and S2 are true",
+        "Only S1 is true",
+        "Only S2 is true",
+        "Neither is true"
+      ],
+      "answer": "a",
+      "explanation": "Both are standard results.",
+      "source": "TS25 Q26"
+    },
+    {
+      "id": "mock-02-q055",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "Two sorted arrays of sizes m and n are merged into one sorted array. The worst-case number of comparisons is:",
+      "options": [
+        "m+n−1",
+        "mn",
+        "m+n+1",
+        "max(m,n)/2"
+      ],
+      "answer": "a",
+      "explanation": "Each comparison places one element; the last element needs no comparison.",
+      "source": "NF15 Q56"
+    },
+    {
+      "id": "mock-02-q056",
+      "part": "B",
+      "topic": "Algorithms",
+      "question": "Let G be a connected weighted graph.\nS1: If all edge weights are distinct, G has a unique minimum spanning tree.\nS2: If G has a unique minimum spanning tree, all its edge weights are distinct.",
+      "options": [
+        "Only S2 is true",
+        "Only S1 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": "b",
+      "explanation": "S2 fails: a triangle with weights 1, 1, 5 has the unique MST of the two weight-1 edges.",
+      "source": "TS25 Q28"
+    },
+    {
+      "id": "mock-02-q057",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Which technique makes Linux `fork()` fast, by letting parent and child share physical pages until one of them writes to a page?",
+      "options": [
+        "Copy-on-write",
+        "Demand segmentation",
+        "Thrashing",
+        "Spooling"
+      ],
+      "answer": "a",
+      "explanation": "Pages are copied only on the first write.",
+      "source": "JTS25 Q36"
+    },
+    {
+      "id": "mock-02-q058",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Which scheduling policy do ordinary user processes use by default in Linux?",
+      "options": [
+        "`SCHED_FIFO`",
+        "`SCHED_RR`",
+        "`SCHED_OTHER`",
+        "`SCHED_DEADLINE`"
+      ],
+      "answer": "c",
+      "explanation": "`SCHED_OTHER` (also called `SCHED_NORMAL`) is the time-sharing policy; the others are real-time policies.",
+      "source": "TS25 Q34"
+    },
+    {
+      "id": "mock-02-q059",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "A process references pages in the order 1, 2, 3, 1, 4, 2, 1, 5 with 3 initially empty frames and LRU replacement. The number of page faults is:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "b",
+      "explanation": "Faults on 1, 2, 3, 4 (evicts 2), 2 (evicts 3), 5 (evicts 4); hits on the second 1 and the third 1."
+    },
+    {
+      "id": "mock-02-q060",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "A system has 3 processes, each needing at most 3 instances of one resource type. The minimum number of instances that guarantees no deadlock is:",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": "a",
+      "explanation": "n(m−1)+1=3×2+1=7. With 6, each could hold 2 and wait."
+    },
+    {
+      "id": "mock-02-q061",
+      "part": "B",
+      "topic": "OS concepts",
+      "question": "Which of the following instructions must be executed only in kernel mode?",
+      "options": [
+        "Disable all interrupts",
+        "Read the value of a general register",
+        "Add two registers",
+        "Load a value into a general register"
+      ],
+      "answer": "a",
+      "explanation": "Disabling interrupts affects the whole system, so it is privileged.",
+      "source": "NET25 Q38"
+    },
+    {
+      "id": "mock-02-q062",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "Which command makes the running process with PID 2345 **less** favoured by the scheduler?",
+      "options": [
+        "`nice -n 10 -p 2345`",
+        "`renice -n 10 -p 2345`",
+        "`renice -n -10 -p 2345`",
+        "`nice -n -10 -p 2345`"
+      ],
+      "answer": "b",
+      "explanation": "`renice` changes a running process, `nice` only starts commands; a higher nice value means lower priority.",
+      "source": "NF15 Q15"
+    },
+    {
+      "id": "mock-02-q063",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "A server with 4 CPU cores reports: `load average: 2.00, 3.50, 6.00`. The most accurate reading is:",
+      "options": [
+        "load is rising and the system is already overloaded",
+        "the CPU is 200% busy right now",
+        "only I/O-bound tasks contributed to the load",
+        "load was heavy 15 minutes ago and is falling; it is now below the 4-core capacity"
+      ],
+      "answer": "d",
+      "explanation": "The three values are the 1, 5 and 15 minute averages, so 2.00 < 3.50 < 6.00 means falling.",
+      "source": "TS25 Q36"
+    },
+    {
+      "id": "mock-02-q064",
+      "part": "B",
+      "topic": "Disks and file systems",
+      "question": "A file `/data/a.txt` has a hard link `/data/b.txt` and a symbolic link `/data/c.txt` pointing to it. After `rm /data/a.txt`, which statement is true?",
+      "options": [
+        "both b.txt and c.txt are still readable",
+        "b.txt is still readable; c.txt is a dangling link",
+        "neither b.txt nor c.txt is readable",
+        "c.txt is readable but b.txt is broken"
+      ],
+      "answer": "b",
+      "explanation": "The inode survives while a hard link remains; the symlink points to a name that no longer exists.",
+      "source": "TS25 Q37"
+    },
+    {
+      "id": "mock-02-q065",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "`umount /mnt/usb` says “target is busy”. Which command lists the processes holding files open under that mount?",
+      "options": [
+        "`df -h /mnt/usb`",
+        "`du -sh /mnt/usb`",
+        "`lsof +D /mnt/usb`",
+        "`mount | grep usb`"
+      ],
+      "answer": "c",
+      "explanation": "`lsof` lists open files and their owning processes.",
+      "source": "TS25 Q38"
+    },
+    {
+      "id": "mock-02-q066",
+      "part": "B",
+      "topic": "Linux system files",
+      "question": "Which file controls the order in which hostname lookups use local files, DNS, LDAP and so on?",
+      "options": [
+        "`/etc/nsswitch.conf`",
+        "`/etc/hosts`",
+        "`/etc/resolv.conf`",
+        "`/etc/fstab`"
+      ],
+      "answer": "a",
+      "explanation": "nsswitch.conf defines the lookup order for each database (hosts, passwd, group).",
+      "source": "JTS25 Q41"
+    },
+    {
+      "id": "mock-02-q067",
+      "part": "B",
+      "topic": "Linux system files",
+      "question": "A host can `ping 1.1.1.1` but `ping example.com` fails. Which file should be checked first?",
+      "options": [
+        "`/etc/resolv.conf`",
+        "`/etc/fstab`",
+        "`/etc/shadow`",
+        "`/etc/group`"
+      ],
+      "answer": "a",
+      "explanation": "Pinging by IP works, so routing is fine; the DNS server list lives in resolv.conf.",
+      "source": "JTS25 Q40"
+    },
+    {
+      "id": "mock-02-q068",
+      "part": "B",
+      "topic": "Bash",
+      "question": "In this script, which line must change to print `Cube is 27`?",
+      "code": "1 #!/bin/bash\n2 cube() { echo $(( $1 * $1 * $1 )); }\n3 result=cube 3\n4 echo \"Cube is $result\"",
+      "options": [
+        "Line 1",
+        "Line 2",
+        "Line 4",
+        "Line 3"
+      ],
+      "answer": "d",
+      "explanation": "`result=cube 3` just runs a command `3`; it must be `result=$(cube 3)`.",
+      "source": "TS25 Q32"
+    },
+    {
+      "id": "mock-02-q069",
+      "part": "B",
+      "topic": "Linux commands",
+      "question": "The file `data.txt` contains the lines `4 a`, `6 b` and `10 c`. What does `awk '{ s += $1 } END { print s }' data.txt` print?",
+      "options": [
+        "10",
+        "3",
+        "0",
+        "20"
+      ],
+      "answer": "d",
+      "explanation": "It adds field 1 of every line: 4+6+10=20.",
+      "source": "JTS25 Q31"
+    },
+    {
+      "id": "mock-02-q070",
+      "part": "B",
+      "topic": "Users and permissions",
+      "question": "Which command is the safe way to edit `/etc/sudoers`, because it checks the syntax before saving?",
+      "options": [
+        "`chmod 440 /etc/sudoers`",
+        "`usermod -aG sudo user`",
+        "`visudo`",
+        "`su -c cat /etc/sudoers`"
+      ],
+      "answer": "c",
+      "explanation": "visudo locks the file and validates it, avoiding a broken sudo.",
+      "source": "JTS25 Q37"
+    },
+    {
+      "id": "mock-02-q071",
+      "part": "B",
+      "topic": "Disks and file systems",
+      "question": "An `/etc/fstab` line reads `UUID=3f2a-91cc /backup ext4 defaults,ro 0 2`. What does `ro` do?",
+      "options": [
+        "restricts the mount to root only",
+        "disables execution of binaries",
+        "skips the fsck check at boot",
+        "mounts the filesystem read-only"
+      ],
+      "answer": "d",
+      "explanation": "`ro` is read-only; `noexec` blocks execution; the last number (2) is the fsck order.",
+      "source": "TS25 Q41"
+    },
+    {
+      "id": "mock-02-q072",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The subnet mask for a /21 prefix is:",
+      "options": [
+        "255.255.248.0",
+        "255.255.240.0",
+        "255.255.252.0",
+        "255.255.224.0"
+      ],
+      "answer": "a",
+      "explanation": "21=8+8+5 and five bits in the third octet give 248.",
+      "source": "TS25 Q12"
+    },
+    {
+      "id": "mock-02-q073",
+      "part": "B",
+      "topic": "Subnetting",
+      "question": "The number of usable host addresses in `10.0.0.0/22` is:",
+      "options": [
+        "1024",
+        "510",
+        "1022",
+        "254"
+      ],
+      "answer": "c",
+      "explanation": "2¹⁰−2=1022."
+    },
+    {
+      "id": "mock-02-q074",
+      "part": "B",
+      "topic": "Network protocols",
+      "question": "Which DNS record type maps an IP address back to a hostname (reverse lookup)?",
+      "options": [
+        "A",
+        "CNAME",
+        "PTR",
+        "MX"
+      ],
+      "answer": "c",
+      "explanation": "PTR records live in the in-addr.arpa zone.",
+      "source": "TS25 Q13 (AAAA)"
+    },
+    {
+      "id": "mock-02-q075",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "A Layer-2 switch receives a frame whose source MAC address is not yet in its table. It:",
+      "options": [
+        "forwards the frame to the default gateway",
+        "records that source MAC against the incoming port",
+        "discards the frame",
+        "sends an ARP broadcast to learn the address"
+      ],
+      "answer": "b",
+      "explanation": "Learning is done from the source address; flooding is for unknown destinations.",
+      "source": "NF15 Q54"
+    },
+    {
+      "id": "mock-02-q076",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "Which option maps the Physical, Data link, Network and Transport layers, in that order, to their data units?",
+      "options": [
+        "bits, frames, packets, segments",
+        "frames, bits, packets, segments",
+        "bits, packets, frames, segments",
+        "bits, frames, segments, packets"
+      ],
+      "answer": "a",
+      "explanation": "Bits, frames, packets and segments (TCP) or datagrams (UDP).",
+      "source": "NF15 Q51; NET25 Q23"
+    },
+    {
+      "id": "mock-02-q077",
+      "part": "B",
+      "topic": "Network tools",
+      "question": "The `traceroute` command discovers the hops on a path by sending packets with increasing:",
+      "options": [
+        "MTU",
+        "port number",
+        "window size",
+        "TTL"
+      ],
+      "answer": "d",
+      "explanation": "Each router that decrements TTL to 0 returns an ICMP Time Exceeded message.",
+      "source": "JTS25 Q12"
+    },
+    {
+      "id": "mock-02-q078",
+      "part": "B",
+      "topic": "Wi-Fi",
+      "question": "Which set of 2.4 GHz Wi-Fi channels (20 MHz wide) do not overlap?",
+      "options": [
+        "1, 6, 11",
+        "1, 2, 3",
+        "3, 7, 9",
+        "2, 4, 6"
+      ],
+      "answer": "a",
+      "explanation": "Channels are 5 MHz apart but 20 MHz wide; 1, 6 and 11 are spaced far enough.",
+      "source": "JTS25 Q13"
+    },
+    {
+      "id": "mock-02-q079",
+      "part": "B",
+      "topic": "Sockets",
+      "question": "Which sequence of calls is correct for a TCP **client**?",
+      "options": [
+        "`socket(), listen(), accept(), send()`",
+        "`socket(), connect(), send(), close()`",
+        "`bind(), socket(), connect(), send()`",
+        "`socket(), accept(), connect(), close()`"
+      ],
+      "answer": "b",
+      "explanation": "A client creates a socket and connects; listen/accept belong to the server.",
+      "source": "JTS25 Q14"
+    },
+    {
+      "id": "mock-02-q080",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "Spanning Tree Protocol, which prevents switching loops in a LAN with redundant links, is defined by:",
+      "options": [
+        "IEEE 802.1Q",
+        "IEEE 802.1X",
+        "IEEE 802.1D",
+        "IEEE 802.3ad"
+      ],
+      "answer": "c",
+      "explanation": "802.1Q is VLAN tagging, 802.1X is port authentication, 802.3ad is link aggregation.",
+      "source": "ITS25 Q2"
+    },
+    {
+      "id": "mock-02-q081",
+      "part": "B",
+      "topic": "Network basics",
+      "question": "Which of the following is a private IPv4 address?",
+      "options": [
+        "172.32.10.1",
+        "192.169.0.1",
+        "11.0.0.1",
+        "172.20.5.9"
+      ],
+      "answer": "d",
+      "explanation": "Private ranges: 10/8, 172.16/12 (172.16 to 172.31), 192.168/16.",
+      "source": "NET25 Q5"
+    },
+    {
+      "id": "mock-02-q082",
+      "part": "B",
+      "topic": "Security",
+      "question": "During an HTTPS handshake, which party checks that the server’s certificate chains to a trusted certificate authority?",
+      "options": [
+        "The server itself",
+        "The DNS resolver",
+        "The default gateway",
+        "The client (browser)"
+      ],
+      "answer": "d",
+      "explanation": "The browser holds the trusted CA list and validates the server’s certificate.",
+      "source": "TS25 Q11"
+    },
+    {
+      "id": "mock-02-q083",
+      "part": "B",
+      "topic": "Security",
+      "question": "An IDS sees inbound TCP packets with the FIN, PSH and URG flags all set. This is most likely a:",
+      "options": [
+        "SYN flood",
+        "Xmas scan",
+        "ACK scan",
+        "Null scan"
+      ],
+      "answer": "b",
+      "explanation": "FIN+PSH+URG lights up the packet like a Christmas tree; a Null scan sets no flags.",
+      "source": "JTS25 Q45"
+    },
+    {
+      "id": "mock-02-q084",
+      "part": "B",
+      "topic": "Security",
+      "question": "An attacker posts a comment containing JavaScript on a forum. The script is saved in the database and runs in every visitor’s browser. This is:",
+      "options": [
+        "reflected XSS",
+        "SQL injection",
+        "stored XSS",
+        "directory traversal"
+      ],
+      "answer": "c",
+      "explanation": "The payload is persisted on the server, so it is stored XSS.",
+      "source": "TS25 Q43--44"
+    },
+    {
+      "id": "mock-02-q085",
+      "part": "B",
+      "topic": "SQL",
+      "question": "Tables: `student(roll, name, dept_id)` and `dept(dept_id, dept_name)`. Which query lists **all** students, even those with no department?",
+      "options": [
+        "`SELECT name, dept_name FROM student INNER JOIN dept USING (dept_id);`",
+        "`SELECT name, dept_name FROM student RIGHT JOIN dept USING (dept_id);`",
+        "`SELECT name, dept_name FROM dept INNER JOIN student USING (dept_id);`",
+        "`SELECT name, dept_name FROM student LEFT JOIN dept USING (dept_id);`"
+      ],
+      "answer": "d",
+      "explanation": "LEFT JOIN keeps every row of the left table (student).",
+      "source": "JTS25 Q20"
+    },
+    {
+      "id": "mock-02-q086",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "Two transactions both read A, update it and write it back, and the final value reflects only one of the two updates. This anomaly is called:",
+      "options": [
+        "phantom read",
+        "lost update",
+        "dirty read",
+        "deadlock"
+      ],
+      "answer": "b",
+      "explanation": "One transaction’s write overwrites the other’s.",
+      "source": "JTS25 Q22"
+    },
+    {
+      "id": "mock-02-q087",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "Which statement is true for a relation in BCNF?",
+      "options": [
+        "It has no multivalued dependencies",
+        "For every non-trivial functional dependency X → Y, X is a superkey",
+        "It has only single-attribute candidate keys",
+        "It is always in 5NF"
+      ],
+      "answer": "b",
+      "explanation": "That is the definition of BCNF.",
+      "source": "TS25 Q23"
+    },
+    {
+      "id": "mock-02-q088",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "Relation R(A,B,C,D) has the dependencies A → B, B → C and C → D. The candidate key is:",
+      "options": [
+        "B",
+        "AD",
+        "D",
+        "A"
+      ],
+      "answer": "d",
+      "explanation": "A⁺={A,B,C,D}; B⁺ lacks A, so only A works.",
+      "source": "JTS25 Q24"
+    },
+    {
+      "id": "mock-02-q089",
+      "part": "B",
+      "topic": "DBMS theory",
+      "question": "Which of the following is a document-oriented NoSQL database?",
+      "options": [
+        "Redis",
+        "Cassandra",
+        "MongoDB",
+        "Neo4j"
+      ],
+      "answer": "c",
+      "explanation": "Redis is key-value, Cassandra is column-family and Neo4j is graph.",
+      "source": "TS25 Q22"
+    },
+    {
+      "id": "mock-02-q090",
+      "part": "B",
+      "topic": "HTML and CSS",
+      "question": "What colours are “Alpha” and “Beta” on this page?",
+      "code": "<style>\n  p  { color: green; }\n  #n { color: red; }\n</style>\n<body style=\"color: black;\">\n  <p id=\"n\">Alpha</p>\n  <div>Beta</div>\n</body>",
+      "options": [
+        "Alpha green, Beta black",
+        "Alpha red, Beta green",
+        "Alpha red, Beta black",
+        "both black"
+      ],
+      "answer": "c",
+      "explanation": "An id selector beats an element selector, so Alpha is red; Beta has no rule and inherits black from body.",
+      "source": "NF15 Q37"
+    },
+    {
+      "id": "mock-02-q091",
+      "part": "B",
+      "topic": "JavaScript",
+      "question": "Which JavaScript statement changes the text of the element with `id=\"status\"` to `Done`?",
+      "options": [
+        "`document.getElementById(\"status\").innerHTML = \"Done\";`",
+        "`document.getElement(\"status\").text = \"Done\";`",
+        "`document.status.innerHTML = \"Done\";`",
+        "`getElementById.status.innerHTML = \"Done\";`"
+      ],
+      "answer": "a",
+      "explanation": "getElementById returns the element, whose innerHTML can be assigned.",
+      "source": "NF15 Q38"
+    },
+    {
+      "id": "mock-02-q092",
+      "part": "B",
+      "topic": "PHP",
+      "question": "In PHP, which function must be called before `$_SESSION` can be used?",
+      "options": [
+        "`session_start()`",
+        "`start_session()`",
+        "`session_create()`",
+        "`begin_session()`"
+      ],
+      "answer": "a",
+      "explanation": "`session_start()` creates or resumes the session.",
+      "source": "NF15 Q44"
+    },
+    {
+      "id": "mock-02-q093",
+      "part": "B",
+      "topic": "Ajax",
+      "question": "The main benefit of Ajax in a web application is that it:",
+      "options": [
+        "compiles PHP code in the browser",
+        "updates part of a page by exchanging data with the server without reloading the whole page",
+        "replaces the need for any database",
+        "encrypts all traffic automatically"
+      ],
+      "answer": "b",
+      "explanation": "Ajax sends and receives data asynchronously in the background.",
+      "source": "NF15 Q42"
+    },
+    {
+      "id": "mock-02-q094",
+      "part": "B",
+      "topic": "Python",
+      "question": "Which function parses a JSON string into a Python object?",
+      "options": [
+        "`json.dumps()`",
+        "`json.loads()`",
+        "`json.dump()`",
+        "`json.parse()`"
+      ],
+      "answer": "b",
+      "explanation": "`loads` reads from a string, `load` from a file, `dumps` writes a string.",
+      "source": "ITS25 Q31"
+    },
+    {
+      "id": "mock-02-q095",
+      "part": "B",
+      "topic": "Python",
+      "question": "What is the output?",
+      "code": "count = 3\ndef bump():\n    count += 1\nbump()\nprint(count)",
+      "options": [
+        "4",
+        "3",
+        "UnboundLocalError",
+        "1"
+      ],
+      "answer": "c",
+      "explanation": "Assigning to `count` inside the function makes it local, and it is read before assignment.",
+      "source": "ITS25 Q32"
+    },
+    {
+      "id": "mock-02-q096",
+      "part": "B",
+      "topic": "Python",
+      "question": "What is the output?",
+      "code": "a = [1, 2]\nb = a\na += [3]\nprint(a is b, b)",
+      "options": [
+        "True [1, 2, 3]",
+        "False [1, 2, 3]",
+        "True [1, 2]",
+        "False [1, 2]"
+      ],
+      "answer": "a",
+      "explanation": "`+=` extends the list in place, so `a` and `b` are still the same object.",
+      "source": "NET25 Q42"
+    },
+    {
+      "id": "mock-02-q097",
+      "part": "B",
+      "topic": "Virtualization",
+      "question": "Which statement about containers (LXC, Docker) and KVM virtual machines is correct?",
+      "options": [
+        "containers carry their own kernel, while KVM guests share the host kernel",
+        "containers are Type-1 hypervisors",
+        "KVM guests cannot run a different Linux distribution",
+        "containers share the host kernel, while each KVM guest runs its own kernel"
+      ],
+      "answer": "d",
+      "explanation": "Containers are OS-level isolation; KVM provides full virtual machines.",
+      "source": "TS25 Q46"
+    },
+    {
+      "id": "mock-02-q098",
+      "part": "B",
+      "topic": "Cloud",
+      "question": "A configuration-management run that can be repeated many times and changes nothing when the system is already in the desired state is called:",
+      "options": [
+        "immutable",
+        "replicated",
+        "idempotent",
+        "orchestrated"
+      ],
+      "answer": "c",
+      "explanation": "Idempotency is the core property of Ansible modules.",
+      "source": "JTS25 Q48"
+    },
+    {
+      "id": "mock-02-q099",
+      "part": "B",
+      "topic": "Virtualization",
+      "question": "A KVM guest cannot reach the Internet although the host can. The most probable cause is:",
+      "options": [
+        "the guest has too little RAM",
+        "the host CPU lacks AVX",
+        "the disk image is in qcow2 format",
+        "the guest NIC is not attached to a working bridge or NAT network"
+      ],
+      "answer": "d",
+      "explanation": "Guest connectivity depends on the virtual network (libvirt NAT or a bridge).",
+      "source": "JTS25 Q47"
+    },
+    {
+      "id": "mock-02-q100",
+      "part": "B",
+      "topic": "Cloud",
+      "question": "Which of the following is open-source software for building a private Infrastructure-as-a-Service cloud?",
+      "options": [
+        "Wireshark",
+        "Nagios",
+        "Gitea",
+        "OpenStack"
+      ],
+      "answer": "d",
+      "explanation": "OpenStack provides compute, storage and networking as a service.",
+      "source": "JTS25 Q50"
+    }
+  ],
+  "partc": [
+    {
+      "id": "C1",
+      "title": "Office memo (10 marks, about 120 words).",
+      "words": 120,
+      "prompt": "You are in charge of the CSE computer lab. The lab file server will be unavailable for disk replacement and operating-system patching on Saturday, 12 December, from 9 pm to 6 am. Write an office memo from the Lab In-charge to all lab users informing them of this. State the impact, what users should do before the shutdown, and whom to contact.",
+      "guide": "Content 4, format 3, language 3. Format: “MEMORANDUM”, To / From / Date / Subject lines, short body, name and designation, no salutation or closing. Must contain: what (file server unavailable), when (Saturday 12 December, 9 pm to 6 am), why (disk replacement and OS patching), impact (no access to home directories and shared files), action (save and close work, copy urgent files locally before 9 pm), contact (name and extension). Deduct for a letter-style layout, missing date or subject, or more than about 150 words."
+    },
+    {
+      "id": "C2",
+      "title": "Case study (10 marks, about 200 words).",
+      "words": 200,
+      "prompt": "The department’s student lab has 60 desktop PCs. In each of the last two monsoons, 8 to 10 PCs failed: motherboards corroded and hard disks developed bad sectors. The lab has no dehumidifier, the windows are often left open, and dust collects inside the cabinets. The budget this year is limited. Analyse the causes and recommend a prioritised plan with preventive and corrective actions.",
+      "guide": "Analysis 3, recommendations 4, structure 3. Causes to see: high humidity and no dehumidifier, open windows letting in moisture and dust, dust inside cabinets, no routine maintenance. Plan to see: low-cost first (keep windows shut, silica gel or two dehumidifiers, cleaning schedule with compressed air before and after monsoon), then backup of student data and disk-health (SMART) checks, then replacement of failing units on a priority list, then a review after the next monsoon. Marks go to prioritising under the budget limit and to separating preventive from corrective actions."
+    }
+  ],
+  "partc_note": ""
+}
