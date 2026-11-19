@@ -12,6 +12,13 @@
       "runtimeExecutable": "go",
       "runtimeArgs": ["-C", "runner", "run", ".", "-addr", "127.0.0.1:7071", "-dir", "C:/Users/ganes/AppData/Local/Temp/claude/dc568dbd19a446ef/00bd1c2b-25b0-4890-8faa-51350606d657/scratchpad/runner-test"],
       "port": 7071
+    },
+    {
+      "name": "mindmantra",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["-S", "127.0.0.1:8090", "-t", "D:/mindmantra.live", "D:/mindmantra.live/index.php"],
+      "port": 8090,
+      "autoPort": false
     }
   ]
 }
