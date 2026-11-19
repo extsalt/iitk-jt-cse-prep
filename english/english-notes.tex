@@ -1,0 +1,388 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem,xcolor,fancyhdr,array,tabularx,booktabs}
+\definecolor{slate}{HTML}{2F3E4E}
+\definecolor{ember}{HTML}{C8501E}
+\definecolor{codebg}{HTML}{F3F5F7}
+\usepackage[colorlinks=true,linkcolor=slate,urlcolor=ember]{hyperref}
+\hypersetup{bookmarksdepth=2}
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small\color{slate}English notes}
+\rhead{\small\color{slate}Page \thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\sloppy
+\setlist{itemsep=2pt,topsep=3pt,leftmargin=*}
+\usepackage{titlesec,needspace}
+\titleformat{\section}{\Large\bfseries\color{ember}}{\thesection}{0.6em}{}[{\color{slate}\titlerule}]
+\titleformat{\subsection}{\large\bfseries\color{slate}}{}{0em}{}
+\titleformat{name=\subsection,numberless}{\large\bfseries\color{slate}}{}{0em}{}
+\let\oldsection\section
+\renewcommand{\section}{\clearpage\oldsection}
+\newcommand{\oneidea}[1]{\par\medskip\noindent\begingroup\setlength{\fboxsep}{7pt}%
+  \colorbox{codebg}{\parbox{\dimexpr\linewidth-14pt\relax}{\textbf{\color{ember}The one idea.}\ #1}}\endgroup\par\medskip}
+\newcommand{\bad}[1]{\textcolor{ember}{#1}}
+\newcommand{\good}[1]{\textbf{#1}}
+
+\begin{document}
+\begin{center}
+{\LARGE\bfseries\color{slate}English notes}\\[3pt]
+{\color{ember}Ten topics: the rule, the quick test, and the traps}
+\end{center}
+
+\subsection*{Chapters at a glance}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}r >{\raggedright\arraybackslash}p{4.2cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{\#} & \textbf{Topic} & \textbf{The one idea}\\
+\midrule
+1 & Tenses and verb forms & The time word decides the tense.\\
+2 & Subject-verb agreement & Find the real subject; the verb follows it.\\
+3 & Articles and prepositions & Sound decides a/an; learn the fixed pairs.\\
+4 & Error spotting & Test each part against a short checklist.\\
+5 & Voice and speech & Keep the tense; change only who does what.\\
+6 & Vocabulary & Learn words in pairs and by root.\\
+7 & Spelling & Memorise the short list of words that cost marks.\\
+8 & Idioms and phrasal verbs & Meaning is not the sum of the words.\\
+9 & Comprehension & The answer is in the passage; find the line.\\
+10 & Sentence order and office writing & Find the opener, then follow the links.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{How to read this file}
+Read one chapter, then take that topic's quiz on the English path. Use the traps lists in the last three days. Every rule here is the reason behind an answer in the quizzes.
+
+%==================================================
+\section{Tenses and verb forms}
+\oneidea{Look for the time word first. It tells you the tense before you read the options.}
+\subsection*{Time word to tense}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{4.2cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Clue} & \textbf{Tense} & \textbf{Example}\\
+\midrule
+yesterday, last month, in 2019 & simple past & I \good{met} him yesterday.\\
+since + point, for + period & present perfect & She \good{has lived} here since 2020.\\
+Look! Now! At this moment & present continuous & It \good{is raining}.\\
+every day, always, truths & simple present & Water \good{boils} at 100$^\circ$C.\\
+By the time (past) & past perfect for the earlier act & The train \good{had left}.\\
+for two hours when (past) & past perfect continuous & She \good{had been cooking}.\\
+when (past) interrupted an act & past continuous & They \good{were discussing}.\\
+If + present, will & real condition & If it rains, we \good{will cancel}.\\
+If + had + participle, would have & unreal past & If I \good{had known}, I would have told you.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item \bad{since} five years $\rightarrow$ \good{for} five years. Since needs a starting point.
+\item After \emph{wish} about the present, use the past form: I wish I \good{had} more time.
+\item Universal truths stay in the present even in reported speech.
+\item Never put \emph{will} in an if-clause: If it rains (not \bad{will rain}).
+\end{itemize}
+
+%==================================================
+\section{Subject-verb agreement}
+\oneidea{Cross out everything between the subject and the verb. What is left decides singular or plural.}
+\subsection*{Rules and examples}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Rule} & \textbf{Example}\\
+\midrule
+each, every, either, neither, everyone, one of $\rightarrow$ singular & \good{Each} of the rooms \good{has} an air conditioner.\\
+either...or, neither...nor $\rightarrow$ nearer subject & Either the manager or the clerks \good{are} responsible.\\
+along with, as well as, together with $\rightarrow$ ignore it & The teacher, along with the students, \good{is} going.\\
+a number of $\rightarrow$ plural; the number of $\rightarrow$ singular & A number of students \good{are} absent. The number \good{is} rising.\\
+distance, money, time as one amount $\rightarrow$ singular & Ten kilometres \good{is} a long distance.\\
+subjects ending in -ics $\rightarrow$ singular & Mathematics \good{is} my favourite subject.\\
+police, cattle, people $\rightarrow$ plural & The police \good{have} arrived.\\
+scissors, trousers, spectacles $\rightarrow$ plural & The scissors \good{are} on the table.\\
+one of the ... who $\rightarrow$ plural verb & One of the employees who \good{were} promoted.\\
+uncountable: news, furniture, advice, information & The furniture \good{is} old.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item The phrase between subject and verb is bait: \emph{The list of items} \good{is} kept.
+\item \emph{Neither of} looks plural but is singular.
+\item Either you or I \good{am}: the verb matches the nearer person.
+\end{itemize}
+
+%==================================================
+\section{Articles and prepositions}
+\oneidea{Articles follow the sound, not the spelling. Prepositions follow fixed pairs, so learn them as pairs.}
+\subsection*{Articles}
+\begin{itemize}
+\item \good{a} before a consonant \emph{sound}: a university (yoo), a one-rupee coin.
+\item \good{an} before a vowel \emph{sound}: an hour, an M.Sc., an umbrella.
+\item \good{the} for rivers, oceans, unique things (the Ganga, the sun), superlatives.
+\item \emph{no article} for games, meals, languages, plurals in general: plays cricket.
+\end{itemize}
+\subsection*{Fixed pairs}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+on Monday, on 5 May & at 10 a.m., at night & in 1998, in May\\
+fond \good{of}, afraid \good{of} & good \good{at}, weak \good{in} & senior \good{to}, junior \good{to}\\
+married \good{to} & charged \good{with} & apologise \good{for}\\
+look \good{for} (search) & absent \good{since} Monday & prefer \good{to} (not than)\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item \emph{between} is for two, \emph{among} for more than two.
+\item \emph{senior}, \emph{junior} and \emph{superior} take \good{to}, not \bad{than}.
+\item \emph{since} needs a point in time, \emph{for} a length.
+\end{itemize}
+
+%==================================================
+\section{Error spotting}
+\oneidea{Do not read for meaning. Run each part of the sentence through the same short checklist, in this order.}
+\subsection*{The checklist}
+\begin{enumerate}
+\item Subject and verb agree?
+\item Tense matches the time word?
+\item Fixed preposition correct?
+\item Article needed or wrong?
+\item Double word or double comparative (\bad{more smarter}, \bad{though ... but})?
+\item Uncountable noun used as countable (\bad{an advice}, \bad{informations})?
+\item Word order in a reported question or after where/what?
+\end{enumerate}
+If every check passes, the answer is \emph{No error}. About one question in ten has no error, so do not force one.
+\subsection*{Pairs that always go together}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+Hardly / Scarcely \ldots\ \good{when} (not than) & No sooner \ldots\ \good{than}\\
+Though \ldots\ (no but) & Not only \ldots\ but also\\
+prefer X \good{to} Y & look forward \good{to meeting}\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item \emph{He did not know where \bad{was} the station} $\rightarrow$ where the station \good{was}.
+\item \emph{She asked \bad{that} where I was going} $\rightarrow$ no \emph{that}.
+\item \emph{Each of the students \bad{were}} $\rightarrow$ was.
+\end{itemize}
+
+%==================================================
+\section{Voice and speech}
+\oneidea{The tense never changes in voice. In speech, the tense steps back one place and the pronouns and time words move.}
+\subsection*{Active to passive: the verb frame}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Tense} & \textbf{Active} & \textbf{Passive}\\
+\midrule
+simple present & people speak English & English \good{is spoken}\\
+present continuous & is checking the cables & cables \good{are being checked}\\
+present perfect & has written the letter & letter \good{has been written}\\
+simple past & typed the letter & letter \good{was typed}\\
+future & will announce & \good{will be announced}\\
+modal & must obey & \good{must be obeyed}\\
+imperative & Do it now. & \good{Let it be done} now.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Direct to indirect speech}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Direct} & \textbf{Indirect}\\
+\midrule
+am / is / are & was / were\\
+will / can / may & would / could / might\\
+has / have & had\\
+simple past & past perfect\\
+now, today, tomorrow, here & then, that day, the next day, there\\
+statement & said that\ldots\\
+question (yes/no) & asked if / whether, statement order\\
+question (wh-) & asked where / what, statement order\\
+request / command & requested / ordered / told + object + to + verb\\
+exclamation & exclaimed (with joy / sadly) that\ldots\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item A universal truth stays present: The teacher said that the earth \good{moves} round the sun.
+\item No \emph{do/did} in a reported question: \emph{asked where I lived}, not \bad{where did I live}.
+\item \emph{forbade} / \emph{told not to} is the report of a negative command.
+\end{itemize}
+
+%==================================================
+\section{Vocabulary}
+\oneidea{Learn words in pairs (word and opposite) and by roots. Eliminate the two options that are the opposite or unrelated before you choose.}
+\subsection*{Roots that unlock many words}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3cm} >{\raggedright\arraybackslash}p{3.3cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Root} & \textbf{Meaning} & \textbf{Words}\\
+\midrule
+bene- & good & benevolent, benefit\\
+mal- & bad & malice, malfunction\\
+bio- & life & biography, biology\\
+phobia & fear of & acrophobia (heights), claustrophobia (closed places)\\
+-cracy & rule by & democracy (people), autocracy (one person)\\
+bibl- & book & bibliophile (book lover)\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Word pairs}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Word} & \textbf{Close in meaning} & \textbf{Opposite}\\
+\midrule
+conceal & hide & reveal\\
+vital & essential & minor\\
+reluctant & unwilling & eager\\
+hostile & unfriendly & welcoming\\
+temporary & brief & permanent\\
+prompt & quick & slow\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item Read whether the question asks for the \emph{same} or the \emph{opposite} meaning, and underline it.
+\item An aviary keeps birds, an apiary keeps bees. Similar-looking words are the trap.
+\end{itemize}
+
+%==================================================
+\section{Spelling}
+\oneidea{Most lost marks come from the same short list. Learn the list with the reason for each.}
+\subsection*{Words that cost marks}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Word} & \textbf{Memory hook}\\
+\midrule
+accommodation & double c, double m\\
+necessary & one c, two s\\
+occurrence, occasion & double c (occurrence also double r)\\
+maintenance & drops the ``ai'' of maintain\\
+separate & sep-\textbf{a}-rate\\
+government & keep the n: govern + ment\\
+embarrass, recommend & double r+double s; one c, double m\\
+committee & double m, double t, double e\\
+beginning & double n before -ing\\
+tomorrow & one m, double r\\
+achievement & achieve keeps its e\\
+argument & drop the e of argue\\
+business & bus-i-ness\\
+conscience & contains ``science''\\
+existence & -ence\\
+foreign, weird & exceptions: e before i\\
+library & lib-\textbf{rar}-y\\
+perseverance & -ance\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item ``i before e except after c'' fails for foreign, weird, seize. Memorise those.
+\item Words ending in -ance/-ence: no rule, so learn each (maintenance, existence, perseverance).
+\end{itemize}
+
+%==================================================
+\section{Idioms and phrasal verbs}
+\oneidea{Do not translate word by word. Ask what the whole phrase does in the sentence.}
+\subsection*{Idioms}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Idiom} & \textbf{Meaning}\\
+\midrule
+beat around the bush & avoid the main point\\
+a hot potato & an awkward issue nobody wants\\
+cost an arm and a leg & be very expensive\\
+the last straw & the final problem that makes it unbearable\\
+kill two birds with one stone & achieve two aims with one action\\
+on cloud nine & extremely happy\\
+at the drop of a hat & immediately\\
+a storm in a teacup & a fuss about something small\\
+go the extra mile & make more effort than expected\\
+bite the bullet & face something painful bravely\\
+a blessing in disguise & something good that seemed bad\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Phrasal verbs}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+call off $=$ cancel & put up with $=$ tolerate\\
+look into $=$ investigate & give up $=$ stop trying\\
+turn down $=$ refuse & run out of $=$ have none left\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item Options often give the literal meaning as bait (arm and leg $\rightarrow$ ``injury'').
+\item \emph{call off} is cancel, not postpone.
+\end{itemize}
+
+%==================================================
+\section{Comprehension}
+\oneidea{Every answer is stated or directly implied in the passage. Read the question first, then find the line.}
+\subsection*{Method}
+\begin{enumerate}
+\item Read the questions before the passage so you know what to look for.
+\item Read once for the main point; do not memorise details.
+\item For each question, find the line and compare every option with it.
+\item Cross out options that go beyond the passage (``always'', ``never'', ``only'').
+\item For ``NOT mentioned'' questions, tick off the options that \emph{are} in the passage.
+\end{enumerate}
+\subsection*{Traps}
+\begin{itemize}
+\item An option can be true in real life but not in the passage. Choose what the passage says.
+\item Extreme words (always, all, never) are usually wrong.
+\item Vocabulary-in-context questions: replace the word with each option and re-read the sentence.
+\end{itemize}
+
+%==================================================
+\section{Sentence order and office writing}
+\oneidea{Find the opening sentence, then follow the links: pronouns, ``therefore'', ``then'', ``this''. A conclusion comes last.}
+\subsection*{Sentence order method}
+\begin{enumerate}
+\item The opener introduces the person or thing. It never starts with it, this, he, therefore.
+\item Link words point backwards: therefore, as a result, then, this, such, them.
+\item The cause comes before the effect, and the action before its result.
+\item Test the order you picked by reading it once, start to end.
+\end{enumerate}
+\subsection*{Office writing terms}
+\begin{center}\small\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.8cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Term} & \textbf{Meaning}\\
+\midrule
+cc & carbon copy: others who receive a copy\\
+Encl. & documents sent with the letter\\
+NOC & No Objection Certificate\\
+Ref. No. & reference number for filing and tracing\\
+Reg. & regarding\\
+circular & the same notice to many people\\
+memo & short internal message; no salutation or close\\
+agenda / minutes & items to be discussed / record of what was decided\\
+Dear Sir $\rightarrow$ Yours faithfully & general salutation\\
+Dear Mr Rao $\rightarrow$ Yours sincerely & named person\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\subsection*{Traps}
+\begin{itemize}
+\item \emph{faithfully} goes with \emph{Dear Sir/Madam}; \emph{sincerely} goes with a name.
+\item An incident report states what happened, when, the impact and the action taken.
+\end{itemize}
+\end{document}
