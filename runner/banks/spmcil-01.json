@@ -1,0 +1,849 @@
+{
+ "id": "spmcil-01",
+ "title": "SPMCIL AM (IT) Professional Knowledge Test 01",
+ "minutes": 50,
+ "questions": [
+  {
+   "id": "spmcil-01-q001",
+   "part": "B",
+   "topic": "DBMS theory",
+   "question": "A foreign key in a table:",
+   "options": [
+    "cannot be NULL",
+    "can contain NULL and repeated values",
+    "must be unique",
+    "must be the primary key of the same table"
+   ],
+   "answer": "b",
+   "explanation": "A foreign key points to another table's primary key; it may be NULL and may repeat. A primary key cannot be NULL."
+  },
+  {
+   "id": "spmcil-01-q002",
+   "part": "B",
+   "topic": "DBMS theory",
+   "question": "R(A, B, C, D) has the dependencies A→B, B→C and C→D. What is the highest normal form of R?",
+   "options": [
+    "1NF",
+    "3NF",
+    "BCNF",
+    "2NF"
+   ],
+   "answer": "d",
+   "explanation": "A is the key (it never appears on a right side). B→C has a non-key on the left, a transitive dependency, so it is not 3NF. The key is one column, so there is no partial dependency: 2NF."
+  },
+  {
+   "id": "spmcil-01-q003",
+   "part": "B",
+   "topic": "DBMS theory",
+   "question": "Which isolation level allows dirty reads?",
+   "options": [
+    "Read Uncommitted",
+    "Read Committed",
+    "Repeatable Read",
+    "Serializable"
+   ],
+   "answer": "a",
+   "explanation": "Read Uncommitted is the weakest level and allows dirty, non-repeatable and phantom reads."
+  },
+  {
+   "id": "spmcil-01-q004",
+   "part": "B",
+   "topic": "DBMS theory",
+   "question": "A schedule is conflict serializable if:",
+   "options": [
+    "its precedence graph has no cycle",
+    "its precedence graph has a cycle",
+    "it uses no locks",
+    "all its transactions commit together"
+   ],
+   "answer": "a",
+   "explanation": "Draw an edge for each conflicting pair in order; no cycle means an equivalent serial schedule exists."
+  },
+  {
+   "id": "spmcil-01-q005",
+   "part": "B",
+   "topic": "DBMS theory",
+   "question": "In ACID, atomicity means:",
+   "options": [
+    "all operations of a transaction happen, or none do",
+    "committed data survives a crash",
+    "transactions do not see each other's half-done work",
+    "the database moves from one valid state to another"
+   ],
+   "answer": "a",
+   "explanation": "The other three describe durability, isolation and consistency."
+  },
+  {
+   "id": "spmcil-01-q006",
+   "part": "B",
+   "topic": "SQL",
+   "question": "TRUNCATE TABLE is classed as:",
+   "options": [
+    "DML",
+    "DCL",
+    "TCL",
+    "DDL"
+   ],
+   "answer": "d",
+   "explanation": "TRUNCATE is DDL. DELETE is DML."
+  },
+  {
+   "id": "spmcil-01-q007",
+   "part": "B",
+   "topic": "SQL",
+   "question": "COUNT(col) differs from COUNT(*) because COUNT(col):",
+   "options": [
+    "counts only distinct values",
+    "skips rows where col is NULL",
+    "counts only numeric values",
+    "ignores the WHERE clause"
+   ],
+   "answer": "b",
+   "explanation": "COUNT(*) counts all rows; COUNT(col) counts only non-NULL values."
+  },
+  {
+   "id": "spmcil-01-q008",
+   "part": "B",
+   "topic": "SQL",
+   "question": "In the logical order of execution of a SELECT query, which clause is processed right after WHERE?",
+   "options": [
+    "HAVING",
+    "SELECT",
+    "GROUP BY",
+    "ORDER BY"
+   ],
+   "answer": "c",
+   "explanation": "Order: FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY."
+  },
+  {
+   "id": "spmcil-01-q009",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "Which of the following is NOT a necessary condition for deadlock?",
+   "options": [
+    "Hold and wait",
+    "Circular wait",
+    "Starvation",
+    "No pre-emption"
+   ],
+   "answer": "c",
+   "explanation": "The four conditions are mutual exclusion, hold and wait, no pre-emption and circular wait. Starvation is a different problem."
+  },
+  {
+   "id": "spmcil-01-q010",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "Round Robin scheduling with a very large time quantum behaves like:",
+   "options": [
+    "FCFS",
+    "SJF",
+    "Priority scheduling",
+    "SRTF"
+   ],
+   "answer": "a",
+   "explanation": "If the quantum exceeds every burst, each process runs to completion in arrival order."
+  },
+  {
+   "id": "spmcil-01-q011",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "Four processes arrive at time 0 with CPU bursts 6, 8, 7 and 3 ms. What is the average waiting time under non-pre-emptive SJF?",
+   "options": [
+    "10.25 ms",
+    "7 ms",
+    "9 ms",
+    "8 ms"
+   ],
+   "answer": "b",
+   "explanation": "SJF order 3, 6, 7, 8 gives waits 0, 3, 9, 16: total 28, average 7. FCFS in the given order would give 10.25."
+  },
+  {
+   "id": "spmcil-01-q012",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "How many page faults occur with FIFO replacement and 3 frames for the reference string 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5?",
+   "options": [
+    "8",
+    "9",
+    "10",
+    "7"
+   ],
+   "answer": "b",
+   "explanation": "Simulating FIFO with 3 frames gives 9 faults (with 4 frames it rises to 10: Belady's anomaly)."
+  },
+  {
+   "id": "spmcil-01-q013",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "Which of the following is shared by all threads of one process?",
+   "options": [
+    "the stack",
+    "the registers",
+    "the program counter",
+    "code, data and open files"
+   ],
+   "answer": "d",
+   "explanation": "Each thread has its own stack, registers and program counter."
+  },
+  {
+   "id": "spmcil-01-q014",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "Segmentation suffers from external fragmentation. Paging suffers from:",
+   "options": [
+    "external fragmentation",
+    "deadlock",
+    "internal fragmentation in the last page",
+    "starvation"
+   ],
+   "answer": "c",
+   "explanation": "Fixed-size pages leave unused space inside the last page of a process."
+  },
+  {
+   "id": "spmcil-01-q015",
+   "part": "B",
+   "topic": "OS concepts",
+   "question": "A semaphore that takes only the values 0 and 1 is called a:",
+   "options": [
+    "binary semaphore",
+    "counting semaphore",
+    "monitor",
+    "spin lock"
+   ],
+   "answer": "a",
+   "explanation": "A counting semaphore counts resources; a binary one is 0 or 1."
+  },
+  {
+   "id": "spmcil-01-q016",
+   "part": "B",
+   "topic": "Subnetting",
+   "question": "How many usable host addresses does a /26 network have?",
+   "options": [
+    "64",
+    "60",
+    "126",
+    "62"
+   ],
+   "answer": "d",
+   "explanation": "2^(32−26) = 64 addresses, minus the network and broadcast addresses = 62."
+  },
+  {
+   "id": "spmcil-01-q017",
+   "part": "B",
+   "topic": "Network basics",
+   "question": "Which OSI layer routes packets using IP addresses?",
+   "options": [
+    "Data link layer",
+    "Transport layer",
+    "Network layer",
+    "Session layer"
+   ],
+   "answer": "c",
+   "explanation": "Routers work at the network layer (layer 3)."
+  },
+  {
+   "id": "spmcil-01-q018",
+   "part": "B",
+   "topic": "Network protocols",
+   "question": "What is the default port of HTTPS?",
+   "options": [
+    "80",
+    "8080",
+    "22",
+    "443"
+   ],
+   "answer": "d",
+   "explanation": "HTTP uses 80, HTTPS 443, SSH 22."
+  },
+  {
+   "id": "spmcil-01-q019",
+   "part": "B",
+   "topic": "Network protocols",
+   "question": "Which transport protocol is connectionless and does no retransmission?",
+   "options": [
+    "UDP",
+    "TCP",
+    "SCTP",
+    "FTP"
+   ],
+   "answer": "a",
+   "explanation": "UDP sends datagrams without a connection or acknowledgements."
+  },
+  {
+   "id": "spmcil-01-q020",
+   "part": "B",
+   "topic": "Network protocols",
+   "question": "DNS is used to:",
+   "options": [
+    "translate domain names to IP addresses",
+    "translate IP addresses to MAC addresses",
+    "assign IP addresses automatically",
+    "encrypt web traffic"
+   ],
+   "answer": "a",
+   "explanation": "ARP maps IP to MAC; DHCP assigns addresses."
+  },
+  {
+   "id": "spmcil-01-q021",
+   "part": "B",
+   "topic": "Network protocols",
+   "question": "ARP is used to find:",
+   "options": [
+    "the IP address for a domain name",
+    "the route to a remote network",
+    "the MAC address for a known IP address on the local network",
+    "the port of a service"
+   ],
+   "answer": "c",
+   "explanation": "ARP resolves IP addresses to MAC addresses within a LAN."
+  },
+  {
+   "id": "spmcil-01-q022",
+   "part": "B",
+   "topic": "Network basics",
+   "question": "A switch mainly works at which OSI layer?",
+   "options": [
+    "Physical layer",
+    "Network layer",
+    "Transport layer",
+    "Data link layer"
+   ],
+   "answer": "d",
+   "explanation": "A switch forwards frames by MAC address (layer 2)."
+  },
+  {
+   "id": "spmcil-01-q023",
+   "part": "B",
+   "topic": "Network protocols",
+   "question": "The TCP three-way handshake exchanges, in order:",
+   "options": [
+    "SYN, ACK, SYN-ACK",
+    "ACK, SYN, SYN-ACK",
+    "SYN, SYN-ACK, ACK",
+    "SYN, SYN, ACK"
+   ],
+   "answer": "c",
+   "explanation": "The client sends SYN, the server replies SYN-ACK, the client ends with ACK."
+  },
+  {
+   "id": "spmcil-01-q024",
+   "part": "B",
+   "topic": "Subnetting",
+   "question": "To split 192.168.10.0/24 into 4 equal subnets, the new subnet mask is:",
+   "options": [
+    "255.255.255.128",
+    "255.255.255.224",
+    "255.255.255.192",
+    "255.255.255.240"
+   ],
+   "answer": "c",
+   "explanation": "Four subnets need 2 extra bits: /26, which is 255.255.255.192 (blocks of 64)."
+  },
+  {
+   "id": "spmcil-01-q025",
+   "part": "B",
+   "topic": "Data structures",
+   "question": "Which data structure is used to implement breadth-first search?",
+   "options": [
+    "Queue",
+    "Stack",
+    "Heap",
+    "Hash table"
+   ],
+   "answer": "a",
+   "explanation": "BFS visits level by level using a queue; DFS uses a stack."
+  },
+  {
+   "id": "spmcil-01-q026",
+   "part": "B",
+   "topic": "Algorithms",
+   "question": "What is the time complexity of binary search on a sorted array of n items?",
+   "options": [
+    "O(n)",
+    "O(log n)",
+    "O(n log n)",
+    "O(1)"
+   ],
+   "answer": "b",
+   "explanation": "Each step halves the search range."
+  },
+  {
+   "id": "spmcil-01-q027",
+   "part": "B",
+   "topic": "Data structures",
+   "question": "An inorder traversal of a binary search tree visits the keys in:",
+   "options": [
+    "descending order",
+    "sorted (ascending) order",
+    "level order",
+    "random order"
+   ],
+   "answer": "b",
+   "explanation": "Left, node, right gives ascending order in a BST."
+  },
+  {
+   "id": "spmcil-01-q028",
+   "part": "B",
+   "topic": "Algorithms",
+   "question": "What is the worst-case time complexity of quicksort?",
+   "options": [
+    "O(n log n)",
+    "O(n)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "answer": "d",
+   "explanation": "A bad pivot on every step (for example an already sorted array with a first-element pivot) gives n² comparisons."
+  },
+  {
+   "id": "spmcil-01-q029",
+   "part": "B",
+   "topic": "Algorithms",
+   "question": "Which shortest-path algorithm does NOT work with negative edge weights?",
+   "options": [
+    "Bellman-Ford algorithm",
+    "Dijkstra's algorithm",
+    "Floyd-Warshall algorithm",
+    "all three work"
+   ],
+   "answer": "b",
+   "explanation": "Dijkstra assumes a settled node cannot be improved, which fails with negative edges. Bellman-Ford handles them."
+  },
+  {
+   "id": "spmcil-01-q030",
+   "part": "B",
+   "topic": "Data structures",
+   "question": "In a min-heap, the smallest element is at the:",
+   "options": [
+    "last leaf",
+    "left child of the root",
+    "right child of the root",
+    "root"
+   ],
+   "answer": "d",
+   "explanation": "The heap property puts the minimum at the root."
+  },
+  {
+   "id": "spmcil-01-q031",
+   "part": "B",
+   "topic": "Data structures",
+   "question": "Which of the following is a collision resolution technique in hashing?",
+   "options": [
+    "Hashing itself",
+    "Chaining",
+    "Sorting",
+    "Indexing"
+   ],
+   "answer": "b",
+   "explanation": "Chaining stores colliding keys in a list at the same slot; open addressing is the other family."
+  },
+  {
+   "id": "spmcil-01-q032",
+   "part": "B",
+   "topic": "Data structures",
+   "question": "How many edges does a tree with n nodes have?",
+   "options": [
+    "n",
+    "n + 1",
+    "2n",
+    "n − 1"
+   ],
+   "answer": "d",
+   "explanation": "A tree is connected with no cycle, so it has exactly n − 1 edges."
+  },
+  {
+   "id": "spmcil-01-q033",
+   "part": "B",
+   "topic": "OOP",
+   "question": "Encapsulation means:",
+   "options": [
+    "binding data and methods together and hiding the internal details",
+    "creating many objects from one class",
+    "reusing the members of a parent class",
+    "giving one name to many different forms"
+   ],
+   "answer": "a",
+   "explanation": "The other options describe instantiation, inheritance and polymorphism."
+  },
+  {
+   "id": "spmcil-01-q034",
+   "part": "B",
+   "topic": "OOP",
+   "question": "Which kind of polymorphism is resolved at compile time?",
+   "options": [
+    "method overloading",
+    "method overriding",
+    "virtual function calls",
+    "abstract class calls"
+   ],
+   "answer": "a",
+   "explanation": "Overloading is chosen by the compiler from the argument types; overriding is resolved at run time."
+  },
+  {
+   "id": "spmcil-01-q035",
+   "part": "B",
+   "topic": "OOP",
+   "question": "In Java, which keyword stops a class from being inherited?",
+   "options": [
+    "static",
+    "abstract",
+    "final",
+    "private"
+   ],
+   "answer": "c",
+   "explanation": "A final class cannot be extended."
+  },
+  {
+   "id": "spmcil-01-q036",
+   "part": "B",
+   "topic": "OOP",
+   "question": "A constructor is called:",
+   "options": [
+    "when the object is destroyed",
+    "only when the programmer calls it by name",
+    "automatically when an object is created",
+    "once per program"
+   ],
+   "answer": "c",
+   "explanation": "Constructors initialise a new object; destructors run when it is destroyed."
+  },
+  {
+   "id": "spmcil-01-q037",
+   "part": "B",
+   "topic": "OOP",
+   "question": "Which OOP concept lets a subclass reuse the members of a parent class?",
+   "options": [
+    "Encapsulation",
+    "Inheritance",
+    "Abstraction",
+    "Overloading"
+   ],
+   "answer": "b",
+   "explanation": "Inheritance lets a class acquire the fields and methods of another."
+  },
+  {
+   "id": "spmcil-01-q038",
+   "part": "B",
+   "topic": "OOP",
+   "question": "An abstract class:",
+   "options": [
+    "cannot have any methods",
+    "cannot be inherited",
+    "cannot be instantiated directly",
+    "must have only private members"
+   ],
+   "answer": "c",
+   "explanation": "An abstract class is meant to be extended; you create objects of its concrete subclasses."
+  },
+  {
+   "id": "spmcil-01-q039",
+   "part": "B",
+   "topic": "OOP",
+   "question": "Java does not allow a class to extend two classes, but gives similar flexibility through:",
+   "options": [
+    "pointers",
+    "friend functions",
+    "interfaces",
+    "macros"
+   ],
+   "answer": "c",
+   "explanation": "A class can implement many interfaces."
+  },
+  {
+   "id": "spmcil-01-q040",
+   "part": "B",
+   "topic": "OOP",
+   "question": "In C++, a virtual function is used to achieve:",
+   "options": [
+    "compile-time polymorphism",
+    "run-time polymorphism",
+    "data hiding",
+    "memory allocation"
+   ],
+   "answer": "b",
+   "explanation": "Calls through a base pointer reach the derived class version at run time."
+  },
+  {
+   "id": "spmcil-01-q041",
+   "part": "B",
+   "topic": "Security",
+   "question": "The CIA triad of security stands for:",
+   "options": [
+    "Control, Identity, Access",
+    "Confidentiality, Integrity, Availability",
+    "Confidentiality, Identity, Authority",
+    "Cryptography, Integrity, Authentication"
+   ],
+   "answer": "b",
+   "explanation": "These are the three core goals of information security."
+  },
+  {
+   "id": "spmcil-01-q042",
+   "part": "B",
+   "topic": "Security",
+   "question": "What is the difference between hashing and encryption?",
+   "options": [
+    "Hashing needs a key; encryption does not",
+    "Hashing can be reversed; encryption cannot",
+    "There is no difference",
+    "Hashing is one-way; encryption can be reversed with the key"
+   ],
+   "answer": "d",
+   "explanation": "A hash cannot be turned back into the input; ciphertext can be decrypted with the right key."
+  },
+  {
+   "id": "spmcil-01-q043",
+   "part": "B",
+   "topic": "Security",
+   "question": "An attacker who secretly sits between two communicating parties performs a:",
+   "options": [
+    "denial-of-service attack",
+    "man-in-the-middle attack",
+    "brute-force attack",
+    "phishing attack"
+   ],
+   "answer": "b",
+   "explanation": "The attacker can read or change the messages passing between the two."
+  },
+  {
+   "id": "spmcil-01-q044",
+   "part": "B",
+   "topic": "Security",
+   "question": "SQL injection is best prevented by:",
+   "options": [
+    "longer passwords",
+    "a firewall on port 80",
+    "parameterised queries",
+    "hiding the database name"
+   ],
+   "answer": "c",
+   "explanation": "Parameterised queries keep user input as data, never as SQL code."
+  },
+  {
+   "id": "spmcil-01-q045",
+   "part": "B",
+   "topic": "Security",
+   "question": "Symmetric encryption uses:",
+   "options": [
+    "a public key to encrypt and a private key to decrypt",
+    "no key at all",
+    "the same key to encrypt and decrypt",
+    "a different key each message that is never shared"
+   ],
+   "answer": "c",
+   "explanation": "AES and DES are symmetric. RSA is asymmetric."
+  },
+  {
+   "id": "spmcil-01-q046",
+   "part": "B",
+   "topic": "Security",
+   "question": "Which of the following is an asymmetric (public-key) algorithm?",
+   "options": [
+    "AES",
+    "DES",
+    "Blowfish",
+    "RSA"
+   ],
+   "answer": "d",
+   "explanation": "RSA uses a public and private key pair. The others are symmetric ciphers."
+  },
+  {
+   "id": "spmcil-01-q047",
+   "part": "B",
+   "topic": "Security",
+   "question": "A digital signature provides:",
+   "options": [
+    "authentication, integrity and non-repudiation",
+    "only confidentiality",
+    "only availability",
+    "compression of the message"
+   ],
+   "answer": "a",
+   "explanation": "The signer's private key proves who signed, and any change to the message breaks the signature."
+  },
+  {
+   "id": "spmcil-01-q048",
+   "part": "B",
+   "topic": "Security",
+   "question": "Nmap is mainly used for:",
+   "options": [
+    "capturing and analysing packets",
+    "intercepting web requests in a proxy",
+    "network scanning and port discovery",
+    "exploiting known vulnerabilities"
+   ],
+   "answer": "c",
+   "explanation": "Wireshark captures packets, Burp Suite is a web proxy, and Metasploit is an exploitation framework."
+  },
+  {
+   "id": "spmcil-01-q049",
+   "part": "B",
+   "topic": "Security",
+   "question": "In a cross-site scripting (XSS) attack, the attacker:",
+   "options": [
+    "injects malicious script into a page that other users view",
+    "guesses passwords by trying many combinations",
+    "floods the server with requests",
+    "intercepts data on the network"
+   ],
+   "answer": "a",
+   "explanation": "The script runs in the victim's browser with the site's privileges."
+  },
+  {
+   "id": "spmcil-01-q050",
+   "part": "B",
+   "topic": "Security",
+   "question": "A DDoS attack mainly threatens which part of the CIA triad?",
+   "options": [
+    "Confidentiality",
+    "Integrity",
+    "Authenticity of the sender only",
+    "Availability"
+   ],
+   "answer": "d",
+   "explanation": "It overwhelms a service so legitimate users cannot reach it."
+  },
+  {
+   "id": "spmcil-01-q051",
+   "part": "B",
+   "topic": "Software engineering",
+   "question": "A main weakness of the Waterfall model is that:",
+   "options": [
+    "changes are hard to make once a phase is finished",
+    "it has no testing phase",
+    "it needs no requirements",
+    "it cannot be documented"
+   ],
+   "answer": "a",
+   "explanation": "Waterfall moves in one direction, so late changes are costly."
+  },
+  {
+   "id": "spmcil-01-q052",
+   "part": "B",
+   "topic": "Software engineering",
+   "question": "Black-box testing:",
+   "options": [
+    "uses statement and branch coverage",
+    "checks the outputs for given inputs without looking at the code",
+    "tests only the database",
+    "needs the source code"
+   ],
+   "answer": "b",
+   "explanation": "Boundary value analysis and equivalence partitioning are black-box techniques."
+  },
+  {
+   "id": "spmcil-01-q053",
+   "part": "B",
+   "topic": "Software engineering",
+   "question": "A good module design has:",
+   "options": [
+    "high cohesion and low coupling",
+    "low cohesion and high coupling",
+    "high cohesion and high coupling",
+    "low cohesion and low coupling"
+   ],
+   "answer": "a",
+   "explanation": "Parts of a module should belong together (cohesion), and modules should depend on each other as little as possible (coupling)."
+  },
+  {
+   "id": "spmcil-01-q054",
+   "part": "B",
+   "topic": "Software engineering",
+   "question": "Which of the following is a white-box testing technique?",
+   "options": [
+    "Boundary value analysis",
+    "Equivalence partitioning",
+    "Testing against the user manual only",
+    "Statement coverage"
+   ],
+   "answer": "d",
+   "explanation": "White-box testing uses the code: statement, branch and path coverage."
+  },
+  {
+   "id": "spmcil-01-q055",
+   "part": "B",
+   "topic": "Software engineering",
+   "question": "Agile development emphasises:",
+   "options": [
+    "completing all documentation before coding",
+    "short iterations delivering working software and responding to change",
+    "fixing the requirements for the whole project at the start",
+    "testing only at the very end"
+   ],
+   "answer": "b",
+   "explanation": "Agile works in short cycles with continuous feedback."
+  },
+  {
+   "id": "spmcil-01-q056",
+   "part": "B",
+   "topic": "Software engineering",
+   "question": "SRS stands for:",
+   "options": [
+    "System Resource Scheduling",
+    "Software Requirements Specification",
+    "Standard Review Summary",
+    "Software Release Schedule"
+   ],
+   "answer": "b",
+   "explanation": "The SRS documents what the software must do."
+  },
+  {
+   "id": "spmcil-01-q057",
+   "part": "B",
+   "topic": "Cloud and emerging",
+   "question": "Renting virtual machines and storage from a provider is an example of:",
+   "options": [
+    "SaaS",
+    "PaaS",
+    "IaaS",
+    "DaaS"
+   ],
+   "answer": "c",
+   "explanation": "Infrastructure as a Service gives raw computing resources; SaaS gives a finished application."
+  },
+  {
+   "id": "spmcil-01-q058",
+   "part": "B",
+   "topic": "Cloud and emerging",
+   "question": "In cloud computing, SaaS means:",
+   "options": [
+    "hardware delivered by courier",
+    "a platform for building apps only",
+    "a network cable standard",
+    "software delivered over the internet as a service"
+   ],
+   "answer": "d",
+   "explanation": "Web mail is a typical SaaS product."
+  },
+  {
+   "id": "spmcil-01-q059",
+   "part": "B",
+   "topic": "Cloud and emerging",
+   "question": "According to the CAP theorem, a distributed data store can fully provide at most:",
+   "options": [
+    "all three at once",
+    "only consistency",
+    "one of the three only when the network is down",
+    "two of consistency, availability and partition tolerance"
+   ],
+   "answer": "d",
+   "explanation": "When a partition happens you must choose between consistency and availability."
+  },
+  {
+   "id": "spmcil-01-q060",
+   "part": "B",
+   "topic": "Cloud and emerging",
+   "question": "Which of the following open-source licences is permissive?",
+   "options": [
+    "MIT",
+    "GPL",
+    "AGPL",
+    "a proprietary licence"
+   ],
+   "answer": "a",
+   "explanation": "MIT allows reuse with few conditions. GPL is copyleft: derived work must also be open."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

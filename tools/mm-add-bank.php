@@ -1,19 +1,20 @@
 <?php
 // Adds one runner bank (runner/banks/<id>.json) to the existing IIT Kanpur course in the local MindMantra database.
 // It creates missing topic modules, the questions, and an unpublished test course <course slug>-mock-NN holding them.
-// Usage: php tools/mm-add-bank.php <bank-id> <mock-number> [--dry-run]
+// Usage: php tools/mm-add-bank.php <bank-id> <mock-number> [course-slug, default iitk-jt-cse-2026] [--dry-run]
 foreach (file('D:/mindmantra.live/.env.local', FILE_IGNORE_NEW_LINES) as $l) {
   if (str_contains($l, '=') && !str_starts_with(trim($l), '#')) { [$k, $v] = explode('=', $l, 2); $env[trim($k)] = trim($v); }
 }
 $pdo = new PDO("mysql:host={$env['MYSQL_HOST']};port={$env['MYSQL_PORT']};dbname={$env['MYSQL_DATABASE']};charset=utf8mb4", $env['MYSQL_USER'], $env['MYSQL_PASSWORD'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
-$bankId = $argv[1] ?? '';
-$num = $argv[2] ?? '';
+$args = array_values(array_filter($argv, fn($a) => !str_starts_with($a, '--')));
+$bankId = $args[1] ?? '';
+$num = $args[2] ?? '';
 $dry = in_array('--dry-run', $argv, true);
 $file = "D:/iit-kanpur-lab/runner/banks/$bankId.json";
 if (!is_file($file) || !preg_match('/^\d\d$/', $num)) exit("usage: php mm-add-bank.php <bank-id> <two-digit mock number> [--dry-run]\n");
 $bank = json_decode(file_get_contents($file), true);
 
-$slug = 'iitk-jt-cse-2026';
+$slug = $args[3] ?? 'iitk-jt-cse-2026';
 $course = $pdo->query("SELECT id FROM courses WHERE slug = " . $pdo->quote($slug))->fetch();
 if (!$course) exit("course $slug not found\n");
 $courseId = (int)$course['id'];
@@ -56,7 +57,7 @@ try {
 
   $minutes = (int)$bank['minutes'];
   $pdo->prepare("INSERT INTO courses (slug, title, description, time_limit, total_marks, total_questions, negative_marking, is_published, category) VALUES (?, ?, ?, ?, ?, ?, 0.25, 0, 'mock_test')")
-    ->execute([$testSlug, 'IITK JT (CSE) ' . $bank['title'], $bank['title'] . ': ' . count($bank['questions']) . ' questions in ' . $minutes . ' minutes.', $minutes, count($bank['questions']), count($bank['questions'])]);
+    ->execute([$testSlug, ($slug === 'iitk-jt-cse-2026' ? 'IITK JT (CSE) ' : '') . $bank['title'], $bank['title'] . ': ' . count($bank['questions']) . ' questions in ' . $minutes . ' minutes.', $minutes, count($bank['questions']), count($bank['questions'])]);
   $testId = (int)$pdo->lastInsertId();
 
   $insQ = $pdo->prepare("INSERT INTO questions (question_text, options, correct_answer, subject, subject_id, subject_module_id, year, quality_status, reviewed_by, reviewed_at, is_active, question_id, explanation, ai_review_status) VALUES (?, ?, ?, ?, ?, ?, 2026, 'verified', 'claude-verified', NOW(), 1, ?, ?, 'none')");
