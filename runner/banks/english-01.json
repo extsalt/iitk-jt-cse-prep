@@ -1,0 +1,574 @@
+{
+ "id": "english-01",
+ "title": "English Test 01",
+ "minutes": 30,
+ "questions": [
+  {
+   "id": "english-01-q001",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **meticulous**.",
+   "options": [
+    "careless",
+    "quick-tempered",
+    "generous",
+    "careful and precise"
+   ],
+   "answer": "d",
+   "explanation": "Meticulous means paying great attention to detail."
+  },
+  {
+   "id": "english-01-q002",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **scarce**.",
+   "options": [
+    "rare",
+    "limited",
+    "plentiful",
+    "costly"
+   ],
+   "answer": "c",
+   "explanation": "Scarce means in short supply; its opposite is plentiful."
+  },
+  {
+   "id": "english-01-q003",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"a person who is new to a subject or skill\":",
+   "options": [
+    "veteran",
+    "expert",
+    "tutor",
+    "novice"
+   ],
+   "answer": "d",
+   "explanation": "A novice is a beginner. A veteran or expert has long experience."
+  },
+  {
+   "id": "english-01-q004",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **ambiguous**.",
+   "options": [
+    "clearly stated",
+    "open to more than one meaning",
+    "very important",
+    "completely false"
+   ],
+   "answer": "b",
+   "explanation": "An ambiguous statement can be understood in two or more ways."
+  },
+  {
+   "id": "english-01-q005",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **obsolete**.",
+   "options": [
+    "newly invented",
+    "no longer in use",
+    "very costly",
+    "easily broken"
+   ],
+   "answer": "b",
+   "explanation": "Obsolete means out of date and no longer used."
+  },
+  {
+   "id": "english-01-q006",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Which word means \"to make something less severe\"?",
+   "options": [
+    "mitigate",
+    "aggravate",
+    "postpone",
+    "fabricate"
+   ],
+   "answer": "a",
+   "explanation": "To mitigate is to reduce the seriousness of something. Aggravate is the opposite."
+  },
+  {
+   "id": "english-01-q007",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: Neither of the two printers in the lab ___ working at present.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ],
+   "answer": "b",
+   "explanation": "\"Neither of\" takes a singular verb: is."
+  },
+  {
+   "id": "english-01-q008",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: She has been working here ___ 2019.",
+   "options": [
+    "for",
+    "since",
+    "from",
+    "by"
+   ],
+   "answer": "b",
+   "explanation": "\"Since\" goes with a point in time (2019); \"for\" goes with a period."
+  },
+  {
+   "id": "english-01-q009",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: The committee ___ its report yesterday.",
+   "options": [
+    "has submitted",
+    "submitted",
+    "submits",
+    "will submit"
+   ],
+   "answer": "b",
+   "explanation": "\"Yesterday\" marks a finished past time, so the simple past is used."
+  },
+  {
+   "id": "english-01-q010",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "He do not know the answer.",
+    "He does not know the answer.",
+    "He does not knows the answer.",
+    "He not know the answer."
+   ],
+   "answer": "b",
+   "explanation": "After \"does not\" the main verb stays in its base form: know."
+  },
+  {
+   "id": "english-01-q011",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blanks: He is ___ honest man and ___ M.Sc. graduate.",
+   "options": [
+    "a, an",
+    "an, a",
+    "an, an",
+    "a, a"
+   ],
+   "answer": "c",
+   "explanation": "\"Honest\" begins with a vowel sound (silent h), and \"M.Sc.\" is said \"em-es-see\", so both take \"an\"."
+  },
+  {
+   "id": "english-01-q012",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: The manager is senior ___ me in the department.",
+   "options": [
+    "to",
+    "than",
+    "from",
+    "over"
+   ],
+   "answer": "a",
+   "explanation": "Senior, junior, superior and inferior are followed by \"to\", not \"than\"."
+  },
+  {
+   "id": "english-01-q013",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: If I ___ you, I would apply for the post.",
+   "options": [
+    "was",
+    "am",
+    "were",
+    "had been"
+   ],
+   "answer": "c",
+   "explanation": "An unreal present condition takes \"were\" for all persons."
+  },
+  {
+   "id": "english-01-q014",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: Each of the students ___ given a certificate.",
+   "options": [
+    "were",
+    "was",
+    "are",
+    "have been"
+   ],
+   "answer": "b",
+   "explanation": "\"Each\" is singular, so the verb is singular: was."
+  },
+  {
+   "id": "english-01-q015",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Perseverence",
+    "Perseverrance",
+    "Persaverance",
+    "Perseverance"
+   ],
+   "answer": "d",
+   "explanation": "Perseverance ends in -ance, from persevere."
+  },
+  {
+   "id": "english-01-q016",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Neccessary",
+    "Necesary",
+    "Necessary",
+    "Necessarry"
+   ],
+   "answer": "c",
+   "explanation": "Necessary: one c, two s."
+  },
+  {
+   "id": "english-01-q017",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Occurence",
+    "Ocurrence",
+    "Occurrence",
+    "Occurrance"
+   ],
+   "answer": "c",
+   "explanation": "Occurrence: double c, double r, and ends in -ence."
+  },
+  {
+   "id": "english-01-q018",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Maintainance",
+    "Maintenance",
+    "Maintenence",
+    "Maintanence"
+   ],
+   "answer": "b",
+   "explanation": "Maintenance drops the \"ai\" of maintain: maint-e-nance."
+  },
+  {
+   "id": "english-01-q019",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: The clerk typed the letter.",
+   "options": [
+    "The letter is typed by the clerk.",
+    "The letter has been typed by the clerk.",
+    "The letter was typed by the clerk.",
+    "The letter was being typed by the clerk."
+   ],
+   "answer": "c",
+   "explanation": "Simple past active becomes \"was/were + past participle\" in the passive."
+  },
+  {
+   "id": "english-01-q020",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: They are repairing the server.",
+   "options": [
+    "The server was repaired by them.",
+    "The server is repaired by them.",
+    "The server has been repaired by them.",
+    "The server is being repaired by them."
+   ],
+   "answer": "d",
+   "explanation": "Present continuous becomes \"is/are being + past participle\"."
+  },
+  {
+   "id": "english-01-q021",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the active voice: The report was submitted by the manager.",
+   "options": [
+    "The manager submits the report.",
+    "The manager has submitted the report.",
+    "The manager was submitting the report.",
+    "The manager submitted the report."
+   ],
+   "answer": "d",
+   "explanation": "The tense stays the same: simple past."
+  },
+  {
+   "id": "english-01-q022",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: He said, \"I am busy.\"",
+   "options": [
+    "He said that I was busy.",
+    "He said that he will be busy.",
+    "He said that he was busy.",
+    "He said that he had been busy."
+   ],
+   "answer": "c",
+   "explanation": "In reported speech the present \"am\" shifts to the past \"was\", and \"I\" becomes \"he\"."
+  },
+  {
+   "id": "english-01-q023",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: She asked, \"Where do you live?\"",
+   "options": [
+    "She asked where did I live.",
+    "She asked where I do live.",
+    "She asked where I lived.",
+    "She asked that where I lived."
+   ],
+   "answer": "c",
+   "explanation": "A reported question uses statement order with no \"do\", and the tense moves back."
+  },
+  {
+   "id": "english-01-q024",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to bite the bullet**.",
+   "options": [
+    "to eat quickly",
+    "to argue loudly",
+    "to avoid a duty",
+    "to face a painful situation bravely"
+   ],
+   "answer": "d",
+   "explanation": "It means to accept something unpleasant and get on with it."
+  },
+  {
+   "id": "english-01-q025",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **a blessing in disguise**.",
+   "options": [
+    "a hidden danger",
+    "something good that seemed bad at first",
+    "a religious ceremony",
+    "a false promise"
+   ],
+   "answer": "b",
+   "explanation": "A misfortune that turns out to be beneficial."
+  },
+  {
+   "id": "english-01-q026",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **once in a blue moon**.",
+   "options": [
+    "very rarely",
+    "every night",
+    "at midnight",
+    "very often"
+   ],
+   "answer": "a",
+   "explanation": "It describes something that happens extremely seldom."
+  },
+  {
+   "id": "english-01-q027",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to pull someone's leg**.",
+   "options": [
+    "to joke with someone",
+    "to hurt someone",
+    "to help someone walk",
+    "to stop someone"
+   ],
+   "answer": "a",
+   "explanation": "It means to tease someone playfully, not to harm them."
+  },
+  {
+   "id": "english-01-q028",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "In a letter, \"cc\" stands for:",
+   "options": [
+    "closed circuit",
+    "central copy",
+    "copy confirmed",
+    "carbon copy"
+   ],
+   "answer": "d",
+   "explanation": "A cc line lists people who receive a copy of the letter."
+  },
+  {
+   "id": "english-01-q029",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "At the foot of a letter, \"Encl.\" indicates:",
+   "options": [
+    "the end of the letter",
+    "the sender's address",
+    "a reference number",
+    "documents attached with the letter"
+   ],
+   "answer": "d",
+   "explanation": "Encl. (enclosure) tells the reader that papers are sent with the letter."
+  },
+  {
+   "id": "english-01-q030",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "An NOC issued by an employer is a:",
+   "options": [
+    "notice of complaint",
+    "note of correction",
+    "certificate that the employer has no objection",
+    "number of copies"
+   ],
+   "answer": "c",
+   "explanation": "NOC means No Objection Certificate."
+  },
+  {
+   "id": "english-01-q031",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "A circular is:",
+   "options": [
+    "a letter to one person only",
+    "a notice sent to many people at once",
+    "a bill for payment",
+    "a record of a meeting"
+   ],
+   "answer": "b",
+   "explanation": "A circular carries the same information to a whole group."
+  },
+  {
+   "id": "english-01-q032",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nA good password is long, unique and hard to guess. Many users choose short passwords based on their names or birth dates, which attackers can guess quickly. Using the same password on several sites is also risky, because one leaked password then opens every account. A password manager solves both problems by creating and storing a different strong password for each site. Even so, the manager itself must be protected with a strong master password, and where possible with a second factor such as a code sent to a phone.",
+   "question": "According to the passage, why is reusing a password risky?",
+   "options": [
+    "One leaked password can open every account that uses it.",
+    "It makes the password shorter.",
+    "Websites reject repeated passwords.",
+    "It slows down the login."
+   ],
+   "answer": "a",
+   "explanation": "The passage says one leaked password then opens every account."
+  },
+  {
+   "id": "english-01-q033",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nA good password is long, unique and hard to guess. Many users choose short passwords based on their names or birth dates, which attackers can guess quickly. Using the same password on several sites is also risky, because one leaked password then opens every account. A password manager solves both problems by creating and storing a different strong password for each site. Even so, the manager itself must be protected with a strong master password, and where possible with a second factor such as a code sent to a phone.",
+   "question": "What does a password manager do, according to the passage?",
+   "options": [
+    "It removes the need for any password.",
+    "It sends codes to the website.",
+    "It creates and stores a different strong password for each site.",
+    "It shortens long passwords."
+   ],
+   "answer": "c",
+   "explanation": "This is stated directly in the fourth sentence."
+  },
+  {
+   "id": "english-01-q034",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nA good password is long, unique and hard to guess. Many users choose short passwords based on their names or birth dates, which attackers can guess quickly. Using the same password on several sites is also risky, because one leaked password then opens every account. A password manager solves both problems by creating and storing a different strong password for each site. Even so, the manager itself must be protected with a strong master password, and where possible with a second factor such as a code sent to a phone.",
+   "question": "Which of the following does the passage warn against?",
+   "options": [
+    "Basing a password on a name or birth date",
+    "Using a different password for each site",
+    "Protecting the manager with a strong master password",
+    "Adding a second factor where possible"
+   ],
+   "answer": "a",
+   "explanation": "The passage says passwords based on names or birth dates are quickly guessed."
+  },
+  {
+   "id": "english-01-q035",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 2 questions.**\nThe new library timings take effect from Monday. The reading hall will remain open from 8 a.m. to 10 p.m. on weekdays and from 9 a.m. to 5 p.m. on Saturdays. It will stay closed on Sundays and public holidays. Borrowing of books will end half an hour before closing time. Members may renew books online up to two times.",
+   "question": "Until what time can books be borrowed on a weekday?",
+   "options": [
+    "10 p.m.",
+    "9 p.m.",
+    "10:30 p.m.",
+    "9:30 p.m."
+   ],
+   "answer": "d",
+   "explanation": "The hall closes at 10 p.m. and borrowing ends half an hour earlier."
+  },
+  {
+   "id": "english-01-q036",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 2 questions.**\nThe new library timings take effect from Monday. The reading hall will remain open from 8 a.m. to 10 p.m. on weekdays and from 9 a.m. to 5 p.m. on Saturdays. It will stay closed on Sundays and public holidays. Borrowing of books will end half an hour before closing time. Members may renew books online up to two times.",
+   "question": "On which day will the reading hall close at 5 p.m.?",
+   "options": [
+    "Friday",
+    "Sunday",
+    "Monday",
+    "Saturday"
+   ],
+   "answer": "d",
+   "explanation": "Saturday hours are 9 a.m. to 5 p.m.; Sunday it is closed."
+  },
+  {
+   "id": "english-01-q037",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Therefore the administrator deleted the old logs.\nQ. The server stopped responding one morning.\nR. The disk had become full of log files.\nS. After a restart, everything worked normally again.",
+   "options": [
+    "QRPS",
+    "QPRS",
+    "RQPS",
+    "PQRS"
+   ],
+   "answer": "a",
+   "explanation": "Problem (Q), cause (R), action (P), result (S). \"Therefore\" needs the cause before it."
+  },
+  {
+   "id": "english-01-q038",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. The meeting will begin sharp at 10 a.m.\nQ. Every member is therefore requested to attend on time.\nR. A meeting of the purchase committee has been called on Friday.\nS. Please bring the latest quotations.",
+   "options": [
+    "RPQS",
+    "RQPS",
+    "PRQS",
+    "SRPQ"
+   ],
+   "answer": "a",
+   "explanation": "Announcement (R), time (P), request to be on time (Q, which refers to the time), instruction (S)."
+  },
+  {
+   "id": "english-01-q039",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Soon, it became the main way people pay in shops.\nQ. UPI was launched in 2016 to make bank transfers simple.\nR. Today, millions of transactions are made through it every day.\nS. At first, only a few banks supported it.",
+   "options": [
+    "QSPR",
+    "QPSR",
+    "SQPR",
+    "PQSR"
+   ],
+   "answer": "a",
+   "explanation": "Launch (Q), early stage (S), growth (P), present day (R)."
+  },
+  {
+   "id": "english-01-q040",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. The packet is then forwarded to the next router.\nQ. A router reads the destination address of each packet.\nR. It looks up the best route in its table.\nS. This continues until the packet reaches its destination.",
+   "options": [
+    "QRPS",
+    "QPRS",
+    "RQPS",
+    "PQRS"
+   ],
+   "answer": "a",
+   "explanation": "Read address (Q), look up route (R), forward (P), repeat until delivered (S)."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

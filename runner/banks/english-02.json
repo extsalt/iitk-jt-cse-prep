@@ -1,0 +1,574 @@
+{
+ "id": "english-02",
+ "title": "English Test 02",
+ "minutes": 30,
+ "questions": [
+  {
+   "id": "english-02-q001",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **candid**.",
+   "options": [
+    "secretive",
+    "polite",
+    "frank",
+    "nervous"
+   ],
+   "answer": "c",
+   "explanation": "Candid means honest and direct in speech."
+  },
+  {
+   "id": "english-02-q002",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **expand**.",
+   "options": [
+    "contract",
+    "grow",
+    "stretch",
+    "extend"
+   ],
+   "answer": "a",
+   "explanation": "To expand is to become larger; to contract is to become smaller."
+  },
+  {
+   "id": "english-02-q003",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"a person who speaks several languages\":",
+   "options": [
+    "pedant",
+    "orator",
+    "novice",
+    "polyglot"
+   ],
+   "answer": "d",
+   "explanation": "A polyglot knows many languages. An orator is a public speaker."
+  },
+  {
+   "id": "english-02-q004",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **diligent**.",
+   "options": [
+    "lazy",
+    "forgetful",
+    "rude",
+    "hardworking"
+   ],
+   "answer": "d",
+   "explanation": "Diligent means careful and persistent in work."
+  },
+  {
+   "id": "english-02-q005",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **transparent**.",
+   "options": [
+    "clear",
+    "thin",
+    "opaque",
+    "bright"
+   ],
+   "answer": "c",
+   "explanation": "Transparent lets light through; opaque does not."
+  },
+  {
+   "id": "english-02-q006",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **defer**.",
+   "options": [
+    "complete",
+    "reject",
+    "announce",
+    "postpone"
+   ],
+   "answer": "d",
+   "explanation": "To defer is to put off to a later time."
+  },
+  {
+   "id": "english-02-q007",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: The news ___ spread quickly through the campus.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ],
+   "answer": "b",
+   "explanation": "\"News\" is uncountable and singular: has spread."
+  },
+  {
+   "id": "english-02-q008",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: I look forward to ___ you next week.",
+   "options": [
+    "meet",
+    "meeting",
+    "have met",
+    "met"
+   ],
+   "answer": "b",
+   "explanation": "In \"look forward to\", \"to\" is a preposition, so the verb takes -ing."
+  },
+  {
+   "id": "english-02-q009",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: He is good ___ mathematics.",
+   "options": [
+    "in",
+    "on",
+    "with",
+    "at"
+   ],
+   "answer": "d",
+   "explanation": "The usual phrase is \"good at\" a subject or skill."
+  },
+  {
+   "id": "english-02-q010",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: She ___ her lunch when the power went off.",
+   "options": [
+    "is having",
+    "has had",
+    "will have",
+    "was having"
+   ],
+   "answer": "d",
+   "explanation": "A past action in progress that was interrupted needs the past continuous."
+  },
+  {
+   "id": "english-02-q011",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: Hardly had he reached the station ___ the train left.",
+   "options": [
+    "than",
+    "then",
+    "when",
+    "as"
+   ],
+   "answer": "c",
+   "explanation": "\"Hardly ... when\" is the correct pair. \"Than\" goes with \"no sooner\"."
+  },
+  {
+   "id": "english-02-q012",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: The teacher, along with the students, ___ going on a trip.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ],
+   "answer": "b",
+   "explanation": "\"Along with\" does not make the subject plural; the verb agrees with \"teacher\"."
+  },
+  {
+   "id": "english-02-q013",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: He is the ___ of the two brothers.",
+   "options": [
+    "tallest",
+    "more tall",
+    "taller",
+    "most tall"
+   ],
+   "answer": "c",
+   "explanation": "Two things are compared, so the comparative \"taller\" is used."
+  },
+  {
+   "id": "english-02-q014",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: Neither the manager nor the clerks ___ present.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "has been"
+   ],
+   "answer": "a",
+   "explanation": "With \"neither ... nor\" the verb agrees with the nearer subject, \"clerks\" (plural)."
+  },
+  {
+   "id": "english-02-q015",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Seperate",
+    "Separete",
+    "Seprate",
+    "Separate"
+   ],
+   "answer": "d",
+   "explanation": "Separate has \"par\" in the middle: sep-a-rate."
+  },
+  {
+   "id": "english-02-q016",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Goverment",
+    "Govenment",
+    "Government",
+    "Governmant"
+   ],
+   "answer": "c",
+   "explanation": "Government comes from govern + ment; keep the n."
+  },
+  {
+   "id": "english-02-q017",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Embarrass",
+    "Embarass",
+    "Embarras",
+    "Embaress"
+   ],
+   "answer": "a",
+   "explanation": "Embarrass has double r and double s."
+  },
+  {
+   "id": "english-02-q018",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Recomend",
+    "Recommend",
+    "Reccommend",
+    "Recomment"
+   ],
+   "answer": "b",
+   "explanation": "Recommend: one c, double m."
+  },
+  {
+   "id": "english-02-q019",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: Someone has stolen my bag.",
+   "options": [
+    "My bag has been stolen.",
+    "My bag is stolen.",
+    "My bag had been stolen.",
+    "My bag has stolen."
+   ],
+   "answer": "a",
+   "explanation": "Present perfect active becomes \"has/have been + past participle\"."
+  },
+  {
+   "id": "english-02-q020",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: Open the window.",
+   "options": [
+    "Let the window be opened.",
+    "The window is opened.",
+    "Let the window opened.",
+    "The window should open."
+   ],
+   "answer": "a",
+   "explanation": "An imperative becomes \"Let + object + be + past participle\"."
+  },
+  {
+   "id": "english-02-q021",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the active voice: The tickets will be booked by Rahul.",
+   "options": [
+    "Rahul booked the tickets.",
+    "Rahul will be booking the tickets.",
+    "Rahul will book the tickets.",
+    "Rahul has booked the tickets."
+   ],
+   "answer": "c",
+   "explanation": "The future tense is kept: will book."
+  },
+  {
+   "id": "english-02-q022",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: She said, \"I will call you tomorrow.\"",
+   "options": [
+    "She said that she will call you tomorrow.",
+    "She said that she would call me the next day.",
+    "She said that I would call her the next day.",
+    "She said that she would call you tomorrow."
+   ],
+   "answer": "b",
+   "explanation": "\"Will\" becomes \"would\", \"you\" becomes \"me\", and \"tomorrow\" becomes \"the next day\"."
+  },
+  {
+   "id": "english-02-q023",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: The officer said to him, \"Leave the room.\"",
+   "options": [
+    "The officer said him to leave the room.",
+    "The officer ordered that he leaves the room.",
+    "The officer asked that leave the room.",
+    "The officer ordered him to leave the room."
+   ],
+   "answer": "d",
+   "explanation": "A command is reported with \"ordered/told + object + to + verb\"."
+  },
+  {
+   "id": "english-02-q024",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to let the cat out of the bag**.",
+   "options": [
+    "to free an animal",
+    "to reveal a secret",
+    "to make a mistake in a bag",
+    "to start a quarrel"
+   ],
+   "answer": "b",
+   "explanation": "It means to give away a secret by accident."
+  },
+  {
+   "id": "english-02-q025",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to cry over spilt milk**.",
+   "options": [
+    "to regret something that cannot be undone",
+    "to cook with milk",
+    "to complain about prices",
+    "to cry loudly"
+   ],
+   "answer": "a",
+   "explanation": "It means to waste time grieving over a past mistake."
+  },
+  {
+   "id": "english-02-q026",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to hit the sack**.",
+   "options": [
+    "to go to bed",
+    "to get angry",
+    "to start a fight",
+    "to pack luggage"
+   ],
+   "answer": "a",
+   "explanation": "\"Sack\" here means bed."
+  },
+  {
+   "id": "english-02-q027",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **a piece of cake**.",
+   "options": [
+    "something very easy",
+    "something sweet",
+    "a small gift",
+    "a difficult task"
+   ],
+   "answer": "a",
+   "explanation": "It describes a task that is effortless."
+  },
+  {
+   "id": "english-02-q028",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "A memorandum (memo) is mainly used for:",
+   "options": [
+    "short communication within an organisation",
+    "a legal sale deed",
+    "an advertisement to the public",
+    "a bank statement"
+   ],
+   "answer": "a",
+   "explanation": "A memo is a brief internal message."
+  },
+  {
+   "id": "english-02-q029",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "The subject line of a letter:",
+   "options": [
+    "gives the sender's address",
+    "states briefly what the letter is about",
+    "is the closing greeting",
+    "lists the enclosures"
+   ],
+   "answer": "b",
+   "explanation": "It lets the reader see the purpose at a glance."
+  },
+  {
+   "id": "english-02-q030",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "\"Yours faithfully\" is used when:",
+   "options": [
+    "the letter begins with \"Dear Mr Rao\"",
+    "the letter begins with \"Dear Sir/Madam\"",
+    "writing to a close friend",
+    "there is no salutation at all"
+   ],
+   "answer": "b",
+   "explanation": "Use \"faithfully\" with a general salutation and \"sincerely\" with a named person."
+  },
+  {
+   "id": "english-02-q031",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "In office writing, \"ASAP\" stands for:",
+   "options": [
+    "as soon as permitted",
+    "after school and party",
+    "as soon as possible",
+    "always send a proof"
+   ],
+   "answer": "c",
+   "explanation": "ASAP is a common abbreviation for as soon as possible."
+  },
+  {
+   "id": "english-02-q032",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nCloud storage lets users keep files on remote servers instead of on their own devices. The files can be opened from any place with an internet connection, and several people can work on the same document together. However, the user depends on the service provider for security and availability. If the provider's servers fail, or if the user forgets the account password, access to the files may be lost. For this reason, important files are best kept in more than one place.",
+   "question": "What is a benefit of cloud storage, according to the passage?",
+   "options": [
+    "No internet is needed.",
+    "Files can never be lost.",
+    "Files can be opened from any place with an internet connection.",
+    "It is free for everyone."
+   ],
+   "answer": "c",
+   "explanation": "The second sentence says files can be opened from any place with an internet connection."
+  },
+  {
+   "id": "english-02-q033",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nCloud storage lets users keep files on remote servers instead of on their own devices. The files can be opened from any place with an internet connection, and several people can work on the same document together. However, the user depends on the service provider for security and availability. If the provider's servers fail, or if the user forgets the account password, access to the files may be lost. For this reason, important files are best kept in more than one place.",
+   "question": "The passage advises that important files should be:",
+   "options": [
+    "kept only on the cloud",
+    "kept in more than one place",
+    "kept only on one device",
+    "deleted after use"
+   ],
+   "answer": "b",
+   "explanation": "The last sentence gives this advice."
+  },
+  {
+   "id": "english-02-q034",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nCloud storage lets users keep files on remote servers instead of on their own devices. The files can be opened from any place with an internet connection, and several people can work on the same document together. However, the user depends on the service provider for security and availability. If the provider's servers fail, or if the user forgets the account password, access to the files may be lost. For this reason, important files are best kept in more than one place.",
+   "question": "Which risk of cloud storage is mentioned in the passage?",
+   "options": [
+    "losing access if the provider's servers fail",
+    "files becoming larger",
+    "documents that cannot be shared",
+    "the internet becoming slower"
+   ],
+   "answer": "a",
+   "explanation": "The passage says access may be lost if the provider servers fail."
+  },
+  {
+   "id": "english-02-q035",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 2 questions.**\nThe campus has a rule that bicycles must be parked only in marked stands. Vehicles found elsewhere are removed by the security staff, and a fine of Rs. 100 is charged to get them back. Students are advised to lock their cycles even inside the stands.",
+   "question": "What happens to a cycle parked outside the marked stands?",
+   "options": [
+    "Nothing happens.",
+    "It is locked by the owner.",
+    "It is given to a student.",
+    "It is removed and a fine is charged."
+   ],
+   "answer": "d",
+   "explanation": "Security staff remove it and a fine of Rs. 100 is charged to get it back."
+  },
+  {
+   "id": "english-02-q036",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 2 questions.**\nThe campus has a rule that bicycles must be parked only in marked stands. Vehicles found elsewhere are removed by the security staff, and a fine of Rs. 100 is charged to get them back. Students are advised to lock their cycles even inside the stands.",
+   "question": "Students are advised to:",
+   "options": [
+    "avoid cycles on campus",
+    "park in front of the gate",
+    "lock their cycles even inside the stands",
+    "pay the fine in advance"
+   ],
+   "answer": "c",
+   "explanation": "The last sentence gives this advice."
+  },
+  {
+   "id": "english-02-q037",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Therefore, the update was installed on a Sunday night.\nQ. The old software had a serious security flaw.\nR. Fixing it could not be delayed.\nS. No users were working at that time.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "PQRS",
+    "QRPS"
+   ],
+   "answer": "d",
+   "explanation": "Flaw (Q), urgency (R), so the update (P), reason it was safe (S)."
+  },
+  {
+   "id": "english-02-q038",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. She prepared a list of questions.\nQ. Asha had an interview the next morning.\nR. She also practised answering them aloud.\nS. Then she went to bed early.",
+   "options": [
+    "QRPS",
+    "PQRS",
+    "QPRS",
+    "QPSR"
+   ],
+   "answer": "c",
+   "explanation": "\"Them\" in R refers to the questions in P, so P comes before R."
+  },
+  {
+   "id": "english-02-q039",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Many of them stayed on and settled nearby.\nQ. Hundreds of workers came to build the dam.\nR. The work went on for ten years.\nS. By the end, a small market town had grown around the site.",
+   "options": [
+    "QPRS",
+    "QRPS",
+    "RQPS",
+    "SQRP"
+   ],
+   "answer": "b",
+   "explanation": "Workers arrive (Q), work continues (R), many stay (P), town grows (S)."
+  },
+  {
+   "id": "english-02-q040",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Hence, users who ignore updates stay exposed.\nQ. New security flaws are found in software every month.\nR. Attackers quickly learn to use them.\nS. Software makers therefore release updates to close these gaps.",
+   "options": [
+    "QRPS",
+    "RQSP",
+    "SQRP",
+    "QRSP"
+   ],
+   "answer": "d",
+   "explanation": "Flaws (Q), attackers (R), updates as the answer (S), conclusion \"Hence\" (P)."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

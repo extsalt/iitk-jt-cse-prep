@@ -1,0 +1,574 @@
+{
+ "id": "english-03",
+ "title": "English Test 03",
+ "minutes": 30,
+ "questions": [
+  {
+   "id": "english-03-q001",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **abandon**.",
+   "options": [
+    "protect",
+    "give up completely",
+    "repair",
+    "collect"
+   ],
+   "answer": "b",
+   "explanation": "To abandon is to leave or give up for good."
+  },
+  {
+   "id": "english-03-q002",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **generous**.",
+   "options": [
+    "kind",
+    "wealthy",
+    "stingy",
+    "helpful"
+   ],
+   "answer": "c",
+   "explanation": "Generous means giving freely; stingy means unwilling to give."
+  },
+  {
+   "id": "english-03-q003",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"a long speech by one person\":",
+   "options": [
+    "dialogue",
+    "prologue",
+    "monologue",
+    "epilogue"
+   ],
+   "answer": "c",
+   "explanation": "A monologue is spoken by one person. A dialogue is between two."
+  },
+  {
+   "id": "english-03-q004",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **frugal**.",
+   "options": [
+    "wasteful",
+    "hungry",
+    "famous",
+    "careful with money"
+   ],
+   "answer": "d",
+   "explanation": "Frugal means thrifty and economical."
+  },
+  {
+   "id": "english-03-q005",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **inevitable**.",
+   "options": [
+    "very unlikely",
+    "easily avoided",
+    "certain to happen",
+    "uncertain"
+   ],
+   "answer": "c",
+   "explanation": "Inevitable means impossible to avoid."
+  },
+  {
+   "id": "english-03-q006",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **optimistic**.",
+   "options": [
+    "hopeful",
+    "cheerful",
+    "confident",
+    "pessimistic"
+   ],
+   "answer": "d",
+   "explanation": "An optimist expects good outcomes; a pessimist expects bad ones."
+  },
+  {
+   "id": "english-03-q007",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: Each of the employees ___ a badge.",
+   "options": [
+    "have",
+    "are having",
+    "were",
+    "has"
+   ],
+   "answer": "d",
+   "explanation": "\"Each\" is singular: has."
+  },
+  {
+   "id": "english-03-q008",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: She is afraid ___ dogs.",
+   "options": [
+    "from",
+    "with",
+    "to",
+    "of"
+   ],
+   "answer": "d",
+   "explanation": "The usual phrase is \"afraid of\"."
+  },
+  {
+   "id": "english-03-q009",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: He ___ in this office for ten years.",
+   "options": [
+    "works",
+    "has worked",
+    "worked",
+    "is working"
+   ],
+   "answer": "b",
+   "explanation": "\"For ten years\" with a situation that continues up to now needs the present perfect."
+  },
+  {
+   "id": "english-03-q010",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: I wish I ___ more time.",
+   "options": [
+    "have",
+    "had",
+    "has",
+    "would have"
+   ],
+   "answer": "b",
+   "explanation": "\"Wish\" about the present takes the past form: had."
+  },
+  {
+   "id": "english-03-q011",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: Not only the students but also the teacher ___ late.",
+   "options": [
+    "were",
+    "are",
+    "was",
+    "have been"
+   ],
+   "answer": "c",
+   "explanation": "The verb agrees with the nearer subject, \"teacher\" (singular)."
+  },
+  {
+   "id": "english-03-q012",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: The furniture in the office ___ new.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": "b",
+   "explanation": "\"Furniture\" is uncountable and takes a singular verb."
+  },
+  {
+   "id": "english-03-q013",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: He avoided ___ the question.",
+   "options": [
+    "to answer",
+    "answer",
+    "answering",
+    "answered"
+   ],
+   "answer": "c",
+   "explanation": "\"Avoid\" is followed by a gerund (-ing form)."
+  },
+  {
+   "id": "english-03-q014",
+   "part": "A",
+   "topic": "Grammar",
+   "question": "Fill in the blank: The movie was ___ boring that we left early.",
+   "options": [
+    "so",
+    "such",
+    "too",
+    "very"
+   ],
+   "answer": "a",
+   "explanation": "\"So + adjective + that\" shows result."
+  },
+  {
+   "id": "english-03-q015",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Definately",
+    "Definitly",
+    "Defenitely",
+    "Definitely"
+   ],
+   "answer": "d",
+   "explanation": "Definitely comes from \"finite\": def-i-nite-ly."
+  },
+  {
+   "id": "english-03-q016",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Priviledge",
+    "Privilege",
+    "Privelege",
+    "Previlege"
+   ],
+   "answer": "b",
+   "explanation": "Privilege has no d and ends in -lege."
+  },
+  {
+   "id": "english-03-q017",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Calendar",
+    "Calender",
+    "Calandar",
+    "Callendar"
+   ],
+   "answer": "a",
+   "explanation": "Calendar ends in -dar."
+  },
+  {
+   "id": "english-03-q018",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Enviroment",
+    "Environmant",
+    "Envirnoment",
+    "Environment"
+   ],
+   "answer": "d",
+   "explanation": "Environment keeps the n before the m: environ-ment."
+  },
+  {
+   "id": "english-03-q019",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: The manager is signing the letters.",
+   "options": [
+    "The letters are being signed by the manager.",
+    "The letters were signed by the manager.",
+    "The letters are signed by the manager.",
+    "The letters have been signed by the manager."
+   ],
+   "answer": "a",
+   "explanation": "Present continuous becomes \"are being + past participle\"."
+  },
+  {
+   "id": "english-03-q020",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: Who wrote this report?",
+   "options": [
+    "Who was written this report?",
+    "By whom was this report written?",
+    "By whom this report was written?",
+    "Who is this report written?"
+   ],
+   "answer": "b",
+   "explanation": "A \"who\" question in the passive is \"By whom was ... written?\"."
+  },
+  {
+   "id": "english-03-q021",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the active voice: The room was cleaned by the staff.",
+   "options": [
+    "The staff cleaned the room.",
+    "The staff cleans the room.",
+    "The staff has cleaned the room.",
+    "The staff were cleaning the room."
+   ],
+   "answer": "a",
+   "explanation": "Simple past stays simple past."
+  },
+  {
+   "id": "english-03-q022",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: He said, \"I have finished the work.\"",
+   "options": [
+    "He said that he had finished the work.",
+    "He said that he has finished the work.",
+    "He said that I had finished the work.",
+    "He said that he will finish the work."
+   ],
+   "answer": "a",
+   "explanation": "Present perfect shifts back to past perfect."
+  },
+  {
+   "id": "english-03-q023",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: She asked me, \"Do you know him?\"",
+   "options": [
+    "She asked me that do I know him.",
+    "She asked me if I knew him.",
+    "She asked me did I know him.",
+    "She asked me if do I know him."
+   ],
+   "answer": "b",
+   "explanation": "A yes/no question is reported with \"if\" or \"whether\", in statement order."
+  },
+  {
+   "id": "english-03-q024",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to break the ice**.",
+   "options": [
+    "to start a conversation in an awkward situation",
+    "to damage something",
+    "to feel cold",
+    "to end a friendship"
+   ],
+   "answer": "a",
+   "explanation": "It means to ease tension at the start of a meeting."
+  },
+  {
+   "id": "english-03-q025",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **to call it a day**.",
+   "options": [
+    "to give a name",
+    "to stop working for the day",
+    "to make a phone call",
+    "to wait for a long time"
+   ],
+   "answer": "b",
+   "explanation": "It means to stop what you are doing for now."
+  },
+  {
+   "id": "english-03-q026",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **under the weather**.",
+   "options": [
+    "in the open",
+    "very happy",
+    "in danger",
+    "slightly ill"
+   ],
+   "answer": "d",
+   "explanation": "It means feeling unwell."
+  },
+  {
+   "id": "english-03-q027",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of the idiom: **the ball is in your court**.",
+   "options": [
+    "you are playing well",
+    "you must leave",
+    "it is your turn to act",
+    "the match is over"
+   ],
+   "answer": "c",
+   "explanation": "The next move or decision is yours."
+  },
+  {
+   "id": "english-03-q028",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "The \"Ref. No.\" on an office letter is used for:",
+   "options": [
+    "telling the date of posting",
+    "showing the sender's phone number",
+    "tracing and filing the letter",
+    "listing the enclosures"
+   ],
+   "answer": "c",
+   "explanation": "A reference number identifies the letter in the office file."
+  },
+  {
+   "id": "english-03-q029",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "The agenda of a meeting is:",
+   "options": [
+    "a record of what was decided",
+    "a list of absent members",
+    "the date of the next meeting",
+    "a list of items to be discussed"
+   ],
+   "answer": "d",
+   "explanation": "The agenda is prepared before the meeting."
+  },
+  {
+   "id": "english-03-q030",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "The minutes of a meeting are:",
+   "options": [
+    "the time limit for each speaker",
+    "a written record of what was discussed and decided",
+    "a list of items to be discussed",
+    "the invitation sent to members"
+   ],
+   "answer": "b",
+   "explanation": "Minutes are prepared after the meeting."
+  },
+  {
+   "id": "english-03-q031",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "In an email, \"FYI\" means:",
+   "options": [
+    "for your information",
+    "for your interview",
+    "file your invoice",
+    "forward your inbox"
+   ],
+   "answer": "a",
+   "explanation": "FYI is used when sharing something that needs no action."
+  },
+  {
+   "id": "english-03-q032",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nLinux is a family of operating systems built around the Linux kernel. The kernel manages the processor, memory and devices, while the rest of the system is supplied by distributions such as Ubuntu or Fedora. Because the source code is open, anyone may study and improve it. Most web servers and supercomputers run Linux, partly because it is stable and can be configured without paying for licences.",
+   "question": "What does the kernel manage, according to the passage?",
+   "options": [
+    "the web pages",
+    "the licences",
+    "the processor, memory and devices",
+    "only the screen"
+   ],
+   "answer": "c",
+   "explanation": "The second sentence says the kernel manages the processor, memory and devices."
+  },
+  {
+   "id": "english-03-q033",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nLinux is a family of operating systems built around the Linux kernel. The kernel manages the processor, memory and devices, while the rest of the system is supplied by distributions such as Ubuntu or Fedora. Because the source code is open, anyone may study and improve it. Most web servers and supercomputers run Linux, partly because it is stable and can be configured without paying for licences.",
+   "question": "Why do many servers use Linux, according to the passage?",
+   "options": [
+    "It is stable and needs no licence fees.",
+    "It has no source code.",
+    "It runs only on supercomputers.",
+    "It needs no configuration."
+   ],
+   "answer": "a",
+   "explanation": "The last sentence gives stability and no licence payments as reasons."
+  },
+  {
+   "id": "english-03-q034",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 3 questions.**\nLinux is a family of operating systems built around the Linux kernel. The kernel manages the processor, memory and devices, while the rest of the system is supplied by distributions such as Ubuntu or Fedora. Because the source code is open, anyone may study and improve it. Most web servers and supercomputers run Linux, partly because it is stable and can be configured without paying for licences.",
+   "question": "Ubuntu and Fedora are given in the passage as examples of:",
+   "options": [
+    "distributions",
+    "kernels",
+    "licences",
+    "supercomputers"
+   ],
+   "answer": "a",
+   "explanation": "The passage says the rest of the system is supplied by distributions such as Ubuntu or Fedora."
+  },
+  {
+   "id": "english-03-q035",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 2 questions.**\nNotice: The annual maintenance of the electrical system will be carried out on Saturday from 9 a.m. to 1 p.m. Power will be unavailable in the laboratory block during this time. Staff are requested to shut down their computers on Friday evening and not leave any experiment running.",
+   "question": "What is the staff asked to do on Friday evening?",
+   "options": [
+    "stay in the lab",
+    "start long experiments",
+    "shut down their computers",
+    "collect the notice"
+   ],
+   "answer": "c",
+   "explanation": "The notice asks staff to shut down computers and not leave any experiment running."
+  },
+  {
+   "id": "english-03-q036",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 2 questions.**\nNotice: The annual maintenance of the electrical system will be carried out on Saturday from 9 a.m. to 1 p.m. Power will be unavailable in the laboratory block during this time. Staff are requested to shut down their computers on Friday evening and not leave any experiment running.",
+   "question": "For how long will power be unavailable on Saturday?",
+   "options": [
+    "2 hours",
+    "6 hours",
+    "8 hours",
+    "4 hours"
+   ],
+   "answer": "d",
+   "explanation": "9 a.m. to 1 p.m. is four hours."
+  },
+  {
+   "id": "english-03-q037",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. As a result, the match was postponed.\nQ. Heavy rain fell throughout the morning.\nR. The ground became too wet to play on.\nS. It will now be played next Sunday.",
+   "options": [
+    "QRPS",
+    "QPRS",
+    "RQPS",
+    "PQRS"
+   ],
+   "answer": "a",
+   "explanation": "Rain (Q), wet ground (R), result (P), new date (S)."
+  },
+  {
+   "id": "english-03-q038",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Then she sent it to her manager for approval.\nQ. Meena wrote the report on the audit.\nR. She checked every figure twice.\nS. The final version was filed on Friday.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "QRPS",
+    "SQRP"
+   ],
+   "answer": "c",
+   "explanation": "Write (Q), check (R), send for approval (P), file (S)."
+  },
+  {
+   "id": "english-03-q039",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. The next day, the team found the cause.\nQ. The website went down at midnight.\nR. Engineers worked through the night to restore it.\nS. A faulty plug-in had been installed earlier.",
+   "options": [
+    "QPRS",
+    "QRPS",
+    "RQPS",
+    "SQRP"
+   ],
+   "answer": "b",
+   "explanation": "Outage (Q), night work (R), next day cause found (P), the cause explained (S)."
+  },
+  {
+   "id": "english-03-q040",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. They are then collected by the van and taken to the city.\nQ. Farmers pick the vegetables early in the morning.\nR. The vegetables are packed in crates at the village.\nS. By noon they are on sale in the market.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "SQRP",
+    "QRPS"
+   ],
+   "answer": "d",
+   "explanation": "Pick (Q), pack (R), collect and carry (P), sell (S)."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}
