@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-10",
+ "title": "English rung 10: Sentence order and office writing",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-10-q001",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. The new schedule was therefore sent to all staff.\nQ. The old timetable clashed with the lab sessions.\nR. The department met on Monday to discuss it.\nS. It was decided to move the lectures to the afternoon.",
+   "options": [
+    "QRPS",
+    "RQSP",
+    "QSRP",
+    "QRSP"
+   ],
+   "answer": "d",
+   "explanation": "Problem (Q), meeting (R), decision (S), \"therefore\" the schedule is sent (P)."
+  },
+  {
+   "id": "english-ladder-10-q002",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. The password was then reset by the administrator.\nQ. A user could not log in to the portal.\nR. He contacted the help desk.\nS. After that, he logged in without any trouble.",
+   "options": [
+    "QPRS",
+    "QRPS",
+    "RQPS",
+    "QRSP"
+   ],
+   "answer": "b",
+   "explanation": "Problem (Q), help desk (R), reset (P), result (S)."
+  },
+  {
+   "id": "english-ladder-10-q003",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Each device is therefore given a unique address.\nQ. A computer on a network needs a way to be found.\nR. This address is called an IP address.\nS. Other devices use it to send data to that computer.",
+   "options": [
+    "QRPS",
+    "PQRS",
+    "QPRS",
+    "QPSR"
+   ],
+   "answer": "c",
+   "explanation": "Need (Q), unique address (P), its name (R, \"this address\"), its use (S)."
+  },
+  {
+   "id": "english-ladder-10-q004",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. As a result, the project finished two days early.\nQ. The team divided the work into small tasks.\nR. Everyone knew exactly what to do each day.\nS. Progress was checked every evening.",
+   "options": [
+    "QSRP",
+    "RQSP",
+    "QRSP",
+    "QRPS"
+   ],
+   "answer": "c",
+   "explanation": "Method (Q), clarity (R), checks (S), result (P)."
+  },
+  {
+   "id": "english-ladder-10-q005",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. The fire alarm rang at noon.\nQ. Everyone left the building calmly.\nR. The staff gathered at the assembly point.\nS. It was later found to be a false alarm.",
+   "options": [
+    "PQRS",
+    "PRQS",
+    "QPRS",
+    "PQSR"
+   ],
+   "answer": "a",
+   "explanation": "Alarm, leaving, gathering, the later finding."
+  },
+  {
+   "id": "english-ladder-10-q006",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Ravi opened the file and found it empty.\nQ. He had saved his report the night before.\nR. He checked the recycle bin.\nS. There, the file was waiting, safe and sound.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "QRPS",
+    "QPSR"
+   ],
+   "answer": "a",
+   "explanation": "Background (Q), problem (P), search (R), result (S)."
+  },
+  {
+   "id": "english-ladder-10-q007",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. Many farmers have therefore started using drip irrigation.\nQ. Water is becoming scarce in many regions.\nR. Drip irrigation gives each plant only the water it needs.\nS. It saves water and also raises the yield.",
+   "options": [
+    "QRPS",
+    "QRSP",
+    "RQSP",
+    "QSRP"
+   ],
+   "answer": "b",
+   "explanation": "Problem (Q), the method (R), its benefit (S), \"therefore\" the result (P)."
+  },
+  {
+   "id": "english-ladder-10-q008",
+   "part": "A",
+   "topic": "Sentence order",
+   "question": "Arrange the sentences in the correct order.\n\nP. He therefore wrote to the librarian for an extension.\nQ. Amit had borrowed a book for fourteen days.\nR. He could not finish it in time.\nS. The librarian replied with a new date.",
+   "options": [
+    "QRPS",
+    "QPRS",
+    "RQPS",
+    "QRSP"
+   ],
+   "answer": "a",
+   "explanation": "Borrowed (Q), could not finish (R), \"therefore\" wrote (P), reply (S)."
+  },
+  {
+   "id": "english-ladder-10-q009",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "The salutation \"Dear Sir\" should be closed with:",
+   "options": [
+    "Yours sincerely",
+    "Best wishes",
+    "Regards, your friend",
+    "Yours faithfully"
+   ],
+   "answer": "d",
+   "explanation": "Use \"faithfully\" with a general salutation and \"sincerely\" with a named person."
+  },
+  {
+   "id": "english-ladder-10-q010",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "A memo is usually:",
+   "options": [
+    "sent to customers outside the organisation",
+    "sent within an organisation, with no salutation or complimentary close",
+    "a legal notice",
+    "written only in the first person"
+   ],
+   "answer": "b",
+   "explanation": "A memo is a short internal message that begins directly."
+  },
+  {
+   "id": "english-ladder-10-q011",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "The subject line of an email should be:",
+   "options": [
+    "left blank",
+    "a full paragraph",
+    "the sender's name",
+    "short and specific"
+   ],
+   "answer": "d",
+   "explanation": "It lets the reader see the purpose before opening the mail."
+  },
+  {
+   "id": "english-ladder-10-q012",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "\"Please find attached\" is used when:",
+   "options": [
+    "the email is being forwarded",
+    "a file is sent with the email",
+    "the sender is on leave",
+    "a reply is not needed"
+   ],
+   "answer": "b",
+   "explanation": "It tells the reader that an attachment is included."
+  },
+  {
+   "id": "english-ladder-10-q013",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "An incident report should state:",
+   "options": [
+    "what happened, when, the impact and the action taken",
+    "only the name of the writer",
+    "only the cause",
+    "only opinions about who is to blame"
+   ],
+   "answer": "a",
+   "explanation": "A report needs facts, time, impact and the action taken."
+  },
+  {
+   "id": "english-ladder-10-q014",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "\"Reg.\" in the subject line of an office letter means:",
+   "options": [
+    "registered",
+    "regular",
+    "regarding",
+    "regret"
+   ],
+   "answer": "c",
+   "explanation": "\"Reg.\" is short for \"regarding\"."
+  },
+  {
+   "id": "english-ladder-10-q015",
+   "part": "A",
+   "topic": "Office terms",
+   "question": "A reminder letter is sent when:",
+   "options": [
+    "a payment has been made",
+    "a meeting has ended",
+    "no reply has been received to an earlier letter",
+    "a complaint is withdrawn"
+   ],
+   "answer": "c",
+   "explanation": "It prompts the reader to respond to an earlier letter."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

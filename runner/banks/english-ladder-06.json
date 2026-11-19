@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-06",
+ "title": "English rung 06: Vocabulary",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-06-q001",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **benevolent**.",
+   "options": [
+    "cruel and selfish",
+    "kind and well-meaning",
+    "angry",
+    "careless"
+   ],
+   "answer": "b",
+   "explanation": "Benevolent means kindly and wishing to do good."
+  },
+  {
+   "id": "english-ladder-06-q002",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **ancient**.",
+   "options": [
+    "old",
+    "historic",
+    "modern",
+    "antique"
+   ],
+   "answer": "c",
+   "explanation": "Ancient means very old; modern is its opposite."
+  },
+  {
+   "id": "english-ladder-06-q003",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **reluctant**.",
+   "options": [
+    "eager",
+    "unwilling",
+    "ready",
+    "careful"
+   ],
+   "answer": "b",
+   "explanation": "Reluctant means not willing."
+  },
+  {
+   "id": "english-ladder-06-q004",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"a person who loves books\":",
+   "options": [
+    "philatelist",
+    "misanthrope",
+    "pedestrian",
+    "bibliophile"
+   ],
+   "answer": "d",
+   "explanation": "A philatelist collects stamps; a misanthrope dislikes people."
+  },
+  {
+   "id": "english-ladder-06-q005",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **victory**.",
+   "options": [
+    "triumph",
+    "defeat",
+    "success",
+    "conquest"
+   ],
+   "answer": "b",
+   "explanation": "The other three are near synonyms of victory."
+  },
+  {
+   "id": "english-ladder-06-q006",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **vital**.",
+   "options": [
+    "optional",
+    "minor",
+    "essential",
+    "harmless"
+   ],
+   "answer": "c",
+   "explanation": "Vital means absolutely necessary."
+  },
+  {
+   "id": "english-ladder-06-q007",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"government by the people\":",
+   "options": [
+    "autocracy",
+    "aristocracy",
+    "democracy",
+    "bureaucracy"
+   ],
+   "answer": "c",
+   "explanation": "Autocracy is rule by one person; aristocracy by a noble class."
+  },
+  {
+   "id": "english-ladder-06-q008",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **conceal**.",
+   "options": [
+    "hide",
+    "reveal",
+    "display",
+    "announce"
+   ],
+   "answer": "a",
+   "explanation": "To conceal is to keep out of sight."
+  },
+  {
+   "id": "english-ladder-06-q009",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **temporary**.",
+   "options": [
+    "permanent",
+    "brief",
+    "short-lived",
+    "passing"
+   ],
+   "answer": "a",
+   "explanation": "The other three mean lasting a short time."
+  },
+  {
+   "id": "english-ladder-06-q010",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **hostile**.",
+   "options": [
+    "welcoming",
+    "unfriendly",
+    "helpful",
+    "neutral"
+   ],
+   "answer": "b",
+   "explanation": "Hostile means showing opposition or dislike."
+  },
+  {
+   "id": "english-ladder-06-q011",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"an extreme fear of heights\":",
+   "options": [
+    "claustrophobia",
+    "hydrophobia",
+    "acrophobia",
+    "xenophobia"
+   ],
+   "answer": "c",
+   "explanation": "Claustrophobia is fear of enclosed spaces; hydrophobia of water; xenophobia of strangers."
+  },
+  {
+   "id": "english-ladder-06-q012",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **brief**.",
+   "options": [
+    "short",
+    "lengthy",
+    "detailed",
+    "tiring"
+   ],
+   "answer": "a",
+   "explanation": "Brief means lasting or taking a short time."
+  },
+  {
+   "id": "english-ladder-06-q013",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word opposite in meaning to **increase**.",
+   "options": [
+    "decrease",
+    "rise",
+    "grow",
+    "multiply"
+   ],
+   "answer": "a",
+   "explanation": "To decrease is to become less."
+  },
+  {
+   "id": "english-ladder-06-q014",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "Choose the word closest in meaning to **prompt**.",
+   "options": [
+    "slow",
+    "late",
+    "careless",
+    "quick to act"
+   ],
+   "answer": "d",
+   "explanation": "A prompt reply is made without delay."
+  },
+  {
+   "id": "english-ladder-06-q015",
+   "part": "A",
+   "topic": "Vocabulary",
+   "question": "One word for \"a place where birds are kept\":",
+   "options": [
+    "apiary",
+    "aquarium",
+    "kennel",
+    "aviary"
+   ],
+   "answer": "d",
+   "explanation": "An apiary is for bees; an aquarium is for fish."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

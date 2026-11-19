@@ -1,0 +1,234 @@
+{
+ "id": "english-ladder-09",
+ "title": "English rung 09: Comprehension",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-09-q001",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nA database administrator is responsible for keeping data safe and available. Daily tasks include creating user accounts, giving each user only the rights needed, and taking regular backups. A backup is useful only if it can be restored, so the administrator tests restores from time to time. When a query runs slowly, the administrator checks whether an index is missing before buying faster hardware. Good records of every change help the team find the cause when something goes wrong.",
+   "question": "Why does the administrator test restores?",
+   "options": [
+    "To make backups smaller.",
+    "To create user accounts.",
+    "A backup is useful only if it can be restored.",
+    "To buy faster hardware."
+   ],
+   "answer": "c",
+   "explanation": "The passage says a backup is useful only if it can be restored."
+  },
+  {
+   "id": "english-ladder-09-q002",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nA database administrator is responsible for keeping data safe and available. Daily tasks include creating user accounts, giving each user only the rights needed, and taking regular backups. A backup is useful only if it can be restored, so the administrator tests restores from time to time. When a query runs slowly, the administrator checks whether an index is missing before buying faster hardware. Good records of every change help the team find the cause when something goes wrong.",
+   "question": "What does the administrator check first when a query is slow?",
+   "options": [
+    "the user's password",
+    "the size of the backup",
+    "whether an index is missing",
+    "the age of the hardware"
+   ],
+   "answer": "c",
+   "explanation": "The passage says the index is checked before buying faster hardware."
+  },
+  {
+   "id": "english-ladder-09-q003",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nA database administrator is responsible for keeping data safe and available. Daily tasks include creating user accounts, giving each user only the rights needed, and taking regular backups. A backup is useful only if it can be restored, so the administrator tests restores from time to time. When a query runs slowly, the administrator checks whether an index is missing before buying faster hardware. Good records of every change help the team find the cause when something goes wrong.",
+   "question": "According to the passage, each user should be given:",
+   "options": [
+    "all rights",
+    "only the rights needed",
+    "no rights",
+    "rights chosen by the user"
+   ],
+   "answer": "b",
+   "explanation": "Least privilege is stated in the second sentence."
+  },
+  {
+   "id": "english-ladder-09-q004",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nA database administrator is responsible for keeping data safe and available. Daily tasks include creating user accounts, giving each user only the rights needed, and taking regular backups. A backup is useful only if it can be restored, so the administrator tests restores from time to time. When a query runs slowly, the administrator checks whether an index is missing before buying faster hardware. Good records of every change help the team find the cause when something goes wrong.",
+   "question": "Records of every change help the team to:",
+   "options": [
+    "make queries faster",
+    "find the cause when something goes wrong",
+    "reduce the size of backups",
+    "create accounts"
+   ],
+   "answer": "b",
+   "explanation": "The last sentence gives this reason."
+  },
+  {
+   "id": "english-ladder-09-q005",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nA database administrator is responsible for keeping data safe and available. Daily tasks include creating user accounts, giving each user only the rights needed, and taking regular backups. A backup is useful only if it can be restored, so the administrator tests restores from time to time. When a query runs slowly, the administrator checks whether an index is missing before buying faster hardware. Good records of every change help the team find the cause when something goes wrong.",
+   "question": "Which of the following is NOT mentioned as a daily task?",
+   "options": [
+    "creating user accounts",
+    "taking regular backups",
+    "designing new hardware",
+    "giving users only the rights needed"
+   ],
+   "answer": "c",
+   "explanation": "The other three are listed as daily tasks."
+  },
+  {
+   "id": "english-ladder-09-q006",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nThe Registrar's office has issued a notice for all staff members who wish to appear in an outside recruitment test. Applicants must submit a No Objection Certificate, signed by the head of their department, at least seven days before the test date. Applications received later will not be considered. The certificate does not guarantee leave on the test day; leave must be applied for separately and approved by the department.",
+   "question": "By when must the No Objection Certificate be submitted?",
+   "options": [
+    "on the test day",
+    "one day before the test",
+    "after the result",
+    "at least seven days before the test date"
+   ],
+   "answer": "d",
+   "explanation": "The passage states seven days before the test date."
+  },
+  {
+   "id": "english-ladder-09-q007",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nThe Registrar's office has issued a notice for all staff members who wish to appear in an outside recruitment test. Applicants must submit a No Objection Certificate, signed by the head of their department, at least seven days before the test date. Applications received later will not be considered. The certificate does not guarantee leave on the test day; leave must be applied for separately and approved by the department.",
+   "question": "Who must sign the No Objection Certificate?",
+   "options": [
+    "the Registrar",
+    "the applicant",
+    "the head of the applicant's department",
+    "the examiner"
+   ],
+   "answer": "c",
+   "explanation": "The certificate is signed by the head of the department."
+  },
+  {
+   "id": "english-ladder-09-q008",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nThe Registrar's office has issued a notice for all staff members who wish to appear in an outside recruitment test. Applicants must submit a No Objection Certificate, signed by the head of their department, at least seven days before the test date. Applications received later will not be considered. The certificate does not guarantee leave on the test day; leave must be applied for separately and approved by the department.",
+   "question": "What happens to applications received late?",
+   "options": [
+    "They are accepted with a fine.",
+    "They will not be considered.",
+    "They are sent to the Registrar.",
+    "They are returned for a signature."
+   ],
+   "answer": "b",
+   "explanation": "The passage says late applications will not be considered."
+  },
+  {
+   "id": "english-ladder-09-q009",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nThe Registrar's office has issued a notice for all staff members who wish to appear in an outside recruitment test. Applicants must submit a No Objection Certificate, signed by the head of their department, at least seven days before the test date. Applications received later will not be considered. The certificate does not guarantee leave on the test day; leave must be applied for separately and approved by the department.",
+   "question": "Does the certificate give the applicant leave on the test day?",
+   "options": [
+    "Yes, automatically.",
+    "No; leave must be applied for separately.",
+    "Yes, for seven days.",
+    "Only if the Registrar signs it."
+   ],
+   "answer": "b",
+   "explanation": "The certificate does not guarantee leave."
+  },
+  {
+   "id": "english-ladder-09-q010",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nThe Registrar's office has issued a notice for all staff members who wish to appear in an outside recruitment test. Applicants must submit a No Objection Certificate, signed by the head of their department, at least seven days before the test date. Applications received later will not be considered. The certificate does not guarantee leave on the test day; leave must be applied for separately and approved by the department.",
+   "question": "The notice is meant for:",
+   "options": [
+    "staff who wish to appear in an outside recruitment test",
+    "all students",
+    "only the Registrar's staff",
+    "examiners"
+   ],
+   "answer": "a",
+   "explanation": "The first sentence names the intended readers."
+  },
+  {
+   "id": "english-ladder-09-q011",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nPublic Wi-Fi is convenient, but it is often not safe. Anyone on the same network may be able to watch the data that passes through it, unless the website uses encryption. Banking and email should therefore be avoided on open networks. A virtual private network (VPN) encrypts the traffic between a device and a trusted server, which protects the user even on a shared network. Turning off automatic connection to open networks is also a simple step.",
+   "question": "Why should banking be avoided on open Wi-Fi?",
+   "options": [
+    "Others on the network may watch unencrypted data.",
+    "It is more expensive.",
+    "It makes the phone slower.",
+    "Banks block open networks."
+   ],
+   "answer": "a",
+   "explanation": "The passage says anyone on the same network may watch the data unless it is encrypted."
+  },
+  {
+   "id": "english-ladder-09-q012",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nPublic Wi-Fi is convenient, but it is often not safe. Anyone on the same network may be able to watch the data that passes through it, unless the website uses encryption. Banking and email should therefore be avoided on open networks. A virtual private network (VPN) encrypts the traffic between a device and a trusted server, which protects the user even on a shared network. Turning off automatic connection to open networks is also a simple step.",
+   "question": "What does a VPN do, according to the passage?",
+   "options": [
+    "It encrypts the traffic between a device and a trusted server.",
+    "It makes the network faster.",
+    "It turns off the Wi-Fi.",
+    "It stores passwords."
+   ],
+   "answer": "a",
+   "explanation": "This is stated in the fourth sentence."
+  },
+  {
+   "id": "english-ladder-09-q013",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nPublic Wi-Fi is convenient, but it is often not safe. Anyone on the same network may be able to watch the data that passes through it, unless the website uses encryption. Banking and email should therefore be avoided on open networks. A virtual private network (VPN) encrypts the traffic between a device and a trusted server, which protects the user even on a shared network. Turning off automatic connection to open networks is also a simple step.",
+   "question": "A simple step suggested in the passage is:",
+   "options": [
+    "using only one device",
+    "sharing the password",
+    "avoiding all websites",
+    "turning off automatic connection to open networks"
+   ],
+   "answer": "d",
+   "explanation": "The last sentence gives this step."
+  },
+  {
+   "id": "english-ladder-09-q014",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nPublic Wi-Fi is convenient, but it is often not safe. Anyone on the same network may be able to watch the data that passes through it, unless the website uses encryption. Banking and email should therefore be avoided on open networks. A virtual private network (VPN) encrypts the traffic between a device and a trusted server, which protects the user even on a shared network. Turning off automatic connection to open networks is also a simple step.",
+   "question": "The word \"convenient\" in the passage is closest in meaning to:",
+   "options": [
+    "costly",
+    "slow",
+    "dangerous",
+    "easy to use"
+   ],
+   "answer": "d",
+   "explanation": "Convenient means suitable and easy."
+  },
+  {
+   "id": "english-ladder-09-q015",
+   "part": "A",
+   "topic": "Comprehension",
+   "passage": "**Read the passage and answer the next 5 questions.**\nPublic Wi-Fi is convenient, but it is often not safe. Anyone on the same network may be able to watch the data that passes through it, unless the website uses encryption. Banking and email should therefore be avoided on open networks. A virtual private network (VPN) encrypts the traffic between a device and a trusted server, which protects the user even on a shared network. Turning off automatic connection to open networks is also a simple step.",
+   "question": "The passage suggests that open Wi-Fi is:",
+   "options": [
+    "convenient but often unsafe",
+    "always safe",
+    "always encrypted",
+    "unavailable to most users"
+   ],
+   "answer": "a",
+   "explanation": "The first sentence says it is convenient but often not safe."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

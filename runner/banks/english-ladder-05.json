@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-05",
+ "title": "English rung 05: Voice and speech",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-05-q001",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: The board will announce the results.",
+   "options": [
+    "The results are announced by the board.",
+    "The results would announce by the board.",
+    "The results have been announced by the board.",
+    "The results will be announced by the board."
+   ],
+   "answer": "d",
+   "explanation": "Future active becomes \"will be + past participle\"."
+  },
+  {
+   "id": "english-ladder-05-q002",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: She has written the letter.",
+   "options": [
+    "The letter has been written by her.",
+    "The letter was written by her.",
+    "The letter is written by her.",
+    "The letter had been written by her."
+   ],
+   "answer": "a",
+   "explanation": "Present perfect becomes \"has been + past participle\"."
+  },
+  {
+   "id": "english-ladder-05-q003",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: People speak English all over the world.",
+   "options": [
+    "English was spoken all over the world.",
+    "English speaks all over the world.",
+    "English has been spoken all over the world.",
+    "English is spoken all over the world."
+   ],
+   "answer": "d",
+   "explanation": "Simple present becomes \"is/are + past participle\"."
+  },
+  {
+   "id": "english-ladder-05-q004",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: The technician is checking the cables.",
+   "options": [
+    "The cables were checked by the technician.",
+    "The cables are checked by the technician.",
+    "The cables have been checked by the technician.",
+    "The cables are being checked by the technician."
+   ],
+   "answer": "d",
+   "explanation": "Present continuous becomes \"are being + past participle\"."
+  },
+  {
+   "id": "english-ladder-05-q005",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the active voice: The window was broken by the storm.",
+   "options": [
+    "The storm breaks the window.",
+    "The storm has broken the window.",
+    "The storm broke the window.",
+    "The storm was breaking the window."
+   ],
+   "answer": "c",
+   "explanation": "Simple past stays simple past."
+  },
+  {
+   "id": "english-ladder-05-q006",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the active voice: Has the file been sent by you?",
+   "options": [
+    "Did you send the file?",
+    "Had you sent the file?",
+    "Have you sent the file?",
+    "Are you sending the file?"
+   ],
+   "answer": "c",
+   "explanation": "Present perfect passive becomes present perfect active."
+  },
+  {
+   "id": "english-ladder-05-q007",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: He said, \"I will help you.\"",
+   "options": [
+    "He said that he will help you.",
+    "He said that I would help him.",
+    "He said that he would help me.",
+    "He said that he helps me."
+   ],
+   "answer": "c",
+   "explanation": "\"Will\" becomes \"would\"; \"I\" becomes \"he\"; \"you\" becomes \"me\"."
+  },
+  {
+   "id": "english-ladder-05-q008",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: She said to me, \"Where are you going?\"",
+   "options": [
+    "She asked me where I was going.",
+    "She told me where was I going.",
+    "She asked me where am I going.",
+    "She asked me that where I was going."
+   ],
+   "answer": "a",
+   "explanation": "A reported question takes statement order and the tense moves back."
+  },
+  {
+   "id": "english-ladder-05-q009",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: The teacher said, \"The earth moves round the sun.\"",
+   "options": [
+    "The teacher said that the earth moves round the sun.",
+    "The teacher said that earth had moved round the sun.",
+    "The teacher told that the earth is moving round the sun.",
+    "The teacher said the earth will move round the sun."
+   ],
+   "answer": "a",
+   "explanation": "A universal truth keeps the present tense in reported speech."
+  },
+  {
+   "id": "english-ladder-05-q010",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: He said, \"Alas! I have failed.\"",
+   "options": [
+    "He exclaimed sadly that he had failed.",
+    "He said alas that he has failed.",
+    "He exclaimed that I had failed.",
+    "He exclaimed sadly that he has failed."
+   ],
+   "answer": "a",
+   "explanation": "An exclamation is reported with \"exclaimed\" and the tense moves back."
+  },
+  {
+   "id": "english-ladder-05-q011",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: She said to him, \"Please wait here.\"",
+   "options": [
+    "She said him to wait here.",
+    "She requested him to wait there.",
+    "She requested him wait here.",
+    "She requested that he waits here."
+   ],
+   "answer": "b",
+   "explanation": "A polite request is reported with \"requested + object + to + verb\"; \"here\" becomes \"there\"."
+  },
+  {
+   "id": "english-ladder-05-q012",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to indirect speech: \"Don't make noise,\" said the teacher to the boys.",
+   "options": [
+    "The teacher told the boys do not make noise.",
+    "The teacher forbade the boys to make noise.",
+    "The teacher said the boys not to make noise.",
+    "The teacher forbade the boys making noise."
+   ],
+   "answer": "b",
+   "explanation": "A negative command is reported with \"forbade/told not to\"."
+  },
+  {
+   "id": "english-ladder-05-q013",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: Do it now.",
+   "options": [
+    "It is done now.",
+    "Let it be done now.",
+    "Let it done now.",
+    "It should do now."
+   ],
+   "answer": "b",
+   "explanation": "An imperative becomes \"Let + object + be + past participle\"."
+  },
+  {
+   "id": "english-ladder-05-q014",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: Did the manager sign the form?",
+   "options": [
+    "Did the form sign by the manager?",
+    "Was the form signed by the manager?",
+    "Is the form signed by the manager?",
+    "Was the form being signed by the manager?"
+   ],
+   "answer": "b",
+   "explanation": "Simple past question becomes \"Was/Were ... + past participle?\"."
+  },
+  {
+   "id": "english-ladder-05-q015",
+   "part": "A",
+   "topic": "Voice and speech",
+   "question": "Change to the passive voice: The students must obey the rules.",
+   "options": [
+    "The rules must obeyed by the students.",
+    "The rules are obeyed by the students.",
+    "The rules must be obeyed by the students.",
+    "The rules must be obey by the students."
+   ],
+   "answer": "c",
+   "explanation": "Modals take \"modal + be + past participle\"."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

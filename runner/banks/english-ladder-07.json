@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-07",
+ "title": "English rung 07: Spelling",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-07-q001",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Comittee",
+    "Committee",
+    "Commitee",
+    "Committe"
+   ],
+   "answer": "b",
+   "explanation": "Committee has double m, double t and double e."
+  },
+  {
+   "id": "english-ladder-07-q002",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Begining",
+    "Beginnning",
+    "Beginning",
+    "Beggining"
+   ],
+   "answer": "c",
+   "explanation": "Double the n before -ing: beginning."
+  },
+  {
+   "id": "english-ladder-07-q003",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Occasion",
+    "Ocasion",
+    "Occassion",
+    "Ocassion"
+   ],
+   "answer": "a",
+   "explanation": "Occasion: double c, single s."
+  },
+  {
+   "id": "english-ladder-07-q004",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Tomorrow",
+    "Tommorow",
+    "Tomorow",
+    "Tommorrow"
+   ],
+   "answer": "a",
+   "explanation": "Tomorrow: one m, double r."
+  },
+  {
+   "id": "english-ladder-07-q005",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Address",
+    "Adress",
+    "Addres",
+    "Adresss"
+   ],
+   "answer": "a",
+   "explanation": "Address has double d and double s."
+  },
+  {
+   "id": "english-ladder-07-q006",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Acheivement",
+    "Achievment",
+    "Achievement",
+    "Achivement"
+   ],
+   "answer": "c",
+   "explanation": "Achievement keeps the e after v: i before e in \"achieve\"."
+  },
+  {
+   "id": "english-ladder-07-q007",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Agressive",
+    "Aggressive",
+    "Aggresive",
+    "Agressiv"
+   ],
+   "answer": "b",
+   "explanation": "Aggressive: double g, double s."
+  },
+  {
+   "id": "english-ladder-07-q008",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Argument",
+    "Arguement",
+    "Arguemant",
+    "Argumment"
+   ],
+   "answer": "a",
+   "explanation": "Argument drops the e of argue."
+  },
+  {
+   "id": "english-ladder-07-q009",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Buisness",
+    "Busines",
+    "Bussiness",
+    "Business"
+   ],
+   "answer": "d",
+   "explanation": "Business: bus-i-ness."
+  },
+  {
+   "id": "english-ladder-07-q010",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Concience",
+    "Consience",
+    "Conscience",
+    "Conscence"
+   ],
+   "answer": "c",
+   "explanation": "Conscience contains \"science\"."
+  },
+  {
+   "id": "english-ladder-07-q011",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Dissapear",
+    "Disapear",
+    "Disappear",
+    "Dissappear"
+   ],
+   "answer": "c",
+   "explanation": "Disappear: dis + appear, one s and one p after it."
+  },
+  {
+   "id": "english-ladder-07-q012",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Existance",
+    "Existense",
+    "Existanse",
+    "Existence"
+   ],
+   "answer": "d",
+   "explanation": "Existence ends in -ence."
+  },
+  {
+   "id": "english-ladder-07-q013",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Foriegn",
+    "Foreign",
+    "Forein",
+    "Foreing"
+   ],
+   "answer": "b",
+   "explanation": "Foreign is an exception to \"i before e\"."
+  },
+  {
+   "id": "english-ladder-07-q014",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Libary",
+    "Library",
+    "Librery",
+    "Liberary"
+   ],
+   "answer": "b",
+   "explanation": "Library has two r sounds: lib-rar-y."
+  },
+  {
+   "id": "english-ladder-07-q015",
+   "part": "A",
+   "topic": "Spelling",
+   "question": "Choose the correctly spelt word.",
+   "options": [
+    "Wierd",
+    "Weerd",
+    "Wiered",
+    "Weird"
+   ],
+   "answer": "d",
+   "explanation": "Weird is an exception: e before i."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

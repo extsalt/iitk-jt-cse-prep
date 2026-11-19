@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-08",
+ "title": "English rung 08: Idioms and phrasal verbs",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-08-q001",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to beat around the bush**.",
+   "options": [
+    "to hit a plant",
+    "to avoid coming to the point",
+    "to search carefully",
+    "to speak loudly"
+   ],
+   "answer": "b",
+   "explanation": "It means to talk about other things instead of the main issue."
+  },
+  {
+   "id": "english-ladder-08-q002",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **a hot potato**.",
+   "options": [
+    "a snack served warm",
+    "a good bargain",
+    "a quick answer",
+    "a controversial issue nobody wants to handle"
+   ],
+   "answer": "d",
+   "explanation": "A hot potato is something awkward to deal with."
+  },
+  {
+   "id": "english-ladder-08-q003",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to cost an arm and a leg**.",
+   "options": [
+    "to be very expensive",
+    "to cause an injury",
+    "to be free",
+    "to be cheap"
+   ],
+   "answer": "a",
+   "explanation": "It describes something extremely costly."
+  },
+  {
+   "id": "english-ladder-08-q004",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **the last straw**.",
+   "options": [
+    "the best solution",
+    "the final problem that makes a situation unbearable",
+    "the first sign of trouble",
+    "a thin piece of grass"
+   ],
+   "answer": "b",
+   "explanation": "From \"the straw that broke the camel's back\"."
+  },
+  {
+   "id": "english-ladder-08-q005",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to kill two birds with one stone**.",
+   "options": [
+    "to achieve two aims with one action",
+    "to hunt for food",
+    "to waste effort",
+    "to do one thing twice"
+   ],
+   "answer": "a",
+   "explanation": "It means to solve two problems at once."
+  },
+  {
+   "id": "english-ladder-08-q006",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to be on cloud nine**.",
+   "options": [
+    "to be afraid of heights",
+    "to be very tired",
+    "to be extremely happy",
+    "to be lost"
+   ],
+   "answer": "c",
+   "explanation": "It means to feel great joy."
+  },
+  {
+   "id": "english-ladder-08-q007",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **at the drop of a hat**.",
+   "options": [
+    "immediately, without hesitation",
+    "very slowly",
+    "in a hat shop",
+    "after much thought"
+   ],
+   "answer": "a",
+   "explanation": "It means at once, at the slightest excuse."
+  },
+  {
+   "id": "english-ladder-08-q008",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to call off (a meeting)**.",
+   "options": [
+    "to postpone",
+    "to begin",
+    "to shout at",
+    "to cancel"
+   ],
+   "answer": "d",
+   "explanation": "\"Call off\" means to cancel."
+  },
+  {
+   "id": "english-ladder-08-q009",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to put up with**.",
+   "options": [
+    "to build",
+    "to tolerate",
+    "to support",
+    "to ignore"
+   ],
+   "answer": "b",
+   "explanation": "\"Put up with\" means to accept something unpleasant."
+  },
+  {
+   "id": "english-ladder-08-q010",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to look into (a problem)**.",
+   "options": [
+    "to investigate",
+    "to ignore",
+    "to stare at",
+    "to solve at once"
+   ],
+   "answer": "a",
+   "explanation": "\"Look into\" means to examine or investigate."
+  },
+  {
+   "id": "english-ladder-08-q011",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to give up**.",
+   "options": [
+    "to give a gift",
+    "to start again",
+    "to stop trying",
+    "to hand over"
+   ],
+   "answer": "c",
+   "explanation": "\"Give up\" means to quit."
+  },
+  {
+   "id": "english-ladder-08-q012",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to turn down (an offer)**.",
+   "options": [
+    "to accept",
+    "to reduce the volume",
+    "to refuse",
+    "to read again"
+   ],
+   "answer": "c",
+   "explanation": "\"Turn down\" means to reject."
+  },
+  {
+   "id": "english-ladder-08-q013",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to run out of (supplies)**.",
+   "options": [
+    "to run quickly",
+    "to have none left",
+    "to buy more",
+    "to carry away"
+   ],
+   "answer": "b",
+   "explanation": "\"Run out of\" means to use up completely."
+  },
+  {
+   "id": "english-ladder-08-q014",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **a storm in a teacup**.",
+   "options": [
+    "a hot drink",
+    "a serious disaster",
+    "a quiet evening",
+    "a big fuss about something small"
+   ],
+   "answer": "d",
+   "explanation": "It describes excitement over a trivial matter."
+  },
+  {
+   "id": "english-ladder-08-q015",
+   "part": "A",
+   "topic": "Idioms",
+   "question": "Choose the meaning of: **to go the extra mile**.",
+   "options": [
+    "to travel far",
+    "to give up early",
+    "to make more effort than expected",
+    "to waste time"
+   ],
+   "answer": "c",
+   "explanation": "It means to do more than is required."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

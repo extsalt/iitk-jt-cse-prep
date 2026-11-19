@@ -10,7 +10,7 @@ var areas = []struct {
 		"Profit and loss", "Number system", "Algebra", "Mensuration", "Number series", "Mixtures", "Permutations", "Ages", "Clocks", "Calendar", "Probability"}},
 	{"Reasoning", []string{"Coding-decoding", "Syllogisms", "Directions", "Blood relations", "Odd one out", "Ranking", "Analogy",
 		"Letter series", "Puzzles", "Critical reasoning"}},
-	{"English", []string{"Vocabulary", "Grammar", "Spelling", "Voice and speech", "Idioms", "Office terms", "Comprehension", "Sentence order"}},
+	{"English", []string{"Vocabulary", "Grammar", "Spelling", "Voice and speech", "Idioms", "Office terms", "Comprehension", "Sentence order", "Tenses and verb forms", "Subject-verb agreement", "Articles and prepositions", "Error spotting"}},
 	{"Computer fundamentals", []string{"Number systems", "Computer basics", "Computer architecture", "Memory and storage", "Hardware", "Software engineering", "Cloud and emerging"}},
 	{"C and data structures", []string{"C programming", "Data structures", "Algorithms", "OOP"}},
 	{"Operating systems and Linux", []string{"OS concepts", "Linux commands", "Users and permissions", "Linux system files", "Bash", "Disks and file systems", "Packages"}},

@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-04",
+ "title": "English rung 04: Error spotting",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-04-q001",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) The list of items\n(b) are kept\n(c) in the drawer.",
+   "options": [
+    "Part (a)",
+    "Part (c)",
+    "Part (b)",
+    "No error"
+   ],
+   "answer": "c",
+   "explanation": "The subject is \"list\" (singular), so \"is kept\"."
+  },
+  {
+   "id": "english-ladder-04-q002",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) She has been\n(b) working here\n(c) since five years.",
+   "options": [
+    "Part (a)",
+    "Part (b)",
+    "Part (c)",
+    "No error"
+   ],
+   "answer": "c",
+   "explanation": "A length of time takes \"for\": \"for five years\"."
+  },
+  {
+   "id": "english-ladder-04-q003",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) Neither of the boys\n(b) have finished\n(c) their homework.",
+   "options": [
+    "Part (b)",
+    "Part (a)",
+    "Part (c)",
+    "No error"
+   ],
+   "answer": "a",
+   "explanation": "\"Neither of\" is singular: \"has finished\"."
+  },
+  {
+   "id": "english-ladder-04-q004",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) He is more smarter\n(b) than his brother\n(c) in mathematics.",
+   "options": [
+    "Part (b)",
+    "Part (a)",
+    "Part (c)",
+    "No error"
+   ],
+   "answer": "b",
+   "explanation": "Do not use \"more\" with \"smarter\": it is a double comparative."
+  },
+  {
+   "id": "english-ladder-04-q005",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) I am looking forward\n(b) to meet\n(c) you next week.",
+   "options": [
+    "Part (a)",
+    "Part (c)",
+    "No error",
+    "Part (b)"
+   ],
+   "answer": "d",
+   "explanation": "\"Look forward to\" takes -ing: \"to meeting\"."
+  },
+  {
+   "id": "english-ladder-04-q006",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) Scarcely had he\n(b) entered the room\n(c) than the lights went out.",
+   "options": [
+    "Part (a)",
+    "Part (c)",
+    "Part (b)",
+    "No error"
+   ],
+   "answer": "b",
+   "explanation": "\"Scarcely\" pairs with \"when\", not \"than\"."
+  },
+  {
+   "id": "english-ladder-04-q007",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) She gave me\n(b) a good advice\n(c) on the topic.",
+   "options": [
+    "Part (b)",
+    "Part (a)",
+    "Part (c)",
+    "No error"
+   ],
+   "answer": "a",
+   "explanation": "\"Advice\" is uncountable: \"good advice\"."
+  },
+  {
+   "id": "english-ladder-04-q008",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) Each of the students\n(b) were given\n(c) a certificate.",
+   "options": [
+    "Part (a)",
+    "Part (c)",
+    "Part (b)",
+    "No error"
+   ],
+   "answer": "c",
+   "explanation": "\"Each\" is singular: \"was given\"."
+  },
+  {
+   "id": "english-ladder-04-q009",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) He did not\n(b) know where\n(c) was the station.",
+   "options": [
+    "Part (a)",
+    "Part (c)",
+    "Part (b)",
+    "No error"
+   ],
+   "answer": "b",
+   "explanation": "Use statement order after \"where\": \"where the station was\"."
+  },
+  {
+   "id": "english-ladder-04-q010",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) The sun\n(b) rises\n(c) in the east.",
+   "options": [
+    "Part (a)",
+    "Part (b)",
+    "No error",
+    "Part (c)"
+   ],
+   "answer": "c",
+   "explanation": "The sentence is correct."
+  },
+  {
+   "id": "english-ladder-04-q011",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) I prefer tea\n(b) than coffee\n(c) in the morning.",
+   "options": [
+    "Part (b)",
+    "Part (a)",
+    "Part (c)",
+    "No error"
+   ],
+   "answer": "a",
+   "explanation": "\"Prefer\" takes \"to\": \"to coffee\"."
+  },
+  {
+   "id": "english-ladder-04-q012",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) Though he was tired\n(b) but he\n(c) finished the work.",
+   "options": [
+    "Part (a)",
+    "Part (c)",
+    "No error",
+    "Part (b)"
+   ],
+   "answer": "d",
+   "explanation": "\"Though\" and \"but\" should not be used together."
+  },
+  {
+   "id": "english-ladder-04-q013",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) The furniture\n(b) in the office\n(c) are old.",
+   "options": [
+    "Part (a)",
+    "Part (b)",
+    "No error",
+    "Part (c)"
+   ],
+   "answer": "d",
+   "explanation": "\"Furniture\" is uncountable and singular: \"is old\"."
+  },
+  {
+   "id": "english-ladder-04-q014",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) She asked me\n(b) that where\n(c) I was going.",
+   "options": [
+    "Part (a)",
+    "Part (b)",
+    "Part (c)",
+    "No error"
+   ],
+   "answer": "b",
+   "explanation": "A reported question does not use \"that\": \"where I was going\"."
+  },
+  {
+   "id": "english-ladder-04-q015",
+   "part": "A",
+   "topic": "Error spotting",
+   "question": "Find the part of the sentence that has an error. If there is none, choose \"No error\".\n\n(a) All the employees\n(b) have submitted\n(c) their reports on time.",
+   "options": [
+    "No error",
+    "Part (a)",
+    "Part (b)",
+    "Part (c)"
+   ],
+   "answer": "a",
+   "explanation": "The sentence is correct."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

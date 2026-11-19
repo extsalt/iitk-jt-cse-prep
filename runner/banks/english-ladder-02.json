@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-02",
+ "title": "English rung 02: Subject-verb agreement",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-02-q001",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Either the manager or the clerks ___ responsible.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "has been"
+   ],
+   "answer": "b",
+   "explanation": "With either...or the verb agrees with the nearer subject, \"clerks\"."
+  },
+  {
+   "id": "english-ladder-02-q002",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Ten kilometres ___ a long distance.",
+   "options": [
+    "are",
+    "were",
+    "have been",
+    "is"
+   ],
+   "answer": "d",
+   "explanation": "A distance, sum or period taken as one amount is singular."
+  },
+  {
+   "id": "english-ladder-02-q003",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "The police ___ arrived.",
+   "options": [
+    "has",
+    "is",
+    "was",
+    "have"
+   ],
+   "answer": "d",
+   "explanation": "\"Police\" is always plural."
+  },
+  {
+   "id": "english-ladder-02-q004",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Mathematics ___ my favourite subject.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have been"
+   ],
+   "answer": "a",
+   "explanation": "Names of subjects ending in -ics take a singular verb."
+  },
+  {
+   "id": "english-ladder-02-q005",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "A number of students ___ absent today.",
+   "options": [
+    "is",
+    "was",
+    "has been",
+    "are"
+   ],
+   "answer": "d",
+   "explanation": "\"A number of\" means several and takes a plural verb."
+  },
+  {
+   "id": "english-ladder-02-q006",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "The number of students ___ increasing.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "answer": "a",
+   "explanation": "\"The number of\" is singular because \"number\" is the subject."
+  },
+  {
+   "id": "english-ladder-02-q007",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Everyone ___ invited to the meeting.",
+   "options": [
+    "was",
+    "were",
+    "are",
+    "have been"
+   ],
+   "answer": "a",
+   "explanation": "\"Everyone\" is singular."
+  },
+  {
+   "id": "english-ladder-02-q008",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Neither of the answers ___ correct.",
+   "options": [
+    "are",
+    "were",
+    "is",
+    "have been"
+   ],
+   "answer": "c",
+   "explanation": "\"Neither of\" takes a singular verb."
+  },
+  {
+   "id": "english-ladder-02-q009",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Ravi and Meena ___ colleagues.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "has been"
+   ],
+   "answer": "b",
+   "explanation": "Two subjects joined by \"and\" take a plural verb."
+  },
+  {
+   "id": "english-ladder-02-q010",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "The scissors ___ on the table.",
+   "options": [
+    "are",
+    "is",
+    "was",
+    "has been"
+   ],
+   "answer": "a",
+   "explanation": "\"Scissors\" is a plural noun."
+  },
+  {
+   "id": "english-ladder-02-q011",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "One of my friends ___ a doctor.",
+   "options": [
+    "are",
+    "were",
+    "is",
+    "have"
+   ],
+   "answer": "c",
+   "explanation": "The subject is \"one\", which is singular."
+  },
+  {
+   "id": "english-ladder-02-q012",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Each of the rooms ___ an air conditioner.",
+   "options": [
+    "have",
+    "has",
+    "are having",
+    "were"
+   ],
+   "answer": "b",
+   "explanation": "\"Each\" is singular."
+  },
+  {
+   "id": "english-ladder-02-q013",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Fifty rupees ___ enough for this.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": "b",
+   "explanation": "A sum of money taken as one amount is singular."
+  },
+  {
+   "id": "english-ladder-02-q014",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "She is one of the employees who ___ promoted.",
+   "options": [
+    "was",
+    "is",
+    "were",
+    "has been"
+   ],
+   "answer": "c",
+   "explanation": "\"Who\" refers to \"employees\" (plural), so the verb is plural."
+  },
+  {
+   "id": "english-ladder-02-q015",
+   "part": "A",
+   "topic": "Subject-verb agreement",
+   "question": "Either you or I ___ wrong.",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "were"
+   ],
+   "answer": "c",
+   "explanation": "The verb agrees with the nearer subject, \"I\"."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-03",
+ "title": "English rung 03: Articles and prepositions",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-03-q001",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "She is ___ university student.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "no article"
+   ],
+   "answer": "a",
+   "explanation": "\"University\" begins with a \"yoo\" sound, so \"a\" is used."
+  },
+  {
+   "id": "english-ladder-03-q002",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "He bought ___ umbrella.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "no article"
+   ],
+   "answer": "b",
+   "explanation": "\"Umbrella\" begins with a vowel sound."
+  },
+  {
+   "id": "english-ladder-03-q003",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "___ Ganga is a holy river.",
+   "options": [
+    "The",
+    "A",
+    "An",
+    "No article is used"
+   ],
+   "answer": "a",
+   "explanation": "Names of rivers take \"the\"."
+  },
+  {
+   "id": "english-ladder-03-q004",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "He plays ___ cricket every evening.",
+   "options": [
+    "the",
+    "no article",
+    "a",
+    "an"
+   ],
+   "answer": "b",
+   "explanation": "Names of games take no article."
+  },
+  {
+   "id": "english-ladder-03-q005",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "I will see you ___ Monday.",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "by"
+   ],
+   "answer": "a",
+   "explanation": "Days take \"on\"."
+  },
+  {
+   "id": "english-ladder-03-q006",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "The meeting starts ___ 10 a.m.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ],
+   "answer": "c",
+   "explanation": "Clock times take \"at\"."
+  },
+  {
+   "id": "english-ladder-03-q007",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "She was born ___ 1998.",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "since"
+   ],
+   "answer": "c",
+   "explanation": "Years take \"in\"."
+  },
+  {
+   "id": "english-ladder-03-q008",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "He is fond ___ music.",
+   "options": [
+    "for",
+    "with",
+    "of",
+    "at"
+   ],
+   "answer": "c",
+   "explanation": "The phrase is \"fond of\"."
+  },
+  {
+   "id": "english-ladder-03-q009",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "She divided the sweets ___ the two children.",
+   "options": [
+    "among",
+    "between",
+    "with",
+    "into"
+   ],
+   "answer": "b",
+   "explanation": "\"Between\" is used for two; \"among\" for more than two."
+  },
+  {
+   "id": "english-ladder-03-q010",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "The sweets were distributed ___ the students.",
+   "options": [
+    "between",
+    "among",
+    "with",
+    "to"
+   ],
+   "answer": "b",
+   "explanation": "\"Among\" is used for more than two."
+  },
+  {
+   "id": "english-ladder-03-q011",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "She is married ___ a doctor.",
+   "options": [
+    "with",
+    "by",
+    "from",
+    "to"
+   ],
+   "answer": "d",
+   "explanation": "The phrase is \"married to\"."
+  },
+  {
+   "id": "english-ladder-03-q012",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "He has been absent ___ Monday.",
+   "options": [
+    "since",
+    "for",
+    "from",
+    "by"
+   ],
+   "answer": "a",
+   "explanation": "\"Since\" goes with a starting point in time."
+  },
+  {
+   "id": "english-ladder-03-q013",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "I am looking ___ my keys.",
+   "options": [
+    "at",
+    "after",
+    "for",
+    "up"
+   ],
+   "answer": "c",
+   "explanation": "\"Look for\" means to search."
+  },
+  {
+   "id": "english-ladder-03-q014",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "The accused was charged ___ theft.",
+   "options": [
+    "for",
+    "of",
+    "on",
+    "with"
+   ],
+   "answer": "d",
+   "explanation": "The phrase is \"charged with\"."
+  },
+  {
+   "id": "english-ladder-03-q015",
+   "part": "A",
+   "topic": "Articles and prepositions",
+   "question": "He apologised ___ the delay.",
+   "options": [
+    "of",
+    "on",
+    "at",
+    "for"
+   ],
+   "answer": "d",
+   "explanation": "The phrase is \"apologise for\"."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}

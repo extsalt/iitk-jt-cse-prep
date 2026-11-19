@@ -1,0 +1,219 @@
+{
+ "id": "english-ladder-01",
+ "title": "English rung 01: Tenses and verb forms",
+ "minutes": 15,
+ "questions": [
+  {
+   "id": "english-ladder-01-q001",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "By the time we reached the station, the train ___.",
+   "options": [
+    "has already left",
+    "was already leaving",
+    "had already left",
+    "already leaves"
+   ],
+   "answer": "c",
+   "explanation": "Two past events: the earlier one (the train leaving) takes the past perfect."
+  },
+  {
+   "id": "english-ladder-01-q002",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "She ___ in Kanpur since 2020.",
+   "options": [
+    "lives",
+    "lived",
+    "is living",
+    "has lived"
+   ],
+   "answer": "d",
+   "explanation": "\"Since\" a point in time with a situation that continues now takes the present perfect."
+  },
+  {
+   "id": "english-ladder-01-q003",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "I ___ him yesterday.",
+   "options": [
+    "have met",
+    "meet",
+    "met",
+    "had met"
+   ],
+   "answer": "c",
+   "explanation": "\"Yesterday\" fixes a finished past time: simple past."
+  },
+  {
+   "id": "english-ladder-01-q004",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "Look! It ___.",
+   "options": [
+    "rains",
+    "rained",
+    "is raining",
+    "has rained"
+   ],
+   "answer": "c",
+   "explanation": "\"Look!\" points to something happening now: present continuous."
+  },
+  {
+   "id": "english-ladder-01-q005",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "Water ___ at 100°C.",
+   "options": [
+    "is boiling",
+    "boiled",
+    "boils",
+    "has boiled"
+   ],
+   "answer": "c",
+   "explanation": "A general truth takes the simple present."
+  },
+  {
+   "id": "english-ladder-01-q006",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "He said that he ___ the report the next day.",
+   "options": [
+    "will send",
+    "would send",
+    "sends",
+    "sent"
+   ],
+   "answer": "b",
+   "explanation": "In reported speech, \"will\" becomes \"would\"."
+  },
+  {
+   "id": "english-ladder-01-q007",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "If it rains tomorrow, we ___ the trip.",
+   "options": [
+    "will cancel",
+    "would cancel",
+    "cancelled",
+    "have cancelled"
+   ],
+   "answer": "a",
+   "explanation": "A real future condition: present in the if-clause, \"will\" in the result."
+  },
+  {
+   "id": "english-ladder-01-q008",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "If I had known, I ___ you.",
+   "options": [
+    "would have told",
+    "will tell",
+    "would tell",
+    "had told"
+   ],
+   "answer": "a",
+   "explanation": "An unreal past condition: \"had known\" with \"would have + past participle\"."
+  },
+  {
+   "id": "english-ladder-01-q009",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "She ___ for two hours when the guests arrived.",
+   "options": [
+    "had been cooking",
+    "has been cooking",
+    "was cook",
+    "cooks"
+   ],
+   "answer": "a",
+   "explanation": "An action that went on up to a past moment takes the past perfect continuous."
+  },
+  {
+   "id": "english-ladder-01-q010",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "The sun ___ in the east.",
+   "options": [
+    "rose",
+    "is rising",
+    "has risen",
+    "rises"
+   ],
+   "answer": "d",
+   "explanation": "A universal truth takes the simple present."
+  },
+  {
+   "id": "english-ladder-01-q011",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "I have lived here ___ ten years.",
+   "options": [
+    "since",
+    "for",
+    "from",
+    "during"
+   ],
+   "answer": "b",
+   "explanation": "\"For\" goes with a length of time; \"since\" goes with a starting point."
+  },
+  {
+   "id": "english-ladder-01-q012",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "He has ___ his lunch.",
+   "options": [
+    "eaten",
+    "ate",
+    "eat",
+    "eating"
+   ],
+   "answer": "a",
+   "explanation": "The present perfect takes the past participle: has eaten."
+  },
+  {
+   "id": "english-ladder-01-q013",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "She ___ the exam last month.",
+   "options": [
+    "has passed",
+    "had been passing",
+    "passes",
+    "passed"
+   ],
+   "answer": "d",
+   "explanation": "\"Last month\" is a finished past time: simple past."
+  },
+  {
+   "id": "english-ladder-01-q014",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "I ___ to the library every Saturday.",
+   "options": [
+    "am going",
+    "go",
+    "went",
+    "have gone"
+   ],
+   "answer": "b",
+   "explanation": "A habit takes the simple present."
+  },
+  {
+   "id": "english-ladder-01-q015",
+   "part": "A",
+   "topic": "Tenses and verb forms",
+   "question": "They ___ the project when the manager called.",
+   "options": [
+    "discussed",
+    "were discussing",
+    "have discussed",
+    "discuss"
+   ],
+   "answer": "b",
+   "explanation": "An action in progress when another one happened takes the past continuous."
+  }
+ ],
+ "partc": [],
+ "partc_note": ""
+}
