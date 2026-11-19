@@ -78,3 +78,16 @@ foreach ($open as $qid => [$ok, $choice, $when]) {
   $r = $qs[$qid];
   printf("  %s [%s] wrong %dx, last chose %s (key %s) %s | %s\n", $r['question_id'], $r['subject'], $wrongCount[$qid], chr(65 + $choice), chr(65 + (int)$r['correct_answer']), substr($when, 0, 16), $short($r['question_text'], 60));
 }
+
+echo "\n== Retry schedule and reasons (question_progress)\n";
+$main = $q("SELECT id FROM courses WHERE slug = 'iitk-jt-cse-2026'");
+$mainId = (int)($main[0]['id'] ?? 0);
+$prog = $q("SELECT p.question_id, p.times_wrong, p.stage, p.mastered, p.next_due, p.last_reason, q.subject FROM question_progress p JOIN questions q ON q.id = p.question_id WHERE p.course_id = $mainId AND p.times_wrong > 0 AND p.user_id = " . $pdo->quote($u['id'] ?? '24'));
+$dueNow = 0; $fixed = 0; $reasonCount = [];
+foreach ($prog as $p) {
+  if ((int)$p['mastered'] === 1) { $fixed++; continue; }
+  if ($p['next_due'] !== null && $p['next_due'] <= date('Y-m-d H:i:s')) $dueNow++;
+  $reasonCount[$p['last_reason'] ?? 'not tagged'] = ($reasonCount[$p['last_reason'] ?? 'not tagged'] ?? 0) + 1;
+}
+echo "  open: " . (count($prog) - $fixed) . ", due now: $dueNow, fixed for good: $fixed\n";
+foreach ($reasonCount as $r => $n) echo "  reason $r: $n\n";
